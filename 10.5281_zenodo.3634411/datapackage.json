@@ -8,12 +8,12 @@
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "schema.json",
+            "schema": "tableschema.json",
             "bytes": "32994",
             "hash": "cacfa0ccc3e672c6d7cc006893fc83a8"
 	},
         {
-            "path": "schema.json",
+            "path": "tableschema.json",
             "profile": "data-resource",
             "name": "schema",
             "format": "json",
