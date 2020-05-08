@@ -180,14 +180,6 @@
             "type": "integer",
             "format": "default",
             "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
-        },
-        {
-            "name": "time",
-            "type": "number",
-            "format": "default",
-            "description": "Time since 1 January 1970, UTC [seconds]",
-            "x_spi_cf_standard_name": "time",
-            "x_spi_cf_unit": "s"
         }
     ],
     "missingValues": [
