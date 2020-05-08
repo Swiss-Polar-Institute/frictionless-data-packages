@@ -16,4 +16,4 @@ Dataset files that are described in each data package, can be found through thei
 ### EMODNet specifics
 In order for the data to be ingested into EMODNet, a time column is required (seconds since 1970-01-01 in UTC), in accordance with the [CF standard names](http://cfconventions.org/standard-names.html).
 
-A Python script, convert_isodatetime_in_file_to_timesince.py is provided to convert the date_time field (in ISO 8601 format, YYYY-MM-DDT:hh:mm:ss+00:00) to time (secs since 1970-01-01 in UTC) and add a time field to the data file. 
+A Python script, `convert_isodatetime_in_file_to_timesince.py` is provided to convert the date_time field (in ISO 8601 format, YYYY-MM-DDT:hh:mm:ss+00:00) to time (secs since 1970-01-01 in UTC) and add a time field to the data file. 
