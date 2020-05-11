@@ -2,7 +2,7 @@
     "profile": "data-package",
     "resources": [
         {
-            "path": "ACE_TM_concentrations.csv",
+            "path": "https://zenodo.org/record/3634411/files/ACE_TM_concentrations.csv?download=1",
             "profile": "tabular-data-resource",
             "name": "ACE_TM_concentrations",
             "format": "csv",
@@ -19,11 +19,11 @@
             "format": "json",
             "mediatype": "text/json",
             "encoding": "utf-8",
-            "bytes": "8005",
-            "hash": "96a5b448b02e8d791cac17efc3b635bf"
+            "bytes": "7743",
+            "hash": "ef59a0ef13b55d3fd6ecb8e7c0421e70"
         },
         {
-            "path": "data_file_header.txt",
+            "path": "https://zenodo.org/record/3634411/files/data_file_header.txt?download=1",
             "profile": "data-resource",
             "name": "data_file_header",
             "format": "txt",
@@ -33,7 +33,7 @@
             "hash": "774749c09072ea5599c20ddd061672fa"
         },
         {
-            "path": "README.txt",
+            "path": "https://zenodo.org/record/3634411/files/README.txt?download=1",
             "profile": "data-resource",
             "name": "README",
             "format": "txt",
