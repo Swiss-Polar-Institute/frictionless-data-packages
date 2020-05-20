@@ -12,21 +12,21 @@
             "type": "datetime",
             "format": "default",
             "title": "date_time [UTC]",
-            "description": "Start date and time of the trace metal rosette deployment from which the samples were taken in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00"
+            "description": "Start date and time of the trace metal rosette deployment from which the samples were taken in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]"
           },
           {
             "name": "latitude [degN]",
             "type": "number",
             "format": "default",
             "title": "latitude [degN]",
-            "description": "Latitude at which the trace metal rosette deployment began"
+            "description": "Latitude at which the trace metal rosette deployment began [degree_north]"
           },
           {
             "name": "longitude [degE]",
             "type": "number",
             "format": "default",
             "title": "longitude [degE]",
-            "description": "Longitude at which the trace metal rosette deployment began"
+            "description": "Longitude at which the trace metal rosette deployment began [degree_east]"
           },
           {
             "name": "trace_metal_rosette_cast_number",
@@ -54,21 +54,21 @@
             "type": "integer",
             "format": "default",
             "title": "depth [m]",
-            "description": "Depth below the surface from which the seawater sample was taken"
+            "description": "Depth below the surface from which the seawater sample was taken [m]"
           },
           {
             "name": "chromium_concentration [nmol/kg]",
             "type": "number",
             "format": "default",
             "title": "chromium_concentration [nmol/kg]",
-            "description": "Concentration of chromium (VI and III) measured in the seawater sample, based on a double-spike method"
+            "description": "Concentration of chromium (VI and III) measured in the seawater sample, based on a double-spike method [nmol kg-1]"
           },
           {
             "name": "d53Cr [‰]",
             "type": "number",
             "format": "default",
             "title": "d53Cr [‰]",
-            "description": "Seawater stable chromium isotope composition (Cr VI and III) expressed in delta-notation relative to NIST SRM 979. Based on a double-spike method"
+            "description": "Seawater stable chromium isotope composition (Cr VI and III) expressed in delta-notation relative to NIST SRM 979. Based on a double-spike method [‰]"
           },
           {
             "name": "internal_error [‰]",
