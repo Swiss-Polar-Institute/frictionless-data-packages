@@ -3,7 +3,7 @@
     {
       "name": "date_time [UTC]",
       "type": "datetime",
-      "format": "default",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
       "description": "Start date and time of the trace metal rosette deployment from which the samples were taken in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00",
       "unit": "UTC"
     },
