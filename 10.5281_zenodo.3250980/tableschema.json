@@ -1,79 +1,79 @@
 {
-        "fields": [
-          {
-            "name": "date_time [UTC]",
-            "type": "datetime",
-            "format": "default",
-            "description": "Start date and time of the trace metal rosette deployment from which the samples were taken in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00",
-            "unit": "UTC"
-          },
-          {
-            "name": "latitude [degN]",
-            "type": "number",
-            "format": "default",
-            "description": "Latitude at which the trace metal rosette deployment began",
-            "unit": "degree_north",
-            "x_spi_cf_standard_name": "latitude",
-            "x_spi_cf_unit": "degree_north",
-            "x_spi_cf_attribute": "Latitude at which trace metal rosette deployment began"
-          },
-          {
-            "name": "longitude [degE]",
-            "type": "number",
-            "format": "default",
-            "description": "Longitude at which the trace metal rosette deployment began",
-            "unit": "degree_east",
-            "x_spi_cf_standard_name": "longitude",
-            "x_spi_cf_unit": "degree_east",
-            "x_spi_cf_attribute": "Longitude at which trace metal rosette deployment began"
-          },
-          {
-            "name": "trace_metal_rosette_cast_number",
-            "type": "integer",
-            "format": "default",
-            "description": "Unique identification number of each trace metal rosette cast during the Antarctic Circumnavigation Expedition"
-          },
-          {
-            "name": "ace_event_number",
-            "type": "integer",
-            "format": "default",
-            "description": "Unique identification number of the trace metal rosette deployment within the Antarctic Circumnavigation Expedition project"
-          },
-          {
-            "name": "ace_sample_number",
-            "type": "string",
-            "format": "default",
-            "description": "Unique number of the seawater sample within the ACE project in the format shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsamplenumber"
-          },
-          {
-            "name": "depth [m]",
-            "type": "integer",
-            "format": "default",
-            "description": "Depth below the surface from which the seawater sample was taken",
-            "x_spi_cf_unit": "m",
-            "x_spi_cf_standard_name": "depth",
-            "x_spi_cf_attribute": "Depth below the surface from which the seawater sample was taken"
-          },
-          {
-            "name": "chromium_concentration [nmol/kg]",
-            "type": "number",
-            "format": "default",
-            "description": "Concentration of chromium (VI and III) measured in the seawater sample, based on a double-spike method",
-            "unit": "nmol kg-1"
-          },
-          {
-            "name": "d53Cr [‰]",
-            "type": "number",
-            "format": "default",
-            "description": "Seawater stable chromium isotope composition (Cr VI and III) expressed in delta-notation relative to NIST SRM 979. Based on a double-spike method",
-            "unit":  "‰"
-          },
-          {
-            "name": "internal_error [‰]",
-            "type": "number",
-            "format": "default",
-            "description": "In run error on d53Cr (2 standard error of the mean)",
-            "unit":  "‰"
-          }
-        ]
-      }
+  "fields": [
+    {
+      "name": "date_time [UTC]",
+      "type": "datetime",
+      "format": "default",
+      "description": "Start date and time of the trace metal rosette deployment from which the samples were taken in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00",
+      "unit": "UTC"
+    },
+    {
+      "name": "latitude [degN]",
+      "type": "number",
+      "format": "default",
+      "description": "Latitude at which the trace metal rosette deployment began",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude at which trace metal rosette deployment began"
+    },
+    {
+      "name": "longitude [degE]",
+      "type": "number",
+      "format": "default",
+      "description": "Longitude at which the trace metal rosette deployment began",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude at which trace metal rosette deployment began"
+    },
+    {
+      "name": "trace_metal_rosette_cast_number",
+      "type": "integer",
+      "format": "default",
+      "description": "Unique identification number of each trace metal rosette cast during the Antarctic Circumnavigation Expedition"
+    },
+    {
+      "name": "ace_event_number",
+      "type": "integer",
+      "format": "default",
+      "description": "Unique identification number of the trace metal rosette deployment within the Antarctic Circumnavigation Expedition project"
+    },
+    {
+      "name": "ace_sample_number",
+      "type": "string",
+      "format": "default",
+      "description": "Unique number of the seawater sample within the ACE project in the format shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsamplenumber"
+    },
+    {
+      "name": "depth [m]",
+      "type": "integer",
+      "format": "default",
+      "description": "Depth below the surface from which the seawater sample was taken",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_attribute": "Depth below the surface from which the seawater sample was taken"
+    },
+    {
+      "name": "chromium_concentration [nmol/kg]",
+      "type": "number",
+      "format": "default",
+      "description": "Concentration of chromium (VI and III) measured in the seawater sample, based on a double-spike method",
+      "unit": "nmol kg-1"
+    },
+    {
+      "name": "d53Cr [‰]",
+      "type": "number",
+      "format": "default",
+      "description": "Seawater stable chromium isotope composition (Cr VI and III) expressed in delta-notation relative to NIST SRM 979. Based on a double-spike method",
+      "unit": "‰"
+    },
+    {
+      "name": "internal_error [‰]",
+      "type": "number",
+      "format": "default",
+      "description": "In run error on d53Cr (2 standard error of the mean)",
+      "unit": "‰"
+    }
+  ]
+}
