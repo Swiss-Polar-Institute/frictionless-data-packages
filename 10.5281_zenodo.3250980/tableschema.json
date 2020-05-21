@@ -12,14 +12,20 @@
             "type": "number",
             "format": "default",
             "description": "Latitude at which the trace metal rosette deployment began",
-            "unit": "degree_north"
+            "unit": "degree_north",
+            "x_spi_cf_standard_name": "latitude",
+            "x_spi_cf_unit": "degree_north",
+            "x_spi_cf_attribute": "Latitude at which trace metal rosette deployment began"
           },
           {
             "name": "longitude [degE]",
             "type": "number",
             "format": "default",
             "description": "Longitude at which the trace metal rosette deployment began",
-            "unit": "degree_east"
+            "unit": "degree_east",
+            "x_spi_cf_standard_name": "longitude",
+            "x_spi_cf_unit": "degree_east",
+            "x_spi_cf_attribute": "Longitude at which trace metal rosette deployment began"
           },
           {
             "name": "trace_metal_rosette_cast_number",
@@ -43,7 +49,10 @@
             "name": "depth [m]",
             "type": "integer",
             "format": "default",
-            "description": "Depth below the surface from which the seawater sample was taken"
+            "description": "Depth below the surface from which the seawater sample was taken",
+            "x_spi_cf_unit": "m",
+            "x_spi_cf_standard_name": "depth",
+            "x_spi_cf_attribute": "Depth below the surface from which the seawater sample was taken"
           },
           {
             "name": "chromium_concentration [nmol/kg]",
