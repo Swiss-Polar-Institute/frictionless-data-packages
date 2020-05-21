@@ -60,19 +60,56 @@
     "Drake Passage",
     "Balleny Islands",
     "Antarctica",
-    "Antarctic Circumnavigation Expedition"
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
   ],
   "name": "ace_seawater_chromium_concentration_isotope_composition",
+  "id": "https://doi.org/10.5281/zenodo.3250980",
   "title": "Seawater chromium concentrations and isotope compositions in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition (ACE).",
   "description": "Dissolved seawater chromium (Cr) concentrations and stable isotope compositions measured on samples collected with a trace metal clean rosette system in the Southern Ocean. Stations TM 7 to TM 12 reflect a north-south transect from Hobart, Tasmania to Mertz Glacier in Antarctica. Stations TM 14 and TM 15 neighbour the Balleny Islands. Stations TM 18 and TM 20 are located in the Drake Passage. Water samples were collected down to a depth of 1000 metres. The water was filtered in a class 100 clean container aboard the ship through pre-rinsed Supor Acropak capsule filters (0.2 um). Subsequently the samples were acidified and stored at a pH < 2 for several months prior to analysis. Reported values therefore represent bulk seawater chromium (Cr III and Cr VI). The data was obtained using the double-spike technique.",
-  "homepage": "  https://doi.org/10.5281/zenodo.3250980",
-  "source": "",
+  "homepage": "https://doi.org/10.5281/zenodo.3250980",
+  "source": [
+    {
+      "path": "https://doi.org/10.5281/zenodo.3250980"
+    }
+  ],
   "version": "1.0",
   "contributors": [
     {
       "title": "Jörg Rickli",
-      "role": "author"
-    }
+      "path": "https://orcid.org/0000-0001-8186-2750",
+      "email": "",
+      "role": "author",
+      "organisation": "ETH Zurich, Switzerland"
+    },
+    {
+      "title": "David J. Janssen",
+      "path": "https://orcid.org/0000-0002-9091-8936",
+      "email": "",
+      "role": "author",
+      "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
+      },
+      {
+      "title": "Christel S. Hassler",
+      "path": "https://orcid.org/0000-0002-8976-5469",
+      "email": "",
+      "role": "author",
+      "organisation": "Department F.-A. Forel for Environmental and Aquatic Sciences, University of Geneva, Switzerland; Swiss Polar Institute, Switzerland"
+      },
+     {
+      "title": "Michael J. Ellwood",
+      "path": "https://orcid.org/0000-0003-4288-8530",
+      "email": "samuel.jaccard@geo.unibe.ch",
+      "role": "author",
+      "organisation": "Research School of Earth Sciences, Australian National University, Australia"
+      },
+      {
+      "title": "Samuel L. Jaccard",
+      "path": "https://orcid.org/0000-0002-5793-0896",
+      "email": "",
+      "role": "author",
+      "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
+      }
   ],
   "licenses": [
     {
