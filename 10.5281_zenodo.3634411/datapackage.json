@@ -123,7 +123,19 @@
                     "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
                     }
                     ],
-    "keywords": "trace metal, Southern Ocean, GEOTRACES, Antarctic Circumnavigation Expedition, iron, zinc, lead, cadmium, nickel, copper",
+    "keywords":
+    [
+      "trace metal",
+      "Southern Ocean",
+      "GEOTRACES",
+      "Antarctic Circumnavigation Expedition",
+      "iron",
+      "zinc",
+      "lead",
+      "cadmium",
+      "nickel",
+      "copper"
+      ],
     "created": "2020-02-03T00:00:00Z",
     "x_spi_platform_code": "UBXH3",
     "x_spi_platform_name": "R/V Akademik Tryoshnikov",
