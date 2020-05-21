@@ -1,0 +1,80 @@
+{
+        "fields": [
+          {
+            "name": "date_time [UTC]",
+            "type": "datetime",
+            "format": "default",
+            "title": "date_time [UTC]",
+            "description": "Start date and time of the trace metal rosette deployment from which the samples were taken in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00",
+            "unit": "UTC"
+          },
+          {
+            "name": "latitude [degN]",
+            "type": "number",
+            "format": "default",
+            "title": "latitude [degN]",
+            "description": "Latitude at which the trace metal rosette deployment began",
+            "unit": "degree_north"
+          },
+          {
+            "name": "longitude [degE]",
+            "type": "number",
+            "format": "default",
+            "title": "longitude [degE]",
+            "description": "Longitude at which the trace metal rosette deployment began",
+            "unit": "degree_east"
+          },
+          {
+            "name": "trace_metal_rosette_cast_number",
+            "type": "integer",
+            "format": "default",
+            "title": "trace_metal_rosette_cast_number",
+            "description": "Unique identification number of each trace metal rosette cast during the Antarctic Circumnavigation Expedition"
+          },
+          {
+            "name": "ace_event_number",
+            "type": "integer",
+            "format": "default",
+            "title": "ace_event_number",
+            "description": "Unique identification number of the trace metal rosette deployment within the Antarctic Circumnavigation Expedition project"
+          },
+          {
+            "name": "ace_sample_number",
+            "type": "string",
+            "format": "default",
+            "title": "ace_sample_number",
+            "description": "Unique number of the seawater sample within the ACE project in the format shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsamplenumber"
+          },
+          {
+            "name": "depth [m]",
+            "type": "integer",
+            "format": "default",
+            "title": "depth [m]",
+            "description": "Depth below the surface from which the seawater sample was taken"
+          },
+          {
+            "name": "chromium_concentration [nmol/kg]",
+            "type": "number",
+            "format": "default",
+            "title": "chromium_concentration [nmol/kg]",
+            "description": "Concentration of chromium (VI and III) measured in the seawater sample, based on a double-spike method",
+            "unit": "nmol kg-1"
+          },
+          {
+            "name": "d53Cr [‰]",
+            "type": "number",
+            "format": "default",
+            "title": "d53Cr [‰]",
+            "description": "Seawater stable chromium isotope composition (Cr VI and III) expressed in delta-notation relative to NIST SRM 979. Based on a double-spike method",
+            "unit":  "‰"
+          },
+          {
+            "name": "internal_error [‰]",
+            "type": "number",
+            "format": "default",
+            "title": "internal_error [‰]",
+            "description": "In run error on d53Cr (2 standard error of the mean)",
+            "unit":  "‰"
+          }
+        ]
+      }
