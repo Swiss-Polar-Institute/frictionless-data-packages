@@ -4,7 +4,7 @@
         {
             "path": "https://zenodo.org/record/3634411/files/ACE_TM_concentrations.csv?download=1",
             "profile": "tabular-data-resource",
-            "name": "ACE_TM_concentrations",
+            "name": "ace_tm_concentrations",
             "title": "ACE trace metal concentrations",
             "format": "csv",
             "mediatype": "text/csv",
@@ -38,7 +38,7 @@
         {
             "path": "https://zenodo.org/record/3634411/files/README.txt?download=1",
             "profile": "data-resource",
-            "name": "README",
+            "name": "readme",
             "title": "Readme",
             "description": "Description of trace metal concentration dataset",
             "format": "txt",
