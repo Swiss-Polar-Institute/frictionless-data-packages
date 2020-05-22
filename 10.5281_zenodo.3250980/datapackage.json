@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": "",
-      "hash": "",
+      "bytes": 7705,
+      "hash": "f06a8f7f40161578d25305b4c7f9e659",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -23,20 +23,20 @@
       "format": "txt",
       "mediatype": "text/txt",
       "encoding": "utf-8-sig",
-      "bytes": "",
-      "hash": ""
+      "bytes": 1584,
+      "hash": "c3c48aafd953fe82fa933d72f1dc5809"
     },
     {
       "path": "https://zenodo.org/record/3250980/files/README.txt?download=1",
       "profile": "data-resource",
-      "name": "README",
-      "title": "readme",
+      "name": "readme",
+      "title": "README",
       "description": "Description of seawater chromium concentrations and isotope composition dataset",
       "format": "txt",
       "mediatype": "text/txt",
       "encoding": "utf-8-sig",
-      "bytes": "",
-      "hash": ""
+      "bytes": 5371,
+      "hash": "d12b97da391125b065ceb1f23392ae5b"
     },
     {
       "path": "tableschema.json",
@@ -47,8 +47,8 @@
       "format": "json",
       "mediatype": "text/json",
       "encoding": "utf-8",
-      "bytes": "",
-      "hash": ""
+      "bytes": 2949,
+      "hash": "0a90625a098cde78c43d816bc39cfc1e"
         }
   ],
   "keywords": [
