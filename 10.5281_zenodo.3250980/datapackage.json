@@ -29,8 +29,8 @@
     {
       "path": "https://zenodo.org/record/3250980/files/README.txt?download=1",
       "profile": "data-resource",
-      "name": "README",
-      "title": "readme",
+      "name": "readme",
+      "title": "README",
       "description": "Description of seawater chromium concentrations and isotope composition dataset",
       "format": "txt",
       "mediatype": "text/txt",
