@@ -34,17 +34,29 @@ def add_error(errors, error, datapackage, resource=None):
                   )
 
 
+def extra_validation(package, errors):
+    for spi_attribute in ['x_spi_platform_code', 'x_spi_type', 'x_spi_platform_name', 'x_spi_citation']:
+        if spi_attribute not in package.attributes:
+            add_error(errors, f'Missing mandatory SPI attribute: {spi_attribute}', package.base_path)
+
+
 def validate_data_packages():
     errors = []
     for datapackage_path in find_data_packages():
         print('* DATAPACKAGE', datapackage_path)
         package = Package(datapackage_path)
 
+        if package.valid is False:
+            add_error(errors, f'Invalid package: {package}')
+            continue
+
+        extra_validation(package, errors)
+
         for resource in package.resources:
             print(f'Resource: {resource.name} ')
             if resource.valid is False:
-                error = f'Invalid resource {resource} in {datapackage_path}'
-                add_error(errors, error, datapackage_path)
+                error = f'Invalid resource {resource} in {package.base_path}'
+                add_error(errors, error, package.base_path)
 
             if resource.tabular is False:
                 print(f'Ignoring resource: {resource.name} because it is not tabular type')
@@ -55,7 +67,7 @@ def validate_data_packages():
                 print('Tableschema: {resource.name} is valid!')
             except (exceptions.ValidationError, exceptions.CastError) as exception:
                 for error in exception.errors:
-                    add_error(errors, error, datapackage_path, resource.name)
+                    add_error(errors, error, package.base_path, resource.name)
 
     print_summary_errors(errors)
     return len(errors) == 0
