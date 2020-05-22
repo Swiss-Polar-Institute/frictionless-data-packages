@@ -62,7 +62,12 @@ def validate_data_packages():
 
 
 if __name__ == '__main__':
-    sys.exit(validate_data_packages())
+    exitcode = 0
+    errors_count = validate_data_packages()
+    if errors_count > 0:
+        exitcode = 1
+
+    sys.exit(exitcode)
 
 # package = Package('/home/jen/projects/spi_data_management/git/frictionless-data-packages/10.5281_zenodo.3250980/datapackage.json')
 # package.get_resource('ace_chromium_isotope_concentration').read()
