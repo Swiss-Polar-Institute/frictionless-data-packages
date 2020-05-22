@@ -1,4 +1,5 @@
 ![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=master)
+![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=dev)
 
 # frictionless-data-packages
 
