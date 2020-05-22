@@ -1,3 +1,7 @@
+master: [![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=master)](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/actions?query=branch%3Amaster)
+dev: [![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=dev)](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/actions?query=branch%3Adev)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0--1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 # frictionless-data-packages
 
 This repository describes a dataset (otherwise known as a data package) and tabular data files using the [Frictionless Data](https://frictionlessdata.io/) schemas. 
