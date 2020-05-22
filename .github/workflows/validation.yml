@@ -7,15 +7,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -name: checkout
-     uses: actions/checkout@v2
-    -name: setup Python
-     uses: actions/setup-python@v1
-     with:
-       python-version: 3.7
-    -name: Install Python dependencies
-     run: |
-       python3 -m pip install --upgrade pip
-       pip3 install -r requirements.txt
-    -name: Validation
-     run: python3 ./validate_packages_and_resources.py
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install Python dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip3 install -r requirements.txt
+    - name: Validation
+      run: python3 ./validate_packages_and_resources.py
