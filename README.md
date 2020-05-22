@@ -1,3 +1,5 @@
+![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=master)
+
 # frictionless-data-packages
 
 This repository describes a dataset (otherwise known as a data package) and tabular data files using the [Frictionless Data](https://frictionlessdata.io/) schemas. 
