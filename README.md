@@ -1,5 +1,6 @@
-master branch: ![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=master)
-dev branch: ![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=dev)
+master: ![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=master)(https://github.com/Swiss-Polar-Institute/frictionless-data-packages/actions?query=branch%3Amaster)
+dev: [![validation](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/workflows/validation/badge.svg?branch=dev)](https://github.com/Swiss-Polar-Institute/frictionless-data-packages/actions?query=branch%3Adev)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # frictionless-data-packages
 
