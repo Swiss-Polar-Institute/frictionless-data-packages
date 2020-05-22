@@ -28,6 +28,9 @@ def validate_data_packages():
             except exceptions.ValidationError as exception:
                 for error in exception.errors:
                     print(error)
+            except exceptions.CastError as exception:
+                for error in exception.errors:
+                    print(error)
 
 
 if __name__ == '__main__':
