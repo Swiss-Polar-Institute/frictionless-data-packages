@@ -10,7 +10,7 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "tableschema.json",
-            "bytes": "32994",
+            "bytes": 32994,
             "hash": "cacfa0ccc3e672c6d7cc006893fc83a8"
 	},
         {
@@ -21,7 +21,7 @@
             "format": "json",
             "mediatype": "text/json",
             "encoding": "utf-8",
-            "bytes": "7743",
+            "bytes": 7743,
             "hash": "ef59a0ef13b55d3fd6ecb8e7c0421e70"
         },
         {
@@ -32,7 +32,7 @@
             "format": "txt",
             "mediatype": "text/txt",
             "encoding": "utf-8-sig",
-            "bytes": "3516",
+            "bytes": 3516,
             "hash": "774749c09072ea5599c20ddd061672fa"
         },
         {
@@ -44,7 +44,7 @@
             "format": "txt",
             "mediatype": "text/txt",
             "encoding": "utf-8-sig",
-            "bytes": "6601",
+            "bytes": 6601,
             "hash": "66eed5e9b6452ab881cfd400bd37344c"
         }
     ],
