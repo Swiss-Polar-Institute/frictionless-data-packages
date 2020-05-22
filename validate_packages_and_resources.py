@@ -64,13 +64,13 @@ def validate_data_packages():
 
             try:
                 resource.read()
-                print('Tableschema: {resource.name} is valid!')
+                print(f'Tableschema: {resource.name} is valid!')
             except (exceptions.ValidationError, exceptions.CastError) as exception:
                 for error in exception.errors:
                     add_error(errors, error, package.base_path, resource.name)
 
     print_summary_errors(errors)
-    return len(errors) == 0
+    return len(errors)
 
 
 if __name__ == '__main__':
