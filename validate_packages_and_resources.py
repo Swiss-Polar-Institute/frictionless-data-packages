@@ -3,7 +3,7 @@ import sys
 
 from datapackage import Package
 from datapackage import exceptions
-
+import argparse
 
 def find_data_packages():
     for root, dirs, files in os.walk('.'):
@@ -40,14 +40,18 @@ def extra_validation(package, errors):
             add_error(errors, f'Missing mandatory SPI attribute: {spi_attribute}', package.base_path)
 
 
-def validate_data_packages():
+def validate_data_packages(dois):
     errors = []
     for datapackage_path in find_data_packages():
+        doi = datapackage_path.split('/')[1]
+        if dois is not None and doi not in dois:
+            print('Skipping', doi)
+
         print('* DATAPACKAGE', datapackage_path)
         package = Package(datapackage_path)
 
         if package.valid is False:
-            add_error(errors, f'Invalid package: {package}')
+            add_error(errors, f'Invalid package: {package}', datapackage_path)
             continue
 
         extra_validation(package, errors)
@@ -74,8 +78,13 @@ def validate_data_packages():
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dois', nargs='+', help='Check only for this or these DOIs', required=False)
+
+    args = parser.parse_args()
+
     exitcode = 0
-    errors_count = validate_data_packages()
+    errors_count = validate_data_packages(args.dois)
     if errors_count > 0:
         exitcode = 1
 
