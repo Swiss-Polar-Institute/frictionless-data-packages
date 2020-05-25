@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes": 4489,
+      "hash": "9f78cf1488ad0f858df7b04f044bf7bb",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -22,8 +22,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes": 1159,
+      "hash": "f2431fe0dfaa2e44dcaaaacc4eb043a0",
       "profile": "data-resource"
     },
     {
@@ -33,8 +33,8 @@
       "description": "Description of atmospheric iodine monoxide measurement dataset",
       "format": "pdf",
       "mediatype": "application/pdf",
-      "bytes": ,
-      "hash": "",
+      "bytes": 88815,
+      "hash": "e9ef7298fe9678c49d9134961521c283",
       "profile": "data-resource"
     },
     {
@@ -45,8 +45,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 10798,
+      "hash": "20a8dbc50e54499356cd6aea3b05469c",
       "profile": "data-resource"
     }
   ],
