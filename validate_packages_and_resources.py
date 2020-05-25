@@ -46,6 +46,7 @@ def validate_data_packages(dois):
         doi = datapackage_path.split('/')[1]
         if dois is not None and doi not in dois:
             print('Skipping', doi)
+            continue
 
         print('* DATAPACKAGE', datapackage_path)
         package = Package(datapackage_path)
