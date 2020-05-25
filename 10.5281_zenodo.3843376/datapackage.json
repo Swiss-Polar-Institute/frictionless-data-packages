@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_iodine_monoxide_atmospheric_measurements",
-      "path": "ace_iodine_monoxide_atmospheric_measurements.csv",
+      "path": "https://zenodo.org/record/3843376/files/ace_iodine_monoxide_atmospheric_measurements.csv?download=1",
       "title": "ACE iodine monoxide (IO) atmospheric measurements",
       "description": "Data file containing atmospheric iodine monoxide (IO) measurements from ACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3843376/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Date file header of atmospheric iodine monoxide measurement dataset",
       "format": "txt",
@@ -28,7 +28,7 @@
     },
     {
       "name": "readme_pdf",
-      "path": "README.pdf",
+      "path": "https://zenodo.org/record/3843376/files/README.pdf?download=1",
       "title": "Readme",
       "description": "Description of atmospheric iodine monoxide measurement dataset",
       "format": "pdf",
@@ -39,7 +39,7 @@
     },
     {
       "name": "readme_txt",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3843376/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of atmospheric iodine monoxide measurement dataset",
       "format": "txt",
