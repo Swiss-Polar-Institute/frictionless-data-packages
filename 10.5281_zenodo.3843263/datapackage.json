@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_bromine_monoxide_atmospheric_measurements",
-      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/ace_bromine_monoxide_atmospheric_measurements.csv",
+      "path": "../../../ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/ace_bromine_monoxide_atmospheric_measurements.csv",
       "title": "ACE bromine monoxide (BrO) atmospheric measurements",
       "description": "Data file containing atmospheric bromine monoxide (BrO) measurements from ACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/data_file_header.txt",
+      "path": "../../../ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/data_file_header.txt",
       "title": "Data file header",
       "description": "Date file header of atmospheric bromine monoxide measurement dataset",
       "format": "txt",
@@ -28,7 +28,7 @@
     },
     {
       "name": "readme_pdf",
-      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/README.pdf",
+      "path": "../../../ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/README.pdf",
       "title": "Readme",
       "description": "Description of atmospheric bromine monoxide measurement dataset",
       "format": "pdf",
@@ -39,7 +39,7 @@
     },
     {
       "name": "readme_txt",
-      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/README.txt",
+      "path": "../../../ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/README.txt",
       "title": "Readme",
       "description": "Description of atmospheric bromine monoxide measurement dataset",
       "format": "txt",
