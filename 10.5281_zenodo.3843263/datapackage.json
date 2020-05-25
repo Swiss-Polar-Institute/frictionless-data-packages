@@ -1,0 +1,59 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_bromine_monoxide_atmospheric_measurements",
+      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/ace_bromine_monoxide_atmospheric_measurements.csv",
+      "title": "ACE bromine monoxide (BrO) atmospheric measurements",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 4727,
+      "hash": "bf91ff3bca39d5e330e627a9a32256b9",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    }
+  ],
+  "keywords": [
+    "MAX-DOAS",
+    "halogens",
+    "atmosphere",
+    "bromine monoxide",
+    "BrO",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "",
+  "id": "",
+  "title": "",
+  "description": "",
+  "homepage": "",
+  "source": [
+    {
+      "path": ""
+    }
+  ],
+  "version": "",
+  "contributors": [
+    {
+      "title": "",
+      "path": "",
+      "email": "",
+      "role": "",
+      "organisation": ""
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": ""
+}
