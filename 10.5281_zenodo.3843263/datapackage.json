@@ -5,14 +5,49 @@
       "name": "ace_bromine_monoxide_atmospheric_measurements",
       "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/ace_bromine_monoxide_atmospheric_measurements.csv",
       "title": "ACE bromine monoxide (BrO) atmospheric measurements",
-      "description": "",
+      "description": "Data file containing atmospheric bromine monoxide (BrO) measurements from ACE",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8",
+      "encoding": "ASCII",
       "bytes": 4727,
       "hash": "bf91ff3bca39d5e330e627a9a32256b9",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/data_file_header.txt",
+      "title": "Data file header",
+      "description": "Date file header of atmospheric bromine monoxide measurement dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1188,
+      "hash": "15a29c521e1638f7ffd81d0f91eb8e80",
+      "profile": "data-resource"
+    },
+    {
+      "name": "readme_pdf",
+      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/README.pdf",
+      "title": "Readme",
+      "description": "Description of atmospheric bromine monoxide measurement dataset",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes": 88795,
+      "hash": "cbb4e8463c7588ff0b379d19e0aed6be",
+      "profile": "data-resource"
+    },
+    {
+      "name": "readme_txt",
+      "path": "/home/jen/projects/ace_data_management/data_to_archive_post_cruise/project08/bromine_oxide_concentration/to_publish/README.txt",
+      "title": "Readme",
+      "description": "Description of atmospheric bromine monoxide measurement dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "utf-8",
+      "bytes": 10737,
+      "hash": "41fac566cb8b71348f335f34fe41b2aa",
+      "profile": "data-resource"
     }
   ],
   "keywords": [
@@ -25,24 +60,37 @@
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "source": [
-    {
-      "path": ""
-    }
-  ],
-  "version": "",
+  "name": "ace_atmospheric_bromine_monoxide_measurements",
+  "id": "10.5281/zenodo.3843263",
+  "title": "Bromine monoxide (BrO) measurements made using a MAX-DOAS (Multi-AXis Differential Optical Absorption Spectroscopy) instrument in the austral summer of 2016/17 during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "To achieve the objectives of the project, we installed a MAX-DOAS (Multi-AXis Differential Optical Absorption Spectroscopy) instrument on the vessel “Akademik Tryoshnikov”. This instrument is based on the DOAS technique, which is used to measure trace gas concentrations in the atmosphere. The method consists of the analysis of the spectral absorption lines that each trace gas produces in the solar spectra. The DOAS technique uses the narrowband features that every trace gas has in their spectral absorption coefficients. This differential cross section is unique and acts like a fingerprint for the trace gases, allowing to differentiate between them and to estimate their concentrations (for further details see Platt and Stutz, 2008). In the past decades, atmospheric chemists have come to realize that halogen species (like Cl, Br or I and their oxides ClO, BrO and IO) exert a powerful influence on the chemical composition of the troposphere and through that influence affect the evolution of pollutants, hence having a significant impact on climate. These reactive halogen species are potent oxidizers for organic and inorganic compounds throughout the troposphere. In particular, halogen cycles can act on several compounds (such as methane, ozone, particles…), all of which are climate forcing agents through direct and indirect radiative effects. Dynamic exchange of halogens between ocean, sea ice, snowpack and atmosphere is the main driver for the frequent occurrence of Ozone Depletion Events (ODEs) and Atmospheric Mercury Depletion Events (AMDEs) (Saiz-Lopez and von Glasow, 2012). In this dataset we present the mixing ratio and vertical column density of bromine monoxide (BrO) recorded in the austral summer of 2016/2017 in the Southern Ocean and Atlantic Ocean, averaged over one-hour time periods.",
+  "homepage": "https://doi.org/10.5281/zenodo.3843263",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Nuria Benavent",
+      "path": "https://orcid.org/0000-0003-3473-0629",
+      "role": "author",
+      "organisation": "Department of Atmospheric Chemistry and Climate, Institute of Physical Chemistry Rocasolano, Consejo Superior de Investigaciones Científicas, Spain"
+    },
+    {
+      "title": "David Garcia-Nieto",
+      "path": "https://orcid.org/0000-0002-0884-5978",
+      "role": "author",
+      "organisation": "Department of Atmospheric Chemistry and Climate, Institute of Physical Chemistry Rocasolano, Consejo Superior de Investigaciones Científicas, Spain"
+    },
+    {
+      "title": "Carlos Alberto Cuevas",
+      "path": "https://orcid.org/0000-0002-9251-5460",
+      "role": "author",
+      "organisation": "Department of Atmospheric Chemistry and Climate, Institute of Physical Chemistry Rocasolano, Consejo Superior de Investigaciones Científicas, Spain"
+    },
+    {
+      "title": "Alfonso Saiz-Lopez",
+      "path": "https://orcid.org/0000-0002-0060-1581",
+      "email": "a.saiz@csic.es",
+      "role": "author",
+      "organisation": "Department of Atmospheric Chemistry and Climate, Institute of Physical Chemistry Rocasolano, Consejo Superior de Investigaciones Científicas, Spain"
     }
   ],
   "licenses": [
@@ -55,5 +103,5 @@
   "x_spi_platform_code": "UBXH3",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Benavent, N., Garcia-Nieto, D., Cuevas, C.A. and Saiz-Lopez, A. (2020). Bromine monoxide (BrO) measurements made using a MAX-DOAS (Multi-Axis Differential Optical Absorption Spectroscopy) instrument in the austral summer of 2016/17 during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo."
 }
