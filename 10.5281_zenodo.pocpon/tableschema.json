@@ -1,0 +1,128 @@
+{
+  "fields": [
+    {
+      "name": "",
+      "type": "",
+      "format": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "n"
+    },
+    {
+      "name": "ACE_Sample_Number [string]",
+      "type": "string",
+      "format": "default",
+      "description": "unique sample code from ACE, formatted as follows: shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsampleID"
+    },
+        {
+      "name": "project_sample_number [string]",
+      "type": "string",
+      "format": "default",
+      "description": "ACE project 1 sample ID code"
+    },
+        {
+      "name": "Leg [string]",
+      "type": "string",
+      "format": "default",
+      "description": "Leg of ACE voyage during which sample was collected, 1-3"
+    },
+        {
+      "name": "Sampling_DateTime_UTC [YYYY-MM-DDTHH:MM:SS+HH:MM]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "description": "date and time at which the underway seawater sample was collected in ISO8601 format YYYY-MM-DDTHhh:mm:ss+00:00 [UTC]",
+      "unit": "UTC"
+    },
+    {
+      "name": "Latitude [decimal_deg_N]",
+      "type": "number",
+      "format": "default",
+      "description": "Latitude of seawater sample collection [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of seawater sample collection"
+    },
+    {
+      "name": "Longitude [decimal_deg_E]",
+      "type": "number",
+      "format": "default",
+      "description": "Longitude of seawater sample collection [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of seawater sample collection"
+    },
+    {
+      "name": "Depth [m]",
+      "type": "number",
+      "format": "default",
+      "description": "Depth sample was collected from [metres]",
+      "unit": "metres",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Depth from which sample was collected"
+    },
+    {
+      "name": "Volume [L]",
+      "type": "number",
+      "format": "default",
+      "description": "Volume of seawater filtered [litres]",
+      "unit": "litres"
+    },
+    {
+      "name": "Replicate_Flag [string]",
+      "type": "integer",
+      "format": "default",
+      "description": "Flag indicating number of replicates averaged [no units]"
+    },
+    {
+      "name": "EA_Flag_C [string]",
+      "type": "integer",
+      "format": "default",
+      "description": "Carbon detection voltage flag [no units]"
+    },
+    {
+      "name": "EA_Flag_N [string]",
+      "type": "integer",
+      "format": "default",
+      "description": "Nitrogen detection voltage flag [no units]"
+    },
+    {
+      "name": "He_Flag [string]",
+      "type": "integer",
+      "format": "default",
+      "description": "Helium dilution flag [no units]"
+    },
+    {
+      "name": "POC [uM]",
+      "type": "number",
+      "format": "default",
+      "description": "Particulate organic carbon concentration [micromolar]",
+      "unit": "micromolar"
+    },
+    {
+      "name": "PON [uM]",
+      "type": "number",
+      "format": "default",
+      "description": "Particulate organic nitrogen concentration [micromolar]",
+      "unit": "micromolar"
+    },
+    {
+      "name": "delta13C [o/oo]",
+      "type": "number",
+      "format": "default",
+      "description": "delta 15 N nitrogen stable isotope composition ratio of 15N to 14N [parts per thousand]",
+      "unit": "parts per thousand"
+    },
+    {
+      "name": "delta15N [o/oo]",
+      "type": "number",
+      "format": "default",
+      "description": "delta 15 N nitrogen stable isotope composition ratio of 15N to 14N [parts per thousand]",
+      "unit": "parts per thousand"
+    }
+  ]
+}

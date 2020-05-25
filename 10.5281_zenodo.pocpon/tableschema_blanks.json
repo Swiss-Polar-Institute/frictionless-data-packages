@@ -33,14 +33,16 @@
       "type": "number",
       "format": "default",
       "description": "Particulate organic carbon concentration [micrograms]",
-      "title": "Particulate organic carbon concentration"
+      "title": "Particulate organic carbon concentration",
+      "unit": "micrograms"
     },
     {
       "name": "PON [ug]",
       "type": "number",
       "format": "default",
       "title": "Particulate organic nitrogen concentration",
-      "description": "Particulate organic nitrogen concentration [micrograms]"
+      "description": "Particulate organic nitrogen concentration [micrograms]",
+      "unit": "micrograms"
     },
     {
       "name": "EA_flag_C [string]",
