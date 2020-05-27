@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_par_20200526currsgcmr",
-      "path": "ace_par_20200526CURRSGCMR.csv",
+      "path": "https://zenodo.org/record/3859836/files/ace_par_20200526CURRSGCMR.csv?download=1",
       "title": "ACE sky irradiance over PAR wavelengths",
       "description": "Sky irradiance over photosynthetically active radiation wavelengths recorded during ACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3859836/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Description of data files",
       "format": "txt",
@@ -28,7 +28,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3859836/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of dataset",
       "format": "txt",

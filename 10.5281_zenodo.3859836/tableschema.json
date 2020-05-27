@@ -36,10 +36,7 @@
       "format": "default",
       "title": "Sky irradiance over photosynthetically active radiation",
       "description": "Sky irradiance over photosynthetically active radiation PAR 400-700 nm in [micromoles photons per metres squared per second]",
-      "unit": "umol photons/m^2/s^1",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": ""
+      "unit": "umol photons/m^2/s^1"
     }
   ],
   "missingValues": ["NaN"]
