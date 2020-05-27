@@ -13,10 +13,38 @@
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Description of data files",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": "",
+      "profile": "data-resource"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "utf-8",
+      "bytes": ,
+      "hash": "",
+      "profile": "data-resource"
     }
   ],
   "keywords": [
-    "Antarctica",
+    "photosynthetically active radiation",
+    "PAR",
+    "sky irradiance",
+    "Southern Ocean",
+    "sub-Antarctic",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
@@ -25,19 +53,65 @@
   "title": "",
   "description": "",
   "homepage": "",
-  "source": [
-    {
-      "path": ""
-    }
-  ],
-  "version": "",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Sandy Thomalla",
+      "path": "https://orcid.org/0000-0002-6802-520X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "David Antoine",
+      "path": "https://orcid.org/0000-0002-9082-2395",
+      "role": "author",
+      "email": "david.antoine@curtin.edu.au",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "David Berliner",
+      "path": "https://orcid.org/0000-0002-3148-9422",
+      "role": "author",
+      "organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "Hazel Little",
+      "path": "https://orcid.org/0000-0001-9841-8701",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa",
+      "x_spi_additional_organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "William Moutier",
+      "path": "https://orcid.org/0000-0001-9974-7793",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Alexandra Olivier-Morgan",
+      "path": "https://orcid.org/0000-0002-8600-9174",
+      "role": "author",
+      "organisation": "Biospherical Instruments Inc, United States"
+    },
+    {
+      "title": "Charlotte Robinson",
+      "path": "https://orcid.org/0000-0001-8519-5641",
+      "role": "author",
+      "email": "charlotte.mary.robinson@gmail.com",
+      "organisation": "Curtin University, Australia",
+      "x_spi_additional_email": "charlotte.robinson@curtin.edu.au"
+    },
+    {
+      "title": "Thomas Ryan-Keogh",
+      "path": "https://orcid.org/0000-0001-5144-171X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Nina Schuback",
+      "path": "https://orcid.org/0000-0001-9535-008",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
     }
   ],
   "licenses": [
