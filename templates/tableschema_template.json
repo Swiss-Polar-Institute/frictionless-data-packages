@@ -2,13 +2,14 @@
   "fields": [
     {
       "name": "",
-      "type": "",
-      "format": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
       "description": "",
       "unit": "",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "n"
+      "x_spi_cf_attribute": ""
     }
   ]
 }
