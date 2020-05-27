@@ -2,10 +2,10 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
+      "name": "ace_par_20200526currsgcmr",
+      "path": "ace_par_20200526CURRSGCMR.csv",
+      "title": "ACE sky irradiance over PAR wavelengths",
+      "description": "Sky irradiance over photosynthetically active radiation wavelengths recorded during ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -48,11 +48,11 @@
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
+  "name": "ace_sky_irradiance_over_par_wavelengths",
+  "id": "https://doi.org/10.5281/zenodo.3859836",
+  "title": "Sky irradiance over photosynthetically active radiation wavelengths (400-700 nm) recorded shipboard during the Antarctic Circumnavigation Expedition (ACE) during the Austral Summer of 2016/2017.",
+  "description": "This dataset contains high resolution records of sky irradiance over photosynthetically active radiation wavelengths (PAR; 400-700 nm) recorded shipboard during the Antarctic Circumnavigation Expedition (ACE) Leg 1-3. A hemispherical PAR sensor was fixed to the bow of the RV Akademik Tryoshnikov ship at approximately 2 metres height above the main deck and continuously recorded the irradiance over PAR wavelengths (400-700 nm) at 1 minute intervals from 21st December 2016 to the 16th March 2017. This data provides high resolution information on the diel cycle in sky irradiance and absolute sky irradiance over PAR wavelengths (400-700 nm) along the ship track of the ACE expedition.",
+  "homepage": "https://doi.org/10.5281/zenodo.3859836",
   "version": "1.0",
   "contributors": [
     {
@@ -124,5 +124,5 @@
   "x_spi_platform_code": "UBXH3",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Thomalla, S., Antoine, D., Berliner, D., Little,  H., Moutier, W., Olivier, A., Robinson, C., Ryan-Keogh, T. and Schuback, N. (2020).Sky irradiance over photosynthetically active radiation wavelengths (400-700 nm) recorded shipboard during the Antarctic Circumnavigation Expedition (ACE) during the Austral Summer of 2016/2017. (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3859836"
 }
