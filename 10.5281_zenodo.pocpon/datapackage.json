@@ -47,8 +47,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "utf-8",
-      "bytes": 9076,
-      "hash": "7b012e16a3853604823f5f5c71ea8d99",
+      "bytes": 9366,
+      "hash": "b13119413937c1c03bb2e4d25a2d722f",
       "profile": "data-resource"
     }
   ],
@@ -94,7 +94,8 @@
       "title": "Hazel Little",
       "path": "https://orcid.org/0000-0001-9841-8701",
       "role": "author",
-      "organisation": "Council for Scientific and Industrial Research, South Africa"
+      "organisation": "Council for Scientific and Industrial Research, South Africa",
+      "x_spi_additional_organisation": "University of Cape Town, South Africa"
     },
     {
       "title": "William Moutier",
