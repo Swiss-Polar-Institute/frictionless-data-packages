@@ -11,5 +11,6 @@
       "x_spi_cf_unit": "",
       "x_spi_cf_attribute": ""
     }
-  ]
+  ],
+  "missingValues": ["NaN"]
 }
