@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_uw_poc_pon_20200512currsgcmr",
-      "path": "ace_uw_poc_pon_20200512CURRSGCMR.csv",
+      "path": "https://zenodo.org/record/3859515/files/ace_uw_poc_pon_20200512CURRSGCMR.csv?download=1.csv",
       "title": "ACE underway POC and PON",
       "description": "Particulate organic carbon and particulate organic nitrogen data in seawater samples from underway during ACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
         {
       "name": "ace_uw_poc_pon_blanks_20200512currsgcmr",
-      "path": "ace_uw_poc_pon_blanks_20200512CURRSGCMR.csv",
+      "path": "https://zenodo.org/record/3859515/files/ace_uw_poc_pon_blanks_20200512CURRSGCMR.csv?download=1.csv",
       "title": "ACE underway POC and PON blanks",
       "description": "Particulate organic carbon and particulate organic nitrogen data in blank samples during ACE",
       "format": "csv",
@@ -29,7 +29,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3859515/files/data_file_header.txt?download=1.txt",
       "title": "Data file header",
       "description": "Description of data files",
       "format": "txt",
@@ -41,7 +41,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3859515/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of dataset",
       "format": "txt",
