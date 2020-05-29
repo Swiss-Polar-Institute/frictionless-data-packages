@@ -2,15 +2,15 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
+      "name": "ace_ferrybox_data_1min",
+      "path": "ace_ferrybox_data_1min.csv",
+      "title": "ACE ferrybox data 1 minute resolution",
+      "description": "One-minute resolution Ferrybox data recorded during the Antarctic Circumnavigation Expedition",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 6857223,
+      "hash": "35e23c4b58e5fa348d78ed627954bacf",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     }
@@ -20,19 +20,21 @@
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "version": "",
+  "name": "ace_physical_biogeochemical_oceanography_underway",
+  "id": "https://doi.org/10.5281/zenodo.3660852",
+  "title": "Physical and biogeochemical oceanography data from underway measurements with an AquaLine Ferrybox during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "placeholder",
+  "homepage": "https://doi.org/10.5281/zenodo.3660852",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "F. Alexander Haumann",
+      "path": "https://orcid.org/0000-0002-8218-977X",
+      "email": "alexander.haumann@gmail.com",
+      "role": "author",
+      "organisation": "Princeton University, USA",
+      "x_spi_extra_organisation": "British Antarctic Survey, UK",
+      "x_spi_extra_organisation": "ETH Zurich, Switzerland"
     }
   ],
   "licenses": [
@@ -45,5 +47,5 @@
   "x_spi_platform_code": "UBXH3",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Haumann, F. A., Robinson, C., Thomas, J., Hutchings, J., Pina Estany, C., Tarasenko, A., Gerber, F., and Leonard, K. (2020): Physical and biogeochemical oceanography data from underway measurements with an Aqualine Ferrybox during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3660852."
 }
