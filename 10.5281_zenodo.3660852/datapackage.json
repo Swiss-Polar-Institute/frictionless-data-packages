@@ -13,6 +13,19 @@
       "hash": "35e23c4b58e5fa348d78ed627954bacf",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+        {
+      "name": "ace_satellite_data_1min",
+      "path": "ace_satellite_data_1min.csv",
+      "title": "ACE satellite data 1 minute resolution",
+      "description": "One-minute resolution satellite data along the cruise track of the Antarctic Circumnavigation Expedition",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 13131280,
+      "hash": "b8cd76d096f4c3205539e857d84af9af",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_satellite_data_1min.json"
     }
   ],
   "keywords": [
