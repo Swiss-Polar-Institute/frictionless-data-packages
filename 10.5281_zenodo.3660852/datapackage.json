@@ -48,8 +48,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 1197,
-      "hash": "3115689c1cc3f52a47339132abb3f012",
+      "bytes": 1193,
+      "hash": "15fe91d81ff89fa8578b4bf1b8fc3504",
       "profile": "tabular-data-resource",
       "schema": "tableschema_fronts.json"
     }
