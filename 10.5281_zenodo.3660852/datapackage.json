@@ -39,6 +39,19 @@
       "hash": "3aa848bb4705137d60c0a3ef987b1c22",
       "profile": "tabular-data-resource",
       "schema": "tableschema_merged_uw_data_1min.json"
+    },
+    {
+      "name": "ace_fronts",
+      "path": "ace_fronts.csv",
+      "title": "ACE oceanic fronts",
+      "description": "Crossing of oceanic fronts during the Antarctic Circumnavigation Expedition",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1197,
+      "hash": "3115689c1cc3f52a47339132abb3f012",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_fronts.json"
     }
   ],
   "keywords": [
