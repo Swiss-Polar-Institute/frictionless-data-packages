@@ -14,7 +14,7 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
-        {
+    {
       "name": "ace_satellite_data_1min",
       "path": "ace_satellite_data_1min.csv",
       "title": "ACE satellite data 1 minute resolution",
@@ -26,6 +26,19 @@
       "hash": "b8cd76d096f4c3205539e857d84af9af",
       "profile": "tabular-data-resource",
       "schema": "tableschema_satellite_data_1min.json"
+    },
+    {
+      "name": "ace_merged_uw_data_1min",
+      "path": "ace_merged_uw_data_1min.csv",
+      "title": "ACE merged Ferrybox and satellite data 1 minute resolution",
+      "description": "One-minute resolution merged Ferrybox and satellite data along the cruise track of the Antarctic Circumnavigation Expedition",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 15705117,
+      "hash": "3aa848bb4705137d60c0a3ef987b1c22",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_merged_uw_data_1min.json"
     }
   ],
   "keywords": [
