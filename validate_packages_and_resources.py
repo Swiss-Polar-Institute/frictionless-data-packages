@@ -42,10 +42,18 @@ def add_error(errors, error, datapackage, resource=None):
                   )
 
 
-def extra_validation(package, errors):
+def extra_validation_package(package, errors):
     for spi_attribute in ['x_spi_platform_code', 'x_spi_type', 'x_spi_platform_name', 'x_spi_citation']:
         if spi_attribute not in package.descriptor:
-            add_error(errors, f'Missing mandatory SPI attribute: {spi_attribute}', package.base_path)
+            add_error(errors, f'Missing mandatory SPI package attribute: {spi_attribute}', package.base_path)
+
+
+def extra_validation_table(package, table, errors):
+    for field in table.schema.fields:
+        for spi_attribute in ['x_spi_netcdf_name']:
+            if spi_attribute not in field.descriptor:
+                add_error(errors, f'Missing mandatory SPI field attribute: {spi_attribute}', package.base_path,
+                          f'{table.name}-{field.name}')
 
 
 def doi_from_datapackage_path(datapackage_path):
@@ -67,6 +75,15 @@ def validate_using_goodtables(datapackage_path, errors):
                               table['resource-name'])
 
 
+def validate_table(package, resource, errors):
+    try:
+        resource.read()
+        print(f'Tableschema: {resource.name} is valid!')
+    except (exceptions.ValidationError, exceptions.CastError) as exception:
+        for error in exception.errors:
+            add_error(errors, error, package.base_path, resource.name)
+
+
 def validate_data_package(datapackage_path, errors):
     print('* DATAPACKAGE', datapackage_path)
     package = Package(datapackage_path)
@@ -75,7 +92,7 @@ def validate_data_package(datapackage_path, errors):
         add_error(errors, f'Invalid package: {package}', datapackage_path)
         return
 
-    extra_validation(package, errors)
+    extra_validation_package(package, errors)
 
     for resource in package.resources:
         print(f'Resource: {resource.name} ')
@@ -87,12 +104,8 @@ def validate_data_package(datapackage_path, errors):
             print(f'Ignoring resource: {resource.name} because it is not tabular type')
             continue
 
-        try:
-            resource.read()
-            print(f'Tableschema: {resource.name} is valid!')
-        except (exceptions.ValidationError, exceptions.CastError) as exception:
-            for error in exception.errors:
-                add_error(errors, error, package.base_path, resource.name)
+        validate_table(package.base_path, resource, errors)
+        extra_validation_table(package, resource, errors)
 
 
 def validate_data_packages(dois):
