@@ -9,7 +9,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"

@@ -6,7 +6,8 @@
       "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "Date time",
       "description": "Date and time of the hourly time period in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 over which the measurements were averaged. Data is averaged from hh:30 to hh+1:29, where hh is the hour of the day [UTC]",
-      "unit": "UTC"
+      "unit": "UTC",
+      "x_spi_netcdf_name": "datetime"
     },
     {
       "name": "bro_mixing_ratio (pptv)",
@@ -14,7 +15,8 @@
       "format": "default",
       "title": "Bromine monoxide mixing ratio",
       "description": "Quotient between the number density of bromine monoxide (BrO) and the number density of the air or atmosphere at that same height, expressed in units of parts per trillion (1 out every 1e12 air molecules) or pptv [parts per trillion]",
-      "unit": "parts per trillion"
+      "unit": "parts per trillion",
+      "x_spi_netcdf_name": "bro_mixing_ratio"
     },
     {
       "name": "bro_mixing_ratio_unc (pptv)",
@@ -22,7 +24,8 @@
       "format": "default",
       "title": "Bromine monoxide mixing ratio uncertainty",
       "description": "Uncertainty in the bromine monoxide (BrO) mixing ratio [parts per trillion]",
-      "unit": "parts per trillion"
+      "unit": "parts per trillion",
+      "x_spi_netcdf_name": "bro_mixing_ratio_unc"
     },
     {
       "name": "bro_vcd (molec/cm^2)",
@@ -30,7 +33,8 @@
       "format": "default",
       "title": "Vertical column density of bromine monoxide",
       "description": "Vertical column density of bromine monoxide (BrO) representing the vertical integration of the trace gas concentration profile [molecules per cm^2]",
-      "units": "molecules per cm^2"
+      "units": "molecules per cm^2",
+      "x_spi_netcdf_name": "bro_vcd"
     },
     {
       "name": "bro_vcd_unc (molec/cm^2)",
@@ -38,7 +42,8 @@
       "format": "default",
       "title": "Vertical column density of bromine monoxide",
       "description": "Uncertainty in the vertical column density of bromine monoxide (BrO) [molecules per cm^2]",
-      "units": "molecules per cm^2"
+      "units": "molecules per cm^2",
+      "x_spi_netcdf_name": "bro_vcd_unc"
     }
   ]
 }

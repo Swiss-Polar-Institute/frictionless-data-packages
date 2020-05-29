@@ -29,7 +29,7 @@
       "unit": "degree_east",
       "x_spi_cf_standard_name": "longitude",
       "x_spi_cf_unit": "degree_east",
-      "x_spi_netcdf_name": "longtiude"
+      "x_spi_netcdf_name": "longitude"
     },
     {
       "name": "leg [-]",

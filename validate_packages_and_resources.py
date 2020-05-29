@@ -43,16 +43,38 @@ def add_error(errors, error, datapackage, resource=None):
 
 
 def extra_validation_package(package, errors):
-    for spi_attribute in ['x_spi_platform_code', 'x_spi_type', 'x_spi_platform_name', 'x_spi_citation']:
+    spi_mandatory_attributes = ['x_spi_platform_code', 'x_spi_type', 'x_spi_platform_name', 'x_spi_citation']
+    for spi_attribute in spi_mandatory_attributes:
         if spi_attribute not in package.descriptor:
             add_error(errors, f'Missing mandatory SPI package attribute: {spi_attribute}', package.base_path)
 
+    for attribute_name in package.descriptor:
+        if attribute_name.startswith('x_spi_') and attribute_name not in spi_mandatory_attributes:
+            add_error(errors,
+                      f'There is an attribute in a package that stats with x_spi_ ({attribute_name}) but is not one of the SPI attributes',
+                      package.base_path)
+
 
 def extra_validation_table(package, table, errors):
+    spi_mandatory_attributes = ['x_spi_netcdf_name']
+    spi_attributes = spi_mandatory_attributes + ['x_spi_cf_standard_name', 'x_spi_cf_unit', 'x_spi_cf_attribute']
+
     for field in table.schema.fields:
-        for spi_attribute in ['x_spi_netcdf_name']:
+        for attribute_name in field.descriptor:
+            if attribute_name.startswith('x_spi_') and attribute_name not in spi_attributes:
+                add_error(errors,
+                          f'There is an attribute in a field starting with x_spi_ ({attribute_name}) but it is not one of the SPI attributes',
+                          package.base_path, f'{table.name}-{field.name}')
+
+        for spi_attribute in spi_mandatory_attributes:
+            # It makes sure that attribute are there
             if spi_attribute not in field.descriptor:
                 add_error(errors, f'Missing mandatory SPI field attribute: {spi_attribute}', package.base_path,
+                          f'{table.name}-{field.name}')
+
+            if spi_attribute == 'x_spi_netcdf_name' and spi_attribute in field.descriptor and ' ' in field.descriptor[
+                'x_spi_netcdf_name']:
+                add_error(errors, f'x_spi_netcdf_name value cannot contain spaces', package.base_path,
                           f'{table.name}-{field.name}')
 
 
