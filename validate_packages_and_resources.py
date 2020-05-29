@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
+# Very quick and dirty script to validate data packages
+# This is part of a pilot - it needs proper re-writing if we keep using this
+
 import argparse
 import os
 import sys
 
+import goodtables
 from datapackage import Package
 from datapackage import exceptions
 
@@ -25,6 +29,7 @@ def print_summary_errors(errors):
         if error['resource']:
             print(f'Resource: {error["resource"]}')
         print(f'Error: {error["error"]}')
+        print('----')
 
     print()
     print('Total number of errors:', len(errors))
@@ -45,6 +50,21 @@ def extra_validation(package, errors):
 
 def doi_from_datapackage_path(datapackage_path):
     return datapackage_path.split('/')[1]
+
+
+def validate_using_goodtables(datapackage_path, errors):
+    result = goodtables.validate(datapackage_path)
+
+    if result['valid'] is False:
+        add_error(errors,
+                  'goodtables.py returned valid=False. Next errors might contain the errors if they are in tables',
+                  datapackage_path)
+
+        for table in result['tables']:
+            if 'errors' in table:
+                for error in table['errors']:
+                    add_error(errors, f'goodtables.py returned an error - {error["message"]}', datapackage_path,
+                              table['resource-name'])
 
 
 def validate_data_package(datapackage_path, errors):
@@ -85,9 +105,9 @@ def validate_data_packages(dois):
             continue
 
         validate_data_package(datapackage_path, errors)
+        validate_using_goodtables(datapackage_path, errors)
 
-    print_summary_errors(errors)
-    return len(errors)
+    return errors
 
 
 if __name__ == '__main__':
@@ -97,8 +117,11 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     exitcode = 0
-    errors_count = validate_data_packages(args.dois)
-    if errors_count > 0:
+    errors = validate_data_packages(args.dois)
+
+    print_summary_errors(errors)
+
+    if len(errors) > 0:
         exitcode = 1
 
     sys.exit(exitcode)
