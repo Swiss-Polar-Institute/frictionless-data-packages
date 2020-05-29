@@ -12,7 +12,7 @@
       "bytes": 6857223,
       "hash": "35e23c4b58e5fa348d78ed627954bacf",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema_ferrybox_data_1min.json"
     },
     {
       "name": "ace_satellite_data_1min",
@@ -52,6 +52,30 @@
       "hash": "15fe91d81ff89fa8578b4bf1b8fc3504",
       "profile": "tabular-data-resource",
       "schema": "tableschema_fronts.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "profile": "data-resource",
+      "title": "Date file header of underway dataset",
+      "description": "Details of data file columns of underway dataset",
+      "format": "txt",
+      "mediatype": "text/txt",
+      "encoding": "utf-8-sig",
+      "bytes": 5684,
+      "hash": "d005b4ec41a385825e84e5706e91a8da"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "profile": "data-resource",
+      "title": "README",
+      "description": "Description of underway dataset",
+      "format": "txt",
+      "mediatype": "text/txt",
+      "encoding": "utf-8-sig",
+      "bytes": 29639,
+      "hash": "a0d5d08f4353cdd5396a67e8d492b16e"
     }
   ],
   "keywords": [
