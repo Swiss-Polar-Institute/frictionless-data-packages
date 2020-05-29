@@ -1,0 +1,49 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": ,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    }
+  ],
+  "keywords": [
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "",
+  "id": "",
+  "title": "",
+  "description": "",
+  "homepage": "",
+  "version": "",
+  "contributors": [
+    {
+      "title": "",
+      "path": "",
+      "email": "",
+      "role": "",
+      "organisation": ""
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": ""
+}
