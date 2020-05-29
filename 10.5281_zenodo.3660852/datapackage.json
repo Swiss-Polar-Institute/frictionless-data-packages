@@ -117,6 +117,52 @@
       "organisation": "Princeton University, USA",
       "x_spi_extra_organisation": "British Antarctic Survey, UK",
       "x_spi_extra_organisation": "ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Charlotte Robinson",
+      "path": "https://orcid.org/0000-0001-8519-5641",
+      "email": "charlotte.robinson@curtin.edu.au",
+      "role": "author",
+      "organisation": "Curtin University, Australia",
+      "x_spi_extra_email": "charlotte.mary.robinson@gmail.com"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "author",
+      "organisation": "Swiss Polar Institute, Switzerland",
+      "x_spi_extra_email": "jen@falciot.net"
+    },
+    {
+      "title": "Jennifer Hutchings",
+      "path": "https://orcid.org/0000-0003-1430-8236",
+      "role": "author",
+      "organisation": "Oregon State University, USA"
+    },
+    {
+      "title": "Carles Pina Estany",
+      "path": "https://orcid.org/0000-0003-3120-9475",
+      "role": "author",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Anastasiia Tarasenko",
+      "path": "https://orcid.org/0000-0001-9749-1974",
+      "role": "author",
+      "organisation": "Institut Français de Recherche pour l'Exploitation de la Mer, France",
+      "x_spi_extra_organisation": "Arctic and Antarctic Research Institute, Russia"
+    },
+    {
+      "title": "Franziska Gerber",
+      "role": "author",
+      "organisation": "EPFL CRYOS Laboratory, Switzerland"
+    },
+    {
+      "title": "Katherine Leonard",
+      "path": "https://orcid.org/0000-0003-4632-8872",
+      "role": "author",
+      "organisation": "EPFL CRYOS Laboratory, Switzerland"
     }
   ],
   "licenses": [
