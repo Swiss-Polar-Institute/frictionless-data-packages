@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
+import argparse
 import os
 import sys
 
 from datapackage import Package
 from datapackage import exceptions
-import argparse
+
 
 def find_data_packages():
     for root, dirs, files in os.walk('.'):
@@ -38,43 +39,52 @@ def add_error(errors, error, datapackage, resource=None):
 
 def extra_validation(package, errors):
     for spi_attribute in ['x_spi_platform_code', 'x_spi_type', 'x_spi_platform_name', 'x_spi_citation']:
-        if spi_attribute not in package.attributes:
+        if spi_attribute not in package.descriptor:
             add_error(errors, f'Missing mandatory SPI attribute: {spi_attribute}', package.base_path)
+
+
+def doi_from_datapackage_path(datapackage_path):
+    return datapackage_path.split('/')[1]
+
+
+def validate_data_package(datapackage_path, errors):
+    print('* DATAPACKAGE', datapackage_path)
+    package = Package(datapackage_path)
+
+    if package.valid is False:
+        add_error(errors, f'Invalid package: {package}', datapackage_path)
+        return
+
+    extra_validation(package, errors)
+
+    for resource in package.resources:
+        print(f'Resource: {resource.name} ')
+        if resource.valid is False:
+            error = f'Invalid resource {resource} in {package.base_path}'
+            add_error(errors, error, package.base_path)
+
+        if resource.tabular is False:
+            print(f'Ignoring resource: {resource.name} because it is not tabular type')
+            continue
+
+        try:
+            resource.read()
+            print(f'Tableschema: {resource.name} is valid!')
+        except (exceptions.ValidationError, exceptions.CastError) as exception:
+            for error in exception.errors:
+                add_error(errors, error, package.base_path, resource.name)
 
 
 def validate_data_packages(dois):
     errors = []
+
     for datapackage_path in find_data_packages():
-        doi = datapackage_path.split('/')[1]
+        doi = doi_from_datapackage_path(datapackage_path)
         if dois is not None and doi not in dois:
             print('Skipping', doi)
             continue
 
-        print('* DATAPACKAGE', datapackage_path)
-        package = Package(datapackage_path)
-
-        if package.valid is False:
-            add_error(errors, f'Invalid package: {package}', datapackage_path)
-            continue
-
-        extra_validation(package, errors)
-
-        for resource in package.resources:
-            print(f'Resource: {resource.name} ')
-            if resource.valid is False:
-                error = f'Invalid resource {resource} in {package.base_path}'
-                add_error(errors, error, package.base_path)
-
-            if resource.tabular is False:
-                print(f'Ignoring resource: {resource.name} because it is not tabular type')
-                continue
-
-            try:
-                resource.read()
-                print(f'Tableschema: {resource.name} is valid!')
-            except (exceptions.ValidationError, exceptions.CastError) as exception:
-                for error in exception.errors:
-                    add_error(errors, error, package.base_path, resource.name)
+        validate_data_package(datapackage_path, errors)
 
     print_summary_errors(errors)
     return len(errors)
