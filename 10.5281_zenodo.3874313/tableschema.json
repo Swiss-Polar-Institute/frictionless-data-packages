@@ -71,18 +71,103 @@
       "x_spi_netcdf_name": "depth"
     },
     {
-      "name": "",
+      "name": "Nox_concentration [uM]",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
+      "title": "Nox",
+      "description": "total oxidised nitrogen concentration [micromolar]",
+      "unit": "micromolar",
+      "x_spi_cf_standard_name": "",
+      "x_spi_netcdf_name": "Nox_concentration"
+    },
+    {
+      "name": "LOD_Flag_Nox [string]",
+      "type": "number",
+      "format": "default",
+      "title": "limit of detection flag Nox",
+      "description": "flag indicating if derived concentration of NOx was below the limit of detection [no units]",
+      "x_spi_netcdf_name": "LOD_Flag_Nox"
+    },
+    {
+      "name": "Nitrate_concentration [uM]",
+      "type": "number",
+      "format": "default",
+      "title": "nitrate concentration",
+      "description": "nitrate concentration [micromolar]",
+      "unit": "micromolar",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
       "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "Nitrate_concentration"
     },
-
+    {
+      "name": "LOD_Flag_Nitrate [string]",
+      "type": "number",
+      "format": "default",
+      "title": "limit of detection flag nitrate",
+      "description": "flag indicating if the derived concentration of nitrate was below the limit of detection [no units]",
+      "x_spi_netcdf_name": "LOD_Flag_Nitrate"
+    },
+    {
+      "name": "Nitrite_concentration [uM]",
+      "type": "number",
+      "format": "default",
+      "title": "nitrite concentration",
+      "description": "nitrite concentration [micromolar]",
+      "unit": "micromolar",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "Nitrite_concentration"
+    },
+    {
+      "name": "LOD_Flag_Nitrite [string]",
+      "type": "number",
+      "format": "default",
+      "title": "limit of detection flag nitrite",
+      "description": "flag indicating if the derived concentration of nitrite was below the limit of detection [no units]",
+      "x_spi_netcdf_name": "LOD_Flag_Nitrite"
+    },
+    {
+      "name": "Silicate_concentration [uM]",
+      "type": "number",
+      "format": "default",
+      "title": "silicate concentration",
+      "description": "silicate concentration [micromolar]",
+      "unit": "micromolar",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "Silicate_concentration"
+    },
+    {
+      "name": "LOD_Flag_Silicate [string]",
+      "type": "number",
+      "format": "default",
+      "title": "limit of detection flag silicate",
+      "description": "flag indicating if the derived concentration of silicate was below the limit of detection [no units]",
+      "x_spi_netcdf_name": "LOD_Flag_Silicate"
+    },
+    {
+      "name": "Phosphate_concentration [uM]",
+      "type": "number",
+      "format": "default",
+      "title": "phosphate concentration",
+      "description": "phosphate concentration [micromolar]",
+      "unit": "micromolar",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "Phosphate_concentration"
+    },
+    {
+      "name": "LOD_Flag_Phosphate [string]",
+      "type": "number",
+      "format": "default",
+      "title": "limit of detection flag phosphate",
+      "description": "flag indicating if the derived concentration of phosphate was below the limit of detection [no units]",
+      "x_spi_netcdf_name": "LOD_Flag_Phosphate"
+    }
   ],
   "missingValues": ["NaN"]
 }
