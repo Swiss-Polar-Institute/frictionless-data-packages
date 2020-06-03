@@ -2,7 +2,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "ace_uw_nutrients_20200527CURRSGCMR",
+      "name": "ace_uw_nutrients_20200527currsgcmr",
       "path": "ace_uw_nutrients_20200527CURRSGCMR.csv",
       "title": "ACE underway nutrient concentration dataset",
       "description": "Nutrient concentration in seawater collected from underway water supply during ACE",
