@@ -76,6 +76,39 @@
       "encoding": "utf-8-sig",
       "bytes": 29639,
       "hash": "a0d5d08f4353cdd5396a67e8d492b16e"
+    },
+    {
+      "name": "auxiliary_data.zip",
+      "path": "auxiliary_data.zip",
+      "profile": "data-resource",
+      "title": "Auxiliary data",
+      "description": "Auxiliary data to accompany Ferrybox dataset",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 4616324,
+      "hash": "fbae18f8ff169fca11824f9e6cad0342"
+    },
+        {
+      "name": "ace_ferrybox_data_raw",
+      "path": "ace_ferrybox_data_raw.zip",
+      "profile": "data-resource",
+      "title": "ACE raw Ferrybox data",
+      "description": "Raw dataset recorded during the Antarctic Circumnavigation Expedition",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 33897349,
+      "hash": "848615865928caa16d96978a265fc50c"
+    },
+        {
+      "name": "metadata",
+      "path": "metadata.zip",
+      "profile": "data-resource",
+      "title": "Metadata",
+      "description": "Metadata describing raw and processed Ferrybox datasets and processing",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 10681689,
+      "hash": "e059223bbb71a6a975d95f1fa218c4c7"
     }
   ],
   "keywords": [
@@ -115,8 +148,8 @@
       "email": "alexander.haumann@gmail.com",
       "role": "author",
       "organisation": "Princeton University, USA",
-      "x_spi_extra_organisation": "British Antarctic Survey, UK",
-      "x_spi_extra_organisation": "ETH Zurich, Switzerland"
+      "x_spi_additional_organisation": "British Antarctic Survey, UK",
+      "x_spi_additional_organisation": "ETH Zurich, Switzerland"
     },
     {
       "title": "Charlotte Robinson",
@@ -124,7 +157,7 @@
       "email": "charlotte.robinson@curtin.edu.au",
       "role": "author",
       "organisation": "Curtin University, Australia",
-      "x_spi_extra_email": "charlotte.mary.robinson@gmail.com"
+      "x_spi_additional_email": "charlotte.mary.robinson@gmail.com"
     },
     {
       "title": "Jenny Thomas",
@@ -132,7 +165,7 @@
       "email": "jenny.thomas@epfl.ch",
       "role": "author",
       "organisation": "Swiss Polar Institute, Switzerland",
-      "x_spi_extra_email": "jen@falciot.net"
+      "x_spi_eadditional_email": "jen@falciot.net"
     },
     {
       "title": "Jennifer Hutchings",
@@ -151,7 +184,7 @@
       "path": "https://orcid.org/0000-0001-9749-1974",
       "role": "author",
       "organisation": "Institut Français de Recherche pour l'Exploitation de la Mer, France",
-      "x_spi_extra_organisation": "Arctic and Antarctic Research Institute, Russia"
+      "x_spi_additional_organisation": "Arctic and Antarctic Research Institute, Russia"
     },
     {
       "title": "Franziska Gerber",
