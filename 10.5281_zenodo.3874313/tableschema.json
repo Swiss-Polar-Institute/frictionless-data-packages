@@ -71,7 +71,7 @@
       "x_spi_netcdf_name": "depth"
     },
     {
-      "name": "Nox [uM]",
+      "name": "NOx [uM]",
       "type": "number",
       "format": "default",
       "title": "Nox",
