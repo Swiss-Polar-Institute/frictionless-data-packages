@@ -77,7 +77,6 @@
       "title": "Nox",
       "description": "total oxidised nitrogen concentration [micromolar]",
       "unit": "micromolar",
-      "x_spi_cf_standard_name": "",
       "x_spi_netcdf_name": "Nox_concentration"
     },
     {
@@ -95,9 +94,6 @@
       "title": "nitrate concentration",
       "description": "nitrate concentration [micromolar]",
       "unit": "micromolar",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "Nitrate_concentration"
     },
     {
@@ -115,9 +111,6 @@
       "title": "nitrite concentration",
       "description": "nitrite concentration [micromolar]",
       "unit": "micromolar",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "Nitrite_concentration"
     },
     {
@@ -135,9 +128,6 @@
       "title": "silicate concentration",
       "description": "silicate concentration [micromolar]",
       "unit": "micromolar",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "Silicate_concentration"
     },
     {
@@ -155,9 +145,6 @@
       "title": "phosphate concentration",
       "description": "phosphate concentration [micromolar]",
       "unit": "micromolar",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "Phosphate_concentration"
     },
     {
