@@ -1,0 +1,212 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_ferrybox_data_1min",
+      "path": "ace_ferrybox_data_1min.csv",
+      "title": "ACE ferrybox data 1 minute resolution",
+      "description": "One-minute resolution Ferrybox data recorded during the Antarctic Circumnavigation Expedition",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 6857223,
+      "hash": "35e23c4b58e5fa348d78ed627954bacf",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_ferrybox_data_1min.json"
+    },
+    {
+      "name": "ace_satellite_data_1min",
+      "path": "ace_satellite_data_1min.csv",
+      "title": "ACE satellite data 1 minute resolution",
+      "description": "One-minute resolution satellite data along the cruise track of the Antarctic Circumnavigation Expedition",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 13131280,
+      "hash": "b8cd76d096f4c3205539e857d84af9af",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_satellite_data_1min.json"
+    },
+    {
+      "name": "ace_merged_uw_data_1min",
+      "path": "ace_merged_uw_data_1min.csv",
+      "title": "ACE merged Ferrybox and satellite data 1 minute resolution",
+      "description": "One-minute resolution merged Ferrybox and satellite data along the cruise track of the Antarctic Circumnavigation Expedition",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 15705117,
+      "hash": "3aa848bb4705137d60c0a3ef987b1c22",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_merged_uw_data_1min.json"
+    },
+    {
+      "name": "ace_fronts",
+      "path": "ace_fronts.csv",
+      "title": "ACE oceanic fronts",
+      "description": "Crossing of oceanic fronts during the Antarctic Circumnavigation Expedition",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1193,
+      "hash": "15fe91d81ff89fa8578b4bf1b8fc3504",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_fronts.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "profile": "data-resource",
+      "title": "Date file header of underway dataset",
+      "description": "Details of data file columns of underway dataset",
+      "format": "txt",
+      "mediatype": "text/txt",
+      "encoding": "utf-8-sig",
+      "bytes": 5684,
+      "hash": "d005b4ec41a385825e84e5706e91a8da"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "profile": "data-resource",
+      "title": "README",
+      "description": "Description of underway dataset",
+      "format": "txt",
+      "mediatype": "text/txt",
+      "encoding": "utf-8-sig",
+      "bytes": 29639,
+      "hash": "a0d5d08f4353cdd5396a67e8d492b16e"
+    },
+    {
+      "name": "auxiliary_data.zip",
+      "path": "auxiliary_data.zip",
+      "profile": "data-resource",
+      "title": "Auxiliary data",
+      "description": "Auxiliary data to accompany Ferrybox dataset",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 4616324,
+      "hash": "fbae18f8ff169fca11824f9e6cad0342"
+    },
+        {
+      "name": "ace_ferrybox_data_raw",
+      "path": "ace_ferrybox_data_raw.zip",
+      "profile": "data-resource",
+      "title": "ACE raw Ferrybox data",
+      "description": "Raw dataset recorded during the Antarctic Circumnavigation Expedition",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 33897349,
+      "hash": "848615865928caa16d96978a265fc50c"
+    },
+        {
+      "name": "metadata",
+      "path": "metadata.zip",
+      "profile": "data-resource",
+      "title": "Metadata",
+      "description": "Metadata describing raw and processed Ferrybox datasets and processing",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 10681689,
+      "hash": "e059223bbb71a6a975d95f1fa218c4c7"
+    }
+  ],
+  "keywords": [
+    "surface temperature",
+    "salinity",
+    "pressure",
+    "potential density",
+    "turbidity",
+    "chlorophyll-a",
+    "pH",
+    "dissolved oxygen",
+    "oxygen saturation",
+    "sea-surface height",
+    "geostrophic velocity",
+    "sea-ice concentration",
+    "ocean zones",
+    "fronts",
+    "underway",
+    "Ferrybox",
+    "thermosalinograph",
+    "satellite",
+    "seawater",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_physical_biogeochemical_oceanography_underway",
+  "id": "https://doi.org/10.5281/zenodo.3660852",
+  "title": "Physical and biogeochemical oceanography data from underway measurements with an AquaLine Ferrybox during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "placeholder",
+  "homepage": "https://doi.org/10.5281/zenodo.3660852",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "F. Alexander Haumann",
+      "path": "https://orcid.org/0000-0002-8218-977X",
+      "email": "alexander.haumann@gmail.com",
+      "role": "author",
+      "organisation": "Princeton University, USA",
+      "x_spi_additional_organisation": "British Antarctic Survey, UK",
+      "x_spi_additional_organisation": "ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Charlotte Robinson",
+      "path": "https://orcid.org/0000-0001-8519-5641",
+      "email": "charlotte.robinson@curtin.edu.au",
+      "role": "author",
+      "organisation": "Curtin University, Australia",
+      "x_spi_additional_email": "charlotte.mary.robinson@gmail.com"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "author",
+      "organisation": "Swiss Polar Institute, Switzerland",
+      "x_spi_eadditional_email": "jen@falciot.net"
+    },
+    {
+      "title": "Jennifer Hutchings",
+      "path": "https://orcid.org/0000-0003-1430-8236",
+      "role": "author",
+      "organisation": "Oregon State University, USA"
+    },
+    {
+      "title": "Carles Pina Estany",
+      "path": "https://orcid.org/0000-0003-3120-9475",
+      "role": "author",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Anastasiia Tarasenko",
+      "path": "https://orcid.org/0000-0001-9749-1974",
+      "role": "author",
+      "organisation": "Institut Français de Recherche pour l'Exploitation de la Mer, France",
+      "x_spi_additional_organisation": "Arctic and Antarctic Research Institute, Russia"
+    },
+    {
+      "title": "Franziska Gerber",
+      "role": "author",
+      "organisation": "EPFL CRYOS Laboratory, Switzerland"
+    },
+    {
+      "title": "Katherine Leonard",
+      "path": "https://orcid.org/0000-0003-4632-8872",
+      "role": "author",
+      "organisation": "EPFL CRYOS Laboratory, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Haumann, F. A., Robinson, C., Thomas, J., Hutchings, J., Pina Estany, C., Tarasenko, A., Gerber, F., and Leonard, K. (2020): Physical and biogeochemical oceanography data from underway measurements with an Aqualine Ferrybox during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3660852."
+}
