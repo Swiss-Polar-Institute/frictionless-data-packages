@@ -71,7 +71,7 @@
       "x_spi_netcdf_name": "depth"
     },
     {
-      "name": "Nox_concentration [uM]",
+      "name": "Nox [uM]",
       "type": "number",
       "format": "default",
       "title": "Nox",
@@ -89,7 +89,7 @@
       "x_spi_netcdf_name": "LOD_Flag_Nox"
     },
     {
-      "name": "Nitrate_concentration [uM]",
+      "name": "Nitrate [uM]",
       "type": "number",
       "format": "default",
       "title": "nitrate concentration",
@@ -109,7 +109,7 @@
       "x_spi_netcdf_name": "LOD_Flag_Nitrate"
     },
     {
-      "name": "Nitrite_concentration [uM]",
+      "name": "Nitrite [uM]",
       "type": "number",
       "format": "default",
       "title": "nitrite concentration",
@@ -129,7 +129,7 @@
       "x_spi_netcdf_name": "LOD_Flag_Nitrite"
     },
     {
-      "name": "Silicate_concentration [uM]",
+      "name": "Silicate [uM]",
       "type": "number",
       "format": "default",
       "title": "silicate concentration",
@@ -149,7 +149,7 @@
       "x_spi_netcdf_name": "LOD_Flag_Silicate"
     },
     {
-      "name": "Phosphate_concentration [uM]",
+      "name": "Phosphate [uM]",
       "type": "number",
       "format": "default",
       "title": "phosphate concentration",
