@@ -1,0 +1,104 @@
+{
+  "x_spi_netcdf_name": {
+    "required": true,
+    "schema": "tableschema",
+    "schema_path": "fields",
+    "description": "field name for NETCDF files without spaces",
+    "example": "sea_surface_temperature",
+    "type": "string"
+  },
+  "x_spi_platform_code": {
+    "required": true,
+    "schema": "datapackage",
+    "schema_path": "",
+    "description": "code of platform on which data package was collected, specifically for EMODNet Physics",
+    "example": "UBXH3",
+    "type": "string"
+  },
+  "x_spi_platform_name": {
+    "required": true,
+    "schema": "datapackage",
+    "schema_path": "",
+    "description": "name of platform on which data package was collected, specifically for EMODNet Physics",
+    "example": "R/V Akademik Tryoshnikov",
+    "type": "string"
+  },
+  "x_spi_type": {
+    "required": true,
+    "schema": "datapackage",
+    "schema_path": "",
+    "description": "type of platform on which data package was collected, specifically for EMODNet Physics",
+    "example": "ferrybox/ship",
+    "type": "string"
+  },
+  "x_spi_citation": {
+    "required": true,
+    "schema": "datapackage",
+    "schema_path": "",
+    "description": "full citation of dataset (usually taken as a copy from Zenodo), specifically for EMODNet Physics",
+    "example": "Benavent, N., Garcia-Nieto, D., Cuevas, C.A. and Saiz-Lopez, A. (2020). Iodine monoxide (IO) measurements made using a MAX-DOAS (Multi-Axis Differential Optical Absorption Spectroscopy) instrument in the austral summer of 2016/17 during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3843376",
+    "type": "string"
+  },
+  "x_spi_cf_standard_name": {
+    "required": false,
+    "schema": "tableschema",
+    "schema_path": "fields",
+    "description": "equivalent CF standard variable name, specifically for EMODNet Physics",
+    "example": "longitude",
+    "type": "string"
+  },
+  "x_spi_cf_unit": {
+    "required": false,
+    "schema": "tableschema",
+    "schema_path": "fields",
+    "description": "corresponding CF standard variable unit, specifically for EMODNet Physics",
+    "example": "degree_east",
+    "type": "string"
+  },
+  "x_spi_cf_attribute": {
+    "required": false,
+    "schema": "tableschema",
+    "schema_path": "fields",
+    "description": "description of variable in relation to corresponding CF standard variable, specifically for EMODNet Physics",
+    "example": "Longitude at which trace metal rosette deployment began",
+    "type": "string"
+  },
+  "x_spi_additional_organisation": {
+    "required": false,
+    "schema": "datapackage",
+    "schema_path": "contributors",
+    "description": "organisation represented by the contributor, in addition to the one listed in the organisation field",
+    "example": "Swiss Polar Institute, Switzerland",
+    "type": "string"
+  },
+  "x_spi_additional_organisations": {
+    "required": false,
+    "schema": "datapackage",
+    "schema_path": "contributors",
+    "description": "array of organisations represented by the contributor, in addition to the one listed in the organisation field",
+    "example": [
+      "Swiss Polar Institute, Switzerland",
+      "University of Bern, Switzerland"
+    ],
+    "type": "array of strings"
+  },
+  "x_spi_additional_email": {
+    "required": false,
+    "schema": "datapackage",
+    "schema_path": "contributors",
+    "description": "contact email address of a contributor, in addition to the one listed in the email field",
+    "example": "email@test.com",
+    "type": "string"
+  },
+  "x_spi_additional_emails": {
+    "required": false,
+    "schema": "datapackage",
+    "schema_path": "contributors",
+    "description": "array of contact email addresses of a contributor, in addition to the one listed in the email field",
+    "example": [
+      "email@example.com",
+      "email2@example.com"
+    ],
+    "type": "array of strings"
+  }
+}
