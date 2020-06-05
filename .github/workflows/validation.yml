@@ -19,3 +19,13 @@ jobs:
         pip3 install -r requirements.txt
     - name: Validation
       run: python3 ./validate_packages_and_resources.py
+    - name: Generate index
+      run: python3 ./tools/generate_index.py
+    - name: Commit and push new index.json
+      run: |
+        git config --global user.name "Github action"
+        git config --global user.email "carles@pina.cat"
+        git add index.json
+        git commit -m "Automatic update index.json"
+        git push
+
