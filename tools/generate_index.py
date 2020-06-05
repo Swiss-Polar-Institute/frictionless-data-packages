@@ -6,7 +6,7 @@ import os
 
 
 def generate_index():
-    result = {}
+    result = []
 
     for directory in glob.glob('10.5281_zenodo*'):
         print(directory)
@@ -14,7 +14,9 @@ def generate_index():
         datapackage = json.load(open(datapackage_path))
         version = datapackage['version']
 
-        result[directory] = {'version': version}
+        result.append({'directory': directory,
+                       'version': version
+                       })
 
     json.dump(result, open('index.json', 'w'), sort_keys=True, indent=2)
 
