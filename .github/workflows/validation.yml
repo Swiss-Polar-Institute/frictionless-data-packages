@@ -26,6 +26,5 @@ jobs:
         git config --global user.name "Github action"
         git config --global user.email "carles@pina.cat"
         git add index.json
-        git commit -m "Automatic update index.json"
-        git push
+        git commit -m 'test' && git push || true
 
