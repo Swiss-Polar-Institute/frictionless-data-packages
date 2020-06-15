@@ -1,0 +1,46 @@
+{
+  "platform code": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "x_spi_platform_code"
+    }
+  },
+  "platform name": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "x_spi_platform_name"
+    }
+  },
+  "type": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "x_spi_type"
+    }
+  },
+  "info": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "title"
+    }
+  },
+  "doi": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "id"
+    },
+    "link": {
+      "source": "datapackage.json",
+      "field": "id"
+    }
+  },
+  "licenses": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "name"
+    },
+    "link": {
+      "source": "datapackage.json",
+      "field": "path"
+    }
+  }
+}
