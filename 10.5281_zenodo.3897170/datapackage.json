@@ -4,8 +4,47 @@
     {
       "name": "ace_fe_chemical_speciation",
       "path": "ace_fe_chemical_speciation_in_seawater.csv",
+      "title": "ACE Fe chemical speciation",
+      "description": "Data file containing Fe chemical speciation measurements from ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 17673,
+      "hash": "8c6fc392090217256d98a4a60e46efba",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+    {
+      "name": "fe_binding_ligand_data_analysis",
+      "path": "figure1.pdf",
+      "title": "Fe-binding ligand data analysis",
+      "description": "PROMCC fittings for TMR cast 8, at a depth of 125 m",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes": 247573,
+      "hash": "a19c50ba9c3f72f56a3539531f39731c"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of Fe chemical speciation dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1421,
+      "hash": "1d08b5e5e9ef0f5bfc68af7ed77e72df"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of Fe chemical speciation dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 5493,
+      "hash": "e31631956ad53c16b17968d0aaf97cc2"
     }
   ],
   "keywords": [
@@ -21,6 +60,7 @@
     "sub-Antarctic"
   ],
   "name": "ace_fe_chemical_speciation_tmr",
+  "id": "https://doi.org/10.5281/zenodo.3897170",
   "title": "Fe chemical speciation collected using trace metal rosette in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition.",
   "description": "Fe chemical speciation of filtered seawater data are presented in this dataset, resulting from samples collected from a trace metal rosette on board the Antarctic Circumnavigation Expedition (ACE). During the austral summer of 2016/2017, seawater samples were collected from the Atlantic and Indian Ocean sectors of the Southern Ocean and dissolved Fe concentration, iron-binding organic ligands concentration and the conditional stability constant of Fe’ are presented here.",
   "homepage": "https://doi.org/10.5281/zenodo.3897170",
@@ -28,6 +68,32 @@
   "contributors": [
     {
       "title": "Christel Hassler",
+      "path": "https://orcid.org/",
+      "email": "christel.hassler@epfl.ch",
+      "organisation": "Swiss Polar Institute, Switzerland",
+      "role": "author"
+    },
+    {
+      "title": "Damien Cabanes",
+      "organisation": "TODO",
+      "role": "author"
+    },
+    {
+      "title": "Michael Ellwood",
+      "path": "https://orcid.org/0000-0003-4288-8530",
+      "organisation": "Australian National University, Australia",
+      "role": "author"
+    },
+    {
+      "title": "Tim Conway",
+      "path": "https://orcid.org/0000-0002-3069-9786",
+      "organisation": "College of Marine Science, University of South Florida, FL, USA; School of Geosciences, University of South Florida, FL, USA",
+      "role": "author"
+    },
+    {
+      "title": "Matthias Sieber",
+      "path": "https://orcid.org/",
+      "organisation": "Institute of Geochemistry and Petrology, ETH Zurich, Switzerland; College of Marine Science, University of South Florida, FL, USA",
       "role": "author"
     }
   ],
@@ -37,5 +103,9 @@
       "title": "Creative Commons Attribution 4.0",
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
-  ]
+  ],
+  "x_spi_platform_code": "UBXH3",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Hassler, C., Cabanes, D., Ellwood, M., Conway, T. and Sieber, M. (2020). Fe chemical speciation collected using trace metal rosette in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition. (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3897170"
 }
