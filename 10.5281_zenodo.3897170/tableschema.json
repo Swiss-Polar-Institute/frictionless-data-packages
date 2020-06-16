@@ -114,5 +114,6 @@
       "unit": "mol-1",
       "x_spi_netcdf_name": "error_log_conditional_stability_constant_inorganic_iron_binding_ligands"
     }
-  ]
+  ],
+  "missingValues": ["NaN"]
 }
