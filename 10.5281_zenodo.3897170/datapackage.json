@@ -1,0 +1,41 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_fe_chemical_speciation",
+      "path": "ace_fe_chemical_speciation_in_seawater.csv",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    }
+  ],
+  "keywords": [
+    "trace metal rosette",
+    "Fe",
+    "iron",
+    "Fe chemical speciation",
+    "trace metal",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE",
+    "CLE-AdCSV",
+    "sub-Antarctic"
+  ],
+  "name": "ace_fe_chemical_speciation_tmr",
+  "title": "Fe chemical speciation collected using trace metal rosette in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition.",
+  "description": "Fe chemical speciation of filtered seawater data are presented in this dataset, resulting from samples collected from a trace metal rosette on board the Antarctic Circumnavigation Expedition (ACE). During the austral summer of 2016/2017, seawater samples were collected from the Atlantic and Indian Ocean sectors of the Southern Ocean and dissolved Fe concentration, iron-binding organic ligands concentration and the conditional stability constant of Fe’ are presented here.",
+  "homepage": "https://doi.org/10.5281/zenodo.3897170",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Christel Hassler",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
