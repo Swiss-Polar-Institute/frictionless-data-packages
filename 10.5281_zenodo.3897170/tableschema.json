@@ -19,7 +19,7 @@
     {
       "name": "date_time[UTC]",
       "type": "datetime",
-      "format": "default",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "Date time (UTC)",
       "description": "Date and time at which the trace metal rosette deployment began in ISO_8601 format yyyy-mm-ddThh:mi:ss+00:00 [UTC]",
       "unit": "UTC",
