@@ -9,7 +9,8 @@
       "unit": "",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": ""
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
     }
   ],
   "missingValues": ["NaN"]
