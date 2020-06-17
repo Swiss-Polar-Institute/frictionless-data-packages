@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_fe_chemical_speciation",
-      "path": "ace_fe_chemical_speciation_in_seawater.csv",
+      "path": "https://zenodo.org/record/3897170/files/ace_fe_chemical_speciation_in_seawater.csv?download=1",
       "title": "ACE Fe chemical speciation",
       "description": "Data file containing Fe chemical speciation measurements from ACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "fe_binding_ligand_data_analysis",
-      "path": "figure1.pdf",
+      "path": "https://zenodo.org/record/3897170/files/figure1.pdf?download=1",
       "title": "Fe-binding ligand data analysis",
       "description": "PROMCC fittings for TMR cast 8, at a depth of 125 m",
       "format": "pdf",
@@ -26,7 +26,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3897170/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of Fe chemical speciation dataset",
       "format": "txt",
@@ -37,7 +37,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3897170/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of Fe chemical speciation dataset",
       "format": "txt",
