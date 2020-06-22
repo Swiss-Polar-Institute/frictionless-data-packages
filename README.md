@@ -50,3 +50,15 @@ tableschema validate tableschema.json
 goodtables validate datapackage
 tableschema validate tableschema
 ```
+# Use of DOIs within repository
+
+Each directory within the repository is named using the *parent DOI* of the dataset. Currently (as of June 2020) we are only dealing with datasets here that are published on [Zenodo](https://zenodo.org/communities/spi-ace?page=1&size=200). Within Zenodo, each dataset has a *parent DOI* which will always resolve to the latest version of a dataset. 
+
+For example: [10.5281/zenodo.3367283](https://doi.org/10.5281/zenodo.3367283) is the *parent DOI* of this dataset, which as of June 2020 has two different versions: [1.0](https://doi.org/10.5281/zenodo.3367284) and [1.1](https://doi.org/10.5281/zenodo.3895704).
+
+Within the Frictionless Data Package schema, the *specific version DOIs* are used to avoid confusion in the following fields: 
+- ```id```, eg. ```"id": "https://doi.org/10.5281/zenodo.3250980"```
+- ```homepage```, eg. ```"homepage": "https://doi.org/10.5281/zenodo.3250980"```
+- within the ```citation```, eg. ```"x_spi_citation": "Rickli, Jörg, Janssen, David J., Hassler, Christel, Ellwood, Michael, & Jaccard, Samuel L. (2019). Seawater chromium concentrations and isotope compositions in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3250980"```
+
+The index.json file can be consulted for the latest version of each dataset where they are listed with the *parent DOI* and latest version number. 
