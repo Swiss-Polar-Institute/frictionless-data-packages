@@ -61,4 +61,4 @@ Within the Frictionless Data Package schema, the *specific version DOIs* are use
 - ```homepage```, eg. ```"homepage": "https://doi.org/10.5281/zenodo.3250980"```
 - within the ```citation```, eg. ```"x_spi_citation": "Rickli, Jörg, Janssen, David J., Hassler, Christel, Ellwood, Michael, & Jaccard, Samuel L. (2019). Seawater chromium concentrations and isotope compositions in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3250980"```
 
-The index.json file can be consulted for the latest version of each dataset where they are listed with the *parent DOI* and latest version number. 
+The ```index.json``` file can be consulted for the latest version of each dataset where they are listed with the *parent DOI* and latest version number. 
