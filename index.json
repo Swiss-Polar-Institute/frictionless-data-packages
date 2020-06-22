@@ -1,5 +1,9 @@
 [
   {
+    "directory": "10.5281_zenodo.3843376",
+    "version": "1.0"
+  },
+  {
     "directory": "10.5281_zenodo.3897170",
     "version": "1.0"
   },
@@ -9,10 +13,6 @@
   },
   {
     "directory": "10.5281_zenodo.3250980",
-    "version": "1.0"
-  },
-  {
-    "directory": "10.5281_zenodo.3843376",
     "version": "1.0"
   }
 ]
