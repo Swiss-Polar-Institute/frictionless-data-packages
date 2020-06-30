@@ -4,8 +4,8 @@
     {
       "name": "acespace_particulate_matter_pm10_ionic_composition",
       "path": "ACESPACE_particulate_matter_pm10_ionic_composition.csv",
-      "title": "",
-      "description": "",
+      "title": "ACESPACE particulate matter PM10 ionic composition",
+      "description": "PM10 ionic composition of high-volume measurements of particulate matter during ACE-SPACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -13,26 +13,106 @@
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of high-volume ionic composition of high-volume measurements of particulate matter dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of high-volume ionic composition of high-volume measurements of particulate matter dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
     }
   ],
   "keywords": [
+    "aerosol",
+    "PM10",
+    "ionic composition",
+    "major ions",
+    "filter sampling",
+    "Southern Ocean",
     "Antarctica",
     "Antarctic Circumnavigation Expedition",
+    "ACE-SPACE",
     "ACE"
   ],
   "name": "acespace_particulate_matter_pm10_ionic_composition",
-  "id": "",
+  "id": "https://doi.org/10.5281/zenodo.3922147",
   "title": "Ionic composition of particulate matter (PM10) from high-volume sampling over the Southern Ocean during the austral summer of 2016/2017 on board the Antarctic Circumnavigation Expedition (ACE).",
   "description": "Aerosol particles originate from a variety of sources (Tomasi and Lupi, 2017). Information on particle chemical composition can be utilized to access particle origin. During the Antarctic Circumnavigation Expedition (ACE) cruise around the Southern Ocean, off-line filter sampling of ambient air was performed. Filters were stored on the ship (at -20 degrees C) and after the cruise concluded analysed at Leibniz-Institute for Tropospheric Research (TROPOS) concerning ionic composition of sampled material. Here, we give mass concentrations for inorganic ions (chloride, sodium, potassium, magnesium, calcium, ammonium, nitrate, sulphate, and bromide), organic constituents (methane-sulfonic acid and oxalate), and total filter load of particles with a mobility diameter smaller 10 micrometers (PM10) for each 24 hour-sampled filter.",
   "homepage": "https://doi.org/10.5281/zenodo.3922147",
   "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Christian Tatzelt",
+      "path": "https://orcid.org/0000-0001-7795-5372",
+      "email": "christian.tatzelt@tropos.de",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research (TROPOS), Germany"
+    },
+    {
+      "title": "Silvia Henning",
+      "path": "https://orcid.org/0000-0001-9267-7825",
+      "email": "silvia.henning@tropos.de",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research (TROPOS), Germany"
+    },
+    {
+      "title": "Fiona Tummon",
+      "role": "author",
+      "organisation": "ETH Zürich, Switzerland",
+      "x_spi_additional_organisation": "MeteoSwiss, Payerne, Switzerland"
+    },
+    {
+      "title": "Hartmann, Markus",
+      "path": "https://orcid.org/0000-0001-9700-1701",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research (TROPOS), Germany"
+    },
+    {
+      "title": "Andrea Baccarini",
+      "path": "https://orcid.org/0000-0003-4614-247X",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "André Welti",
+      "path": "https://orcid.org/0000-0002-3549-1212",
+      "role": "author",
+      "organisation": "Finnish Meteorological Institute, Helsinki, Finland"
+    },
+    {
+      "title": "Katrianne Lehtipalo",
+      "path": "https://orcid.org/0000-0002-1660-2706",
+      "role": "author",
+      "organisation": "University of Helsinki, Finland"
+    },
+    {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "role": "author",
+      "organisation": "EPFL, Lausanne, Switzerland",
+      "x_spi_additional_organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "Manuela Van Pinxteren",
+      "path": "https://orcid.org/0000-0002-8746-8620",
+      "email": "manuela.vanpinxteren@tropos.de",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research (TROPOS), Germany"
     }
   ],
   "licenses": [
