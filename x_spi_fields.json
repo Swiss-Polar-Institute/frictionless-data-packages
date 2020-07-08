@@ -11,7 +11,7 @@
     "required": true,
     "schema": "datapackage",
     "schema_path": "",
-    "description": "used a primary key by EMODNet Physics. Standard format for SPI datasets: seadatanetplatformID_expeditioncode_primaryDOIsuffix",
+    "description": "used a primary key by EMODNet Physics. Standard format for SPI datasets: seadatanetplatformID_expeditioncode_parentDOIsuffix",
     "example": "UBXH3_ACE_3897169",
     "type": "string"
   },
