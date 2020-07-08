@@ -11,8 +11,8 @@
     "required": true,
     "schema": "datapackage",
     "schema_path": "",
-    "description": "code of platform on which data package was collected, specifically for EMODNet Physics",
-    "example": "UBXH3",
+    "description": "used a primary key by EMODNet Physics. Standard format for SPI datasets: seadatanetplatformID_expeditioncode_parentDOIsuffix",
+    "example": "UBXH3_ACE_3897169",
     "type": "string"
   },
   "x_spi_platform_name": {
