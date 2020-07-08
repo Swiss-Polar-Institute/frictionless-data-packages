@@ -11,6 +11,16 @@
       "field": "x_spi_platform_name"
     }
   },
+  "assembly center": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "x_spi_assembly_center"
+    },
+    "link": {
+      "source": "datapackage.json",
+      "field": "x_spi_assembly_center_link"
+    }
+  },
   "type": {
     "text": {
       "source": "datapackage.json",
@@ -41,6 +51,12 @@
     "link": {
       "source": "datapackage.json",
       "field": "path"
+    }
+  },
+  "citation": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "x_spi_citation"
     }
   }
 }

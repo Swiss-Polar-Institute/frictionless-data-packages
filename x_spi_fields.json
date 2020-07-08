@@ -100,5 +100,19 @@
       "email2@example.com"
     ],
     "type": "array of strings"
+  },
+  "x_spi_assembly_center": {
+    "required": true,
+    "schema": "datapackage",
+    "schema_path": "",
+    "description": "name of institute bringing together the datasets",
+    "example": "Swiss Polar Institute"
+  },
+  "x_spi_assembly_center_link": {
+    "required": true,
+    "schema": "datapackage",
+    "schema_path": "",
+    "description": "link to institute bringing together the datasets",
+    "example": "https://swisspolar.ch"
   }
 }
