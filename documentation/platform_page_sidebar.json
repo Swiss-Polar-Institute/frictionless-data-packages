@@ -14,6 +14,12 @@
   "type": {
     "text": {
       "source": "datapackage.json",
+      "field": "x_spi_assembly_center"
+    }
+  },
+  "type": {
+    "text": {
+      "source": "datapackage.json",
       "field": "x_spi_type"
     }
   },
@@ -41,6 +47,12 @@
     "link": {
       "source": "datapackage.json",
       "field": "path"
+    }
+  },
+  "citation": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "x_spi_citation"
     }
   }
 }
