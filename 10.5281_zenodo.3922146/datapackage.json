@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "acespace_particulate_matter_pm10_ionic_composition_highvolume",
-      "path": "ACESPACE_particulate_matter_pm10_ionic_composition_highvolume.csv",
+      "path": "https://zenodo.org/record/3922147/files/ACESPACE_particulate_matter_pm10_ionic_composition_highvolume.csv?download=1",
       "title": "ACE-SPACE particulate matter PM10 ionic composition high-volume",
       "description": "PM10 ionic composition of high-volume measurements of particulate matter during ACE-SPACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3922147/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of high-volume ionic composition of high-volume measurements of particulate matter dataset",
       "format": "txt",
@@ -27,7 +27,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3922147/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of high-volume ionic composition of high-volume measurements of particulate matter dataset",
       "format": "txt",
