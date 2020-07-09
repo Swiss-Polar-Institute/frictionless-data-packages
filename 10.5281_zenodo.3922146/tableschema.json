@@ -17,9 +17,9 @@
       "description": "Latitude of the vessel’s geographical position at the start of sampling of respective filter [degrees North]",
       "unit": "degree_north",
       "x_spi_cf_standard_name": "latitude",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of the vessel’s geographical position at the start of sampling of respective filter",
+      "x_spi_netcdf_name": "start_latitude"
     },
     {
       "name": "start_longitude(degE)",
@@ -28,10 +28,10 @@
       "title": "Start longitude (degree east)",
       "description": "Longitude of the vessel’s geographical position at the start of sampling of respective filter [degrees East]",
       "unit": "degree_east",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of the vessel’s geographical position at the start of sampling of respective filter",
+      "x_spi_netcdf_name": "start_longitude"
     },
     {
       "name": "end_datetime(UTC)",
@@ -40,10 +40,7 @@
       "title": "End date time (UTC)",
       "description": "Date and time at the end of sampling of respective filter [UTC]",
       "unit": "UTC",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "end_datetime"
     },
     {
       "name": "end_latitude(degN)",
@@ -52,10 +49,10 @@
       "title": "End latitude (degree north)",
       "description": "Latitude of the vessel’s geographical position at the end of sampling of respective filter [degrees North]",
       "unit": "degree_north",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of the vessel’s geographical position at the end of sampling of respective filter",
+      "x_spi_netcdf_name": "end_latitude"
     },
     {
       "name": "end_longitude(degE)",
@@ -64,10 +61,10 @@
       "title": "End longitude (degree east)",
       "description": "Longitude of the vessel’s geographical position at the end of sampling of respective filter [degrees East]",
       "unit": "degree_east",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of the vessel’s geographical position at the end of sampling of respective filter",
+      "x_spi_netcdf_name": "end_longitude"
     },
     {
       "name": "volume_of_sampled_air(m^3)",
@@ -96,8 +93,6 @@
       "title": "Mass concentration of PM10 chloride dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of chloride in sampled PM10 particles on respective filter. Chloride filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_chloride_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_chloride_dry_aerosol_particles_in_air"
     },
     {
@@ -107,8 +102,6 @@
       "title": "Mass concentration of PM10 nitrate dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of nitrate in sampled PM10 particles on respective filter. Nitrate filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_nitrate_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_nitrate_dry_aerosol_particles_in_air"
     },
     {
@@ -118,8 +111,6 @@
       "title": "Mass concentration of PM10 sulfate dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of sulfate in sampled PM10 particles on respective filter. Sulfate filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_sulfate_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_sulfate_dry_aerosol_particles_in_air"
     },
     {
@@ -129,8 +120,6 @@
       "title": "Mass concentration of PM10 oxalate dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of oxalate in sampled PM10 particles on respective filter. Oxalate filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_oxalate_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_oxalate_dry_aerosol_particles_in_air"
     },
     {
@@ -140,8 +129,6 @@
       "title": "Mass concentration of PM10 bromide dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of bromide in sampled PM10 particles on respective filter. Bromide filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_bromide_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_bromide_dry_aerosol_particles_in_air"
     },
     {
@@ -151,8 +138,6 @@
       "title": "Mass concentration of PM10 methanesulfonic acid dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of methanesulfonic acid in sampled PM10 particles on respective filter. Methanesulfonic acid filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_methanesulfonic_acid_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_methanesulfonic_acid_dry_aerosol_particles_in_air"
     },
     {
@@ -162,8 +147,6 @@
       "title": "Mass concentration of PM10 sodium dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of sodium in sampled PM10 particles on respective filter. Sodium filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_sodium_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_sodium_dry_aerosol_particles_in_air"
     },
     {
@@ -173,8 +156,6 @@
       "title": "Mass concentration of PM10 ammonium dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of ammonium in sampled PM10 particles on respective filter. Ammonium filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_ammonium_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_ammonium_dry_aerosol_particles_in_air"
     },
     {
@@ -184,8 +165,6 @@
       "title": "Mass concentration of PM10 potassium dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of potassium in sampled PM10 particles on respective filter. Potassium filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_potassium_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_potassium_dry_aerosol_particles_in_air"
     },
     {
@@ -195,8 +174,6 @@
       "title": "Mass concentration of PM10 magnesium dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of magnesium in sampled PM10 particles on respective filter. Magnesium filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_magnesium_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_magnesium_dry_aerosol_particles_in_air"
     },
     {
@@ -206,8 +183,6 @@
       "title": "Mass concentration of PM10 calcium dry aerosol particles in air (kg m-3)",
       "description": "Mass concentration of calcium in sampled PM10 particles on respective filter. Calcium filter content from ion chromatography. As reference volume, the volume of air sampled through the filter was used [kilograms per cubic meter]",
       "unit": "kg m-3",
-      "x_spi_cf_standard_name": "mass_concentration_of_pm10_calcium_dry_aerosol_particles_in_air",
-      "x_spi_cf_unit": "kg m-3",
       "x_spi_netcdf_name": "mass_concentration_of_pm10_calcium_dry_aerosol_particles_in_air"
     },
     {
