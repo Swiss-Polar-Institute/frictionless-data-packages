@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 115421,
-      "hash": "e9455efe1a047100f61c625dbac4c336",
+      "bytes": 115424,
+      "hash": "bafba7015b94133003b5721d9b9827ff",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -75,8 +75,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 572,
-      "hash": "cc7af9d0b7efbc30edbbb63f33bdded7"
+      "bytes": 580,
+      "hash": "e6d729d9650e65d793aa8e0c18f949e8"
     },
     {
       "name": "readme",
