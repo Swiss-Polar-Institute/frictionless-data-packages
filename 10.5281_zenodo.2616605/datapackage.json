@@ -1,0 +1,152 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_seawater_nutrient_data",
+      "path": "https://zenodo.org/record/3923586/files/ace_seawater_nutrient_data.csv?download=1",
+      "title": "ACE seawater nutrient concentration data",
+      "description": "Data file containing nutrient concentrations from CTD, trace metal rosette and underway seawater samples from ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 115424,
+      "hash": "bafba7015b94133003b5721d9b9827ff",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "ace_seawater_nutrients_comparison_plots_tmr_ctd",
+      "path": "https://zenodo.org/record/3923586/files/ace_seawater_nutrients_comparison_plots_tmr_ctd.pdf?download=1",
+      "title": "ACE seawater nutrient comparison plots",
+      "description": "ACE seawater nutrient comparison plots between TMR and CTD sample data",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes": 334991,
+      "hash": "16ecf2fbc468a100ec2d1a87c0a2ff2c"
+    },
+    {
+      "name": "change_log",
+      "path": "https://zenodo.org/record/3923586/files/change_log.txt?download=1",
+      "title": "Change log",
+      "description": "Details of changes made in different versions of the dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 640,
+      "hash": "c515bd236bdb996fcbfb9035d10c97ed"
+    },
+    {
+      "name": "data_analysis_nutrient_concentration_standards",
+      "path": "https://zenodo.org/record/3923586/files/data_analysis_nutrient_concentration_standards.csv?download=1",
+      "title": "Data analysis nutrient concentration standards",
+      "description": "Details of data analysis nutrient concentration standards",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 425,
+      "hash": "8cdf827e145eec159d8f89da767d3106"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/3923586/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of seawater nutrient concentration dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3017,
+      "hash": "868aa502b396c36a8d41730494225fc0"
+    },
+    {
+      "name": "nutrient_concentrations_from_ctd_along_track_visualisation",
+      "path": "https://zenodo.org/record/3923586/files/nutrient_concentrations_from_CTD_along_track_visualisation.png?download=1",
+      "title": "Nutrient concentration from CTD samples along track visualisation",
+      "description": "Visualisation of nutrient concentrations in seawater samples from CTD rosette deployments along ACE cruise track",
+      "format": "png",
+      "mediatype": "image/png",
+      "bytes": 372681,
+      "hash": "f517693b3df611bdd6cad7e2fc0a67c5"
+    },
+    {
+      "name": "quality_checking_crm_analysis_results",
+      "path": "https://zenodo.org/record/3923586/files/quality_checking_crm_analysis_results.csv?download=1",
+      "title": "Quality checking CRM analysis results",
+      "description": "Details of CRM quality checking analysis results",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 580,
+      "hash": "e6d729d9650e65d793aa8e0c18f949e8"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/3923586/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of seawater nutrient concentration dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 6728,
+      "hash": "b1e93e40b86b55f90af308634298308a"
+    }
+  ],
+  "keywords": [
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE",
+    "nutrient",
+    "oceanography",
+    "chemistry",
+    "nitrate",
+    "nitrite",
+    "silicic acid",
+    "silicate",
+    "ammonium",
+    "nitrous oxide",
+    "phosphate",
+    "flow injection",
+    "CTD",
+    "TMR",
+    "trace metal rosette",
+    "underway",
+    "trace metal",
+    "QuAAtro Seal Analytical autoanalyser",
+    "seawater",
+    "colorimetric technique",
+    "Southern Ocean"
+  ],
+  "name": "ace_seawater_nutrient_ctd_tmr_underway",
+  "id": "https://doi.org/10.5281/zenodo.3923586",
+  "title": "Nutrient concentration in seawater samples, collected from the underway supply, CTD and trace metal rosettes in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "This dataset presents concentrations of nutrients (µmol/L): nitrous oxide (NOx), nitrate, nitrite, ammonium (NH4), phosphate (PO4) and silicic acid (Si), measured in samples of seawater during the Antarctic Circumnavigation Expedition (ACE). Samples were collected from CTD and trace metal rosette (TMR) deployments, as well as from the underway water supply on board, then analysed by flow injection following certified standards. This data was collected to support physical, chemical and biological oceanography studies in the Southern Ocean, conducted as part of ACE during the austral summer of 2016/2017.",
+  "homepage": "https://doi.org/10.5281/zenodo.3923586",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Christel Hassler",
+      "path": "https://orcid.org/0000-0002-8976-5469",
+      "email": "christel.hassler@epfl.ch",
+      "role": "author",
+      "organisation": "University of Geneva, Department of F.-A. Forel for Environmental and Aquatic Sciences, Switzerland"
+    },
+    {
+      "title": "Michael Ellwood",
+      "path": "https://orcid.org/0000-0003-4288-8530",
+      "role": "author",
+      "organisation": "Australian National University"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Hassler, C. and Ellwood, M. (2020). Nutrient concentration in seawater samples, collected from the underway supply, CTD and trace metal rosettes in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition (ACE). (Version 1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3923586"
+}

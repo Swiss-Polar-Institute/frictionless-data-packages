@@ -60,6 +60,9 @@ def extra_validation_table(package, table, errors):
     spi_mandatory_attributes = ['x_spi_netcdf_name']
     spi_attributes = spi_mandatory_attributes + ['x_spi_cf_standard_name', 'x_spi_cf_unit', 'x_spi_cf_attribute']
 
+    if table.schema is None:
+        return
+
     for field in table.schema.fields:
         for attribute_name in field.descriptor:
             if attribute_name.startswith('x_spi_') and attribute_name not in spi_attributes:
