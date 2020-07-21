@@ -6,11 +6,7 @@
       "format": "default",
       "title": "ACE station number",
       "description": "Unique number of oceanographic sampling station at which water samples were collected",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "ace_station_number"
     },
     {
       "name": "ACE event number",
@@ -18,11 +14,7 @@
       "format": "default",
       "title": "ACE event number",
       "description": "Unique number of sampling event within ACE from which water samples were collected",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "ace_event_number"
     },
     {
       "name": "date time of sampling utc",
@@ -30,11 +22,7 @@
       "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "Date time of sampling",
       "description": "Date and time at which the instrument deployment from which the samples were taken, began. For instance for a sample from the CTD rosette, this is the time at which the CTD deployment began [UTC]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "date_time_sampling"
     },
     {
       "name": "latitude decimal degrees N",
@@ -42,11 +30,11 @@
       "format": "default",
       "title": "Latitude",
       "description": "Latitude at which the sampling event took place [decimal degrees north]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of the vessel’s geographical position at the time of sampling event",
+      "x_spi_netcdf_name": "latitude"
     },
     {
       "name": "longitude decimal degrees E",
@@ -54,11 +42,11 @@
       "format": "default",
       "title": "Longitude",
       "description": "Longitude at which the sampling event took place [decimal degrees east]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of the vessel’s geographical position at the time of sampling event",
+      "x_spi_netcdf_name": "longitude"
     },
     {
       "name": "sampling method",
@@ -66,11 +54,7 @@
       "format": "default",
       "title": "Sampling method",
       "description": "Instrument from which the samples were taken or collected. ctd – water taken from the niskin bottles on the conductivity, temperature, depth (CTD) recorder rosette. trace metal rosette – water taken from the niskin bottles on the trace metal rosette. Underway – water taken from the continuously flowing water line from an intake approximately 5 m below the surface of the water. MilliQ – water taken system that produces MilliQ water.",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "sampling_method"
     },
     {
       "name": "depth of sample m",
@@ -78,11 +62,11 @@
       "format": "default",
       "title": "Depth of sample",
       "description": "Depth of water from where the sample was collected [metres]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "depth",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Depth below sea surface at which the seawater sample was collected",
+      "x_spi_netcdf_name": "depth"
     },
     {
       "name": "ACE sample number",
@@ -90,11 +74,7 @@
       "format": "default",
       "title": "ACE sample number",
       "description": "Unique sample number for the sample within the ACE expedition. In format shipname/ACE/legnumber/projectnumber/julianday(UTC]/eventnumber/PIinitials/projectsamplenumber",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "ace_sample_number"
     },
     {
       "name": "tube sample number",
@@ -114,11 +94,7 @@
       "format": "%Y-%m-%d",
       "title": "Measuring date",
       "description": "Date when analysis was performed on sample [UTC]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "measuring_date"
     },
     {
       "name": "nitrous oxide µmol/L",
@@ -126,11 +102,8 @@
       "format": "default",
       "title": "Concentration of nitrous oxide",
       "description": "Concentration of nitrous oxide NOx [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "concentration_of_nitrous_oxide"
     },
     {
       "name": "standard deviation nitrous oxide µmol/L",
@@ -138,11 +111,8 @@
       "format": "default",
       "title": "Standard deviation of concentration of nitrous oxide",
       "description": "Standard deviation of measurements of concentration of nitrous oxide NOx [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "standard_deviation_of_concentration_of_nitrous_oxide"
     },
     {
       "name": "phosphate µmol/L",
@@ -150,11 +120,8 @@
       "format": "default",
       "title": "Concentration of phosphate",
       "description": "Concentration of phosphate PO4 [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "concentration_of_phosphate"
     },
     {
       "name": "standard deviation phosphate µmol/L",
@@ -162,11 +129,8 @@
       "format": "default",
       "title": "Standard deviation of concentration of phosphate",
       "description": "Standard deviation of concentration of phosphate PO4 [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "standard_deviation_of_concentration_of_phosphate"
     },
     {
       "name": "nitrite µmol/L",
@@ -174,11 +138,8 @@
       "format": "default",
       "title": "Concentration of nitrite",
       "description": "Concentration of nitrite [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "concentration_of_nitrite"
     },
     {
       "name": "standard deviation nitrite µmol/L",
@@ -186,11 +147,8 @@
       "format": "default",
       "title": "Standard deviation of concentration of nitrite",
       "description": "Standard deviation of concentration of nitrite [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "standard_deviation_of_concentration_of_nitrite"
     },
     {
       "name": "silicic acid µmol/L",
@@ -198,11 +156,8 @@
       "format": "default",
       "title": "Concentration of silicic acid",
       "description": "Concentration of silicic acid Si [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "concentration_of_silicic_acid"
     },
     {
       "name": "standard deviation silicic acid µmol/L",
@@ -210,11 +165,8 @@
       "format": "default",
       "title": "Standard deviation of concentration of silicic acid",
       "description": "Standard deviation of concentration of silicate [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "standard_deviation_of_concentration_of_silicic_acid"
     },
     {
       "name": "ammonium µmol/L",
@@ -222,11 +174,8 @@
       "format": "default",
       "title": "Concentration of ammonium",
       "description": "Concentration of ammonium NH4 [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "concentration_of_ammonium"
     },
     {
       "name": "standard deviation ammonium µmol/L",
@@ -234,11 +183,8 @@
       "format": "default",
       "title": "Standard deviation of concentration of ammonium",
       "description": "Standard deviation of concentration of ammonium NH4 [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "standard_deviation_of_concentration_of_ammonium"
     },
     {
       "name": "nitrate µmol/L",
@@ -246,11 +192,8 @@
       "format": "default",
       "title": "Concentration of nitrate",
       "description": "Concentration of nitrate [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "concentration_of_nitrate"
     },
     {
       "name": "standard deviation nitrate µmol/L",
@@ -258,11 +201,8 @@
       "format": "default",
       "title": "Standard deviation of concentration of nitrate",
       "description": "Standard deviation of concentration of nitrate [µmol per litre]",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "umol L-1",
+      "x_spi_netcdf_name": "standard_deviation_of_concentration_of_nitrate"
     },
     {
       "name": "comments",
@@ -270,11 +210,7 @@
       "format": "default",
       "title": "Comments",
       "description": "Additional information to help understanding of data",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "x_spi_netcdf_name": "comments"
     }
   ],
   "missingValues": [
