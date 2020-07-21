@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_seawater_nutrient_data",
-      "path": "ace_seawater_nutrient_data.csv",
+      "path": "https://zenodo.org/record/3923586/files/ace_seawater_nutrient_data.csv?download=1",
       "title": "ACE seawater nutrient concentration data",
       "description": "Data file containing nutrient concentrations from CTD, trace metal rosette and underway seawater samples from ACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "ace_seawater_nutrients_comparison_plots_tmr_ctd",
-      "path": "ace_seawater_nutrients_comparison_plots_tmr_ctd.pdf",
+      "path": "https://zenodo.org/record/3923586/files/ace_seawater_nutrients_comparison_plots_tmr_ctd.pdf?download=1",
       "title": "ACE seawater nutrient comparison plots",
       "description": "ACE seawater nutrient comparison plots between TMR and CTD sample data",
       "format": "pdf",
@@ -26,7 +26,7 @@
     },
     {
       "name": "change_log",
-      "path": "change_log.txt",
+      "path": "https://zenodo.org/record/3923586/files/change_log.txt?download=1",
       "title": "Change log",
       "description": "Details of changes made in different versions of the dataset",
       "format": "txt",
@@ -37,7 +37,7 @@
     },
     {
       "name": "data_analysis_nutrient_concentration_standards",
-      "path": "data_analysis_nutrient_concentration_standards.csv",
+      "path": "https://zenodo.org/record/3923586/files/data_analysis_nutrient_concentration_standards.csv?download=1",
       "title": "Data analysis nutrient concentration standards",
       "description": "Details of data analysis nutrient concentration standards",
       "format": "csv",
@@ -48,7 +48,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3923586/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of seawater nutrient concentration dataset",
       "format": "txt",
@@ -59,7 +59,7 @@
     },
     {
       "name": "nutrient_concentrations_from_CTD_along_track_visualisation",
-      "path": "nutrient_concentrations_from_CTD_along_track_visualisation.png",
+      "path": "https://zenodo.org/record/3923586/files/nutrient_concentrations_from_CTD_along_track_visualisation.png?download=1",
       "title": "Nutrient concentration from CTD samples along track visualisation",
       "description": "Visualisation of nutrient concentrations in seawater samples from CTD rosette deployments along ACE cruise track",
       "format": "png",
@@ -69,7 +69,7 @@
     },
     {
       "name": "quality_checking_crm_analysis_results",
-      "path": "quality_checking_crm_analysis_results.csv",
+      "path": "https://zenodo.org/record/3923586/files/quality_checking_crm_analysis_results.csv?download=1",
       "title": "Quality checking CRM analysis results",
       "description": "Details of CRM quality checking analysis results",
       "format": "csv",
@@ -80,7 +80,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3923586/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of seawater nutrient concentration dataset",
       "format": "txt",
