@@ -1,6 +1,282 @@
 {
   "fields": [
     {
+      "name": "ACE station number",
+      "type": "integer",
+      "format": "default",
+      "title": "ACE station number",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "ACE event number",
+      "type": "integer",
+      "format": "default",
+      "title": "ACE event number",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "date time of sampling utc",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time of sampling",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "latitude decimal degrees N",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "longitude decimal degrees E",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "sampling method",
+      "type": "string",
+      "format": "default",
+      "title": "Sampling method",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "depth of sample m",
+      "type": "integer",
+      "format": "default",
+      "title": "Depth of sample",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "ACE sample number",
+      "type": "string",
+      "format": "default",
+      "title": "ACE sample number",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "tube sample number",
+      "type": "string",
+      "format": "default",
+      "title": "Tube sample number",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "measuring date utc",
+      "type": "date",
+      "format": "%Y-%m-%d",
+      "title": "Measuring date",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "nitrous oxide µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of nitrous oxide",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "standard deviation nitrous oxide µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Standard deviation of concentration of nitrous oxide",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "phosphate µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of phosphate",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "standard deviation phosphate µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Standard deviation of concentration of phosphate",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "nitrite µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of nitrite",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "standard deviation nitrite µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Standard deviation of concentration of nitrite",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "silicic acid µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of silicic acid",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "standard deviation silicic acid µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Standard deviation of concentration of silicic acid",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "ammonium µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of ammonium",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "standard deviation ammonium µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Standard deviation of concentration of ammonium",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "nitrate µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of nitrate",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "standard deviation nitrate µmol/L",
+      "type": "number",
+      "format": "default",
+      "title": "Standard deviation of concentration of nitrate",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "comments",
+      "type": "string",
+      "format": "default",
+      "title": "Comments",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
       "name": "",
       "type": "number",
       "format": "default",
@@ -13,5 +289,7 @@
       "x_spi_netcdf_name": ""
     }
   ],
-  "missingValues": ["NaN"]
+  "missingValues": [
+    "NaN"
+  ]
 }
