@@ -49,8 +49,8 @@
     {
       "name": "readme",
       "path": "README.txt",
-      "title": "",
-      "description": "",
+      "title": "README",
+      "description": "Description of the hydrolysable carbohydrate data set",
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "utf-8",
