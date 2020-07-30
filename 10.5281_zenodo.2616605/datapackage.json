@@ -147,6 +147,7 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "",
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Hassler, C. and Ellwood, M. (2020). Nutrient concentration in seawater samples, collected from the underway supply, CTD and trace metal rosettes in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition (ACE). (Version 1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3923586"
 }
