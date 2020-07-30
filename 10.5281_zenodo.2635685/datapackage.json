@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary",
-      "path": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary.png",
+      "path": "https://zenodo.org/record/3967034/files/ace_hydrolysable_carbohydrates_tpzt_data_visual_summary.png?download=1",
       "title": "ACE hydrolysable carbohydrate data visual summary",
       "description": "Visualisation of the hydrolysable carbohydrate concentration in the Southern Ocean",
       "format": "png",
@@ -13,7 +13,7 @@
     },
     {
       "name": "ace_hydrolysable_carbohydrates_tpzt_data",
-      "path": "ace_hydrolysable_carbohydrates_tpzt_data.csv",
+      "path": "https://zenodo.org/record/3967034/files/ace_hydrolysable_carbohydrates_tpzt_data.csv?download=1",
       "title": "ACE hydrolysable carbohydrate data",
       "description": "Data file containing hydrolysable carbohydrate concentration in the Southern Ocean",
       "format": "csv",
@@ -26,7 +26,7 @@
     },
     {
       "name": "change_log",
-      "path": "change_log.txt",
+      "path": "https://zenodo.org/record/3967034/files/change_log.txt?download=1",
       "title": "Change log",
       "description": "Details of changes to dataset",
       "format": "txt",
@@ -37,7 +37,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3967034/files/data_file_header.txt?download=1",
       "title": "Data file header of hrdyolysable carbohydrate data",
       "description": "Description of the data file columns of the hydrolysable carbohydrate data set",
       "format": "txt",
@@ -48,7 +48,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3967034/files/README.txt?download=1",
       "title": "README",
       "description": "Description of the hydrolysable carbohydrate data set",
       "format": "txt",

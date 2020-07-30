@@ -34,7 +34,7 @@
     },
     {
       "name": "datetime [UTC]",
-      "type": "date_time",
+      "type": "datetime",
       "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "Date time",
       "description": "date and time at which the trace metal rosette deployment started in ISO8601 format: YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
