@@ -1,0 +1,106 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_hydrolysable_carbohydrates_tpzt_data",
+      "path": "ace_hydrolysable_carbohydrates_tpzt_data.csv",
+      "title": "ACE hydrolysable carbohydrate data",
+      "description": "Data file containing hydrolysable carbohydrate concentration in the Southern Ocean",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 19721,
+      "hash": "075a4b42fb572cda07b7a25cfb0f0431",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary",
+      "path": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary.png",
+      "title": "ACE hydrolysable carbohydrate data visual summary",
+      "description": "Visualisation of the hydrolysable carbohydrate concentration in the Southern Ocean",
+      "format": "png",
+      "mediatype": "image/png",
+      "bytes": 351582,
+      "hash": "0a57fe2455013cf4540e09015fe4be4d"
+    },
+    {
+      "name": "change_log",
+      "path": "change_log.txt",
+      "title": "Change log",
+      "description": "Details of changes to dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "utf-8",
+      "bytes": 216,
+      "hash": "c4885b59aad69901a566113f6367b143"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header of hrdyolysable carbohydrate data",
+      "description": "Description of the data file columns of the hydrolysable carbohydrate data set",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding":"utf-8",
+      "bytes": 1151,
+      "hash": "18a073e347df68ea0b381a7f0d7759f2"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "",
+      "description": "",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "utf-8",
+      "bytes": 5826,
+      "hash": "7475f29835d82f715103622b9c18d0d5"
+    }
+  ],
+  "keywords": [
+    "carbohydrate",
+    "saccharide",
+    "labile dissolved organic carbon",
+    "ligand",
+    "TPZT",
+    "oceanography",
+    "trace metal rosette",
+    "chemistry",
+    "carbon",
+    "biology",
+    "Antarctica",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_hydrolysable_carbohydrates",
+  "id": "https://doi.org/10.5281/zenodo.3967034",
+  "title": "Hydrolysable carbohydrate data collected from the trace metal rosette in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition.",
+  "description": "Hydrolysable carbohydrate (referred to as TPZT from the analytical methodology used) is part of the labile pool of dissolved organic carbon that is excreted by most (micro)organisms or released by continental margins/sediments. It is a carbon source for heterotrophic bacteria. These carbohydrates could also potentially bind iron and act as an iron binding ligand. This data is used to explore the nature of iron ligands and relate to biological and chemical oceanography.",
+  "homepage": "https://doi.org/10.5281/zenodo.3967034",
+  "version": "1.1",
+  "contributors": [
+    {
+      "title": "Christel Hassler",
+      "path": "https://orcid.org/0000-0002-8976-5469",
+      "email": "christel.hassler@unige.ch",
+      "role": "author",
+      "organisation": "University of Geneva, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_2635685",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "University of Geneva, Switzerland",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Hassler, C. (2020). Hydrolysable carbohydrate data collected from the Trace Metal Rosette in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition. (Version 1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3967034"
+}
