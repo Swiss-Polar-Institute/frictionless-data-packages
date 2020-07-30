@@ -114,5 +114,12 @@
     "schema_path": "",
     "description": "link to institute bringing together the datasets",
     "example": "https://swisspolar.ch"
-  }
+  },
+    "x_spi_dataset_owner": {
+      "required": true,
+      "schema": "datapackage",
+      "schema_path": "",
+      "description": "organisation to whom the dataset belongs. Required by ERDDAP as institution field. Also displayed in EMODNet Physics",
+      "example": "Swiss Polar Institute"
+    }
 }
