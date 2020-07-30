@@ -2,6 +2,16 @@
   "profile": "data-package",
   "resources": [
     {
+      "name": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary",
+      "path": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary.png",
+      "title": "ACE hydrolysable carbohydrate data visual summary",
+      "description": "Visualisation of the hydrolysable carbohydrate concentration in the Southern Ocean",
+      "format": "png",
+      "mediatype": "image/png",
+      "bytes": 351582,
+      "hash": "0a57fe2455013cf4540e09015fe4be4d"
+    },
+    {
       "name": "ace_hydrolysable_carbohydrates_tpzt_data",
       "path": "ace_hydrolysable_carbohydrates_tpzt_data.csv",
       "title": "ACE hydrolysable carbohydrate data",
@@ -13,16 +23,6 @@
       "hash": "075a4b42fb572cda07b7a25cfb0f0431",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    },
-    {
-      "name": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary",
-      "path": "ace_hydrolysable_carbohydrates_tpzt_data_visual_summary.png",
-      "title": "ACE hydrolysable carbohydrate data visual summary",
-      "description": "Visualisation of the hydrolysable carbohydrate concentration in the Southern Ocean",
-      "format": "png",
-      "mediatype": "image/png",
-      "bytes": 351582,
-      "hash": "0a57fe2455013cf4540e09015fe4be4d"
     },
     {
       "name": "change_log",
@@ -42,9 +42,9 @@
       "description": "Description of the data file columns of the hydrolysable carbohydrate data set",
       "format": "txt",
       "mediatype": "text/plain",
-      "encoding":"utf-8",
-      "bytes": 1151,
-      "hash": "18a073e347df68ea0b381a7f0d7759f2"
+      "encoding": "utf-8",
+      "bytes": 1409,
+      "hash": "9ffcbb86858a53b75de1d0bfe923494c"
     },
     {
       "name": "readme",
