@@ -1,0 +1,93 @@
+{
+  "fields": [
+    {
+      "name": "cruise",
+      "type": "string",
+      "format": "default",
+      "title": "Cruise",
+      "description": "name of cruise from which samples were taken",
+      "x_spi_netcdf_name": "cruise"
+    },
+    {
+      "name": "station_number",
+      "type": "integer",
+      "format": "default",
+      "title": "Station number",
+      "description": "unique number of oceanographic station within ACE cruise where the trace metal rosette deployment took place, alongside other instrument deployments",
+      "x_spi_netcdf_name": "station_number"
+    },
+    {
+      "name": "event_number",
+      "type": "integer",
+      "format": "default",
+      "title": "Event number",
+      "description": "unique number of instrument deployment event within ACE from which samples were collected",
+      "x_spi_netcdf_name": "event_number"
+    },
+    {
+      "name": "TMR_cast",
+      "type": "integer",
+      "format": "default",
+      "title": "TMR cast number",
+      "description": "trace metal rosette cast number",
+      "x_spi_netcdf_name": "TMR_cast"
+    },
+    {
+      "name": "datetime [UTC]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "date and time at which the trace metal rosette deployment started in ISO8601 format: YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "datetime"
+    },
+    {
+      "name": "latitude [degN]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "latitude of research vessel at start of trace metal rosette deployment from which samples were collected [decimal degrees N]",
+      "unit": "decimal degrees N",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "latitude of research vessel at start of trace metal rosette deployment from which samples were collected",
+      "x_spi_netcdf_name": "latitude"
+    },
+    {
+      "name": "longitude [degE]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "longitude of research vessel at start of trace metal rosette deployment from which samples were collected [decimal degrees E]",
+      "unit": "decimal degrees E",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "longitude of research vessel at start of trace metal rosette deployment from which samples were collected",
+      "x_spi_netcdf_name": "longitude"
+    },
+    {
+      "name": "sample_depth [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Sample depth",
+      "description": "depth below sea surface at which samples were collected from the trace metal rosette [m]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "depth below sea surface at which samples were collected from the trace metal rosette",
+      "x_spi_netcdf_name": "sample_dept"
+    },
+    {
+      "name": "hydrolysable_carbohydrate_concentration [µmol/L]",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of hydrolysable carbohydrate",
+      "description": "average concentration of hydrolysable carbohydrates (TPZT) in carbon (average taken from three samples of seawater) [µmol/L]",
+      "unit": "µmol/L",
+      "x_spi_netcdf_name": "hydrolysable_carbohydrate_concentration"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
