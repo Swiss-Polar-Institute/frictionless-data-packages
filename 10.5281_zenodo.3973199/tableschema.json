@@ -1,28 +1,13 @@
 {
   "fields": [
     {
-      "name": "",
-      "type": "number",
-      "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
-    },
-    {
       "name": "time_ISO8601",
       "type": "datetime",
       "format": "%Y-%m-%dT%H:%M:%S%z",
-      "title": "",
+      "title": "Date time",
       "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "UTC",
+      "x_spi_netcdf_name": "time_ISO8601"
     },
     {
       "name": "TA_meas",
