@@ -104,7 +104,7 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": "Department of Atmospheric Chemistry and Climate, Institute of Physical Chemistry Rocasolano, Consejo Superior de Investigaciones Científicas, Spain",
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Benavent, N., Garcia-Nieto, D., Cuevas, C.A. and Saiz-Lopez, A. (2020). Bromine monoxide (BrO) measurements made using a MAX-DOAS (Multi-Axis Differential Optical Absorption Spectroscopy) instrument in the austral summer of 2016/17 during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3843263"
 }
