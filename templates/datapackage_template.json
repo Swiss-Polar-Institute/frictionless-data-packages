@@ -46,6 +46,7 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "",
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": ""
 }
