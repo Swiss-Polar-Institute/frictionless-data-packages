@@ -1,0 +1,115 @@
+{
+  "fields": [
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "time_ISO8601",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "TA_meas",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "SST_ecmwf",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "maskcw_12h",
+      "type": "integer",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "maskcw_6h",
+      "type": "integer",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "maskcw_all",
+      "type": "integer",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "filter_sif",
+      "type": "integer",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    },
+    {
+      "name": "filter_lsm",
+      "type": "integer",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": ""
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
