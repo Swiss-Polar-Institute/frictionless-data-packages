@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 67706,
-      "hash": "aaab3dbb902d38cc438f2fe92525b04a",
+      "bytes": 63194,
+      "hash": "18ade1caa2fd80eefb4f5ea2f0b1f431",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
