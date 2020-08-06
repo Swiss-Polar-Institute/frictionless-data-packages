@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 152107,
+      "hash": "e631b69027a9f7da4c69278b51dc0bcf",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -22,8 +22,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 1303,
+      "hash": "8d3c4d749de7b83de335d445de25458c"
     },
     {
       "name": "readme",
@@ -33,8 +33,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 4482,
+      "hash": "e5dc9ebbdb1e8f1195254f237ca005de",
       ],
       "keywords": [
         "air-sea interaction",
