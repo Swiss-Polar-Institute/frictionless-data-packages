@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "cyclone_mask_1h",
-      "path": "cyclone_mask_1h.csv",
+      "path": "https://zenodo.org/record/3974312/files/cyclone_mask_1h.csv?download=1",
       "title": "Cyclone mask data",
       "description": "Cyclone events that occurred along the ACE cruise track",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3974312/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of cyclone mask dataset",
       "format": "txt",
@@ -27,7 +27,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3974312/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of cyclone mask dataset",
       "format": "txt",
