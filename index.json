@@ -1,5 +1,25 @@
 [
   {
+    "directory": "10.5281_zenodo.3843375",
+    "version": "1.0"
+  },
+  {
+    "directory": "10.5281_zenodo.3974311",
+    "version": "1.0"
+  },
+  {
+    "directory": "10.5281_zenodo.3897169",
+    "version": "1.0"
+  },
+  {
+    "directory": "10.5281_zenodo.3922146",
+    "version": "1.0"
+  },
+  {
+    "directory": "10.5281_zenodo.2616605",
+    "version": "1.0"
+  },
+  {
     "directory": "10.5281_zenodo.3250979",
     "version": "1.0"
   },
@@ -8,23 +28,7 @@
     "version": "1.1"
   },
   {
-    "directory": "10.5281_zenodo.3897169",
-    "version": "1.0"
-  },
-  {
     "directory": "10.5281_zenodo.3843262",
-    "version": "1.0"
-  },
-  {
-    "directory": "10.5281_zenodo.3843375",
-    "version": "1.0"
-  },
-  {
-    "directory": "10.5281_zenodo.2616605",
-    "version": "1.0"
-  },
-  {
-    "directory": "10.5281_zenodo.3922146",
     "version": "1.0"
   }
 ]
