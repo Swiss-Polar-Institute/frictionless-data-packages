@@ -1,0 +1,90 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "cyclone_mask_1h",
+      "path": "https://zenodo.org/record/3974312/files/cyclone_mask_1h.csv?download=1",
+      "title": "Cyclone mask data",
+      "description": "Cyclone events that occurred along the ACE cruise track",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 63194,
+      "hash": "18ade1caa2fd80eefb4f5ea2f0b1f431",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/3974312/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of cyclone mask dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 358,
+      "hash": "434596ee87bf53fec5290d668214b876"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/3974312/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of cyclone mask dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 6741,
+      "hash": "b8bd47418b9578350bec8d6e9ce96d71"
+    }
+  ],
+  "keywords": [
+    "cyclone",
+    "extratropical cyclone",
+    "cyclone frequency",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_cyclone_mask",
+  "id": "https://doi.org/10.5281/zenodo.3974312",
+  "title": "Surface cyclone mask for the Antarctic Circumnavigation Expedition from December 2016 – March 2017.",
+  "description": "This dataset contains a surface cyclone mask, which records the presence of a surface cyclone along the track of the Antarctic Circumnavigation expedition (ACE). The surface cyclones are calculated applying a 2D cyclone identification algorithm (Wernli and Schwierz, 2006; Sprenger et al., 2017) using global operational analysis data of the European Centre for Medium Range Weather Forecasts.",
+  "homepage": "https://doi.org/10.5281/zenodo.3974312",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Iris Thurnherr",
+      "path": "https://orcid.org/0000-0003-3647-0373",
+      "email": "iris.thurnherr@env.ethz.ch",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Heini Wernli",
+      "path": "https://orcid.org/0000-0001-9674-4837",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_3974311",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "Iris Thurnherr, Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Thurnherr, I. and Wernli, H. (2020). Surface cyclone mask for the Antarctic Circumnavigation Expedition from December 2016 – March 2017. (Version 1.0) [Data set]. Zenodo. doi: 10.5281/zenodo.3974312"
+}

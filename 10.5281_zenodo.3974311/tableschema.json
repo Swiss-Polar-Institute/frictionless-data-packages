@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "time_ISO8601",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "Date and time at the end of each time interval of one hour in the ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "time_iso8601"
+    },
+    {
+      "name": "cyclone_flag",
+      "type": "integer",
+      "format": "default",
+      "title": "Cyclone flag",
+      "description": "mask of occurrence (1) or not (0) of surface cyclones along the ACE track",
+      "unit": "",
+      "x_spi_netcdf_name": "cyclone_flag"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
