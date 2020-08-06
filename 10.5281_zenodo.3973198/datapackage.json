@@ -1,0 +1,95 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "coldwarm_mask_1h",
+      "path": "https://zenodo.org/record/3973199/files/coldwarm_mask_1h.csv?download=1",
+      "title": "Cold warm advection event masks",
+      "description": "Cold and warm temperature advection event mask along ACE cruise track",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 152107,
+      "hash": "e631b69027a9f7da4c69278b51dc0bcf",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/3973199/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of cold and warm temperature advection event mask dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1303,
+      "hash": "8d3c4d749de7b83de335d445de25458c"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/3973199/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of cold and warm temperature advection event mask dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 4482,
+      "hash": "e5dc9ebbdb1e8f1195254f237ca005de"
+    }
+      ],
+      "keywords": [
+        "air-sea interaction",
+        "air mass advection",
+        "Southern Ocean",
+        "Antarctica",
+        "Antarctic Circumnavigation Expedition",
+        "ACE"
+      ],
+      "name": "ace_cold_warm_advection_event_mask",
+      "id": "https://doi.org/10.5281/zenodo.3973199",
+      "title": "Cold and warm temperature advection mask for the Antarctic Circumnavigation Expedition from December 2016 – March 2017.",
+      "description": "This dataset contains a mask for the identification of cold and warm temperature advection along the Antarctic Circumnavigation Expedition (ACE) track based on a simple method using the difference between the sea surface and air temperature. This mask is a combination of measured air temperature during ACE and sea surface temperature fields from ECMWF operational analysis data.",
+      "homepage": "https://doi.org/10.5281/zenodo.3973199",
+      "version": "1.0",
+      "contributors": [
+        {
+          "title": "Iris Thurnherr",
+          "path": "https://orcid.ord/0000-0003-3647-0373",
+          "email": "iris.thurnherr@env.ethz.ch",
+          "role": "author",
+          "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+        },
+        {
+          "title": "Franziska Aemisegger",
+          "path": "https://orcid.ord/0000-0002-4022-9825",
+          "role": "author",
+          "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+        },
+        {
+          "title": "Heini Wernli",
+          "path": "https://orcid.ord/0000-0001-9674-4837",
+          "role": "author",
+          "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+        },
+        {
+          "title": "Jenny Thomas",
+          "path": "https://orcid.ord/0000-0002-5986-7026",
+          "role": "publisher",
+          "organisation": "Swiss Polar Institute"
+        }
+      ],
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "title": "Creative Commons Attribution 4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "x_spi_platform_code": "UBXH3_ace_3973198",
+      "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+      "x_spi_assembly_center": "Swiss Polar Institute",
+      "x_spi_assembly_center_link": "https://swisspolar.ch",
+      "x_spi_dataset_owner": "Iris Thurnherr, Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland",
+      "x_spi_type": "ferrybox/ship",
+      "x_spi_citation": "Thurnherr, I., Aemisegger, F. and Wernli, H. (2020). Cold and warm temperature advection mask for the Antarctic Circumnavigation Expedition from December 2016 – March 2017. (Version 1.0) [Data set]. Zenodo. doi: 10.5281/zenodo.3973199"
+    }

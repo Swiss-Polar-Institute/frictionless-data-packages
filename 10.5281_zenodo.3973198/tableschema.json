@@ -1,0 +1,82 @@
+{
+  "fields": [
+    {
+      "name": "time_ISO8601",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "Date and time at the end of each time interval of one hour in the ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "time_ISO8601"
+    },
+    {
+      "name": "TA_meas",
+      "type": "number",
+      "format": "default",
+      "title": "Measured air temperature",
+      "description": "1-hourly, post-processed air temperature [°C]",
+      "unit": "°C",
+      "x_spi_netcdf_name": "TA_meas"
+    },
+    {
+      "name": "SST_ecmwf",
+      "type": "number",
+      "format": "default",
+      "title": "Sea surface temperature",
+      "description": "1-hourly sea surface temperature along the ACE track from ECMWF operational analysis data [K]",
+      "unit": "K",
+      "x_spi_cf_standard_name": "sea_surface_temperature",
+      "x_spi_cf_unit": "K",
+      "x_spi_cf_attribute": "1-hourly sea surface temperature along the ACE track from ECMWF operational analysis data",
+      "x_spi_netcdf_name": "SST_ecmwf"
+    },
+    {
+      "name": "maskcw_12h",
+      "type": "integer",
+      "format": "default",
+      "title": "Cold warm advection 12 hour event mask",
+      "description": "mask of all cold (-1) and warm (1) advection events of a length of at least 12h. (0) flags denote no cold or warm advection event.",
+      "unit": "",
+      "x_spi_netcdf_name": "maskcw_12h"
+    },
+    {
+      "name": "maskcw_6h",
+      "type": "integer",
+      "format": "default",
+      "title": "Cold warm advection 6 hour event mask",
+      "description": "mask of all cold (-1) and warm (1) advection events of a length of at least 6h. (0) flags denote no cold or warm advection event.",
+      "unit": "",
+      "x_spi_netcdf_name": "maskcw_6h"
+    },
+    {
+      "name": "maskcw_all",
+      "type": "integer",
+      "format": "default",
+      "title": "Cold warm advection all events mask",
+      "description": "mask of all cold (-1) and warm (1) advection events. (0) flags denote no cold or warm advection event.",
+      "unit": "",
+      "x_spi_netcdf_name": "maskcw_all"
+    },
+    {
+      "name": "filter_sif",
+      "type": "integer",
+      "format": "default",
+      "title": "Land mass proximity filter",
+      "description": "filter for proximity to land masses in the model data. (1) indicates time steps, when the ACE track was close to land or at a model grid point which lies within land area. (0) flags denote when track was not close to or within land area.",
+      "unit": "",
+      "x_spi_netcdf_name": "filter_sif"
+    },
+    {
+      "name": "filter_lsm",
+      "type": "integer",
+      "format": "default",
+      "title": "Sea ice proximity filter",
+      "description": "filter for proximity to sea ice in the model data. (1) indicates time steps, when the ACE track was close to or within sea ice. (0) flags denote when track was not close to or within sea ice.",
+      "unit": "",
+      "x_spi_netcdf_name": "filter_lsm"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
