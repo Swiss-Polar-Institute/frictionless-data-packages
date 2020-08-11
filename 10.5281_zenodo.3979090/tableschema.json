@@ -1,13 +1,13 @@
 {
   "fields": [
     {
-      "name": "date_time",
+      "name": "date",
       "type": "datetime",
       "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "Date time",
       "description": "date and time of recording of data point in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "date_time"
+      "x_spi_netcdf_name": "date"
     },
     {
       "name": "ncp",
