@@ -1,16 +1,22 @@
 {
   "fields": [
     {
-      "name": "",
+      "name": "date_time",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "date and time of recording of data point in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time"
+    },
+    {
+      "name": "ncp",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "title": "Net community production",
+      "description": "net community production estimated by O2/Ar method [mmol O2/m2/day]",
+      "unit": "mmol O2/m2/day",
+      "x_spi_netcdf_name": "net_community_production"
     }
   ],
   "missingValues": ["NaN"]
