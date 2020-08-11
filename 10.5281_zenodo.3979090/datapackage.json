@@ -23,9 +23,7 @@
       "mediatype": "text/plain",
       "encoding": "ASCII",
       "bytes": 365,
-      "hash": "214d10dee1c84f0bb3f7a8e41528a822",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "hash": "214d10dee1c84f0bb3f7a8e41528a822"
     },
     {
       "name": "readme",
@@ -36,9 +34,7 @@
       "mediatype": "text/plain",
       "encoding": "ASCII",
       "bytes": 3623,
-      "hash": "1fa98686fd21fe5866f98b31dc1d438f",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "hash": "1fa98686fd21fe5866f98b31dc1d438f"
     }
   ],
   "keywords": [
