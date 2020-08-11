@@ -13,26 +13,91 @@
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
     }
   ],
   "keywords": [
+    "net community production",
+    "EIMS",
+    "carbon cycling",
+    "biological oxygen",
+    "Southern Ocean",
     "Antarctica",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "version": "",
+  "name": "ace_net_community_production_seawater_underway",
+  "id": "https://doi.org/10.5281/zenodo.3979091",
+  "title": "Two-minute averaged net community production in seawater estimated along the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017.",
+  "description": "During the Antarctic Circumnavigation Expedition (ACE) in the austral summer of 2016/2017, seawater O2/Ar ratios were measured underway from the ship's flow-through seawater system. High-resolution net community production (NCP) in units of mmol O2 m-2 day-1 was derived from delta O2/Ar and National Centers for Environmental Prediction (NCEP) reanalysis winds followed by a linear correction for sea-ice.",
+  "homepage": "https://doi.org/10.5281/zenodo.3979091",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Yajuan Lin",
+      "path": "https://orcid.org/0000-0002-9057-9321",
+      "email": "yajuan.lin@duke.edu",
+      "role": "author",
+      "organisation": "Duke University, USA"
+    },
+    {
+      "title": "Nicolas Cassar",
+      "path": "https://orcid.org/0000-0003-0100-3783",
+      "email": "nicolas.cassar@duke.edu",
+      "role": "author",
+      "organisation": "Duke University, USA"
+    },
+    {
+      "title": "Loïs Maignien",
+      "role": "author",
+      "organisation": "Université de Bretagne Occidentale, France"
+    },
+    {
+      "title": "Hugo Berthelot",
+      "role": "author",
+      "organisation": "Université de Bretagne Occidentale, France"
+    },
+    {
+      "title": "Clarisse Lemonnier",
+      "role": "author",
+      "organisation": "Université de Bretagne Occidentale, France"
+    },
+    {
+      "title": "Florian Trigodet",
+      "role": "author",
+      "organisation": "Université de Bretagne Occidentale, France"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
   "licenses": [
@@ -42,11 +107,11 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ace_maindoi",
+  "x_spi_platform_code": "UBXH3_ace_3979090",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": "",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Lin, Y., Cassar, N., Maignien, L., Berthelot, H., Lemonnier, C. and Trigodet, F. (2020). Two-minute averaged net community production in seawater estimated along the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017. (Version 1.0) [Data set]. Zenodo. DOI: 10.5281/zenodo.3979091"
 }
