@@ -10,29 +10,95 @@
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "bytes":,
-      "hash": "",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "hash": ""
+    },
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": ""
     }
   ],
   "keywords": [
+    "volume backscattering strength",
+    "echosounder",
+    "EK60",
+    "GPT",
+    "Simrad",
+    "Southern Ocean",
+    "Atlantic Ocean",
     "Antarctica",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "version": "",
+  "name": "ace_200khz_echosounder_raw",
+  "id": "https://doi.org/10.5281/zenodo.3979519",
+  "title": "200 kHz raw echosounder data collected on the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017.",
+  "description": "These data consist of raw echosounder observations in the Southern Ocean collected during the Antarctic Circumnavigation Expedition (ACE; legs 2, 3) and through the Atlantic Ocean (ACE leg 4) using an EK60 GPT operating at 200 kHz. The instrument was calibrated at South Georgia during the expedition (Leg 3).",
+  "homepage": "https://doi.org/10.5281/zenodo.3979519",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Roland Proud",
+      "path": "https://orcid.org/0000-0002-8647-5562",
+      "email": "rp43@st-andrews.ac.uk",
+      "role": "author",
+      "organisation": "University of St Andrews, UK"
+    },
+    {
+      "title": "Camille Le Guen",
+      "path": "https://orcid.org/0000-0002-2365-5283",
+      "role": "author",
+      "organisation": "University of St Andrews, U"
+    },
+    {
+      "title": "Paul Fernandes",
+      "path": "https://orcid.org/0000-0003-4135-115X",
+      "role": "author",
+      "organisation": "University of Aberdeen, UK"
+    },
+    {
+      "title": "Inigo Everson",
+      "role": "author",
+      "organisation": "University of East Anglia, UK"
+    },
+    {
+      "title": "Matteo Bernasconi",
+      "role": "author",
+      "organisation": "University of St Andrews, UK"
+    },
+    {
+      "title": "Joshua Lawrence",
+      "role": "author",
+      "organisation": "University of Aberdeen, UK"
+    },
+    {
+      "title": "Andrew Brierley",
+      "role": "author",
+      "organisation": "University of St Andrews, UK"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/https://orcid.org/",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, UK"
     }
   ],
   "licenses": [
@@ -42,11 +108,11 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ace_maindoi",
+  "x_spi_platform_code": "UBXH3_ace_3979518",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": "Andrew Brierley, University of St Andrews, UK",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Proud, R., Le Guen, C., Fernandes, P., Everson, I., Bernasconi, M., Lawrence, J. and Brierley, A. (2020). 200 kHz raw echosounder data collected on the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017. (Version 1.0) [Data set]. Zenodo. doi: 10.5281/zenodo.3979519"
 }
