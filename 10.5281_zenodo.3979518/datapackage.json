@@ -58,7 +58,7 @@
   "name": "ace_200khz_echosounder_raw",
   "id": "https://doi.org/10.5281/zenodo.3979519",
   "title": "200 kHz raw echosounder data collected on the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017.",
-  "description": "These data consist of raw echosounder observations in the Southern Ocean collected during the Antarctic Circumnavigation Expedition (ACE; legs 2, 3) and through the Atlantic Ocean (ACE leg 4) using an EK60 GPT operating at 200 kHz. The instrument was calibrated at South Georgia during the expedition (Leg 3).",
+  "description": "These data consist of raw echosounder observations in the Southern Ocean collected during the Antarctic Circumnavigation Expedition (ACE; legs 2, 3) and through the Atlantic Ocean (ACE leg 4) using an EK60 GPT operating at 200 kHz. The instrument was calibrated at South Georgia during the expedition (leg 3).",
   "homepage": "https://doi.org/10.5281/zenodo.3979519",
   "version": "1.0",
   "contributors": [
