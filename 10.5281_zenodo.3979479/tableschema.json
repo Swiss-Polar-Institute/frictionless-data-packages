@@ -1,17 +1,73 @@
-  {
+{
   "fields": [
     {
-      "name": "",
+      "name": "Sv",
       "type": "number",
       "format": "default",
-      "title": "",
+      "title": "Volume backscattering strength",
+      "description": "volume backscattering strength [dB]",
+      "unit": "dB",
+      "x_spi_netcdf_name": "Sv"
+    },
+    {
+      "name": "Start_depth",
+      "type": "number",
+      "format": "default",
+      "title": "start depth",
+      "description": "start depth of ping [m]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "start depth of ping",
+      "x_spi_netcdf_name": "start_depth"
+    },
+    {
+      "name": "End_depth",
+      "type": "number",
+      "format": "default",
+      "title": "End depth",
+      "description": "end depth of ping [m]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "end depth of ping",
+      "x_spi_netcdf_name": "end_depth"
+    },
+    {
+      "name": "Latitude",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "latitude of the position of the ping [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "atitude of the position of the ping",
+      "x_spi_netcdf_name": "latitude"
+    },
+    {
+      "name": "Longitude",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
       "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": ""
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "longitude of the position of the ping [degree_east]\n",
+      "x_spi_netcdf_name": "longitude"
+    },
+    {
+      "name": "Datetime",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "date and time at which the backscatter was measured in the format ISO 8601 YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "datetime"
     }
   ],
-  "missingValues": ["NaN"]
+  "missingValues": [
+    "NaN"
+  ]
 }
