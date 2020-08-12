@@ -90,12 +90,13 @@
     },
     {
       "title": "Andrew Brierley",
+      "path": "https://orcid.org/0000-0002-6438-6892",
       "role": "author",
       "organisation": "University of St Andrews, UK"
     },
     {
       "title": "Jenny Thomas",
-      "path": "https://orcid.org/https://orcid.org/",
+      "path": "https://orcid.org/0000-0002-5986-7026",
       "email": "jenny.thomas@epfl.ch",
       "role": "publisher",
       "organisation": "Swiss Polar Institute, UK"

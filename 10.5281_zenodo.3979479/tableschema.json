@@ -42,7 +42,7 @@
       "unit": "degree_north",
       "x_spi_cf_standard_name": "latitude",
       "x_spi_cf_unit": "degree_north",
-      "x_spi_cf_attribute": "atitude of the position of the ping",
+      "x_spi_cf_attribute": "latitude of the position of the ping",
       "x_spi_netcdf_name": "latitude"
     },
     {
