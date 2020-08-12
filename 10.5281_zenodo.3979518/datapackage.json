@@ -30,6 +30,17 @@
       "mediatype": "application/zip",
       "bytes": 11116565496,
       "hash": "ba7c112c7171753bf1b097eae360247f"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of raw EK60 200 kHz dataset from ACE",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3319,
+      "hash": "b57c219e25dcf3dbbb76140b42860f22"
     }
   ],
   "keywords": [
