@@ -2,37 +2,46 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": ""
+      "name": "ace_leg2_ek60_preprocessed",
+      "path": "ace_leg2_ek60_preprocessed.zip",
+      "title": "ACE leg 2 EK60 200 kHz pre-processed data",
+      "description": "Pre-processed EK60 200 kHz data from leg 2 of ACE",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 3730019784,
+      "hash": "ed7d1203456b5355baaac68ba0f35daa"
     },
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": ""
+      "name": "ace_leg3_ek60_preprocessed",
+      "path": "ace_leg3_ek60_preprocessed.zip",
+      "title": "ACE leg 3 EK60 200 kHz pre-processed data",
+      "description": "Pre-processed EK60 200 kHz data from leg 3 of ACE",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 4466339321,
+      "hash": "4e457a02096fb60777aa150218886a99"
     },
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": ""
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of pre-processed EK60 200 kHz dataset from ACE",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3835,
+      "hash": "8d9de97b7f61d163e50049fb480217f8"
+    },
+        {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of pre-processed EK60 200 kHz dataset from ACE",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 529,
+      "hash": "1cd788d1361ccb58c593d48ea593f840"
     }
   ],
   "keywords": [
