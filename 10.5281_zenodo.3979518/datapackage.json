@@ -2,37 +2,34 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": ""
+      "name": "ace_leg2_ek60_raw",
+      "path": "ace_leg2_ek60_raw.zip",
+      "title": "ACE leg 2 EK60 200 kHz raw data",
+      "description": "Raw EK60 200 kHz raw data from leg 2 of ACE",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 7034318911,
+      "hash": "1dfa84593e46cb7ce6f86e12cd37dea9"
     },
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": ""
+      "name": "ace_leg3_ek60_raw",
+      "path": "ace_leg3_ek60_raw.zip",
+      "title": "ACE leg 3 EK60 raw data",
+      "description": "Raw EK60 200 kHz raw data from leg 3 of ACE",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 5229148274,
+      "hash": "7015b068b889b2fe2e53fc86d981aa54"
     },
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": ""
+      "name": "ace_leg4_ek60_raw",
+      "path": "ace_leg4_ek60_raw.zip",
+      "title": "ACE leg 4 EK60 raw data",
+      "description": "Raw EK60 200 kHz raw data from leg 4 of ACE",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 11116565496,
+      "hash": "ba7c112c7171753bf1b097eae360247f"
     }
   ],
   "keywords": [
@@ -90,12 +87,13 @@
     },
     {
       "title": "Andrew Brierley",
+      "path": "https://orcid.org/0000-0002-6438-6892",
       "role": "author",
       "organisation": "University of St Andrews, UK"
     },
     {
       "title": "Jenny Thomas",
-      "path": "https://orcid.org/https://orcid.org/",
+      "path": "https://orcid.org/0000-0002-5986-7026",
       "email": "jenny.thomas@epfl.ch",
       "role": "publisher",
       "organisation": "Swiss Polar Institute, UK"
