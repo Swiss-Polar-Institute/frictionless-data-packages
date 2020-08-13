@@ -1,13 +1,13 @@
 [
   {
-    "directory": "10.5281_zenodo.3250979",
+    "directory": "10.5281_zenodo.3843375",
     "version": "1.0",
     "x_spi_datapackage_lastupdate": "2020-08-05 10:00:00",
     "x_spi_tableschema_lastupdate": "2020-08-05 11:00:00"
   },
   {
-    "directory": "10.5281_zenodo.2635685",
-    "version": "1.1",
+    "directory": "10.5281_zenodo.3974311",
+    "version": "1.0",
     "x_spi_datapackage_lastupdate": "2020-08-05 10:00:00",
     "x_spi_tableschema_lastupdate": "2020-08-05 11:00:00"
   },
@@ -24,7 +24,7 @@
     "x_spi_tableschema_lastupdate": "2020-08-05 11:00:00"
   },
   {
-    "directory": "10.5281_zenodo.3843375",
+    "directory": "10.5281_zenodo.3922146",
     "version": "1.0",
     "x_spi_datapackage_lastupdate": "2020-08-05 10:00:00",
     "x_spi_tableschema_lastupdate": "2020-08-05 11:00:00"
@@ -36,14 +36,14 @@
     "x_spi_tableschema_lastupdate": "2020-08-05 11:00:00"
   },
   {
-    "directory": "10.5281_zenodo.3922146",
+    "directory": "10.5281_zenodo.3250979",
     "version": "1.0",
     "x_spi_datapackage_lastupdate": "2020-08-05 10:00:00",
     "x_spi_tableschema_lastupdate": "2020-08-05 11:00:00"
   },
   {
-    "directory": "10.5281_zenodo.3974311",
-    "version": "1.0",
+    "directory": "10.5281_zenodo.2635685",
+    "version": "1.1",
     "x_spi_datapackage_lastupdate": "2020-08-05 10:00:00",
     "x_spi_tableschema_lastupdate": "2020-08-05 11:00:00"
   },
