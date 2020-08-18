@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "coldwarm_mask_1h",
-      "path": "coldwarm_mask_1h.csv",
+      "path": "https://zenodo.org/record/3989318/files/coldwarm_mask_1h.csv?download=1",
       "title": "Cold warm advection event masks",
       "description": "Cold and warm temperature advection event mask along ACE cruise track",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3989318/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of cold and warm temperature advection event mask dataset",
       "format": "txt",
@@ -27,7 +27,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3989318/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of cold and warm temperature advection event mask dataset",
       "format": "txt",
@@ -38,7 +38,7 @@
     },
     {
       "name": "change_log",
-      "path": "change_log.txt",
+      "path": "https://zenodo.org/record/3989318/files/change_log.txt?download=1",
       "title": "Change log",
       "description": "Description of changes to cold and warm temperature advection event mask dataset",
       "format": "txt",
