@@ -12,7 +12,7 @@
       "bytes": 53197,
       "hash": "3e302bff17edea7d551f30cfcfb5c1db",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema_csv_other.json"
     },
     {
       "name": "ace_18_data_salinity_other",
@@ -25,7 +25,7 @@
       "bytes": 13106,
       "hash": "4a8bcb1aa5ba07b51b04435dd384f1af",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema_csv_other.json"
     },
     {
       "name": "ace_18_data_salinity_uw",
@@ -38,7 +38,7 @@
       "bytes": 53998,
       "hash": "a6792c58da601f8e4ecfe4abc4b10305",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema_uw.json"
     },
     {
       "name": "data_file_header",
