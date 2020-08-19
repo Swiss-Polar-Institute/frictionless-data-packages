@@ -3,40 +3,40 @@
   "resources": [
     {
       "name": "ace_18_data_salinity_ctd",
-      "path": "ace_18_data_salinity_ctd.csv",
+      "path": "ace_18_data_salinity_ctd_20200818.csv",
       "title": "Seawater sample salinity CTD",
       "description": "Salinity measurements of seawater samples collected from the Niskin bottles mounted on the CTD rosette",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 53197,
+      "hash": "3e302bff17edea7d551f30cfcfb5c1db",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
     {
       "name": "ace_18_data_salinity_other",
-      "path": "ace_18_data_salinity_other.csv",
+      "path": "ace_18_data_salinity_other_20200818.csv",
       "title": "Seawater sample salinity other source",
       "description": "Salinity measurements of miscellaneous samples: Duplicate seawater samples; seawater bucket sample from Cumberland Bay, South Georgia; seawater samples from Niskin bottles mounted on the trace-metal rosette",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 13106,
+      "hash": "4a8bcb1aa5ba07b51b04435dd384f1af",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
     {
       "name": "ace_18_data_salinity_uw",
-      "path": "ace_18_data_salinity_uw.csv",
+      "path": "ace_18_data_salinity_uw_20200818.csv",
       "title": "Seawater sample salinity underway",
       "description": "Seawater salinity data from underway samples collected during ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 53998,
+      "hash": "a6792c58da601f8e4ecfe4abc4b10305",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -48,8 +48,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 7869,
+      "hash": "871c70c10211b667e39c8d3902aa4df7"
     },
     {
       "name": "readme",
@@ -59,8 +59,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 15573,
+      "hash": "c3d9a95891d38c905155632ea8165313"
     },
     {
       "name": "figure1",
@@ -70,8 +70,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 9583,
+      "hash": "73403e29087f6e6be5a9d93b9ccb37a9"
     },
     {
       "name": "figure2",
@@ -81,8 +81,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 7915,
+      "hash": "4f124e010b257de902de4b22c92d9394"
     },
     {
       "name": "figure3",
@@ -92,8 +92,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 3694,
+      "hash": "da903bf97c352ae97a77a1dde4227a37"
     },
     {
       "name": "figure4",
@@ -103,8 +103,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4410,
+      "hash": "7c360d03f4c0148f854f55fa1cf6866a"
     },
     {
       "name": "figure5",
@@ -114,8 +114,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 3817,
+      "hash": "9c5b2e490d10be6300e03d6e0342d3d5"
     },
     {
       "name": "figure6",
@@ -125,8 +125,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4024,
+      "hash": "ea11760d24517f0efcc05c387964b9d4"
     }
   ],
   "keywords": [
