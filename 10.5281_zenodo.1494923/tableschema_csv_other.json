@@ -56,7 +56,7 @@
     },
     {
       "name": "BTLNBR [-]",
-      "type": "integer",
+      "type": "string",
       "format": "default",
       "title": "Bottle number",
       "description": "Niskin bottle number or underway (UW) [-]",
