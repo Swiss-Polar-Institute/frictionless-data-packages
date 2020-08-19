@@ -191,48 +191,6 @@
       "description": "Difference in seawater salinity: sample minus CTD sensor (cast or thermosalinograph) [Practical Salinity Scale 1978]",
       "unit": "",
       "x_spi_netcdf_name": "SAL_DIFF_CTD"
-    },
-    {
-      "name": "BTL_DATE [YYYYMMDD]",
-      "type": "date",
-      "format": "%Y%m%d",
-      "title": "Date bottle fired",
-      "description": "Niskin bottle closing date [UTC]",
-      "unit": "UTC",
-      "x_spi_netcdf_name": "BTL_DATE"
-    },
-    {
-      "name": "BTL_TIME [HHMM]",
-      "type": "time",
-      "format": "%H%M",
-      "title": "Time bottle fired",
-      "description": "Niskin bottle closing time [UTC]",
-      "unit": "UTC",
-      "x_spi_netcdf_name": "BTL_TIME"
-    },
-    {
-      "name": "BTL_LAT [DEG_N]",
-      "type": "number",
-      "format": "default",
-      "title": "Latitude bottle fired",
-      "description": "Niskin bottle closing latitude [decimal degree North]",
-      "unit": "degree_north",
-      "x_spi_cf_standard_name": "latitude",
-      "x_spi_cf_unit": "degree_north",
-      "x_spi_cf_attribute": "Niskin bottle closing latitude",
-      "x_spi_netcdf_name": "BTL_LAT"
-    },
-    {
-      "name": "BTL_LON [DEG_E]",
-      "type": "number",
-      "format": "default",
-      "title": "Longitude bottle fired",
-      "description": "Niskin bottle closing longitude [decimal degree East]",
-      "unit": "degree_east",
-      "x_spi_cf_standard_name": "longitude",
-      "x_spi_cf_unit": "degree_east",
-      "x_spi_cf_attribute": "Niskin bottle closing longitude",
-      "x_spi_netcdf_name": "BTL_LON"
     }
   ],
   "missingValues": [
