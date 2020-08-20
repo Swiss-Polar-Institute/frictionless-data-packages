@@ -1,0 +1,78 @@
+{
+  "name": "ace_xbt_deployment_summary(1)",
+  "path": "/home/carles/Baixades/ace_xbt_deployment_summary(1).csv",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8",
+  "compression": "no",
+  "compressionPath": "",
+  "dialect": {},
+  "schema": {
+    "fields": [
+      {
+        "name": "SECT_ID [-]",
+        "type": "string"
+      },
+      {
+        "name": "ace_xbt_number [-]",
+        "type": "integer"
+      },
+      {
+        "name": "ace_event_number [-]",
+        "type": "integer"
+      },
+      {
+        "name": "ace_station_number [-]",
+        "type": "integer"
+      },
+      {
+        "name": "ace_ctd_event_number [-]",
+        "type": "integer"
+      },
+      {
+        "name": "ace_underway_event_number_project18 [-]",
+        "type": "integer"
+      },
+      {
+        "name": "outcome [-]",
+        "type": "string"
+      },
+      {
+        "name": "sampling_method [-]",
+        "type": "string"
+      },
+      {
+        "name": "DATETIME (UTC) [YYYY-MM-DDThh:mm:ss+00:00]",
+        "type": "datetime",
+        "format": "%Y-%m-%dT%H:%M:%S%z",
+        "title": "Date time",
+        "x_spi_netcdf_name": "datetime"
+      },
+      {
+        "name": "LATITUDE [degN]",
+        "type": "number"
+      },
+      {
+        "name": "LONGITUDE [degE]",
+        "type": "number"
+      },
+      {
+        "name": "xbt_file_name [-]",
+        "type": "string"
+      },
+      {
+        "name": "event_comments [-]",
+        "type": "string"
+      },
+      {
+        "name": "time_location_flag [-]",
+        "type": "integer"
+      }
+    ]
+  },
+  "profile": "tabular-data-resource",
+  "hash": "114070aecd47b920cb7b2e94f6dc0314",
+  "bytes": 7520,
+  "rows": 40
+}
