@@ -73,22 +73,13 @@
       "x_spi_netcdf_name": "ACEID_EVENT"
     },
     {
-      "name": "DATE [YYYYMMDD]",
+      "name": "DATETIME [YYYY-MM-DDThh:mm:ss+00:00]",
       "type": "date",
-      "format": "%Y%m%d",
-      "title": "Sampling date",
-      "description": "Date on which sample was collected [UTC]",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Sampling date and time",
+      "description": "Date and time at which sample was collected [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "DATE"
-    },
-    {
-      "name": "TIME [HHMM]",
-      "type": "time",
-      "format": "%H%M",
-      "title": "Sampling time",
-      "description": "Time at which sample was collected [UTC]",
-      "unit": "UTC",
-      "x_spi_netcdf_name": "TIME"
+      "x_spi_netcdf_name": "DATETIME"
     },
     {
       "name": "LATITUDE [DEG_N]",
@@ -193,22 +184,13 @@
       "x_spi_netcdf_name": "SAL_DIFF_CTD"
     },
     {
-      "name": "BTL_DATE [YYYYMMDD]",
+      "name": "BTL_DATETIME [YYYY-MM-DDThh:mm:ss+00:00]",
       "type": "date",
-      "format": "%Y%m%d",
-      "title": "Date bottle fired",
-      "description": "Niskin bottle closing date [UTC]",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date and time bottle fired",
+      "description": "Niskin bottle closing date and time [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "BTL_DATE"
-    },
-    {
-      "name": "BTL_TIME [HHMM]",
-      "type": "time",
-      "format": "%H%M",
-      "title": "Time bottle fired",
-      "description": "Niskin bottle closing time [UTC]",
-      "unit": "UTC",
-      "x_spi_netcdf_name": "BTL_TIME"
+      "x_spi_netcdf_name": "BTL_DATETIME"
     },
     {
       "name": "BTL_LAT [DEG_N]",
