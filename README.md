@@ -49,6 +49,7 @@ tableschema validate tableschema.json
 ```
 goodtables validate datapackage
 tableschema validate tableschema
+goodtables data.csv --schema tableschema.json
 ```
 # Use of DOIs within repository
 
