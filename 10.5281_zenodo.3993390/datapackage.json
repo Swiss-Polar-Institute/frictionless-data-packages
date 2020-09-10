@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 202536,
+      "hash": "9e27872c1c672cc4f526950ea22a2815",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -22,20 +22,19 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 456,
+      "hash": "b4fe15eeffbce753deb47a717542c0a2"
     },
     {
       "name": "readme",
       "path": "README.txt",
       "title": "Readme",
       "description": "Description of isoprene mixing ratio in ambient air dataset",
-      ,
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4607,
+      "hash": "8108d9bd6830f6f61d397df6b246facb"
     }
   ],
   "keywords": [
