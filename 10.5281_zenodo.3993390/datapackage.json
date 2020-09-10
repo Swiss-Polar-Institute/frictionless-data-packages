@@ -2,10 +2,10 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
+      "name": "ace_isoprene_mixing_ratio_ambient_air",
+      "path": "ace_isoprene_mixing_ratio_ambient_air.csv",
+      "title": "Isoprene mixing ratio in ambient air",
+      "description": "Average isoprene mixing ratio in ambient air during ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -13,26 +13,90 @@
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of isoprene mixing ratio in ambient air dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of isoprene mixing ratio in ambient air dataset",
+      ,
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
     }
   ],
   "keywords": [
+    "isoprene",
+    "BVOCs",
+    "marine VOCs",
+    "iDirac",
+    "Southern Ocean",
     "Antarctica",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "version": "",
+  "name": "ace_isoprene_mixing_ratio_ambient_air",
+  "id": "https://doi.org/10.5281/zenodo.3993391",
+  "title": "Isoprene mixing ratio in ambient air across the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "This dataset contains the mixing ratios of isoprene (C5H8) in ambient air measured during the Antarctic Circumnavigation Expedition around the Southern Ocean in the austral summer of 2016/2017 using the iDirac, an autonomous gas chromatograph (Bolas et al., 2020). Samples were collected at a temporal resolution of approximately 10 minutes, with sizeable gaps in the dataset during Legs 1 and 3 due to instrument malfunction. Isoprene represents one of the largest biogenic emissions on the planet. While the magnitude and mechanism of its emissions on land are well established, there is still large uncertainty on the drivers of marine isoprene emissions. This dataset, consisting of continuous measurements at a relatively high temporal resolution, represents a unique opportunity to better understand marine isoprene emissions in the Southern Ocean.",
+  "homepage": "https://doi.org/10.5281/zenodo.3993391",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Conor G. Bolas",
+      "path": "https://orcid.org/0000-0001-9498-3690",
+      "role": "author",
+      "organisation": "University of Cambridge, UK"
+    },
+    {
+      "title": "Valerio Ferracci",
+      "path": "https://orcid.org/0000-0001-6647-993X",
+      "email": "v.ferracci@cranfield.ac.uk",
+      "role": "author",
+      "organisation": "Cranfield University, UK"
+    },
+    {
+      "title": "Roderic L. Jones",
+      "path": "https://orcid.org/0000-0002-6761-3966",
+      "role": "author",
+      "organisation": "University of Cambridge, UK"
+    },
+    {
+      "title": "Neil R. P. Harris",
+      "path": "https://orcid.org/0000-0003-1256-3006",
+      "role": "author",
+      "organisation": "Cranfield University, UK"
+    },
+    {
+      "title": "Fiona Tummon",
+      "path": "https://orcid.org/0000-0002-6459-339X",
+      "role": "contributor",
+      "organisation": "ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "role": "contributor",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
   "licenses": [
@@ -42,11 +106,11 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ace_maindoi",
+  "x_spi_platform_code": "UBXH3_ace_3993390",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": "Valerio Ferracci and Neil Harris, Cranfield University, UK",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Bolas, C., Ferracci, V., Jones, R.L. and Harris, N.R.P. Isoprene mixing ratio in ambient air across the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. DOI: 10.5281/zenodo.3993391"
 }
