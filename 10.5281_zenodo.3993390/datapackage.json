@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_isoprene_mixing_ratio_ambient_air",
-      "path": "ace_isoprene_mixing_ratio_ambient_air.csv",
+      "path": "https://zenodo.org/record/3993391/files/ace_isoprene_mixing_ratio_ambient_air.csv?download=1",
       "title": "Isoprene mixing ratio in ambient air",
       "description": "Average isoprene mixing ratio in ambient air during ACE",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3993391/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of isoprene mixing ratio in ambient air dataset",
       "format": "txt",
@@ -27,7 +27,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3993391/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of isoprene mixing ratio in ambient air dataset",
       "format": "txt",
