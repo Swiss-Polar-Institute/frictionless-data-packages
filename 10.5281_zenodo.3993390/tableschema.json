@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "datetime [YYYY-MM-DDTHH:MM:SS+00:00]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "Date and time of mid-point of sampling time interval over which the isoprene measurements have been averaged, in ISO8601 format [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "datetime"
+    },
+    {
+      "name": "isoprene_air_mixing_ratio [ppb]",
+      "type": "number",
+      "format": "default",
+      "title": "Average isoprene air mixing ratio",
+      "description": "Average mixing ratios of isoprene (C5H8) in ambient air [ppb]",
+      "unit": "ppb",
+      "x_spi_netcdf_name": "isoprene_air_mixing_ratio"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
