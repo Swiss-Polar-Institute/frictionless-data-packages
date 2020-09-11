@@ -11,8 +11,10 @@
       "x_spi_cf_unit": "",
       "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable"
+      "x_spi_emodnet_visualise_variable": ""
     }
   ],
-  "missingValues": ["NaN"]
+  "missingValues": [
+    "NaN"
+  ]
 }
