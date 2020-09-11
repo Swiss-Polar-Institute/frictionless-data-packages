@@ -9,6 +9,7 @@ click-default-group==1.2.2
 datapackage==1.14.0
 docutils==0.15.2
 et-xmlfile==1.0.1
+GitPython==3.1.7
 goodtables==2.4.16
 idna==2.9
 ijson==3.0.4
