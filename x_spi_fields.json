@@ -106,20 +106,31 @@
     "schema": "datapackage",
     "schema_path": "",
     "description": "name of institute bringing together the datasets",
-    "example": "Swiss Polar Institute"
+    "example": "Swiss Polar Institute",
+    "type": "string"
   },
   "x_spi_assembly_center_link": {
     "required": true,
     "schema": "datapackage",
     "schema_path": "",
     "description": "link to institute bringing together the datasets",
-    "example": "https://swisspolar.ch"
+    "example": "https://swisspolar.ch",
+    "type": "string"
   },
   "x_spi_dataset_owner": {
     "required": true,
     "schema": "datapackage",
     "schema_path": "",
-    "description": "organisation to whom the dataset belongs. Required by ERDDAP as institution field. Also displayed in EMODNet Physics",
-    "example": "Swiss Polar Institute"
+    "description": "organisation or person to whom the dataset belongs. Required by ERDDAP as institution field. Also displayed in EMODNet Physics",
+    "example": "Swiss Polar Institute",
+    "type": "string"
+  },
+  "x_spi_emodnet_visualise_variable": {
+    "required": true,
+    "schema": "tableschema",
+    "schema_path": "fields",
+    "description": "boolean to denote if the variable should be visualised on the EMODNet Physics page",
+    "example": "True",
+    "type": "boolean"
   }
 }
