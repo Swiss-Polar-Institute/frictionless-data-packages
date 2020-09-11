@@ -10,13 +10,34 @@ import time
 def get_git_commit_time(path):
 
     repo = git.Repo(search_parent_directories=True)
-    # headcommit = repo.head.commit
-    # commit_time = time.strftime("%a, %d %b %Y %H:%M", time.gmtime(headcommit.committed_date))
+
     commit_linux_timestamp = next(repo.iter_commits(paths=path)).committed_date
     commit_time = time.strftime("%Y-%m-%dT%H:%M:%S%z", time.gmtime(commit_linux_timestamp))
 
     return commit_time
 
+def tableschemas_file_names(directory, datapackage):
+    tableschemas = []
+
+    for resource in datapackage['resources']:
+        if 'profile' in resource and resource['profile'] == 'tabular-data-resource':
+            tableschemas.append(os.path.join(directory, resource['schema']))
+
+    return tableschemas
+
+def newest_tableschema_update(tableschema_paths):
+    if len(tableschema_paths) == 0:
+        return None
+
+    updates = []
+
+    for tableschema_path in tableschema_paths:
+        update = get_git_commit_time(tableschema_path)
+        updates.append(update)
+
+    updates.sort(reverse=True)
+
+    return updates[0]
 
 def generate_index():
     result = []
@@ -25,11 +46,10 @@ def generate_index():
         print(directory)
         datapackage_path = os.path.join(directory, 'datapackage.json')
         datapackage = json.load(open(datapackage_path))
-        # TODO - amend for if there are no, or more than one tableschema files within the path
-        tableschema_path = os.path.join(directory, 'tableschema.json')
+        tableschema_paths = tableschemas_file_names(directory, datapackage)
+        tableschema_lastupdate = newest_tableschema_update(tableschema_paths)
         version = datapackage['version']
         datapackage_lastupdate = get_git_commit_time(datapackage_path)
-        tableschema_lastupdate = get_git_commit_time(tableschema_path)
 
         result.append({'directory': directory,
                        'version': version,
