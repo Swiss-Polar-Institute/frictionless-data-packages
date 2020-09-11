@@ -227,7 +227,8 @@
       "format": "default",
       "title": "Comments",
       "description": "Additional information to help understanding of data",
-      "x_spi_netcdf_name": "comments"
+      "x_spi_netcdf_name": "comments",
+      "x_spi_emodnet_visualise_variable": "False"
     }
   ],
   "missingValues": [
