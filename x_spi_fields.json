@@ -121,9 +121,14 @@
     "required": true,
     "schema": "datapackage",
     "schema_path": "",
-    "description": "organisation or person to whom the dataset belongs. Required by ERDDAP as institution field. Also displayed in EMODNet Physics",
-    "example": "Swiss Polar Institute",
-    "type": "string"
+    "description": "organisation or person to whom the dataset belongs. Required by ERDDAP as institution field. Also displayed in EMODNet Physics. Title field does not need to exist if it is just an organisation.",
+    "example": [
+      {
+        "title": "Jenny Thomas",
+        "organisation": "Swiss Polar Institute"
+      }
+    ],
+    "type": "array of objects"
   },
   "x_spi_emodnet_visualise_variable": {
     "required": true,
