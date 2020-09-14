@@ -7,7 +7,8 @@
       "title": "Date time",
       "description": "Date and time at the end of each time interval of one hour in the ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "time_ISO8601"
+      "x_spi_netcdf_name": "time_ISO8601",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "maskcw_12h",
@@ -16,7 +17,8 @@
       "title": "Cold warm advection 12 hour event mask",
       "description": "mask of all cold (-1) and warm (1) advection events of a length of at least 12h. (0) flags denote no cold or warm advection event.",
       "unit": "",
-      "x_spi_netcdf_name": "maskcw_12h"
+      "x_spi_netcdf_name": "maskcw_12h",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "maskcw_6h",
@@ -25,7 +27,8 @@
       "title": "Cold warm advection 6 hour event mask",
       "description": "mask of all cold (-1) and warm (1) advection events of a length of at least 6h. (0) flags denote no cold or warm advection event.",
       "unit": "",
-      "x_spi_netcdf_name": "maskcw_6h"
+      "x_spi_netcdf_name": "maskcw_6h",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "maskcw_all",
@@ -34,7 +37,8 @@
       "title": "Cold warm advection all events mask",
       "description": "mask of all cold (-1) and warm (1) advection events. (0) flags denote no cold or warm advection event.",
       "unit": "",
-      "x_spi_netcdf_name": "maskcw_all"
+      "x_spi_netcdf_name": "maskcw_all",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "filter_sif",
@@ -43,7 +47,8 @@
       "title": "Sea ice proximity filter",
       "description": "filter for proximity to sea ice. (1) indicates time steps, when the ACE track was close to or within sea ice. (0) flags denote when track was not close to or within sea ice.",
       "unit": "",
-      "x_spi_netcdf_name": "filter_sif"
+      "x_spi_netcdf_name": "filter_sif",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "filter_lsm",
@@ -52,7 +57,8 @@
       "title": "Land mass proximity filter",
       "description": "filter for proximity to land masses in the ECMWF model data. (1) indicates time steps, when the ACE track was close to land or to a model grid point which lies within land area. (0) flags denote when track was not close to or within land area.",
       "unit": "",
-      "x_spi_netcdf_name": "filter_lsm"
+      "x_spi_netcdf_name": "filter_lsm",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
