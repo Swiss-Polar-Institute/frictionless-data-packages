@@ -7,7 +7,8 @@
       "title": "Date time",
       "description": "Date and time at the end of each time interval of one hour in the ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "time_iso8601"
+      "x_spi_netcdf_name": "time_iso8601",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "cyclone_flag",
@@ -16,7 +17,8 @@
       "title": "Cyclone flag",
       "description": "mask of occurrence (1) or not (0) of surface cyclones along the ACE track",
       "unit": "",
-      "x_spi_netcdf_name": "cyclone_flag"
+      "x_spi_netcdf_name": "cyclone_flag",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
