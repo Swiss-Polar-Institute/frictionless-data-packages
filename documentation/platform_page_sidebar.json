@@ -21,6 +21,12 @@
       "field": "x_spi_assembly_center_link"
     }
   },
+  "institution": {
+    "text": {
+      "source": "datapackage.json",
+      "field": "x_spi_dataset_owner"
+    }
+  },
   "type": {
     "text": {
       "source": "datapackage.json",
