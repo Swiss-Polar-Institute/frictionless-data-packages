@@ -58,7 +58,7 @@ def extra_validation_package(package, errors):
 
 def extra_validation_table(package, table, errors):
     spi_mandatory_attributes = ['x_spi_netcdf_name']
-    spi_attributes = spi_mandatory_attributes + ['x_spi_cf_standard_name', 'x_spi_cf_unit', 'x_spi_cf_attribute']
+    spi_attributes = spi_mandatory_attributes + ['x_spi_cf_standard_name', 'x_spi_cf_unit', 'x_spi_cf_attribute', 'x_spi_emodnet_visualise_variable']
 
     if table.schema is None:
         return
