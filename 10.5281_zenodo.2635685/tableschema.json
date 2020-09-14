@@ -6,7 +6,8 @@
       "format": "default",
       "title": "Cruise",
       "description": "name of cruise from which samples were taken",
-      "x_spi_netcdf_name": "cruise"
+      "x_spi_netcdf_name": "cruise",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "station_number",
@@ -14,7 +15,8 @@
       "format": "default",
       "title": "Station number",
       "description": "unique number of oceanographic station within ACE cruise where the trace metal rosette deployment took place, alongside other instrument deployments",
-      "x_spi_netcdf_name": "station_number"
+      "x_spi_netcdf_name": "station_number",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "event_number",
@@ -22,7 +24,8 @@
       "format": "default",
       "title": "Event number",
       "description": "unique number of instrument deployment event within ACE from which samples were collected",
-      "x_spi_netcdf_name": "event_number"
+      "x_spi_netcdf_name": "event_number",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "TMR_cast",
@@ -30,7 +33,8 @@
       "format": "default",
       "title": "TMR cast number",
       "description": "trace metal rosette cast number",
-      "x_spi_netcdf_name": "TMR_cast"
+      "x_spi_netcdf_name": "TMR_cast",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "datetime [UTC]",
@@ -39,7 +43,8 @@
       "title": "Date time",
       "description": "date and time at which the trace metal rosette deployment started in ISO8601 format: YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "datetime"
+      "x_spi_netcdf_name": "datetime",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "latitude [degN]",
@@ -51,7 +56,8 @@
       "x_spi_cf_standard_name": "latitude",
       "x_spi_cf_unit": "degree_north",
       "x_spi_cf_attribute": "latitude of research vessel at start of trace metal rosette deployment from which samples were collected",
-      "x_spi_netcdf_name": "latitude"
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "longitude [degE]",
@@ -63,7 +69,8 @@
       "x_spi_cf_standard_name": "longitude",
       "x_spi_cf_unit": "degree_east",
       "x_spi_cf_attribute": "longitude of research vessel at start of trace metal rosette deployment from which samples were collected",
-      "x_spi_netcdf_name": "longitude"
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "sample_depth [m]",
@@ -75,7 +82,8 @@
       "x_spi_cf_standard_name": "depth",
       "x_spi_cf_unit": "m",
       "x_spi_cf_attribute": "depth below sea surface at which samples were collected from the trace metal rosette",
-      "x_spi_netcdf_name": "sample_dept"
+      "x_spi_netcdf_name": "sample_depth",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "hydrolysable_carbohydrate_concentration [µmol/L]",
@@ -84,7 +92,8 @@
       "title": "Concentration of hydrolysable carbohydrate",
       "description": "average concentration of hydrolysable carbohydrates (TPZT) in carbon (average taken from three samples of seawater) [µmol/L]",
       "unit": "µmol/L",
-      "x_spi_netcdf_name": "hydrolysable_carbohydrate_concentration"
+      "x_spi_netcdf_name": "hydrolysable_carbohydrate_concentration",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
