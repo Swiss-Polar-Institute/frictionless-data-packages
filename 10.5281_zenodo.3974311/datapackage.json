@@ -84,7 +84,12 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "Iris Thurnherr, Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Iris Thurnherr",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Thurnherr, I. and Wernli, H. (2020). Surface cyclone mask for the Antarctic Circumnavigation Expedition from December 2016 – March 2017. (Version 1.0) [Data set]. Zenodo. doi: 10.5281/zenodo.3974312"
 }
