@@ -100,7 +100,11 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "University of Geneva, Switzerland",
+  "x_spi_dataset_owner": [
+    {
+      "organisation": "University of Geneva, Switzerland"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Hassler, C. (2020). Hydrolysable carbohydrate data collected from the Trace Metal Rosette in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition. (Version 1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3967034"
 }

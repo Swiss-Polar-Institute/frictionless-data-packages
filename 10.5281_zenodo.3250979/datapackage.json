@@ -49,7 +49,7 @@
       "encoding": "utf-8",
       "bytes": 2949,
       "hash": "0a90625a098cde78c43d816bc39cfc1e"
-        }
+    }
   ],
   "keywords": [
     "chromium isotope",
@@ -86,26 +86,26 @@
       "path": "https://orcid.org/0000-0002-9091-8936",
       "role": "author",
       "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
-      },
-      {
+    },
+    {
       "title": "Christel S. Hassler",
       "path": "https://orcid.org/0000-0002-8976-5469",
       "role": "author",
       "organisation": "Department F.-A. Forel for Environmental and Aquatic Sciences, University of Geneva, Switzerland; Swiss Polar Institute, Switzerland"
-      },
-     {
+    },
+    {
       "title": "Michael J. Ellwood",
       "path": "https://orcid.org/0000-0003-4288-8530",
       "role": "author",
       "organisation": "Research School of Earth Sciences, Australian National University, Australia"
-      },
-      {
+    },
+    {
       "title": "Samuel L. Jaccard",
       "path": "https://orcid.org/0000-0002-5793-0896",
       "email": "samuel.jaccard@geo.unibe.ch",
       "role": "author",
       "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
-      }
+    }
   ],
   "licenses": [
     {
@@ -118,7 +118,11 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland",
+  "x_spi_dataset_owner": [
+    {
+      "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Rickli, Jörg, Janssen, David J., Hassler, Christel, Ellwood, Michael, & Jaccard, Samuel L. (2019). Seawater chromium concentrations and isotope compositions in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3250980"
 }
