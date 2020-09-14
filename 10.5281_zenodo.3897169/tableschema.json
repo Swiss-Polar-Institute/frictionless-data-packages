@@ -6,7 +6,8 @@
       "format": "default",
       "description": "Trace metal rosette deployment number from the Antarctic Circumnavigation Expedition (ACE)",
       "title": "TMR cast number",
-      "x_spi_netcdf_name": "TMR_cast"
+      "x_spi_netcdf_name": "TMR_cast",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "ACE_event_number",
@@ -14,7 +15,8 @@
       "format": "default",
       "title": "ACE event number",
       "description": "Unique event number from ACE",
-      "x_spi_netcdf_name": "ACE_event_number"
+      "x_spi_netcdf_name": "ACE_event_number",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "date_time[UTC]",
@@ -23,7 +25,8 @@
       "title": "Date time (UTC)",
       "description": "Date and time at which the trace metal rosette deployment began in ISO_8601 format yyyy-mm-ddThh:mi:ss+00:00 [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "date_time"
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "ACE_sample_code",
@@ -31,7 +34,8 @@
       "format": "default",
       "title": "ACE sample code",
       "description": "Unique sample identifier from ACE, formatted as standardized for the ACE cruise expedition as follows: shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsampleID",
-      "x_spi_netcdf_name": "ACE_sample_code"
+      "x_spi_netcdf_name": "ACE_sample_code",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "latitude[degree_north]",
@@ -43,7 +47,8 @@
       "x_spi_cf_standard_name": "latitude",
       "x_spi_cf_unit": "degree_north",
       "x_spi_cf_attribute": "Latitude at which the trace metal rosette deployment began",
-      "x_spi_netcdf_name": "latitude"
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "longitude[degree_east]",
@@ -55,7 +60,8 @@
       "x_spi_cf_standard_name": "longitude",
       "x_spi_cf_unit": "degree_east",
       "x_spi_cf_attribute": "Longitude at which the trace metal rosette deployment began",
-      "x_spi_netcdf_name": "longitude"
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "depth[m]",
@@ -67,7 +73,8 @@
       "x_spi_cf_standard_name": "depth",
       "x_spi_cf_unit": "m",
       "x_spi_cf_attribute": "Depth below sea surface at which the seawater sample was collected",
-      "x_spi_netcdf_name": "depth"
+      "x_spi_netcdf_name": "depth",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "dFe[nM]",
@@ -76,7 +83,8 @@
       "title": "Dissolved iron concentration (nmol)",
       "description": "Concentration of dissolved iron (Fe) [nmol]",
       "unit": "nmol",
-      "x_spi_netcdf_name": "concentration_dissolved_iron_in_seawater"
+      "x_spi_netcdf_name": "concentration_dissolved_iron_in_seawater",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "L[nM]",
@@ -85,7 +93,8 @@
       "title": "Iron-binding organic ligand concentration (nmol)",
       "description": "Concentration of iron-binding organic ligands [nmol]",
       "unit": "nmol",
-      "x_spi_netcdf_name": "concentration_iron_binding_organic_ligands"
+      "x_spi_netcdf_name": "concentration_iron_binding_organic_ligands",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "error_L[nM]",
@@ -94,7 +103,8 @@
       "description": "Statistical error in L from the Gerringa non linear fitting from ProMCC [nmol]",
       "title": "Error in L (nmol)",
       "unit": "nmol",
-      "x_spi_netcdf_name": "error_concentration_iron_binding_organic_ligands"
+      "x_spi_netcdf_name": "error_concentration_iron_binding_organic_ligands",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "K[mol-1]",
@@ -103,7 +113,8 @@
       "title": "Log of conditional stability constant for inorganic iron binding ligands (mol-1)",
       "description": "Logarithm of the conditional stability constant for inorganic iron binding the ligands [mol-1]",
       "unit": "mol-1",
-      "x_spi_netcdf_name": "log_conditional_stability_constant_inorganic_iron_binding_ligands"
+      "x_spi_netcdf_name": "log_conditional_stability_constant_inorganic_iron_binding_ligands",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "error_K[mol-1]",
@@ -112,8 +123,11 @@
       "title": "Error in K (mol-1)",
       "description": "Statistical error in K from the Gerringa non linear fitting from ProMCC [mol-1]",
       "unit": "mol-1",
-      "x_spi_netcdf_name": "error_log_conditional_stability_constant_inorganic_iron_binding_ligands"
+      "x_spi_netcdf_name": "error_log_conditional_stability_constant_inorganic_iron_binding_ligands",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
-  "missingValues": ["NaN"]
+  "missingValues": [
+    "NaN"
+  ]
 }
