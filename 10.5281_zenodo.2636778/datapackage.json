@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 2158718,
+      "hash": "6cdef54258b5f11e4094030f7edaed3e",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -22,8 +22,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 1297,
+      "hash": "2b33828e1be505bd25e627a5bfa318f8",
       "profile": "data-resource"
     },
     {
@@ -34,8 +34,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 8098,
+      "hash": "18ab4c7034226d5dc65dffc37325c20b",
       "profile": "data-resource"
     },
     {
@@ -46,8 +46,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 334,
+      "hash": "88cf51e9ae699bbf8b99fe61767563d7",
       "profile": "data-resource"
     }
   ],
@@ -143,8 +143,9 @@
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": [
-    {}
+    {"name":  "Julia Schmale",
+    "organisation": "Paul Scherrer Institute, Villigen, Switzerland"}
   ],
   "x_spi_type": "ferrybox/ship",
-  ts"x_spi_citation": "Schmale, J., Henning, S., Tummon, F., Hartmann, M., Baccarini, A., Welti, A., Lehtipalo, K., Tatzelt, C. and Gysel-Beer, M. (2020). Trace gas mixing ratios measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition. (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4028749"
+  "x_spi_citation": "Schmale, J., Henning, S., Tummon, F., Hartmann, M., Baccarini, A., Welti, A., Lehtipalo, K., Tatzelt, C. and Gysel-Beer, M. (2020). Trace gas mixing ratios measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition. (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4028749"
 }
