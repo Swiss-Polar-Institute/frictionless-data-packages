@@ -37,7 +37,7 @@
       "x_spi_emodnet_visualise_variable": "False"
     },
     {
-      "name": "03 [ppb]",
+      "name": "O3 [ppb]",
       "type": "number",
       "format": "default",
       "title": "Ozone concentration",
