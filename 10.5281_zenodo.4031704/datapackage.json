@@ -1,0 +1,114 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of 10-day backward trajectory dataset from ACE",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "README",
+      "description": "Description of 10-day backward trajectory dataset from ACE",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    }
+  ],
+  "keywords": [
+    "ECWMF",
+    "Lagrangian trajectories",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace-backward-trajectories",
+  "id": "https://doi.org/10.5281/zenodo.4031705",
+  "title": "10-day backward trajectories from ECMWF analysis data along the ship track of the Antarctic Circumnavigation Expedition in austral summer 2016/2017.",
+  "description": "This dataset contains 10-day backward trajectories along the ship track of the Antarctic Circumnavigation Expedition from Nov 2016 – April 2017 calculated with the Lagrangian analysis tool LAGRANTO using the 3D-wind fields from the European Centre for Medium Range Weather Forecasts (ECMWF) operational analyses. The trajectories were started from up to 56 vertical levels between 0 and 500 hPa above sea level and various variables were interpolated along the trajectories.",
+  "homepage": "https://doi.org/10.5281/zenodo.4031705",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Iris Thurnherr",
+      "path": "https://orcid.org",
+      "email": "iris.thurnherr@env.ethz.ch",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Heini Wernli",
+      "path": "https://orcid.org",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Franziska Aemisegger",
+      "path": "https://orcid.org",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_4031704",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "Iris Thurnherr, Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Thurnherr, I., Wernli, H. and Aemisegger, F. (2020). 10-day backward trajectories from ECMWF analysis data along the ship track of the Antarctic Circumnavigation Expedition in austral summer 2016/2017. (Version 1.0) [Data set]. Zenodo. DOI: 10.5281/zenodo.4031705"
+}
