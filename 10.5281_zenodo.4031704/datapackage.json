@@ -9,8 +9,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 2027,
+      "hash": "4812dcaf5bd44c7b3442edc6a8198182"
     },
     {
       "name": "readme",
@@ -20,47 +20,38 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4145,
+      "hash": "a2bc1c3328d6354fcd16a097fc1f035e"
     },
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "name": "fig_cross",
+      "path": "fig_cross.zip",
+      "title": "Cross-section plots",
+      "description": "Zip file of cross-section plots of all trajectories starting at the stated time coloured by specific humidity",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 847736808,
+      "hash": "8545fe363b80272e48b07070ea17f3bb"
     },
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "name": "fig_map",
+      "path": "fig_map.zip",
+      "title": "Map plots",
+      "description": "Zip file of map plots of all trajectories starting at the stated time, coloured by pressure",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 1488870877,
+      "hash": "61624c6443823b33ad5d36872e9855de"
     },
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "name": "trajs_ace",
+      "path": "trajs_ACE.zip",
+      "title": "Trajectories",
+      "description": "Zip file of trajectories starting at the stated time along the ACE track from different vertical levels",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 1422775172,
+      "hash": "24ba3832af4fcbd98ccd9ff22f233fc0"
     }
   ],
   "keywords": [
@@ -70,7 +61,7 @@
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "ace-backward-trajectories",
+  "name": "ace_backward_trajectories",
   "id": "https://doi.org/10.5281/zenodo.4031705",
   "title": "10-day backward trajectories from ECMWF analysis data along the ship track of the Antarctic Circumnavigation Expedition in austral summer 2016/2017.",
   "description": "This dataset contains 10-day backward trajectories along the ship track of the Antarctic Circumnavigation Expedition from Nov 2016 – April 2017 calculated with the Lagrangian analysis tool LAGRANTO using the 3D-wind fields from the European Centre for Medium Range Weather Forecasts (ECMWF) operational analyses. The trajectories were started from up to 56 vertical levels between 0 and 500 hPa above sea level and various variables were interpolated along the trajectories.",
@@ -79,25 +70,25 @@
   "contributors": [
     {
       "title": "Iris Thurnherr",
-      "path": "https://orcid.org",
+      "path": "https://orcid.org/0000-0003-3647-0373",
       "email": "iris.thurnherr@env.ethz.ch",
       "role": "author",
       "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
     },
     {
       "title": "Heini Wernli",
-      "path": "https://orcid.org",
+      "path": "https://orcid.org/0000-0001-9674-4837",
       "role": "author",
       "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
     },
     {
       "title": "Franziska Aemisegger",
-      "path": "https://orcid.org",
+      "path": "https://orcid.org/0000-0002-4022-9825",
       "role": "author",
       "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
     },
     {
-      "title": "Jenny Thomas",
+      "title": "Jen Thomas",
       "path": "https://orcid.org/0000-0002-5986-7026",
       "email": "jenny.thomas@epfl.ch",
       "role": "publisher",
