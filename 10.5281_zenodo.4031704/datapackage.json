@@ -104,6 +104,13 @@
       "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
+    "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
   "x_spi_platform_code": "UBXH3_ace_4031704",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
