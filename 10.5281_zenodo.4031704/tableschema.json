@@ -19,7 +19,6 @@
       "unit": "degree_east",
       "x_spi_cf_standard_name": "longitude",
       "x_spi_cf_unit": "degree_east",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "longitude",
       "x_spi_emodnet_visualise_variable": "False"
     },
@@ -32,7 +31,6 @@
       "unit": "degree_north",
       "x_spi_cf_standard_name": "latitude",
       "x_spi_cf_unit": "degree_north",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "latitude",
       "x_spi_emodnet_visualise_variable": "False"
     },
@@ -53,7 +51,6 @@
       "title": "Surface pressure",
       "description": "surface pressure at position lon/lat",
       "unit": "hPa",
-      "x_spi_cf_standard_name": "",
       "x_spi_netcdf_name": "surface_pressure",
       "x_spi_emodnet_visualise_variable": "True"
     },
@@ -181,10 +178,10 @@
       "name": "PV",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_netcdf_name": "",
+      "title": "Potential vorticity",
+      "description": "potential vorticity",
+      "unit": "pvu",
+      "x_spi_netcdf_name": "potential_vorticity",
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
@@ -207,7 +204,7 @@
       "x_spi_netcdf_name": "temperature_2m_above_surface",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "TD2M",
       "type": "number",
       "format": "default",
@@ -217,7 +214,7 @@
       "x_spi_netcdf_name": "dew_point_temperature_2m_above_surface",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "SKT",
       "type": "number",
       "format": "default",
@@ -227,7 +224,7 @@
       "x_spi_netcdf_name": "skin_temperature",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "BLHP",
       "type": "number",
       "format": "default",
@@ -237,7 +234,7 @@
       "x_spi_netcdf_name": "boundary_layer_height_pressure",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "LSP",
       "type": "number",
       "format": "default",
@@ -247,7 +244,7 @@
       "x_spi_netcdf_name": "large_scale_precipitation",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "CP",
       "type": "number",
       "format": "default",
@@ -257,7 +254,7 @@
       "x_spi_netcdf_name": "convective_precipitation",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "RTOT",
       "type": "number",
       "format": "default",
@@ -267,7 +264,7 @@
       "x_spi_netcdf_name": "total_precipitation",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "SF",
       "type": "number",
       "format": "default",
@@ -277,7 +274,7 @@
       "x_spi_netcdf_name": "sensible_heat_flux",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "E",
       "type": "number",
       "format": "default",
@@ -287,27 +284,17 @@
       "x_spi_netcdf_name": "latent_heat_flux",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "THE",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_netcdf_name": "",
+      "title": "Equivalent potential temperature",
+      "description": "equivalent potential temperature",
+      "unit": "K",
+      "x_spi_netcdf_name": "equivalent_potential_temperature",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
-      "name": "SIF",
-      "type": "number",
-      "format": "default",
-      "title": "Sea ice fraction at position lon/lat",
-      "description": "sea ice fraction at position lon/lat",
-      "unit": "",
-      "x_spi_netcdf_name": "sea_ice_fraction",
-      "x_spi_emodnet_visualise_variable": "True"
-    },
-        {
+    {
       "name": "SSR",
       "type": "number",
       "format": "default",
@@ -317,7 +304,7 @@
       "x_spi_netcdf_name": "net_surface_solar_radiation",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "SSRD",
       "type": "number",
       "format": "default",
@@ -327,7 +314,7 @@
       "x_spi_netcdf_name": "downward_surface_solar_radiation",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "LSM",
       "type": "number",
       "format": "default",
@@ -337,17 +324,17 @@
       "x_spi_netcdf_name": "land_sea_mask",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "SIF",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "Sea ice fraction at position lon/lat",
+      "description": "sea ice fraction at position lon/lat",
       "unit": "",
-      "x_spi_netcdf_name": "",
+      "x_spi_netcdf_name": "sea_ice_fraction",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "V10",
       "type": "number",
       "format": "default",
@@ -357,7 +344,7 @@
       "x_spi_netcdf_name": "meridional_wind_speed_at_10m_masl",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "U10",
       "type": "number",
       "format": "default",
