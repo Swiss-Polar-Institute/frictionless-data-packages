@@ -22,8 +22,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 14392,
-      "hash": "5a0ea919daf3c5f7a3f853710d54fd49",
+      "bytes": 12007,
+      "hash": "1999e3796418d32b32cbc03acd5eb74c",
       "profile": "tabular-data-resource",
       "schema": "tableschema_csv_other.json"
     },
@@ -48,8 +48,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 7869,
-      "hash": "871c70c10211b667e39c8d3902aa4df7"
+      "bytes": 2275,
+      "hash": "169dd8dfbc035c052590c8c33be97069"
     },
     {
       "name": "readme",
@@ -59,8 +59,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 15573,
-      "hash": "c3d9a95891d38c905155632ea8165313"
+      "bytes": 21371,
+      "hash": "167cf8a8bcc5fd9b77261166b81fffaa"
     },
     {
       "name": "figure1",
@@ -144,7 +144,7 @@
   "name": "ace_seawater_salinity_sample_measurements",
   "id": "https://doi.org/10.5281/zenodo.1494924",
   "title": "Seawater salinity sample measurements from the Antarctic Circumnavigation Expedition (ACE)",
-  "description": "",
+  "description": "This data set contains salinity measurements from discrete seawater samples that were collected in the Southern Ocean (south of 30deg S) during the Antarctic Circumnavigation Expedition (ACE). 657 samples were collected during the period December 24th, 2016 and March 18th, 2017 in the Southern Ocean from the surface ocean using the ship's underway line (UW; 328 samples) and in vertical profiles using Niskin bottles mounted on the CTD rosette (273 samples). A few additional samples (56) were collected from a parallel cast with a trace-metal rosette, with a bucket, and as duplicates to ensure data quality. All samples were analyzed for their salinity and results are reported on the Practical Salinity Scale 1978 (PSS-78; Sea-Bird Electronics, Inc., 1989). Measurements were performed on a Guildline Autosal Laboratory Salinometer 8400(B) at CSIRO (Hobart, Australia) for samples collected during leg 1, and on a OPTIMARE Precision Salinometer (OPS) at the Alfred Wegener Institute (Bremerhaven, Germany) for samples collected during legs 2 and 3. This circumpolar data set provides insights into the hydrological cycle of the Southern Ocean and the processes (precipitation, evaporation, sea-ice melting and freezing, ice-berg and land-ice melting) that determine the salinity of a certain water mass. It is being used to calibrate the CTD sensor vertical profiles (Henry et al., 2020) and thermosalinograph sensor underway measurements (Haumann et al., 2020) from the ACE cruise.",
   "homepage": "https://doi.org/10.5281/zenodo.1494924",
   "version": "1.0",
   "contributors": [
@@ -166,15 +166,15 @@
       "x_spi_organisation": "CIRES, University of Colorado, USA"
     },
     {
+      "title": "Gereon Budéus",
+      "role": "author",
+      "organisation": "Alfred Wegener Institute, Germany"
+    },
+    {
       "title": "Michael P. Meredith",
       "path": "https://orcid.org/0000-0002-7342-7756",
       "role": "author",
       "organisation": "British Antarctic Survey, UK"
-    },
-    {
-      "title": "Gereon Budéus",
-      "role": "author",
-      "organisation": "Alfred Wegener Institute, Germany"
     },
     {
       "title": "Irina V. Gorodetskaya",
@@ -215,7 +215,14 @@
       "title": "Jenny Thomas",
       "path": "https://orcid.org/0000-0002-5986-7026",
       "email": "jenny.thomas@epfl.ch",
-      "role": "Publisher",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    },
+        {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "author",
       "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
@@ -232,5 +239,5 @@
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": "",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": "Haumann, F. A., Leonard, K., Meredith, M. P., Budéus, G., Gorodetskaya, I. V., Hutchings, J., Lehning, M., Stammerjohn, S., Tsukernik, M. and Weber, Y. (2020). Seawater salinity sample measurements from the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. doi:10.5281/zenodo.1494924"
+  "x_spi_citation": "Haumann, F. A., Leonard, K., Budéus, G., Meredith, M. P., Gorodetskaya, I. V., Hutchings, J., Stammerjohn, S., Tsukernik, M. and Thomas, J. (2020). Seawater salinity sample measurements from the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. doi:10.5281/zenodo.1494924"
 }
