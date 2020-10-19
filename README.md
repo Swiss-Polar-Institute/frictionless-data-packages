@@ -47,8 +47,8 @@ tableschema validate tableschema.json
 
 [GoodTables](https://frictionlessdata.io/tooling/goodtables/) can also be used to validate the `datapackage` and `tableschema` but this does not validate the SPI-specific fields: 
 ```
-goodtables validate datapackage
-tableschema validate tableschema
+goodtables validate datapackage.json
+tableschema validate tableschema.json
 goodtables data.csv --schema tableschema.json
 ```
 # Use of DOIs within repository
