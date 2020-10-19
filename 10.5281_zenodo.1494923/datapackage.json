@@ -189,13 +189,6 @@
       "organisation": "Oregon State University, USA"
     },
     {
-      "title": "Michael Lehning",
-      "path": "https://orcid.org/0000-0002-8442-0875",
-      "role": "author",
-      "organisation": "EPFL CRYOS Laboratory, Switzerland",
-      "x_spi_organisation": "Institute for Snow and Avalanche Research, Switzerland"
-    },
-    {
       "title": "Sharon Stammerjohn",
       "path": "https://orcid.org/0000-0002-1697-8244",
       "role": "author",
@@ -205,11 +198,6 @@
       "title": "Maria Tsukernik",
       "role": "author",
       "organisation": "Brown University, USA"
-    },
-    {
-      "title": "Yvonne Weber",
-      "role": "author",
-      "organisation": "EPFL CRYOS Laboratory, Switzerland"
     },
     {
       "title": "Jenny Thomas",
@@ -224,6 +212,18 @@
       "email": "jenny.thomas@epfl.ch",
       "role": "author",
       "organisation": "Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Michael Lehning",
+      "path": "https://orcid.org/0000-0002-8442-0875",
+      "role": "contributor",
+      "organisation": "EPFL CRYOS Laboratory, Switzerland",
+      "x_spi_organisation": "Institute for Snow and Avalanche Research, Switzerland"
+    },
+    {
+      "title": "K. Sherrin",
+      "role": "contributor",
+      "organisation": "CSIRO"
     }
   ],
   "licenses": [
