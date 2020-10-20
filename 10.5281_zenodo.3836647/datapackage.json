@@ -40,7 +40,7 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema_mld.json"
     }
-        {
+    {
       "name": "data_file_header",
       "path": "data_file_header.txt",
       "title": "Data file header",
@@ -48,7 +48,7 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
+      "bytes":,
       "hash": ""
     },
     {
@@ -59,8 +59,89 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes":,
+      "hash": ""
+    }
+    {
+      "name": "figure1",
+      "path": "figure1.pdf",
+      "title": "Graph of CTD and XBT temperatures",
+      "description": "Plot of CTD and XBT temperatures",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "bytes":,
+      "hash": ""
+    }
+    {
+      "name": "ace_xbt_corrected_1m",
+      "path": "ace_xbt_corrected_1m.zip",
+      "title": "Empirically corrected data at 1m resolution",
+      "description": "Empirically corrected data at 1m resolution",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes":,
+      "hash": ""
+    }
+    {
+      "name": "ace_xbt_corrected_fullres",
+      "path": "ace_xbt_corrected_fullres.zip",
+      "title": "Empirically corrected data at full resolution",
+      "description": "Empirically corrected data at full resolution",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes":,
+      "hash": ""
+    }
+    {
+      "name": "ace_xbt_figures",
+      "path": "ace_xbt_figures.zip",
+      "title": "XBT cast temperature-depth plots",
+      "description": "Plots of temperature with depth for each XBT cast",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes":,
+      "hash": ""
+    }
+    {
+      "name": "ace_xbt_raw",
+      "path": "ace_xbt_raw.zip",
+      "title": "Raw XBT data files",
+      "description": "Raw XBT data files",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes":,
+      "hash": ""
+    }
+    {
+      "name": "ace_xbt_corrected_1m",
+      "path": "ace_xbt_corrected_1m.zip",
+      "title": "Empirically corrected data at 1m resolution",
+      "description": "Empirically corrected data at 1m resolution",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes":,
+      "hash": ""
+    }
+    {
+      "name": "ace_xbt_wmo_hanawa95_1m",
+      "path": "ace_xbt_wmo_hanawa95_1m.zip",
+      "title": "Reprocessed data at 1m resolution",
+      "description": "Reprocessed data at 1m resolution",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes":,
+      "hash": ""
+    }
+        {
+      "name": "ace_xbt_wmo_hanawa95_fullres",
+      "path": "ace_xbt_wmo_hanawa95_fullres.zip",
+      "title": "Reprocessed data at full resolution",
+      "description": "Reprocessed data at full resolution",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes":,
+      "hash": ""
+    }
   ],
   "keywords": [
     "physical oceanography",
