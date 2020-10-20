@@ -191,5 +191,8 @@
       "x_spi_netcdf_name": "minimum_temperature",
       "x_spi_emodnet_visualise_variable": "True"
     }
+    ],
+  "missingValues": [
+    "NaN"
   ]
 }
