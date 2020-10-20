@@ -1,0 +1,121 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_merged_ctd_xbt_mld_tsavg",
+      "path": "ace_merged_ctd_xbt_mld_tsavg.csv",
+      "title": "Temperatures and mixed layer depths CTD and XBT",
+      "description": "Temperature and mixed layer depths derived from CTD and XBT data",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_merged.json"
+    }
+        {
+      "name": "ace_xbt_deployment_summary",
+      "path": "ace_xbt_deployment_summary.csv",
+      "title": "Deployment summary",
+      "description": "Details of XBT deployments",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_deployments.json"
+    }
+        {
+      "name": "ace_xbt_mld_tavg",
+      "path": "ace_xbt_mld_tavg.csv",
+      "title": "Temperatures and mixed layer depths XBT",
+      "description": "Temperatures and mixed layer depths derived from XBT data",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_mld.json"
+    }
+  ],
+  "keywords": [
+    "physical oceanography",
+    "temperature",
+    "XBT",
+    "expendable bathythermograph",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_seawater_temperature_profile",
+  "id": "https://doi.org/10.5281/zenodo.3836647",
+  "title": "Seawater temperature profiles from Expendable Bathythermograph (XBT) probe deployments during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "This data set contains vertical seawater temperature profiles measured by Expendable Bathythermograph (XBT) probes that were deployed in the Southern Ocean during the Antarctic Circumnavigation Expedition (ACE) on board the R/V Akademik Tryoshnikov. 40 XBT probes were deployed during legs 2 and 3 of the expedition in the period 25th January, 2017 to 17th March, 2017. The XBT probes are manufactured and distributed by T.S.K./Sippican Tsurumi-Seiki Co. Ltd., Yokohama, Japan (http://www.tsk-jp.com) and are of the type T-07, which is rated at a ship speed of up to 15 knots. These probes have a measuring time of 123 seconds and maximum measurement depth of about 789 m. Probes were launched from a handheld device from the stern of the ship either on the port or starboard side while the ship was moving. The deck unit recorded the temperature and the time since the probe was launched. This time was then converted to depth using the known fall rate of the probe in seawater and the coefficients provided by the manufacturer (WMO standards; Hanawa et al., 1995). The profiles were corrected for known surface biases (Kizu and Hanawa, 2002; Uehara et al., 2008). We provide the raw data, the data produced by using the coefficients provided by the manufacturer, and a corrected version in which we apply an empirical correction based on a comparison with CTD data (Henry et al., 2019), where XBT profiles were launched alongside the CTD deployment. The data has been quality controlled by comparing it to a number of CTD profiles. Data is provided at full vertical resolution and a 1-m averaged resolution. In addition, we provide derived variables such as surface mixed layer depth (temperature threshold) estimates. We are grateful to the crew of the R/V Akademik Tryoshnikov and AARI for donating these probes to our project. Their use-by date had expired, however this was not seen as an issue. This data set provides insights into the hydrography of the Southern Ocean during one austral summer season and complements the CTD temperature profiles measured during ACE by filling in the gaps between CTD stations.",
+  "homepage": "https://doi.org/10.5281/zenodo.3836647",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Alexander F. Haumann",
+      "path": "https://orcid.org/0000-0002-8218-977X",
+      "email": "alexander.haumann@gmail.com",
+      "role": "author",
+      "organisation": "Princeton University, USA",
+      "x_spi_additional_organisations": [
+        "British Antarctic Survey, UK",
+        "ETH Zurich, Switzerland"
+      ]
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "x_spi_additional_email": "jen@falciot.net",
+      "role": "author",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "x_spi_additional_email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Maria Tsukernik",
+      "path": "https://orcid.org/",
+      "role": "author",
+      "organisation": "Brown University, USA"
+    },
+    {
+      "title": "Katherine Leonard",
+      "path": "https://orcid.org/0000-0003-4632-8872",
+      "role": "author",
+      "organisation": "EPFL CRYOS Laboratory, Lausanne, Switzerland",
+      "x_spi_additional_organisations": [
+        "Institute for Snow and Avalanche Research, Switzerland",
+        "CIRES, University of Colorado, Boulder, USA"
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_3836647",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": {
+    "title": "Alexander F. Haumann, Jen Thomas, Maria Tsukernik, Katherine Leonard",
+    "organisation": "Princeton University, USA; British Antarctic Survey, UK; ETH Zurich, Switzerland; Swiss Polar Institute, Switzerland; Brown University, USA; EPFL CRYOS Laboratory, Lausanne, Switzerland; Institute for Snow and Avalanche Research, Switzerland; CIRES, University of Colorado, Boulder, USA"
+  },
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Haumann, F. A., Thomas, J., Tsukernik, M. and Leonard K. (2020). Seawater temperature profiles from Expendable Bathythermograph (XBT) probe deployments during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. doi:10.5281/zenodo.3836648."
+}
