@@ -9,11 +9,11 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 28390,
+      "hash": "6bd0403953a879997dcc9ad643949691",
       "profile": "tabular-data-resource",
       "schema": "tableschema_merged.json"
-    }
+    },
     {
       "name": "ace_xbt_deployment_summary",
       "path": "ace_xbt_deployment_summary.csv",
@@ -22,11 +22,11 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 7520,
+      "hash": "114070aecd47b920cb7b2e94f6dc0314",
       "profile": "tabular-data-resource",
       "schema": "tableschema_deployments.json"
-    }
+    },
     {
       "name": "ace_xbt_mld_tavg",
       "path": "ace_xbt_mld_tavg.csv",
@@ -35,11 +35,11 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 5199,
+      "hash": "7881cc7313105f311d4a77620199ca06",
       "profile": "tabular-data-resource",
       "schema": "tableschema_mld.json"
-    }
+    },
     {
       "name": "data_file_header",
       "path": "data_file_header.txt",
@@ -48,8 +48,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 5020,
+      "hash": "8776ab3a499a22ef069fb1b3cf7c964d"
     },
     {
       "name": "readme",
@@ -59,9 +59,9 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
-    }
+      "bytes": 16629,
+      "hash": "9a21b0094b3f780c1ac8fb8041255e6f"
+    },
     {
       "name": "figure1",
       "path": "figure1.pdf",
@@ -69,9 +69,9 @@
       "description": "Plot of CTD and XBT temperatures",
       "format": "pdf",
       "mediatype": "application/pdf",
-      "bytes":,
-      "hash": ""
-    }
+      "bytes": 56081,
+      "hash": "09cffbd165dfe3787436a4eadd16fc91"
+    },
     {
       "name": "ace_xbt_corrected_1m",
       "path": "ace_xbt_corrected_1m.zip",
@@ -79,9 +79,9 @@
       "description": "Empirically corrected data at 1m resolution",
       "format": "zip",
       "mediatype": "application/zip",
-      "bytes":,
-      "hash": ""
-    }
+      "bytes": 142306,
+      "hash": "85f884064796f63f47bbca89f4f5820a"
+    },
     {
       "name": "ace_xbt_corrected_fullres",
       "path": "ace_xbt_corrected_fullres.zip",
@@ -89,9 +89,9 @@
       "description": "Empirically corrected data at full resolution",
       "format": "zip",
       "mediatype": "application/zip",
-      "bytes":,
-      "hash": ""
-    }
+      "bytes": 482568,
+      "hash": "4972606f35d174814db231adf127b6d0"
+    },
     {
       "name": "ace_xbt_figures",
       "path": "ace_xbt_figures.zip",
@@ -99,9 +99,9 @@
       "description": "Plots of temperature with depth for each XBT cast",
       "format": "zip",
       "mediatype": "application/zip",
-      "bytes":,
-      "hash": ""
-    }
+      "bytes": 783007,
+      "hash": "d6254b12c2052e9a2bec7a1442a4da02"
+    },
     {
       "name": "ace_xbt_raw",
       "path": "ace_xbt_raw.zip",
@@ -109,19 +109,9 @@
       "description": "Raw XBT data files",
       "format": "zip",
       "mediatype": "application/zip",
-      "bytes":,
-      "hash": ""
-    }
-    {
-      "name": "ace_xbt_corrected_1m",
-      "path": "ace_xbt_corrected_1m.zip",
-      "title": "Empirically corrected data at 1m resolution",
-      "description": "Empirically corrected data at 1m resolution",
-      "format": "zip",
-      "mediatype": "application/zip",
-      "bytes":,
-      "hash": ""
-    }
+      "bytes": 812329,
+      "hash": "aebcfd427dc2629cd6ea9f325db127e0"
+    },
     {
       "name": "ace_xbt_wmo_hanawa95_1m",
       "path": "ace_xbt_wmo_hanawa95_1m.zip",
@@ -129,18 +119,18 @@
       "description": "Reprocessed data at 1m resolution",
       "format": "zip",
       "mediatype": "application/zip",
-      "bytes":,
-      "hash": ""
-    }
-        {
+      "bytes": 142094,
+      "hash": "23a07c6a6ee7c257ffb3b221bda60e7e"
+    },
+    {
       "name": "ace_xbt_wmo_hanawa95_fullres",
       "path": "ace_xbt_wmo_hanawa95_fullres.zip",
       "title": "Reprocessed data at full resolution",
       "description": "Reprocessed data at full resolution",
       "format": "zip",
       "mediatype": "application/zip",
-      "bytes":,
-      "hash": ""
+      "bytes": 482814,
+      "hash": "21c24e1474772316456051bb9104320c"
     }
   ],
   "keywords": [
