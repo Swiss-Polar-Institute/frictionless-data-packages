@@ -12,7 +12,7 @@
       "bytes": 28390,
       "hash": "6bd0403953a879997dcc9ad643949691",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_merged.json"
+      "schema": "tableschema_ctx_xbt_mld.json"
     },
     {
       "name": "ace_xbt_deployment_summary",
@@ -48,8 +48,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 5020,
-      "hash": "8776ab3a499a22ef069fb1b3cf7c964d"
+      "bytes": 5018,
+      "hash": "a5021e11095d586e742b6e54203164a4"
     },
     {
       "name": "readme",
