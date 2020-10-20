@@ -1,14 +1,4 @@
 {
-  "name": "ace_merged_ctd_xbt_mld_tsavg",
-  "path": "/home/carles/Baixades/ace_merged_ctd_xbt_mld_tsavg.csv",
-  "scheme": "file",
-  "format": "csv",
-  "hashing": "md5",
-  "encoding": "utf-8",
-  "compression": "no",
-  "compressionPath": "",
-  "dialect": {},
-  "schema": {
     "fields": [
       {
         "name": "Datetime_UTC [YYYY-MM-DDTHH:MM:SS+00:00]",
@@ -122,9 +112,5 @@
         "type": "number"
       }
     ]
-  },
-  "profile": "tabular-data-resource",
-  "hash": "6bd0403953a879997dcc9ad643949691",
-  "bytes": 28390,
-  "rows": 159
+
 }
