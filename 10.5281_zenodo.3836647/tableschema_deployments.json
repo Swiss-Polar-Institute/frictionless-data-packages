@@ -148,6 +148,6 @@
     }
   ],
   "missingValues": [
-    "NaN"
+    "-999"
   ]
 }
