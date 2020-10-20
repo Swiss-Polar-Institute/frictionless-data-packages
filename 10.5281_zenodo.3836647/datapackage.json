@@ -14,7 +14,7 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema_merged.json"
     }
-        {
+    {
       "name": "ace_xbt_deployment_summary",
       "path": "ace_xbt_deployment_summary.csv",
       "title": "Deployment summary",
@@ -27,7 +27,7 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema_deployments.json"
     }
-        {
+    {
       "name": "ace_xbt_mld_tavg",
       "path": "ace_xbt_mld_tavg.csv",
       "title": "Temperatures and mixed layer depths XBT",
@@ -40,6 +40,27 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema_mld.json"
     }
+        {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of seawater temperature profile dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of seawater temperature profile dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": "",
   ],
   "keywords": [
     "physical oceanography",
