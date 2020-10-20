@@ -88,8 +88,8 @@
       "x_spi_netcdf_name": "datetime",
       "description": "Date and time of deployment in ISO8601 format (UTC)",
       "unit": "UTC",
-            "x_spi_netcdf_name": "datetime",
-      "x_spi_emodnet_visualise_variable",: "False"
+      "x_spi_netcdf_name": "datetime",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "LATITUDE [degN]",
