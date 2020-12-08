@@ -9,7 +9,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema_frozen_fraction.json"
@@ -22,7 +22,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema_number_concentration.json"
@@ -35,11 +35,11 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "data-resource"
     },
-        {
+    {
       "name": "data_file_header_number_concentration",
       "path": "data_file_header_number_concentration.txt",
       "title": "Data file header",
@@ -47,7 +47,7 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "data-resource"
     },
@@ -59,7 +59,7 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "data-resource"
     },
@@ -71,37 +71,40 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "data-resource"
     }
   ],
   "keywords": [
-
+    "ice nucleating particles",
+    "INP",
+    "aerosols",
+    "filter sampling",
     "Southern Ocean",
     "Antarctica",
     "Antarctic Circumnavigation Expedition",
     "ACE-SPACE",
     "ACE"
   ],
-  "name": "",
+  "name": "ace_ice_nucleating_particle_number_concentration_low_volume",
   "id": "https://doi.org/10.5281/zenodo.2636776",
-  "title": "",
-  "description": "",
+  "title": "Ice Nucleating Particle number concentration from low-volume sampling over the Southern Ocean during the austral summer of 2016/2017 on board the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "Ice nucleating particles (INP) are a subclass of atmospheric aerosol particles, which can force heterogeneous freezing of cloud droplets at temperatures above -38 degrees C. In contrast, ice particles form from cloud droplets at temperatures below -38 degrees C due to homogeneous freezing, without INP. Due to their abundance, these particles can affect micro-physical properties of clouds, while acting as INP. During the Antarctic Circumnavigation Expedition (ACE) around the Southern Ocean, off-line filter sampling was performed. Filters were stored on the ship and analysed after the cruise at Leibniz-Institute for Tropospheric Research (TROPOS) concerning INP abundance. Here, we give INP number concentrations for sampling of 8 hour periods.",
   "homepage": "https://doi.org/10.5281/zenodo.2636776",
   "version": "1.1",
   "contributors": [
     {
-      "title": "Julia Schmale",
-      "path": "https://orcid.org/0000-0002-1048-7962",
-      "email": "julia.schmale@epfl.ch",
+      "title": "Christian Tatzelt",
+      "path": "https://orcid.org/0000-0001-7795-5372",
+      "email": "christian.tatzelt@tropos.de",
       "role": "author",
-      "organisation": "Paul Scherrer Institute, Villigen, Switzerland",
-      "x_spi_additional_organisation": "EPFL, Lausanne, Switzerland"
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
     },
     {
       "title": "Silvia Henning",
       "path": "https://orcid.org/0000-0001-9267-7825",
+      "email": "silvia.henning@tropos.de",
       "role": "author",
       "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
     },
@@ -124,22 +127,23 @@
       "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
     },
     {
+      "title": "André Welti",
+      "path": "https://orcid.org/0000-0002-3549-1212",
+      "role": "author",
+      "organisation": "Finnish Meteorological Institute, Finland"
+    },
+    {
       "title": "Katrianne Lehtipalo",
       "path": "https://orcid.org/0000-0002-1660-2706",
       "role": "author",
       "organisation": "University of Helsinki, Finland"
     },
     {
-      "title": "Christian Tatzelt",
-      "path": "https://orcid.org/0000-0001-7795-5372",
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
       "role": "author",
-      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
-    },
-    {
-      "title": "Martin Gysel-Beer",
-      "path": "https://orcid.org/0000-0002-7453-1264",
-      "role": "author",
-      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland",
+      "x_spi_additional_organisation": "EPFL, Lausanne, Switzerland"
     },
     {
       "title": "Jen Thomas",
@@ -160,9 +164,10 @@
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": [
-    {"name":  "",
-    "organisation": ""}
+    {
+      "organisation": "Leibniz Institute for Tropospheric Research"
+    }
   ],
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Tatzelt, C., Henning, S., Tummon, F., Hartmann, M., Baccarini, A., Welti, A., Lehtipalo, K. and Schmale, J. (2019). Ice Nucleating Particle number concentration from low-volume sampling over the Southern Ocean during the austral summer of 2016/2017 on board the Antarctic Circumnavigation Expedition (ACE). (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.263677"
 }
