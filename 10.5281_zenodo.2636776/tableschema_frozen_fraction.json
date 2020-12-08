@@ -1,27 +1,303 @@
 {
   "fields": [
     {
-      "name": "date_time [UTC]",
-      "type": "datetime",
-      "format": "%Y-%m-%dT%H:%M:%S%z",
-      "title": "Date time",
-      "description": "Date and time of the end of each five-minute time interval in the ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
-      "unit": "UTC",
-      "x_spi_netcdf_name": "date_time",
+      "name": "name_of_filter_sample",
+      "type": "string",
+      "format": "default",
+      "title": "Name of filter sample",
+      "description": "Name of filter sample",
+      "x_spi_netcdf_name": "filter_sample_name",
       "x_spi_emodnet_visualise_variable": "False"
     },
     {
-      "name": "",
+      "name": "volume_of_sampled_air(m^3)",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "Volume of sampled air",
+      "description": "Volume of air sampled through respective filter between start and end of sampling. [cubic meter]",
+      "unit": "m3",
+      "x_spi_netcdf_name": "volume_sampled_air",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "volume_of_water_for_solution(m^3)",
+      "type": "number",
+      "format": "default",
+      "title": "Volume of water solution",
+      "description": "Volume of ultra-pure water (milliQ) used to wash sampled material off respective filter. [cubic meter]",
+      "unit": "m3",
+      "x_spi_netcdf_name": "volume_water_solution",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+        {
+      "name": "volume_of_droplet_for_freezing(m^3)",
+      "type": "number",
+      "format": "default",
+      "title": "Volume of droplet for freezing",
+      "description": "Volume of a droplet from the washing-off solution that is put into one of 96 compartments of a PCR tray as part of the measurement setup. [cubic meter]",
+      "unit": "m3",
+      "x_spi_netcdf_name": "volume_droplet_freezing",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+        {
+      "name": "fraction_of_frozen_droplets_at_-5_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -5 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -5 degrees C. [-]",
       "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-5_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-6_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -6 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -6 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-6_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-7_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -7 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -7 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-7_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-8_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -8 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -8 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-8_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-9_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -9 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -9 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-9_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-10_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -10 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -10 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-10_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-11_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -11 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -11 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-11_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-12_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -12 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -12 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-12_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-13_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -13 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -13 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-13_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-14_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -14 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -14 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-14_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "fraction_of_frozen_droplets_at_-15_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -15 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -15 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-15_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-16_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -16 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -16 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-16_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-17_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -17 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -17 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-17_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-18_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -18 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -18 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-18_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-19_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -19 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -19 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-19_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-20_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -20 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -20 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-20_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-21_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -21 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -21 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-21_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-22_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -22 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -22 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-22_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-23_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -23 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -23 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-23_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-24_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -24 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -24 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-24_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-25_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -25 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -25 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-25_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-26_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -26 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -26 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-26_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-27_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -27 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -27 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-27_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-28_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -28 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -28 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-28_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-29_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -29 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -29 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-29_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "fraction_of_frozen_droplets_at_-30_degreeC",
+      "type": "number",
+      "format": "default",
+      "title": "Fraction of frozen droplets at -30 degrees C",
+      "description": "Fraction of frozen to un-frozen compartments of the PCR tray used in the freezing array at -30 degrees C. [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fraction_of_frozen_droplets_at_-30_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
