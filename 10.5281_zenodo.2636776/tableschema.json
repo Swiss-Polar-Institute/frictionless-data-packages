@@ -11,70 +11,17 @@
       "x_spi_emodnet_visualise_variable": "False"
     },
     {
-      "name": "latitude [degN]",
+      "name": "",
       "type": "number",
       "format": "default",
-      "title": "Latitude",
-      "description": "Average latitude of the ship on which the measurements took place, during the five-minute time interval [decimal degrees North]",
-      "unit": "degree_north",
-      "x_spi_cf_standard_name": "latitude",
-      "x_spi_cf_unit": "degree_north",
-      "x_spi_cf_attribute": "Average latitude of the ship on which the measurements took place, during the five-minute time interval",
-      "x_spi_netcdf_name": "latitude",
-      "x_spi_emodnet_visualise_variable": "False"
-    },
-    {
-      "name": "longitude [degE]",
-      "type": "number",
-      "format": "default",
-      "title": "Longitude",
-      "description": "Average longitude of the ship on which the measurements took place, during the five-minute time interval [decimal degrees East]",
-      "unit": "degree_east",
-      "x_spi_cf_standard_name": "longitude",
-      "x_spi_cf_unit": "degree_east",
-      "x_spi_cf_attribute": "Average longitude of the ship on which the measurements took place, during the five-minute time interval",
-      "x_spi_netcdf_name": "longitude",
-      "x_spi_emodnet_visualise_variable": "False"
-    },
-    {
-      "name": "O3 [ppb]",
-      "type": "number",
-      "format": "default",
-      "title": "Ozone concentration",
-      "description": "Concentration of ozone (O3) measured in parts per billion during the five-minute interval [ppb]",
-      "unit": "ppb",
-      "x_spi_netcdf_name": "o3_concentration",
-      "x_spi_emodnet_visualise_variable": "True"
-    },
-    {
-      "name": "CH4 [ppm]",
-      "type": "number",
-      "format": "default",
-      "title": "Methane concentration",
-      "description": "Concentration of methane (CH4) measured in parts per million during the five-minute interval [ppm]",
-      "unit": "ppm",
-      "x_spi_netcdf_name": "ch4_concentration",
-      "x_spi_emodnet_visualise_variable": "True"
-    },
-    {
-      "name": "CO [ppb]",
-      "type": "number",
-      "format": "default",
-      "title": "Carbon monoxide concentration",
-      "description": "Concentration of carbon monoxide (CO) measured in parts per billion during the five-minute interval [ppb]",
-      "unit": "ppb",
-      "x_spi_netcdf_name": "co_concentration",
-      "x_spi_emodnet_visualise_variable": "True"
-    },
-        {
-      "name": "CO2 [ppm]",
-      "type": "number",
-      "format": "default",
-      "title": "Carbon dioxide concentration",
-      "description": "Concentration of carbon dioxide (CO2) measured in parts per million during the five-minute interval [ppm]",
-      "unit": "ppm",
-      "x_spi_netcdf_name": "co2_concentration",
-      "x_spi_emodnet_visualise_variable": "True"
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": ""
     }
   ],
   "missingValues": [
