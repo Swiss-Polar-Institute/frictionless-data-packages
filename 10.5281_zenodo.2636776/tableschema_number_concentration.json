@@ -91,7 +91,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-5_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-6_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -101,7 +101,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-6_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-7_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -111,7 +111,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-7_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-8_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -121,7 +121,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-8_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-9_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -131,7 +131,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-9_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-10_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -141,7 +141,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-10_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-11_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -151,7 +151,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-11_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-12_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -161,7 +161,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-12_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-13_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -171,7 +171,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-13_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-14_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -181,7 +181,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-14_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-15_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -191,7 +191,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-15_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-16_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -201,7 +201,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-16_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-17_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -211,7 +211,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-17_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-18_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -221,7 +221,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-18_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-19_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -231,7 +231,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-19_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-20_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -241,7 +241,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-20_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-21_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -251,7 +251,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-21_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-22_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -261,7 +261,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-22_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-23_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -271,7 +271,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-23_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-24_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -281,7 +281,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-24_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-25_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -291,7 +291,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-25_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-26_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -301,7 +301,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-26_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-27_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -311,7 +311,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-27_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-28_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -321,7 +321,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-28_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-29_degreeC(m^-3)",
       "type": "number",
       "format": "default",
@@ -331,7 +331,7 @@
       "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-29_degreeC",
       "x_spi_emodnet_visualise_variable": "True"
     },
-                    {
+    {
       "name": "concentration_of_ice_nucleating_particles_at_-30_degreeC(m^-3)",
       "type": "number",
       "format": "default",
