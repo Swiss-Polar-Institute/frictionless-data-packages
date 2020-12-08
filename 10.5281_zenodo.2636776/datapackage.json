@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 56286,
+      "hash": "51f4506bcda126cda20902dfbd1c9702",
       "profile": "tabular-data-resource",
       "schema": "tableschema_frozen_fraction.json"
     },
@@ -22,8 +22,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 81589,
+      "hash": "650748973037ad3003eb783f62d834f7",
       "profile": "tabular-data-resource",
       "schema": "tableschema_number_concentration.json"
     },
@@ -35,8 +35,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 963,
+      "hash": "396a8e48a0274d075b2df675d8c06cc0",
       "profile": "data-resource"
     },
     {
@@ -47,20 +47,20 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 1435,
+      "hash": "992a06141ef08cabfcdc37ba6153b46f",
       "profile": "data-resource"
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "README_20201208.odt",
       "title": "Readme",
       "description": "Description of ice nucleating particle dataset",
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 37239,
+      "hash": "9b870dd0b9e1235a67030b10ec2b84ea",
       "profile": "data-resource"
     },
     {
@@ -71,8 +71,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 332,
+      "hash": "18627da2598f684a6aa12c711f09d786",
       "profile": "data-resource"
     }
   ],
