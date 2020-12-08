@@ -1,0 +1,348 @@
+{
+  "fields": [
+    {
+      "name": "name_of_filter_sample",
+      "type": "string",
+      "format": "default",
+      "title": "Name of filter sample",
+      "description": "Name of filter sample",
+      "x_spi_netcdf_name": "filter_sample_name",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "datetime_of_start_of_sampling(UTC)",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time of start of sampling",
+      "description": "Date and time at the start of sampling of respective filter in ISO 8601 format: YYYY-MM-DDThh:mm:ss+00:00. [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time_start",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "latitude_at_start_of_sampling(degree N)",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude at start of sampling",
+      "description": "Latitude of the vessel’s geographical position at the start of sampling of respective filter. [degrees North]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of vessel at start of sampling",
+      "x_spi_netcdf_name": "latitude_start",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "longitude_at_start_of_sampling(degree E)",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude at start of sampling",
+      "description": "Longitude of the vessel’s geographical position at the start of sampling of respective filter. [degrees East]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of vessel at start of sampling",
+      "x_spi_netcdf_name": "longitude_start",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "datetime_of_end_of_sampling(UTC)",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time of end of sampling",
+      "description": "Date and time at the end of sampling of respective filter in ISO 8601 format: YYYY-MM-DDThh:mm:ss+00:00. [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time_end",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "latitude_at_end_of_sampling(degree N)",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude at end of sampling",
+      "description": "Latitude of the vessel’s geographical position at the end of sampling of respective filter. [degrees North]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of vessel at end of sampling",
+      "x_spi_netcdf_name": "latitude_end",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "longitude_at_end_of_sampling(degree E)",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude at end of sampling",
+      "description": "Longitude of the vessel’s geographical position at the end of sampling of respective filter. [degrees East]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of vessel at end of sampling",
+      "x_spi_netcdf_name": "longitude_end",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "concentration_of_ice_nucleating_particles_at_-5_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -5 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -5 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-5_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "concentration_of_ice_nucleating_particles_at_-6_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -6 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -6 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-6_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "concentration_of_ice_nucleating_particles_at_-7_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -7 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -7 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-7_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "concentration_of_ice_nucleating_particles_at_-8_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -8 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -8 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-8_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "concentration_of_ice_nucleating_particles_at_-9_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -9 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -9 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-9_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "concentration_of_ice_nucleating_particles_at_-10_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -10 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -10 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-10_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "concentration_of_ice_nucleating_particles_at_-11_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -11 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -11 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-11_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "concentration_of_ice_nucleating_particles_at_-12_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -12 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -12 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-12_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "concentration_of_ice_nucleating_particles_at_-13_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -13 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -13 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-13_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "concentration_of_ice_nucleating_particles_at_-14_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -14 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -14 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-14_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "concentration_of_ice_nucleating_particles_at_-15_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -15 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -15 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-15_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "concentration_of_ice_nucleating_particles_at_-16_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -16 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -16 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-16_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "concentration_of_ice_nucleating_particles_at_-17_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -17 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -17 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-17_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "concentration_of_ice_nucleating_particles_at_-18_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -18 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -18 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-18_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "concentration_of_ice_nucleating_particles_at_-19_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -19 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -19 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-19_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "concentration_of_ice_nucleating_particles_at_-20_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -20 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -20 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-20_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-21_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -21 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -21 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-21_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-22_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -22 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -22 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-22_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-23_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -23 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -23 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-23_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-24_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -24 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -24 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-24_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-25_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -25 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -25 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-25_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-26_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -26 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -26 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-26_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-27_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -27 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -27 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-27_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-28_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -28 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -28 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-28_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-29_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -29 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -29 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-29_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                    {
+      "name": "concentration_of_ice_nucleating_particles_at_-30_degreeC(m^-3)",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration of ice nucleating particles at -30 degrees C",
+      "description": " Number concentration of ice nucleating particles on filter sample at -30 degrees C. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "concentration_of_ice_nucleating_particles_at_-30_degreeC",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
