@@ -2,10 +2,10 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "ACESPACE_ice_nucleating_particles_frozen_fraction_from_lowvolume_filters",
+      "name": "acespace_ice_nucleating_particles_frozen_fraction_from_lowvolume_filters",
       "path": "ACESPACE_ice_nucleating_particles_frozen_fraction_from_lowvolume_filters.csv",
-      "title": "",
-      "description": "",
+      "title": "ACESPACE ice nucleating particles frozen fraction from low volume filters",
+      "description": "Frozen fraction values from low volume filters operated during the Antarctic Circumnavigation Expedition",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -15,10 +15,10 @@
       "schema": "tableschema_frozen_fraction.json"
     },
     {
-      "name": "ACESPACE_ice_nucleating_particles_number_concentration_from_lowvolume_filters",
+      "name": "acespace_ice_nucleating_particles_number_concentration_from_lowvolume_filters",
       "path": "ACESPACE_ice_nucleating_particles_number_concentration_from_lowvolume_filters.csv",
-      "title": "",
-      "description": "",
+      "title": "ACESPACE ice nucleating particle number concentration from low volume filters",
+      "description": "Number concentration of ice nucleating particles from low volume filters operated during the Antarctic Circumnavigation Expedition",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -53,9 +53,9 @@
     },
     {
       "name": "readme",
-      "path": "",
+      "path": "README.txt",
       "title": "Readme",
-      "description": "Description of ice nucleating particle number concentration dataset",
+      "description": "Description of ice nucleating particle dataset",
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
@@ -65,9 +65,9 @@
     },
     {
       "name": "change_log",
-      "path": "",
+      "path": "change_log.txt",
       "title": "Change log",
-      "description": "Description of changes to ice nucleating particle number concentration dataset",
+      "description": "Description of changes to ice nucleating particle dataset",
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
