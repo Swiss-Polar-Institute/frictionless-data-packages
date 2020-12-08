@@ -1,0 +1,151 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "acespace_trace_gas_concentration",
+      "path": "https://zenodo.org/record/4028749/files/ACESPACE_trace_gas_concentration.csv?download=1",
+      "title": "ACE-SPACE trace gas concentration dataset",
+      "description": "Data file of trace gas mixing ratios over the Southern Ocean during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 2158718,
+      "hash": "16db9f6c681c356f53d3b83b9c6d7af2",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/4028749/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of trace gas mixing ratio dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1297,
+      "hash": "2b33828e1be505bd25e627a5bfa318f8",
+      "profile": "data-resource"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/4028749/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of trace gas mixing ratio dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 8087,
+      "hash": "d092731050e21ae54e973b507574ad2d",
+      "profile": "data-resource"
+    },
+    {
+      "name": "change_log",
+      "path": "https://zenodo.org/record/4028749/files/change_log.txt?download=1",
+      "title": "Change log",
+      "description": "Description of changes to trace gas mixing ratio dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 334,
+      "hash": "88cf51e9ae699bbf8b99fe61767563d7",
+      "profile": "data-resource"
+    }
+  ],
+  "keywords": [
+    "trace gas",
+    "ozone",
+    "O3",
+    "carbon monoxide",
+    "CO",
+    "carbon dioxide",
+    "CO2",
+    "methane",
+    "CO4",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE-SPACE",
+    "ACE"
+  ],
+  "name": "ace_trace_gas_mixing_ratios",
+  "id": "https://doi.org/10.5281/zenodo.4028749",
+  "title": "Trace gas mixing ratios measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition.",
+  "description": "The authors would highly appreciate to be contacted if the data is used for any purpose. We measured mixing ratios of CO, CO2 and CH4 with a PICARRO G2401 Gas Analyzer. Ozone (O3) mixing ratios were measured with a 2B Technology ozone monitor, model 205. We report five-minute averaged data cleaned from exhaust gas influence. Temporal coverage is from December 20, 2016 to April 10, 2017. The trace gas concentrations represent a large number of atmospheric processes that happen on different time scales. CO for example, has basically no sources other than combustion and can hence be used as tracer for air mass transport from regions with combustion activities (e.g., South Africa). CO has a lifetime of a few weeks. CO2 and CH4 are longer-lived trace gases which disperse globally. The data set shows that concentrations in the Northern Hemisphere are higher than in the Southern Hemisphere. Both trace gases are emitted by anthropogenic activities as well as natural sources. Over the cruise track, areas of the Southern Ocean were passed where these trace gases either outgas or are absorbed. Ozone is a secondary trace gas, meaning that it is formed in the atmosphere. Its concentrations are relatively low. All trace gases data have been cleaned from exhaust gas influence.",
+  "homepage": "https://doi.org/10.5281/zenodo.4028749",
+  "version": "1.1",
+  "contributors": [
+    {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "email": "julia.schmale@epfl.ch",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland",
+      "x_spi_additional_organisation": "EPFL, Lausanne, Switzerland"
+    },
+    {
+      "title": "Silvia Henning",
+      "path": "https://orcid.org/0000-0001-9267-7825",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
+    },
+    {
+      "title": "Fiona Tummon",
+      "path": "https://orcid.org/0000-0001-9700-1701",
+      "role": "author",
+      "organisation": "Eidgenössische Technische Hochschule Zürich; MeteoSwiss, Payerne, Switzerland"
+    },
+    {
+      "title": "Markus Hartmann",
+      "path": "https://orcid.org/0000-0001-9700-1701",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
+    },
+    {
+      "title": "Andrea Baccarini",
+      "path": "https://orcid.org/0000-0003-4614-247X",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "Katrianne Lehtipalo",
+      "path": "https://orcid.org/0000-0002-1660-2706",
+      "role": "author",
+      "organisation": "University of Helsinki, Finland"
+    },
+    {
+      "title": "Christian Tatzelt",
+      "path": "https://orcid.org/0000-0001-7795-5372",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
+    },
+    {
+      "title": "Martin Gysel-Beer",
+      "path": "https://orcid.org/0000-0002-7453-1264",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_2636778",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {"name":  "Julia Schmale",
+    "organisation": "Paul Scherrer Institute, Villigen, Switzerland"}
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Schmale, J., Henning, S., Tummon, F., Hartmann, M., Baccarini, A., Welti, A., Lehtipalo, K., Tatzelt, C. and Gysel-Beer, M. (2020). Trace gas mixing ratios measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition. (Version 1.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4028749"
+}
