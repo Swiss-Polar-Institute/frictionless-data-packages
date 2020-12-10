@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "acespace_ice_nucleating_particles_frozen_fraction_from_lowvolume_filters",
-      "path": "ACESPACE_ice_nucleating_particles_frozen_fraction_from_lowvolume_filters.csv",
+      "path": "https://zenodo.org/record/4311665/files/ACESPACE_ice_nucleating_particles_frozen_fraction_from_lowvolume_filters.csv?download=1",
       "title": "ACESPACE ice nucleating particles frozen fraction from low volume filters",
       "description": "Frozen fraction values from low volume filters operated during the Antarctic Circumnavigation Expedition",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "acespace_ice_nucleating_particles_number_concentration_from_lowvolume_filters",
-      "path": "ACESPACE_ice_nucleating_particles_number_concentration_from_lowvolume_filters.csv",
+      "path": "https://zenodo.org/record/4311665/files/ACESPACE_ice_nucleating_particles_number_concentration_from_lowvolume_filters.csv?download=1",
       "title": "ACESPACE ice nucleating particle number concentration from low volume filters",
       "description": "Number concentration of ice nucleating particles from low volume filters operated during the Antarctic Circumnavigation Expedition",
       "format": "csv",
@@ -29,7 +29,7 @@
     },
     {
       "name": "data_file_header_frozen_fraction",
-      "path": "data_file_header_frozen_fraction",
+      "path": "https://zenodo.org/record/4311665/files/data_file_header_frozen_fraction.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of frozen fraction values data file",
       "format": "text",
@@ -41,7 +41,7 @@
     },
     {
       "name": "data_file_header_number_concentration",
-      "path": "data_file_header_number_concentration.txt",
+      "path": "https://zenodo.org/record/4311665/files/data_file_header_number_concentration.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of ice nucleating particle number concentration data file",
       "format": "text",
@@ -53,7 +53,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/4311665/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of ice nucleating particle dataset",
       "format": "text",
@@ -65,7 +65,7 @@
     },
     {
       "name": "change_log",
-      "path": "change_log.txt",
+      "path": "https://zenodo.org/record/4311665/files/change_log.txt?download=1",
       "title": "Change log",
       "description": "Description of changes to ice nucleating particle dataset",
       "format": "text",
