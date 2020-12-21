@@ -1,0 +1,63 @@
+{
+  "fields": [
+    {
+      "name": "datetime(UTC)",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "Date and time of the start of the 300 second-long interval, the N_CCN value is given for, in ISO 8601 format: YYYY-MM-DDThh:mm:ss+00:00. [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "latitude(degree N)",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "Latitude of the ship's position in decimal degrees North at the start of the averaged time period. [decimal degrees north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Average latitude of the ship on which the measurements took place, during the five-minute time interval",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "longitude(degree E)",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "Longitude of the ship's position in decimal degrees East at the start of the averaged time period. [decimal degrees east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Average longitude of the ship on which the measurements took place, during the five-minute time interval",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+        {
+      "name": "critical_diameter_of_cloud_condensation_nuclei_at_stp_in_air(m)",
+      "type": "number",
+      "format": "default",
+      "title": "Critical diameter of cloud condensation nuclei at STP in air",
+      "description": "Critical diameter at given supersaturation as averaged value for time period from time stamp to 300 seconds after the time stamp [meter]",
+      "unit": "meter",
+      "x_spi_netcdf_name": "critical_diameter",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "supersaturation(%)",
+      "type": "number",
+      "format": "default",
+      "title": "Supersaturation",
+      "description": "Level of supersaturation inside the measurement instrument for the time period the D_crit value is given for. [precent]",
+      "unit": "percent",
+      "x_spi_netcdf_name": "supersaturation",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    "nan"
+  ]
+}
