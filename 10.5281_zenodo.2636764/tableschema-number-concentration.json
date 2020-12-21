@@ -5,7 +5,7 @@
       "type": "datetime",
       "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "Date time",
-      "description": "Date and time of the start of the 300 second-long interval, the N_CCN value is given for, in ISO 8601 format: YYYY-MM-DDThh:mm:ss+00:00. [UTC]",
+      "description": "Date and time of the start of the 300-second long interval, the N_CCN value is given for, in ISO 8601 format: YYYY-MM-DDThh:mm:ss+00:00. [UTC]",
       "unit": "UTC",
       "x_spi_netcdf_name": "date_time",
       "x_spi_emodnet_visualise_variable": "False"
@@ -37,13 +37,13 @@
       "x_spi_emodnet_visualise_variable": "False"
     },
         {
-      "name": "hygroscopicity_parameter_of_cloud_condensation_nuclei_at_stp_in_air",
+      "name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air(m^-3)",
       "type": "number",
       "format": "default",
-      "title": "Hygroscopicity parameter of cloud condensation nuclei at STP in air",
-      "description": "Hygroscopicity parameter kappa at given supersaturation as averaged value for time period from time stamp to 300 seconds after the time stamp. [-]",
-      "unit": "",
-      "x_spi_netcdf_name": "hygroscopicity_parameter",
+      "title": "Number concentration of cloud condensation nuclei at STP in air",
+      "description": "CCN number concentration at given supersaturation as averaged value for time period from time stamp to 300 seconds after the time stamp. [reciprocal cubic meter]",
+      "unit": "m-3",
+      "x_spi_netcdf_name": "number_concentration",
       "x_spi_emodnet_visualise_variable": "True"
     },
         {
@@ -51,7 +51,7 @@
       "type": "number",
       "format": "default",
       "title": "Supersaturation",
-      "description": "Level of supersaturation inside the measurement instrument for the time period the kappa value is given for. [percent]",
+      "description": "Level of supersaturation inside the measurement instrument for the time period the N_CCN value is given for. [percent]",
       "unit": "percent",
       "x_spi_netcdf_name": "supersaturation",
       "x_spi_emodnet_visualise_variable": "True"
