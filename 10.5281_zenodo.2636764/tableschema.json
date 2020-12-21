@@ -1,0 +1,43 @@
+{
+  "fields": [
+    {
+      "name": "date_time [UTC]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "Date and time of the end of each five-minute time interval in the ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "latitude [degN]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "Average latitude of the ship on which the measurements took place, during the five-minute time interval [decimal degrees North]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Average latitude of the ship on which the measurements took place, during the five-minute time interval",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "longitude [degE]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "Average longitude of the ship on which the measurements took place, during the five-minute time interval [decimal degrees East]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Average longitude of the ship on which the measurements took place, during the five-minute time interval",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "False"
+    }
+  ],
+  "missingValues": [
+    "nan"
+  ]
+}
