@@ -2,7 +2,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS015",
+      "name": "acespace_cloud_condensation_nuclei_critical_diameter_ss015",
       "path": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS015.csv",
       "title": "ACE-SPACE cloud condensation nuclei critical diameter 0.15% supersaturation",
       "description": "Data file of cloud condensation nuclei critical diameters at 0.15% supersaturation over the Southern Ocean during ACE",
@@ -15,7 +15,7 @@
       "schema": "tableschema-critical-diameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS020",
+      "name": "acespace_cloud_condensation_nuclei_critical_diameter_ss020",
       "path": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS020.csv",
       "title": "ACE-SPACE cloud condensation nuclei critical diameter 0.2% supersaturation",
       "description": "Data file of cloud condensation nuclei critical diameters at 0.2% supersaturation over the Southern Ocean during ACE",
@@ -28,7 +28,7 @@
       "schema": "tableschema-critical-diameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS030",
+      "name": "acespace_cloud_condensation_nuclei_critical_diameter_ss030",
       "path": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS030.csv",
       "title": "ACE-SPACE cloud condensation nuclei critical diameter 0.3% supersaturation",
       "description": "Data file of cloud condensation nuclei critical diameters at 0.3% supersaturation over the Southern Ocean during ACE",
@@ -41,7 +41,7 @@
       "schema": "tableschema-critical-diameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS050",
+      "name": "acespace_cloud_condensation_nuclei_critical_diameter_ss050",
       "path": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS050.csv",
       "title": "ACE-SPACE cloud condensation nuclei critical diameter 0.5% supersaturation",
       "description": "Data file of cloud condensation nuclei critical diameters at 0.5% supersaturation over the Southern Ocean during ACE",
@@ -54,7 +54,7 @@
       "schema": "tableschema-critical-diameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS100",
+      "name": "acespace_cloud_condensation_nuclei_critical_diameter_ss100",
       "path": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS100.csv",
       "title": "ACE-SPACE cloud condensation nuclei critical diameter 1.0% supersaturation",
       "description": "Data file of cloud condensation nuclei critical diameters at 1.0% supersaturation over the Southern Ocean during ACE",
@@ -67,7 +67,7 @@
       "schema": "tableschema-critical-diameter.json"
     },
     {
-      "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS015",
+      "name": "acespace_cloud_condensation_nuclei_hygroscopicity_parameter_ss015",
       "path": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS015.csv",
       "title": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter 0.15% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter at 0.15% supersaturation over the Southern Ocean during ACE",
@@ -80,7 +80,7 @@
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS020",
+      "name": "acespace_cloud_condensation_nuclei_hygroscopicity_parameter_ss020",
       "path": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS020.csv",
       "title": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter 0.2% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter at 0.2% supersaturation over the Southern Ocean during ACE",
@@ -93,7 +93,7 @@
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS030",
+      "name": "acespace_cloud_condensation_nuclei_hygroscopicity_parameter_ss030",
       "path": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS030.csv",
       "title": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter 0.3% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter at 0.3% supersaturation over the Southern Ocean during ACE",
@@ -106,7 +106,7 @@
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS050",
+      "name": "acespace_cloud_condensation_nuclei_hygroscopicity_parameter_ss050",
       "path": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS050.csv",
       "title": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter 0.5% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter at 0.5% supersaturation over the Southern Ocean during ACE",
@@ -119,7 +119,7 @@
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS100",
+      "name": "acespace_cloud_condensation_nuclei_hygroscopicity_parameter_ss100",
       "path": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS100.csv",
       "title": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter 1.0% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei hygroscopicity parameter at 1.0% supersaturation over the Southern Ocean during ACE",
@@ -132,7 +132,7 @@
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
     {
-      "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS015",
+      "name": "acespace_cloud_condensation_nuclei_number_concentration_ss015",
       "path": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS015.csv",
       "title": "ACE-SPACE cloud condensation nuclei number concentration 0.15% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei number concentration at 0.15% supersaturation over the Southern Ocean during ACE",
@@ -145,7 +145,7 @@
       "schema": "tableschema-number-concentration.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS020",
+      "name": "acespace_cloud_condensation_nuclei_number_concentration_ss020",
       "path": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS020.csv",
       "title": "ACE-SPACE cloud condensation nuclei number concentration 0.2% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei number concentration at 0.2% supersaturation over the Southern Ocean during ACE",
@@ -158,7 +158,7 @@
       "schema": "tableschema-number-concentration.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS030",
+      "name": "acespace_cloud_condensation_nuclei_number_concentration_ss030",
       "path": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS030.csv",
       "title": "ACE-SPACE cloud condensation nuclei number concentration 0.3% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei number concentration at 0.3% supersaturation over the Southern Ocean during ACE",
@@ -171,7 +171,7 @@
       "schema": "tableschema-number-concentration.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS050",
+      "name": "acespace_cloud_condensation_nuclei_number_concentration_ss050",
       "path": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS050.csv",
       "title": "ACE-SPACE cloud condensation nuclei number concentration 0.5% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei number concentration at 0.5% supersaturation over the Southern Ocean during ACE",
@@ -184,7 +184,7 @@
       "schema": "tableschema-number-concentration.json"
     },
         {
-      "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS100",
+      "name": "acespace_cloud_condensation_nuclei_number_concentration_ss100",
       "path": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS100.csv",
       "title": "ACE-SPACE cloud condensation nuclei number concentration 1.0% supersaturation",
       "description": "ACE-SPACE cloud condensation nuclei number concentration at 1.0% supersaturation over the Southern Ocean during ACE",
@@ -216,8 +216,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 1360,
-      "hash": "2af63ea9bbb2381f0846c5fef08f0b0e",
+      "bytes": 1390,
+      "hash": "9312f942f28839d12370e4c223c27fa7",
       "profile": "data-resource"
     },
         {
