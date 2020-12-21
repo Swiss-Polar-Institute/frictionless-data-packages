@@ -51,7 +51,7 @@
       "type": "number",
       "format": "default",
       "title": "Supersaturation",
-      "description": "Level of supersaturation inside the measurement instrument for the time period the D_crit value is given for. [precent]",
+      "description": "Level of supersaturation inside the measurement instrument for the time period the D_crit value is given for. [percent]",
       "unit": "percent",
       "x_spi_netcdf_name": "supersaturation",
       "x_spi_emodnet_visualise_variable": "True"
