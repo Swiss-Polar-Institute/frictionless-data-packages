@@ -36,7 +36,7 @@
       "x_spi_netcdf_name": "longitude",
       "x_spi_emodnet_visualise_variable": "False"
     },
-        {
+    {
       "name": "activation_temperature(K)",
       "type": "number",
       "format": "default",
@@ -49,7 +49,7 @@
       "x_spi_netcdf_name": "activation_temperature",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "hygroscopicity_parameter_of_cloud_condensation_nuclei_at_stp_in_air",
       "type": "number",
       "format": "default",
@@ -59,7 +59,7 @@
       "x_spi_netcdf_name": "hygroscopicity_parameter",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "supersaturation(%)",
       "type": "number",
       "format": "default",

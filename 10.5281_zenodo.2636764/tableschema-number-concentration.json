@@ -36,7 +36,20 @@
       "x_spi_netcdf_name": "longitude",
       "x_spi_emodnet_visualise_variable": "False"
     },
-        {
+    {
+      "name": "activation_temperature(K)",
+      "type": "number",
+      "format": "default",
+      "title": "Activation temperature",
+      "description": "",
+      "unit": "K",
+      "x_spi_cf_standard_name": "temperature",
+      "x_spi_cf_unit": "K",
+      "x_spi_cf_attribute": "Activation temperature",
+      "x_spi_netcdf_name": "activation_temperature",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
       "name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air(m^-3)",
       "type": "number",
       "format": "default",
@@ -46,7 +59,7 @@
       "x_spi_netcdf_name": "number_concentration",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "supersaturation(%)",
       "type": "number",
       "format": "default",

@@ -36,7 +36,7 @@
       "x_spi_netcdf_name": "longitude",
       "x_spi_emodnet_visualise_variable": "False"
     },
-        {
+    {
       "name": "critical_diameter_of_cloud_condensation_nuclei_at_stp_in_air(m)",
       "type": "number",
       "format": "default",
@@ -46,7 +46,7 @@
       "x_spi_netcdf_name": "critical_diameter",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "supersaturation(%)",
       "type": "number",
       "format": "default",
