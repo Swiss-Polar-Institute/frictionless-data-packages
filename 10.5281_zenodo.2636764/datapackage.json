@@ -9,8 +9,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 43969,
+      "hash": "70c4681d4e1af2b03eaa2d25101a33b4",
       "profile": "tabular-data-resource",
       "schema": "tableschema-critical-diameter.json"
     },
@@ -22,8 +22,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 42939,
+      "hash": "d3dd927c4d5ba3f334df551ad6b6f19c",
       "profile": "tabular-data-resource",
       "schema": "tableschema-critical-diameter.json"
     },
@@ -35,8 +35,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 42737,
+      "hash": "8ed0cfa880b70321164f51cfb600770e",
       "profile": "tabular-data-resource",
       "schema": "tableschema-critical-diameter.json"
     },
@@ -48,8 +48,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 43175,
+      "hash": "a56026d4276b13c98ccfa218e197bd5f",
       "profile": "tabular-data-resource",
       "schema": "tableschema-critical-diameter.json"
     },
@@ -61,8 +61,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 42365,
+      "hash": "6fad12d2581a1c72184d80e9358e82e9",
       "profile": "tabular-data-resource",
       "schema": "tableschema-critical-diameter.json"
     },
@@ -74,8 +74,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 42036,
+      "hash": "8ac9344538a6ebea80e78aa166117351",
       "profile": "tabular-data-resource",
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
@@ -87,8 +87,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 41010,
+      "hash": "536bbb1041147bd1361f04dc51ab433e",
       "profile": "tabular-data-resource",
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
@@ -100,8 +100,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 40849,
+      "hash": "a252cdae734cb8a0acac46abf78e3b8e",
       "profile": "tabular-data-resource",
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
@@ -113,8 +113,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 41318,
+      "hash": "9687c2ad116580a5df56e86d90411c7b",
       "profile": "tabular-data-resource",
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
@@ -126,8 +126,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 40556,
+      "hash": "9d00bef511cc46f153bb44568b4d5509",
       "profile": "tabular-data-resource",
       "schema": "tableschema-hygroscopicity-parameter.json"
     },
@@ -139,8 +139,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 91928,
+      "hash": "fd3fd85ceebe2374563d036fb62142e1",
       "profile": "tabular-data-resource",
       "schema": "tableschema-number-concentration.json"
     },
@@ -152,8 +152,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 90266,
+      "hash": "ab9f2a2c354108ef9b1a90f031f62e58",
       "profile": "tabular-data-resource",
       "schema": "tableschema-number-concentration.json"
     },
@@ -165,8 +165,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 90619,
+      "hash": "ea94ec4105da3756bfe974f07e5cab82",
       "profile": "tabular-data-resource",
       "schema": "tableschema-number-concentration.json"
     },
@@ -178,8 +178,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 91180,
+      "hash": "2bd124ce5fbbab7c1898263ae5208695",
       "profile": "tabular-data-resource",
       "schema": "tableschema-number-concentration.json"
     },
@@ -191,8 +191,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 90689,
+      "hash": "13c756ab68824a984dca835328ee5772",
       "profile": "tabular-data-resource",
       "schema": "tableschema-number-concentration.json"
     },
@@ -204,8 +204,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes": 1311,
+      "hash": "e986cfac1243ee7a68d01b13dcd2b5c9",
       "profile": "data-resource"
     },
         {
@@ -216,8 +216,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes": 1360,
+      "hash": "2af63ea9bbb2381f0846c5fef08f0b0e",
       "profile": "data-resource"
     },
         {
@@ -228,8 +228,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes": 1319,
+      "hash": "45b1f5abea81870cf8539222c0c5ccef",
       "profile": "data-resource"
     },
     {
@@ -240,8 +240,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes": 10263,
+      "hash": "a7b691658f5f3c548313f4c0135be5df",
       "profile": "data-resource"
     },
     {
@@ -252,8 +252,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": "",
+      "bytes": 278,
+      "hash": "fe01c286f6b06bce20ca27db8cc210ce",
       "profile": "data-resource"
     }
   ],
