@@ -12,7 +12,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-critical-diameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS020",
@@ -25,7 +25,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-critical-diameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS030",
@@ -38,7 +38,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-critical-diameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS050",
@@ -51,7 +51,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-critical-diameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_critical_diameter_SS100",
@@ -64,7 +64,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-critical-diameter.json"
     },
     {
       "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS015",
@@ -77,7 +77,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS020",
@@ -90,7 +90,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS030",
@@ -103,7 +103,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS050",
@@ -116,7 +116,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-hygroscopicity-parameter.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_hygroscopicity_parameter_SS100",
@@ -129,7 +129,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-hygroscopicity-parameter.json"
     },
     {
       "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS015",
@@ -142,7 +142,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-number-concentration.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS020",
@@ -155,7 +155,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-number-concentration.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS030",
@@ -168,7 +168,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-number-concentration.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS050",
@@ -181,7 +181,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-number-concentration.json"
     },
         {
       "name": "ACESPACE_cloud_condensation_nuclei_number_concentration_SS100",
@@ -194,7 +194,7 @@
       "bytes": ,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema-number-concentration.json"
     },
     {
       "name": "data_file_header_critical_diameter",
