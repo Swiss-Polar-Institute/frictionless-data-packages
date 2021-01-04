@@ -78,7 +78,11 @@ def generate_resources(data_directory, destination_file):
     datapackage = {}
     datapackage['resources'] = resources
 
-    print(json.dumps(datapackage, indent=2))
+    output_file = open(destination_file, 'w')
+
+    json.dump(datapackage, output_file, indent=2)
+
+    output_file.close()
 
 
 if __name__ == '__main__':
