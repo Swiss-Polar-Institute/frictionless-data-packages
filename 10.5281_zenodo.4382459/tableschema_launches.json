@@ -9,7 +9,7 @@
       "x_spi_netcdf_name": "sample_number",
       "x_spi_emodnet_visualise_variable": "false"
     },
-        {
+    {
       "name": "launch_date [day-month-year]",
       "type": "datetime",
       "format": "%d-%m-%Y",
@@ -18,7 +18,8 @@
       "unit": "UTC",
       "x_spi_netcdf_name": "launch_date",
       "x_spi_emodnet_visualise_variable": "false"
-    },     {
+    },
+    {
       "name": "start_time [hour-minute-second UTC]",
       "type": "datetime",
       "format": "%H:%M:%S%z",
@@ -27,7 +28,8 @@
       "unit": "UTC",
       "x_spi_netcdf_name": "start_time",
       "x_spi_emodnet_visualise_variable": "false"
-    },     {
+    },
+    {
       "name": "SLWC attached",
       "type": "string",
       "format": "default",
@@ -35,7 +37,8 @@
       "description": "\"yes\" if radiosonde was of type RSB with attached SLWC. \"no\" if radiosonde was of type ABx",
       "x_spi_netcdf_name": "radiosonde_type",
       "x_spi_emodnet_visualise_variable": "false"
-    },     {
+    },
+    {
       "name": "Success",
       "type": "string",
       "format": "default",
