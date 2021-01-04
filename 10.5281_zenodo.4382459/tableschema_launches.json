@@ -1,6 +1,67 @@
 {
   "fields": [
-
+    {
+      "name": "sample_number",
+      "type": "string",
+      "format": "default",
+      "title": "Sample number",
+      "description": "unique identifier of radiosounding",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": ""
+    },
+        {
+      "name": "launch_date [day-month-year]",
+      "type": "datetime",
+      "format": "%d-%m-%Y",
+      "title": "",
+      "description": "date of radiosonde launch [UTC]",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": ""
+    },     {
+      "name": "start_time [hour-minute-second UTC]",
+      "type": "datetime",
+      "format": "%H:%M:%S%z",
+      "title": "",
+      "description": "time at which the radiosonde was turned on [UTC]",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": ""
+    },     {
+      "name": "SLWC attached",
+      "type": "string",
+      "format": "default",
+      "title": "",
+      "description": "\"yes\" if radiosonde was of type RSB with attached SLWC. \"no\" if radiosonde was of type ABx",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": ""
+    },     {
+      "name": "Success",
+      "type": "string",
+      "format": "default",
+      "title": "",
+      "description": "\"yes\" if radiosonde was launched successfully and reached above 10km height; \"partly\" if radiosonde was launched successfully, but the signal was lost before the radiosonde reached 10km or if some of the sensors failed; \"no\" if the launch was not successful",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": ""
+    }
   ],
   "missingValues": [
     "NaN"
