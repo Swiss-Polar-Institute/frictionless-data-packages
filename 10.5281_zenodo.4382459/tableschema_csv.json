@@ -363,11 +363,11 @@
       "x_spi_emodnet_visualise_variable": "true"
     },
     {
-      "name": "",
+      "name": "predicted landing latitude",
       "type": "number",
       "format": "default",
       "title": "",
-      "description": "",
+      "description": "predicted landing latitude derived by software [degree_north]",
       "unit": "",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
@@ -376,11 +376,11 @@
       "x_spi_emodnet_visualise_variable": "true"
     },
     {
-      "name": "",
+      "name": "predicted landing longitude",
       "type": "number",
       "format": "default",
       "title": "",
-      "description": "",
+      "description": "predicted landing longitude derived by software [degree_east]",
       "unit": "",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
@@ -389,11 +389,11 @@
       "x_spi_emodnet_visualise_variable": "true"
     },
     {
-      "name": "",
+      "name": "predicted time to landing [min]",
       "type": "number",
       "format": "default",
       "title": "",
-      "description": "",
+      "description": "predicted time to landing derived by software [min]",
       "unit": "",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
@@ -402,11 +402,11 @@
       "x_spi_emodnet_visualise_variable": "true"
     },
     {
-      "name": "",
+      "name": "SLWC Frequency [Hz]",
       "type": "number",
       "format": "default",
       "title": "",
-      "description": "",
+      "description": "operating frequency of SWLC [Hz] (only available if sonde was equipped with SLWC sensor)",
       "unit": "",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
@@ -415,50 +415,11 @@
       "x_spi_emodnet_visualise_variable": "true"
     },
     {
-      "name": "",
+      "name": "SLWC Board Temperature [deg C]",
       "type": "number",
       "format": "default",
       "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": "true"
-    },
-    {
-      "name": "",
-      "type": "number",
-      "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": "true"
-    },
-    {
-      "name": "",
-      "type": "number",
-      "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": "true"
-    },
-    {
-      "name": "",
-      "type": "number",
-      "format": "default",
-      "title": "",
-      "description": "",
+      "description": "Board temperature [deg C](only available if sonde was equipped with SLWC sensor)",
       "unit": "",
       "x_spi_cf_standard_name": "",
       "x_spi_cf_unit": "",
