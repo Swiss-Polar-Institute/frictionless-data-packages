@@ -1,5 +1,6 @@
 import argparse
 import hashlib
+import importlib
 import json
 import os
 
@@ -50,30 +51,52 @@ def get_format(file_path):
     return extension[1:]
 
 
-def generate_frictionless_resource(data_directory, file_path):
-    frictionless_file = {}
+def generate_frictionless_resource(data_directory, file_path, extra_module):
+    resource = {}
 
-    frictionless_file['name'] = os.path.basename(file_path).lower().replace('.', '_')
-    frictionless_file['path'] = file_path[len(data_directory) + 1:]
-    frictionless_file['format'] = get_format(file_path)
-    frictionless_file['mediatype'] = get_mediatype(file_path)
-    frictionless_file['encoding'] = get_encoding(file_path)
-    frictionless_file['bytes'] = os.stat(file_path).st_size
-    frictionless_file['hash'] = calculate_md5(file_path)
-    frictionless_file['profile'] = get_profile(file_path)
+    resource['name'] = os.path.basename(file_path).lower().replace('.', '_')
+    resource['path'] = file_path[len(data_directory) + 1:]
+    resource['title'] = None
+    resource['description'] = None
+    resource['format'] = get_format(file_path)
+    resource['mediatype'] = get_mediatype(file_path)
+    resource['encoding'] = get_encoding(file_path)
+    resource['bytes'] = os.stat(file_path).st_size
+    resource['hash'] = calculate_md5(file_path)
+    resource['profile'] = get_profile(file_path)
 
-    if frictionless_file['profile'] == 'tabular-data-resource':
-        frictionless_file['schema'] = 'tableschema.json'
+    if resource['profile'] == 'tabular-data-resource':
+        resource['schema'] = 'tableschema.json'
 
-    return frictionless_file
+    for function, field in extra_functions().items():
+        value = getattr(extra_module, function, lambda r: None)(resource)
+
+        if value:
+            resource[field] = value
+        else:
+            del resource[field]
+
+    return resource
 
 
-def generate_resources(data_directory, destination_file):
+def extra_functions():
+    return {'get_title': 'title',
+            'get_description': 'description'
+            }
+
+
+def generate_resources(data_directory, destination_file, extra_module_path):
     resources = []
+
+    extra_module = None
+
+    if extra_module_path:
+        extra_module_path = extra_module_path.replace('.py', '')
+        extra_module = importlib.import_module(extra_module_path, package='extra')
 
     for root, directories, files in os.walk(data_directory):
         for file in files:
-            resources.append(generate_frictionless_resource(data_directory, os.path.join(root, file)))
+            resources.append(generate_frictionless_resource(data_directory, os.path.join(root, file), extra_module))
 
     datapackage = {}
     datapackage['resources'] = resources
@@ -90,7 +113,8 @@ if __name__ == '__main__':
 
     main_parser.add_argument('data_directory')
     main_parser.add_argument('destination_file')
+    main_parser.add_argument('--import_module')
 
     args = main_parser.parse_args()
 
-    generate_resources(args.data_directory, args.destination_file)
+    generate_resources(args.data_directory, args.destination_file, args.import_module)
