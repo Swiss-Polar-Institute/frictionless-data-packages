@@ -1,0 +1,91 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "",
+      "mediatype": "",
+      "encoding": "",
+      "bytes": ,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "",
+      "title": "Data file header",
+      "description": "Data file header of  dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "",
+      "title": "Readme",
+      "description": "Description of dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    }
+  ],
+  "keywords": [
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "",
+  "id": "https://doi.org/10.5281/zenodo.",
+  "title": "",
+  "description": "",
+  "homepage": "https://doi.org/10.5281/zenodo.",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Iris Thurnherr",
+      "path": "https://orcid.org/0000-0003-3647-0373",
+      "email": "iris.thurnherr@env.ethz.ch",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Heini Wernli",
+      "path": "https://orcid.org/0000-0001-9674-4837",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_4382459",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Irina Gorodetskaya",
+      "organisation": ""
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": ""
+}
