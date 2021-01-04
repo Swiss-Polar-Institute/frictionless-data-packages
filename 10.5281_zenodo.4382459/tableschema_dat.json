@@ -1,6 +1,172 @@
 {
   "fields": [
-
+    {
+      "name": "Time [min]",
+      "type": "number",
+      "format": "default",
+      "title": "Time of measurement",
+      "description": "Time of measurement in number of minutes after radiosonde turned on [min]",
+      "unit": "minute",
+      "x_spi_netcdf_name": "time",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Press [hpa]",
+      "type": "number",
+      "format": "default",
+      "title": "Pressure",
+      "description": "Pressure [hPa]",
+      "unit": "hPa",
+      "x_spi_netcdf_name": "pressure",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Alt [km]",
+      "type": "number",
+      "format": "default",
+      "title": "Altitude",
+      "description": "altitude of measurement [km]",
+      "unit": "km",
+      "x_spi_netcdf_name": "altitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Temp [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "Temperature",
+      "description": "Temperature [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Traw [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "Raw temperature",
+      "description": "Raw temperature [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "raw_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Theta [K]",
+      "type": "number",
+      "format": "default",
+      "title": "Potential temperature",
+      "description": "Potential temperature [K]",
+      "unit": "K",
+      "x_spi_cf_standard_name": "air_potential_temperature",
+      "x_spi_cf_unit": "K",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "air_potential_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "RH [%]",
+      "type": "number",
+      "format": "default",
+      "title": "Relative humidity",
+      "description": "Relative humidity [%]",
+      "unit": "",
+      "x_spi_cf_standard_name": "relative_humidity",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "relative_humidity",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Tfp V [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "Frost point temperature",
+      "description": "Frost point temperature [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "frost_point_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "TvaisI [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet internal temperature [deg C]",
+      "description": "Internal temperature of iMet radiosonde",
+      "unit": "C",
+      "x_spi_netcdf_name": "imet_internal_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "FI",
+      "type": "number",
+      "format": "default",
+      "title": "FI",
+      "description": "Not relevant",
+      "x_spi_netcdf_name": "fi",
+      "x_spi_emodnet_visualise_variable": "false"
+    },
+    {
+      "name": "GPS lat [deg]",
+      "type": "number",
+      "format": "default",
+      "title": "Radiosonde latitude",
+      "description": "Radiosonde latitude [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of radiosonde",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS lon [deg]",
+      "type": "number",
+      "format": "default",
+      "title": "Radiosonde longitude",
+      "description": "Radiosonde longitude [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of radiosonde",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS alt [km]",
+      "type": "number",
+      "format": "default",
+      "title": "Radiosonde altitude",
+      "description": "Radiosonde altitude [km]",
+      "unit": "km",
+      "x_spi_netcdf_name": "radiosonde_altitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Wind [m/s]",
+      "type": "number",
+      "format": "default",
+      "title": "Wind speed",
+      "description": "Wind speed [m/s]",
+      "unit": "m s-1",
+      "x_spi_cf_standard_name": "wind_speed",
+      "x_spi_cf_unit": "m s-1",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "wind_speed",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "Wind Dir [deg]",
+      "type": "number",
+      "format": "default",
+      "title": "Wind direction",
+      "description": "Wind direction [degree]",
+      "unit": "degree",
+      "x_spi_cf_standard_name": "wind_from_direction",
+      "x_spi_cf_unit": "degree",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "wind_from_direction",
+      "x_spi_emodnet_visualise_variable": "true"
+    }
   ],
   "missingValues": [
     "NaN"
