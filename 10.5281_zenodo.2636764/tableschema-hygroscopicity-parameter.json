@@ -41,7 +41,7 @@
       "type": "number",
       "format": "default",
       "title": "Activation temperature",
-      "description": "",
+      "description": "Temperature of the measurement column inside the instrument. [degrees Kelvin]",
       "unit": "K",
       "x_spi_cf_standard_name": "temperature",
       "x_spi_cf_unit": "K",
