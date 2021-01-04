@@ -1,6 +1,59 @@
 {
   "fields": [
     {
+      "name": "date [y-m-d GMT]",
+      "type": "datetime",
+      "format": "%Y-%m-%d",
+      "title": "Date",
+      "description": "Date during sounding [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "time [h:m:s GMT]",
+      "type": "datetime",
+      "format": "%H:%M:%S%z",
+      "title": "Time",
+      "description": "Time of measurement [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "time",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "milliseconds",
+      "type": "number",
+      "format": "default",
+      "title": "Milliseconds of time of measurement",
+      "description": "Milliseconds of time of measurement [ms]",
+      "unit": "ms",
+      "x_spi_netcdf_name": "milliseconds",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "seconds since midnight [GMT]",
+      "type": "number",
+      "format": "default",
+      "title": "Seconds since midnight",
+      "description": "Seconds since midnight UTC during sounding [s]",
+      "unit": "s",
+      "x_spi_cf_standard_name": "time",
+      "x_spi_cf_unit": "s",
+      "x_spi_cf_attribute": "Seconds since midnight on day of sounding, until measurement",
+      "x_spi_netcdf_name": "seconds_since_midnight",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "elapsed minutes",
+      "type": "number",
+      "format": "default",
+      "title": "Minutes on",
+      "description": "minutes since insturment was turned on and connected to software [min]",
+      "unit": "minute",
+      "x_spi_netcdf_name": "elapsed_minutes",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
       "name": "",
       "type": "number",
       "format": "default",
@@ -11,7 +64,85 @@
       "x_spi_cf_unit": "",
       "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": "true"
     }
   ],
   "missingValues": [
