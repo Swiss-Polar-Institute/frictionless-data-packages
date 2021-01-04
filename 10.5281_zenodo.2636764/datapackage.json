@@ -204,7 +204,7 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 1311,
+      "bytes": 1310,
       "hash": "e986cfac1243ee7a68d01b13dcd2b5c9",
       "profile": "data-resource"
     },
@@ -216,7 +216,7 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 1390,
+      "bytes": 1464,
       "hash": "9312f942f28839d12370e4c223c27fa7",
       "profile": "data-resource"
     },
@@ -240,8 +240,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 10263,
-      "hash": "a7b691658f5f3c548313f4c0135be5df",
+      "bytes": 10631,
+      "hash": "92f1a741216a81bb054d847850dc260f",
       "profile": "data-resource"
     },
     {
@@ -346,10 +346,9 @@
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": [
     {
-      "name": "",
-      "organisation": ""
+      "organisation": "Leibniz Institute for Tropospheric Research"
     }
   ],
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Tatzelt, C., Henning, S., Tummon, F., Hartmann, M., Baccarini, A., Welti, A., Lehtipalo, K., Schmale, J. and Modini, R. (2020). Cloud Condensation Nuclei number concentrations over the Southern Ocean during the austral summer of 2016/2017 on board the Antarctic Circumnavigation Expedition (ACE). (Version 1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4382043"
 }
