@@ -8,6 +8,7 @@ import os
 import sys
 
 import goodtables
+import tabulator
 from datapackage import Package
 from datapackage import exceptions
 
@@ -108,7 +109,8 @@ def validate_table(package, resource, errors):
     except (exceptions.ValidationError, exceptions.CastError) as exception:
         for error in exception.errors:
             add_error(errors, error, package.base_path, resource.name)
-
+    except tabulator.exceptions.FormatError as exception:
+        print("Error: file format not supported")
 
 def validate_data_package(datapackage_path, errors):
     print('* DATAPACKAGE', datapackage_path)
