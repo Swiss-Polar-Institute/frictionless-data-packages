@@ -374,26 +374,6 @@
       "unit": "minute",
       "x_spi_netcdf_name": "predicted_time_to_landing",
       "x_spi_emodnet_visualise_variable": "false"
-    },
-    {
-      "name": "SLWC Frequency [Hz]",
-      "type": "number",
-      "format": "default",
-      "title": "Operating frequency of SWLC",
-      "description": "Operating frequency of SWLC [Hz] (only available if sonde was equipped with SLWC sensor)",
-      "unit": "Hz",
-      "x_spi_netcdf_name": "swlc_frequency",
-      "x_spi_emodnet_visualise_variable": "true"
-    },
-    {
-      "name": "SLWC Board Temperature [deg C]",
-      "type": "number",
-      "format": "default",
-      "title": "Board temperature of SWLC",
-      "description": "Board temperature [deg C](only available if sonde was equipped with SLWC sensor)",
-      "unit": "C",
-      "x_spi_netcdf_name": "swlc_board_temperature",
-      "x_spi_emodnet_visualise_variable": "true"
     }
   ],
   "missingValues": [
