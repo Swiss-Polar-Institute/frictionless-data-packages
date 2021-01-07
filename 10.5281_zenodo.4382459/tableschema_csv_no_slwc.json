@@ -1,0 +1,382 @@
+{
+  "fields": [
+    {
+      "name": "date [y-m-d GMT]",
+      "type": "datetime",
+      "format": "%Y-%m-%d",
+      "title": "Date",
+      "description": "Date during sounding [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "time [h:m:s GMT]",
+      "type": "datetime",
+      "format": "%H:%M:%S%z",
+      "title": "Time",
+      "description": "Time of measurement [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "time",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "milliseconds",
+      "type": "number",
+      "format": "default",
+      "title": "Milliseconds of time of measurement",
+      "description": "Milliseconds of time of measurement [ms]",
+      "unit": "ms",
+      "x_spi_netcdf_name": "milliseconds",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "seconds since midnight [GMT]",
+      "type": "number",
+      "format": "default",
+      "title": "Seconds since midnight",
+      "description": "Seconds since midnight UTC during sounding [s]",
+      "unit": "s",
+      "x_spi_cf_standard_name": "time",
+      "x_spi_cf_unit": "s",
+      "x_spi_cf_attribute": "Seconds since midnight on day of sounding, until measurement",
+      "x_spi_netcdf_name": "seconds_since_midnight",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "elapsed minutes",
+      "type": "number",
+      "format": "default",
+      "title": "Minutes on",
+      "description": "minutes since insturment was turned on and connected to software [min]",
+      "unit": "minute",
+      "x_spi_netcdf_name": "elapsed_minutes",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "altitude (from iMet PTU) [km]",
+      "type": "number",
+      "format": "default",
+      "title": "Altitude",
+      "description": "Altiude derived from meteorological sensor of radiosonde [km]",
+      "unit": "km",
+      "x_spi_netcdf_name": "altitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet pressure [mb]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet pressure from sonde",
+      "description": "Pressure measured by pressure sensor of radiosonde [mb]",
+      "unit": "mb",
+      "x_spi_netcdf_name": "pressure",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet air temperature (corrected) [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet corrected air temperature",
+      "description": "corrected air temperature derived from meteorological sensor of radiosonde [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "corrected_air_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet air temperature (raw) [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet raw air temperature",
+      "description": "raw air temperature measured by temperature sensor of radiosonde [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "raw_air_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet humidity [RH %]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet relative humidity",
+      "description": "relative humidity measured by humidity sensor of radiosonde [%]",
+      "unit": "",
+      "x_spi_cf_standard_name": "relative_humidity",
+      "x_spi_cf_unit": "",
+      "x_spi_netcdf_name": "relative_humidity",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet frostpoint [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet frost point temperature",
+      "description": "frostpoint temperature derived from meteorological sensor of radiosonde [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "frost_point_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet internal temperature [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet internal sonde temperature",
+      "description": "internal sonde's temperature derived from meteorological sensor of radiosonde  [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "internal_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet battery voltage [V]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet battery voltage",
+      "description": "Battey voltage of radiosonde [V]",
+      "unit": "V",
+      "x_spi_netcdf_name": "battery_voltage",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet theta [K]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet potential temperature",
+      "description": "Potential temperature derived from meteorological sensor of radiosonde [K]",
+      "unit": "K",
+      "x_spi_cf_standard_name": "air_potential_temperature",
+      "x_spi_cf_unit": "K",
+      "x_spi_netcdf_name": "air_potential_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet temperature (of pressure sensor) [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet temperature of pressure sensor",
+      "description": "Temperature of pressure sensor of radiosonde [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "pressure_sensor_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet temperature (of humidity sensor) [deg C]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet temperature of humidity sensor",
+      "description": "Temperature of humidity sensor of radiosonde [deg C]",
+      "unit": "C",
+      "x_spi_netcdf_name": "humidity_sensor_temperature",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet ascent rate [m/s]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet ascent rate",
+      "description": "Ascent rate of sonde derived from meteorological sensor of radiosonde [m/s]",
+      "unit": "m s-1",
+      "x_spi_netcdf_name": "imet_ascent_rate",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet water vapor mixing ratio [ppmv]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet water vapour mixing ratio",
+      "description": "water vapour mixing ratio derived from meteorological sensor of radiosonde [ppmv]",
+      "unit": "ppmv",
+      "x_spi_netcdf_name": "water_vapour_mixing_ratio",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "iMet total column water [mm]",
+      "type": "number",
+      "format": "default",
+      "title": "iMet total column water",
+      "description": "total column derived from meteorological sensor of radiosonde [mm]",
+      "unit": "mm",
+      "x_spi_netcdf_name": "total_column_water",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS latitude [°N]",
+      "type": "number",
+      "format": "default",
+      "title": "GPS latitude",
+      "description": "Latitude of radiosonde derived from GPS receiver of the radiosonde [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS longitude [°E]",
+      "type": "number",
+      "format": "default",
+      "title": "GPS longitude",
+      "description": "Longitude of radiosonde derived from GPS receiver of the radiosonde [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS altitude [km]",
+      "type": "number",
+      "format": "default",
+      "title": "GPS altitude",
+      "description": "Altitude of radiosonde derived from GPS receiver of the radiosonde [km]",
+      "unit": "km",
+      "x_spi_netcdf_name": "altitude",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS num satellites",
+      "type": "number",
+      "format": "default",
+      "title": "Number of satellites for GPS",
+      "description": "Number of satellites available for GPS receiver of the radiosonde",
+      "unit": "",
+      "x_spi_netcdf_name": "number_satellites",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS pressure [mb]",
+      "type": "number",
+      "format": "default",
+      "title": "Pressure from GPS receiver",
+      "description": "Pressure of radiosonde derived from GPS receiver of the radiosonde [mb]",
+      "unit": "mb",
+      "x_spi_netcdf_name": "pressure_gps",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS wind speed [m/s]",
+      "type": "number",
+      "format": "default",
+      "title": "Wind speed from GPS receiver",
+      "description": "wind speed of radiosonde derived from GPS receiver of the radiosonde [m/s]",
+      "unit": "m s-1",
+      "x_spi_cf_standard_name": "wind_speed",
+      "x_spi_cf_unit": "m s-1",
+      "x_spi_cf_attribute": "Derived from GPS receiver",
+      "x_spi_netcdf_name": "wind_speed_gps",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS wind direction [deg]",
+      "type": "number",
+      "format": "default",
+      "title": "Wind direction from GPS receiver",
+      "description": "Wind direction of radiosonde derived from GPS receiver of the radiosonde [deg]",
+      "unit": "degree",
+      "x_spi_cf_standard_name": "wind_from_direction",
+      "x_spi_cf_unit": "degree",
+      "x_spi_cf_attribute": "Derived from GPS receiver",
+      "x_spi_netcdf_name": "wind_direction_gps",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS ascent rate [m/s]",
+      "type": "number",
+      "format": "default",
+      "title": "Ascent rate from GPS receiver",
+      "description": "Ascent of radiosonde relative to ground derived from GPS receiver of the radiosonde [m/s]",
+      "unit": "m s-1",
+      "x_spi_netcdf_name": "ascent_rate_gps",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS(X) east velocity [m/s]",
+      "type": "number",
+      "format": "default",
+      "title": "East velocity of radiosonde",
+      "description": "East velocity of radiosonde derived from GPS receiver of the radiosonde [m/s]",
+      "unit": "m s-1",
+      "x_spi_netcdf_name": "radiosonde_east_velocity",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS(X) north velocity [m/s]",
+      "type": "number",
+      "format": "default",
+      "title": "North velocity of radiosonde",
+      "description": "North velocity of radiosonde derived from GPS receiver of the radiosonde [m/s]",
+      "unit": "m s-1",
+      "x_spi_netcdf_name": "radiosonde_north_velocity",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS(X) up velocity [m/s]",
+      "type": "number",
+      "format": "default",
+      "title": "Up velocity of radiosonde",
+      "description": "Up velocity of radiosonde derived from GPS receiver of the radiosonde [m/s]",
+      "unit": "m s-1",
+      "x_spi_netcdf_name": "radiosonde_up_velocity",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS time [h:m:s GMT]",
+      "type": "number",
+      "format": "default",
+      "title": "GPS time of sounding",
+      "description": "Time during sounding derived from GPS receiver of the radiosonde [h:m:s UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "time_gps",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "GPS heading from launch [deg]",
+      "type": "number",
+      "format": "default",
+      "title": "GPS heading from launch",
+      "description": "Heading from launch derived from GPS receiver of the radiosonde [deg]",
+      "unit": "degree",
+      "x_spi_netcdf_name": "heading_gps",
+      "x_spi_emodnet_visualise_variable": "true"
+    },
+    {
+      "name": "predicted landing latitude",
+      "type": "number",
+      "format": "default",
+      "title": "Predicted landing latitude",
+      "description": "Predicted landing latitude derived by software [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Predicted landing latitude",
+      "x_spi_netcdf_name": "predicted_landing_latitude",
+      "x_spi_emodnet_visualise_variable": "false"
+    },
+    {
+      "name": "predicted landing longitude",
+      "type": "number",
+      "format": "default",
+      "title": "Predicted landing longitude",
+      "description": "Predicted landing longitude derived by software [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Predicted landing longitude",
+      "x_spi_netcdf_name": "predicted_landing_longitude",
+      "x_spi_emodnet_visualise_variable": "false"
+    },
+    {
+      "name": "predicted time to landing [min]",
+      "type": "number",
+      "format": "default",
+      "title": "Predicted time to landing",
+      "description": "Predicted time to landing derived by software [min]",
+      "unit": "minute",
+      "x_spi_netcdf_name": "predicted_time_to_landing",
+      "x_spi_emodnet_visualise_variable": "false"
+    }
+  ],
+  "missingValues": [
+    "99999"
+  ]
+}
