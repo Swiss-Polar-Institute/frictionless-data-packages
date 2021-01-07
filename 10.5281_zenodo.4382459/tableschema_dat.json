@@ -34,8 +34,8 @@
       "name": "Temp [deg C]",
       "type": "number",
       "format": "default",
-      "title": "Temperature",
-      "description": "Temperature [deg C]",
+      "title": "Corrected temperature",
+      "description": "Corrected temperature [deg C]",
       "unit": "C",
       "x_spi_netcdf_name": "temperature",
       "x_spi_emodnet_visualise_variable": "true"
@@ -59,7 +59,6 @@
       "unit": "K",
       "x_spi_cf_standard_name": "air_potential_temperature",
       "x_spi_cf_unit": "K",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "air_potential_temperature",
       "x_spi_emodnet_visualise_variable": "true"
     },
@@ -72,7 +71,6 @@
       "unit": "",
       "x_spi_cf_standard_name": "relative_humidity",
       "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "relative_humidity",
       "x_spi_emodnet_visualise_variable": "true"
     },
@@ -150,7 +148,6 @@
       "unit": "m s-1",
       "x_spi_cf_standard_name": "wind_speed",
       "x_spi_cf_unit": "m s-1",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "wind_speed",
       "x_spi_emodnet_visualise_variable": "true"
     },
@@ -163,7 +160,6 @@
       "unit": "degree",
       "x_spi_cf_standard_name": "wind_from_direction",
       "x_spi_cf_unit": "degree",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "wind_from_direction",
       "x_spi_emodnet_visualise_variable": "true"
     }
