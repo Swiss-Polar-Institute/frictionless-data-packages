@@ -2,28 +2,37 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "",
-      "mediatype": "",
-      "encoding": "",
-      "bytes":,
-      "hash": "",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
-    },
-    {
-      "name": "data_file_header",
-      "path": "",
+      "name": "data_file_header_csv",
+      "path": "data_file_header_csv.txt",
       "title": "Data file header",
-      "description": "Data file header of  dataset",
+      "description": "Data file header of flight data files in the ACE radiosonde atmospheric profiling dataset",
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4793,
+      "hash": "9de6c3921615b70a24533abf148fa6ff"
+    },
+    {
+      "name": "data_file_header_dat",
+      "path": "data_file_header_dat.txt",
+      "title": "Data file header",
+      "description": "Data file header of preliminary in-flight and pre-flight data files in the ACE radiosonde atmospheric profiling dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 842,
+      "hash": "9223d98ddefe4a1c7fadf5907b269b08"
+    },
+    {
+      "name": "data_file_header_launches",
+      "path": "data_file_header_launches.txt",
+      "title": "Data file header",
+      "description": "Data file header of radiosonde launch overview data file in the ACE radiosonde atmospheric profiling dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 793,
+      "hash": "9ab7add164c1dff3a078b14252d869b6"
     },
     {
       "name": "readme",
@@ -33,8 +42,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 9220,
+      "hash": "2bd8c06188ea7737220cdc10588bed3d"
     }
   ],
   "keywords": [
@@ -121,7 +130,7 @@
   "x_spi_dataset_owner": [
     {
       "title": "Irina Gorodetskaya",
-      "organisation": ""
+      "organisation": "CESAM, University Aveiro, Portugal"
     }
   ],
   "x_spi_type": "ferrybox/ship",

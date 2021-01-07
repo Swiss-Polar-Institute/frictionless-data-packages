@@ -5723,16 +5723,6 @@
       "profile": "data-resource"
     },
     {
-      "name": "_ace015flt_dat_swp",
-      "path": "ace015_20170101/.ace015flt.dat.swp",
-      "format": "swp",
-      "mediatype": "application/octet-stream",
-      "encoding": "binary",
-      "bytes": 16384,
-      "hash": "e5003eb1b9b046bb8c2b1b912ef63e3e",
-      "profile": "data-resource"
-    },
-    {
       "name": "ace015_20170101_csv",
       "path": "ace015_20170101/ace015_20170101.csv",
       "format": "csv",
