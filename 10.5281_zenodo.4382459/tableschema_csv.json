@@ -102,7 +102,6 @@
       "unit": "",
       "x_spi_cf_standard_name": "relative_humidity",
       "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "relative_humidity",
       "x_spi_emodnet_visualise_variable": "true"
     },
@@ -145,7 +144,6 @@
       "unit": "K",
       "x_spi_cf_standard_name": "air_potential_temperature",
       "x_spi_cf_unit": "K",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "air_potential_temperature",
       "x_spi_emodnet_visualise_variable": "true"
     },
@@ -176,9 +174,6 @@
       "title": "iMet ascent rate",
       "description": "Ascent rate of sonde derived from meteorological sensor of radiosonde [m/s]",
       "unit": "m s-1",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "imet_ascent_rate",
       "x_spi_emodnet_visualise_variable": "true"
     },
@@ -289,11 +284,8 @@
       "type": "number",
       "format": "default",
       "title": "Ascent rate from GPS receiver",
-      "description": "Ascent of radiosonde derived from GPS receiver of the radiosonde [m/s]",
+      "description": "Ascent of radiosonde relative to ground derived from GPS receiver of the radiosonde [m/s]",
       "unit": "m s-1",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
       "x_spi_netcdf_name": "ascent_rate_gps",
       "x_spi_emodnet_visualise_variable": "true"
     },
