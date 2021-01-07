@@ -40,7 +40,7 @@
       "bytes": 1986595,
       "hash": "8f0e82545dd3c77fd10d74a2e4bcf121",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace071_20170215_rawconfig",
@@ -353,7 +353,7 @@
       "bytes": 2003517,
       "hash": "504697255e44ab5e096c159c71e02cf0",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace050_de1",
@@ -706,7 +706,7 @@
       "bytes": 2708167,
       "hash": "5500f45268b28d074ad20b9e30463079",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace085pre_dat",
@@ -2219,7 +2219,7 @@
       "bytes": 603267,
       "hash": "b2c1f1a711aa1afde36afa429913692f",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace041_20170125_kml",
@@ -2490,7 +2490,7 @@
       "bytes": 1836637,
       "hash": "37ba547a2aad41f0f2cac63a4376eff0",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace054_20170205_kml",
@@ -3761,7 +3761,7 @@
       "bytes": 1249528,
       "hash": "e54f764a32dcbbb3ca6c1c188dbef66e",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace064_20170214_kml",
@@ -3865,7 +3865,7 @@
       "bytes": 1998481,
       "hash": "be97f6e0dd17939641de414094ab6793",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace048_20170130_rawconfig",
@@ -6116,7 +6116,7 @@
       "bytes": 2349198,
       "hash": "2649cfbe1da62644b9e782e0d1b34fe7",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace059_20170209_raw",
@@ -6844,7 +6844,7 @@
       "bytes": 1896202,
       "hash": "b9a7b3d45ffe0cfb6cb230e68c8f1d95",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace088flt_dat",
@@ -6970,7 +6970,7 @@
       "bytes": 2035058,
       "hash": "b7d8ae25b71e1d19d34ebd2274980f06",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace052_20170202_rawconfig",
@@ -7252,7 +7252,7 @@
       "bytes": 1778379,
       "hash": "937a1ea7c4cb2ea3f713da6d2d45102c",
       "profile": "tabular-data-resource",
-      "schema": "tableschema_csv_no_slwc.json"
+      "schema": "tableschema_csv_slwc.json"
     },
     {
       "name": "ace087_20170303_rawconfig",
