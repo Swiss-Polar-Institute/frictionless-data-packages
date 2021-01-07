@@ -42,11 +42,11 @@
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "https://doi.org/10.5281/zenodo.",
-  "title": "",
-  "description": "",
-  "homepage": "https://doi.org/10.5281/zenodo.",
+  "name": "ace_radiosonde_atmospheric_profiling",
+  "id": "https://doi.org/10.5281/zenodo.4382460",
+  "title": "Atmospheric profiling data collected from radiosondes in the Southern Ocean in the austral summer of 2016/2017 during the Antarctic Circumnavigation Expedition.",
+  "description": "The data set consists of the vertical profiles of the atmospheric variables measured using radiosondes (i-Met) during the Antarctic Circumnavigation Expedition from November 2016 to April 2017. The data include the raw variables measured directly by the radiosondes and derived parameters: altitude (km), air pressure (mb), air temperature (deg C), relative humidity (%), frostpoint (deg C), potential temperature (deg K), water vapour mixing ratio (ppmv), total column water (mm w.e.), wind speed (m/s) and wind direction (deg).",
+  "homepage": "https://doi.org/10.5281/zenodo.4382460",
   "version": "1.0",
   "contributors": [
     {
@@ -116,5 +116,5 @@
     }
   ],
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": "Gorodetskaya, I.V., Thurnherr, I., Tsukernik, M., Graf, P., Aemisegger, F., Wernli, H. and Ralph, F.M. (2021). Atmospheric profiling data collected from radiosondes in the Southern Ocean in the austral summer of 2016/2017 during the Antarctic Circumnavigation Expedition. (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4415495"
+  "x_spi_citation": "Gorodetskaya, I.V., Thurnherr, I., Tsukernik, M., Graf, P., Aemisegger, F., Wernli, H. and Ralph, F.M. (2021). Atmospheric profiling data collected from radiosondes in the Southern Ocean in the austral summer of 2016/2017 during the Antarctic Circumnavigation Expedition. (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4382460"
 }
