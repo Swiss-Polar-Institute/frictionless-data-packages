@@ -34,8 +34,8 @@
       "name": "Temp [deg C]",
       "type": "number",
       "format": "default",
-      "title": "Corrected temperature",
-      "description": "Corrected temperature [deg C]",
+      "title": "Temperature",
+      "description": "Temperature (corrected for solar radiation in some cases) [deg C]",
       "unit": "C",
       "x_spi_netcdf_name": "temperature",
       "x_spi_emodnet_visualise_variable": "true"
