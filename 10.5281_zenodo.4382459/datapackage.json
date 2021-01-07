@@ -27,9 +27,9 @@
     },
     {
       "name": "readme",
-      "path": "",
+      "path": "README.txt",
       "title": "Readme",
-      "description": "Description of dataset",
+      "description": "Description of ACE radiosonde atmospheric profiling dataset",
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
@@ -38,6 +38,15 @@
     }
   ],
   "keywords": [
+    "radiosonde",
+    "iMet",
+    "vertical atmospheric profiles",
+    "temperature",
+    "wind",
+    "humidity",
+    "pressure",
+    "Southern Ocean",
+    "Atlantic Ocean",
     "Antarctica",
     "Antarctic Circumnavigation Expedition",
     "ACE"
