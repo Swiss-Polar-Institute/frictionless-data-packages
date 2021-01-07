@@ -2,7 +2,7 @@
   "resources": [
     {
       "name": "sounding_ace046_png",
-      "path": "Sounding_ACE046.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE046.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -12,7 +12,7 @@
     },
     {
       "name": "sounding_ace009_png",
-      "path": "Sounding_ACE009.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE009.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -22,7 +22,7 @@
     },
     {
       "name": "sounding_ace008_png",
-      "path": "Sounding_ACE008.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE008.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -32,7 +32,7 @@
     },
     {
       "name": "sounding_ace013_png",
-      "path": "Sounding_ACE013.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE013.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -42,7 +42,7 @@
     },
     {
       "name": "sounding_ace066_png",
-      "path": "Sounding_ACE066.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE066.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -52,7 +52,7 @@
     },
     {
       "name": "sounding_ace056_png",
-      "path": "Sounding_ACE056.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE056.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -62,7 +62,7 @@
     },
     {
       "name": "sounding_ace041_png",
-      "path": "Sounding_ACE041.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE041.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -72,7 +72,7 @@
     },
     {
       "name": "sounding_ace057_png",
-      "path": "Sounding_ACE057.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE057.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -82,7 +82,7 @@
     },
     {
       "name": "sounding_ace069_png",
-      "path": "Sounding_ACE069.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE069.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -92,7 +92,7 @@
     },
     {
       "name": "sounding_ace054_png",
-      "path": "Sounding_ACE054.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE054.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -102,7 +102,7 @@
     },
     {
       "name": "sounding_ace026_png",
-      "path": "Sounding_ACE026.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE026.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -112,7 +112,7 @@
     },
     {
       "name": "sounding_ace064_png",
-      "path": "Sounding_ACE064.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE064.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -122,7 +122,7 @@
     },
     {
       "name": "sounding_ace007_png",
-      "path": "Sounding_ACE007.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE007.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -132,7 +132,7 @@
     },
     {
       "name": "sounding_ace020_png",
-      "path": "Sounding_ACE020.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE020.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -142,7 +142,7 @@
     },
     {
       "name": "sounding_ace055_png",
-      "path": "Sounding_ACE055.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE055.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -152,7 +152,7 @@
     },
     {
       "name": "sounding_ace012_png",
-      "path": "Sounding_ACE012.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE012.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -162,7 +162,7 @@
     },
     {
       "name": "sounding_ace011_png",
-      "path": "Sounding_ACE011.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE011.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -172,7 +172,7 @@
     },
     {
       "name": "sounding_ace098_png",
-      "path": "Sounding_ACE098.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE098.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -182,7 +182,7 @@
     },
     {
       "name": "sounding_ace002_png",
-      "path": "Sounding_ACE002.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE002.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -192,7 +192,7 @@
     },
     {
       "name": "sounding_ace016_png",
-      "path": "Sounding_ACE016.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE016.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -202,7 +202,7 @@
     },
     {
       "name": "sounding_ace089_png",
-      "path": "Sounding_ACE089.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE089.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -212,7 +212,7 @@
     },
     {
       "name": "sounding_ace077_png",
-      "path": "Sounding_ACE077.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE077.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -222,7 +222,7 @@
     },
     {
       "name": "sounding_ace062_png",
-      "path": "Sounding_ACE062.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE062.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -232,7 +232,7 @@
     },
     {
       "name": "sounding_ace085_png",
-      "path": "Sounding_ACE085.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE085.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -242,7 +242,7 @@
     },
     {
       "name": "sounding_ace072_png",
-      "path": "Sounding_ACE072.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE072.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -252,7 +252,7 @@
     },
     {
       "name": "sounding_ace104_png",
-      "path": "Sounding_ACE104.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE104.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -262,7 +262,7 @@
     },
     {
       "name": "sounding_ace023_png",
-      "path": "Sounding_ACE023.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE023.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -272,7 +272,7 @@
     },
     {
       "name": "sounding_ace047_png",
-      "path": "Sounding_ACE047.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE047.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -282,7 +282,7 @@
     },
     {
       "name": "sounding_ace088_png",
-      "path": "Sounding_ACE088.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE088.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -292,7 +292,7 @@
     },
     {
       "name": "sounding_ace079_png",
-      "path": "Sounding_ACE079.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE079.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -302,7 +302,7 @@
     },
     {
       "name": "sounding_ace094_png",
-      "path": "Sounding_ACE094.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE094.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -312,7 +312,7 @@
     },
     {
       "name": "sounding_ace093_png",
-      "path": "Sounding_ACE093.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE093.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -322,7 +322,7 @@
     },
     {
       "name": "sounding_ace032_png",
-      "path": "Sounding_ACE032.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE032.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -332,7 +332,7 @@
     },
     {
       "name": "sounding_ace070_png",
-      "path": "Sounding_ACE070.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE070.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -342,7 +342,7 @@
     },
     {
       "name": "sounding_ace103_png",
-      "path": "Sounding_ACE103.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE103.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -352,7 +352,7 @@
     },
     {
       "name": "sounding_ace068_png",
-      "path": "Sounding_ACE068.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE068.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -362,7 +362,7 @@
     },
     {
       "name": "sounding_ace021_png",
-      "path": "Sounding_ACE021.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE021.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -372,7 +372,7 @@
     },
     {
       "name": "sounding_ace059_png",
-      "path": "Sounding_ACE059.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE059.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -382,7 +382,7 @@
     },
     {
       "name": "sounding_ace095_png",
-      "path": "Sounding_ACE095.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE095.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -392,7 +392,7 @@
     },
     {
       "name": "sounding_ace050_png",
-      "path": "Sounding_ACE050.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE050.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -402,7 +402,7 @@
     },
     {
       "name": "sounding_ace081_png",
-      "path": "Sounding_ACE081.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE081.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -412,7 +412,7 @@
     },
     {
       "name": "sounding_ace005_png",
-      "path": "Sounding_ACE005.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE005.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -422,7 +422,7 @@
     },
     {
       "name": "sounding_ace086_png",
-      "path": "Sounding_ACE086.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE086.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -432,7 +432,7 @@
     },
     {
       "name": "sounding_ace049_png",
-      "path": "Sounding_ACE049.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE049.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -442,7 +442,7 @@
     },
     {
       "name": "sounding_ace083_png",
-      "path": "Sounding_ACE083.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE083.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -452,7 +452,7 @@
     },
     {
       "name": "sounding_ace003_png",
-      "path": "Sounding_ACE003.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE003.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -462,7 +462,7 @@
     },
     {
       "name": "sounding_ace031_png",
-      "path": "Sounding_ACE031.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE031.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -472,7 +472,7 @@
     },
     {
       "name": "sounding_ace004_png",
-      "path": "Sounding_ACE004.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE004.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -482,7 +482,7 @@
     },
     {
       "name": "sounding_ace097_png",
-      "path": "Sounding_ACE097.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE097.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -492,7 +492,7 @@
     },
     {
       "name": "sounding_ace058_png",
-      "path": "Sounding_ACE058.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE058.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -502,7 +502,7 @@
     },
     {
       "name": "sounding_ace027_png",
-      "path": "Sounding_ACE027.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE027.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -512,7 +512,7 @@
     },
     {
       "name": "sounding_ace091_png",
-      "path": "Sounding_ACE091.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE091.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -522,7 +522,7 @@
     },
     {
       "name": "sounding_ace036_png",
-      "path": "Sounding_ACE036.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE036.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -532,7 +532,7 @@
     },
     {
       "name": "sounding_ace087_png",
-      "path": "Sounding_ACE087.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE087.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -542,7 +542,7 @@
     },
     {
       "name": "sounding_ace061_png",
-      "path": "Sounding_ACE061.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE061.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -552,7 +552,7 @@
     },
     {
       "name": "sounding_ace084_png",
-      "path": "Sounding_ACE084.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE084.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -562,7 +562,7 @@
     },
     {
       "name": "sounding_ace075_png",
-      "path": "Sounding_ACE075.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE075.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -572,7 +572,7 @@
     },
     {
       "name": "sounding_ace096_png",
-      "path": "Sounding_ACE096.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE096.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -582,7 +582,7 @@
     },
     {
       "name": "sounding_ace019_png",
-      "path": "Sounding_ACE019.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE019.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -592,7 +592,7 @@
     },
     {
       "name": "sounding_ace092_png",
-      "path": "Sounding_ACE092.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE092.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -602,7 +602,7 @@
     },
     {
       "name": "sounding_ace074_png",
-      "path": "Sounding_ACE074.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE074.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -612,7 +612,7 @@
     },
     {
       "name": "sounding_ace035_png",
-      "path": "Sounding_ACE035.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE035.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -622,7 +622,7 @@
     },
     {
       "name": "sounding_ace060_png",
-      "path": "Sounding_ACE060.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE060.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -632,7 +632,7 @@
     },
     {
       "name": "sounding_ace037_png",
-      "path": "Sounding_ACE037.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE037.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -642,7 +642,7 @@
     },
     {
       "name": "sounding_ace090_png",
-      "path": "Sounding_ACE090.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE090.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -652,7 +652,7 @@
     },
     {
       "name": "sounding_ace065_png",
-      "path": "Sounding_ACE065.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE065.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -662,7 +662,7 @@
     },
     {
       "name": "sounding_ace080_png",
-      "path": "Sounding_ACE080.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE080.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -672,7 +672,7 @@
     },
     {
       "name": "sounding_ace017_png",
-      "path": "Sounding_ACE017.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE017.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -682,7 +682,7 @@
     },
     {
       "name": "sounding_ace073_png",
-      "path": "Sounding_ACE073.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE073.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -692,7 +692,7 @@
     },
     {
       "name": "sounding_ace030_png",
-      "path": "Sounding_ACE030.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE030.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -702,7 +702,7 @@
     },
     {
       "name": "sounding_ace015_png",
-      "path": "Sounding_ACE015.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE015.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -712,7 +712,7 @@
     },
     {
       "name": "sounding_ace024_png",
-      "path": "Sounding_ACE024.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE024.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -722,7 +722,7 @@
     },
     {
       "name": "sounding_ace045_png",
-      "path": "Sounding_ACE045.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE045.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -732,7 +732,7 @@
     },
     {
       "name": "sounding_ace042_png",
-      "path": "Sounding_ACE042.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE042.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -742,7 +742,7 @@
     },
     {
       "name": "sounding_ace033_png",
-      "path": "Sounding_ACE033.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE033.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -752,7 +752,7 @@
     },
     {
       "name": "sounding_ace048_png",
-      "path": "Sounding_ACE048.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE048.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -762,7 +762,7 @@
     },
     {
       "name": "sounding_ace040_png",
-      "path": "Sounding_ACE040.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE040.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -772,7 +772,7 @@
     },
     {
       "name": "sounding_ace010_png",
-      "path": "Sounding_ACE010.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE010.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -782,7 +782,7 @@
     },
     {
       "name": "sounding_ace076_png",
-      "path": "Sounding_ACE076.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE076.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -792,7 +792,7 @@
     },
     {
       "name": "sounding_ace053_png",
-      "path": "Sounding_ACE053.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE053.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -802,7 +802,7 @@
     },
     {
       "name": "sounding_ace052_png",
-      "path": "Sounding_ACE052.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE052.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -812,7 +812,7 @@
     },
     {
       "name": "sounding_ace051_png",
-      "path": "Sounding_ACE051.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE051.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -822,7 +822,7 @@
     },
     {
       "name": "sounding_ace063_png",
-      "path": "Sounding_ACE063.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE063.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -832,7 +832,7 @@
     },
     {
       "name": "sounding_ace022_png",
-      "path": "Sounding_ACE022.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE022.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -842,7 +842,7 @@
     },
     {
       "name": "sounding_ace039_png",
-      "path": "Sounding_ACE039.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE039.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -852,7 +852,7 @@
     },
     {
       "name": "sounding_ace067_png",
-      "path": "Sounding_ACE067.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE067.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -862,7 +862,7 @@
     },
     {
       "name": "sounding_ace044_png",
-      "path": "Sounding_ACE044.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE044.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -872,7 +872,7 @@
     },
     {
       "name": "sounding_ace025_png",
-      "path": "Sounding_ACE025.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE025.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -882,7 +882,7 @@
     },
     {
       "name": "sounding_ace071_png",
-      "path": "Sounding_ACE071.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE071.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -892,7 +892,7 @@
     },
     {
       "name": "sounding_ace018_png",
-      "path": "Sounding_ACE018.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE018.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -902,7 +902,7 @@
     },
     {
       "name": "sounding_ace043_png",
-      "path": "Sounding_ACE043.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE043.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -912,7 +912,7 @@
     },
     {
       "name": "sounding_ace028_png",
-      "path": "Sounding_ACE028.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE028.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -922,7 +922,7 @@
     },
     {
       "name": "sounding_ace029_png",
-      "path": "Sounding_ACE029.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE029.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -932,7 +932,7 @@
     },
     {
       "name": "sounding_ace001_png",
-      "path": "Sounding_ACE001.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE001.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
@@ -942,7 +942,7 @@
     },
     {
       "name": "sounding_ace082_png",
-      "path": "Sounding_ACE082.png",
+      "path": "ace_radiosonde_atmospheric_profiling/plots/Sounding_ACE082.png",
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
