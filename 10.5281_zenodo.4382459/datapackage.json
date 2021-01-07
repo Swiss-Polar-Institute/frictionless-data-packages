@@ -9,7 +9,7 @@
       "format": "",
       "mediatype": "",
       "encoding": "",
-      "bytes": ,
+      "bytes":,
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
@@ -22,7 +22,7 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
+      "bytes":,
       "hash": ""
     },
     {
@@ -33,7 +33,7 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
+      "bytes":,
       "hash": ""
     }
   ],
@@ -50,9 +50,32 @@
   "version": "1.0",
   "contributors": [
     {
+      "title": "Irina V. Gorodetskaya",
+      "path": "https://orcid.org/0000-0002-2294-7823",
+      "email": "irina.gorodetskaya@ua.pt",
+      "role": "author",
+      "organisation": "CESAM, University Aveiro, Portugal"
+    },
+    {
       "title": "Iris Thurnherr",
       "path": "https://orcid.org/0000-0003-3647-0373",
       "email": "iris.thurnherr@env.ethz.ch",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Maria Tsukernik",
+      "role": "author",
+      "organisation": "Brown University, USA"
+    },
+    {
+      "title": "Pascal Graf",
+      "role": "author",
+      "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Franziska Aemisegger",
+      "path": "https://orcid.org/0000-0002-4022-9825",
       "role": "author",
       "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
     },
@@ -61,6 +84,12 @@
       "path": "https://orcid.org/0000-0001-9674-4837",
       "role": "author",
       "organisation": "Institute for Atmospheric and Climate Science, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "F. Martin Ralph",
+      "path": "https://orcid.org/0000-0002-0870-6396",
+      "role": "author",
+      "organisation": "Scripps Research, UCSD, USA"
     },
     {
       "title": "Jenny Thomas",
@@ -87,5 +116,5 @@
     }
   ],
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Gorodetskaya, I.V., Thurnherr, I., Tsukernik, M., Graf, P., Aemisegger, F., Wernli, H. and Ralph, F.M. (2021). Atmospheric profiling data collected from radiosondes in the Southern Ocean in the austral summer of 2016/2017 during the Antarctic Circumnavigation Expedition. (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4415495"
 }
