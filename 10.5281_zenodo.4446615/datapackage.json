@@ -1,0 +1,85 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    }
+  ],
+  "keywords": [
+    "snow particle counter",
+    "horizontal particle flux",
+    "precipitation",
+    "snowfall",
+    "blowing snow",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_spc_horizontal_particle_flux_raw",
+  "id": "https://doi.org/10.5281/zenodo.4446616",
+  "title": "Pre-processed horizontal particle flux data collected using a snow particle counter on board the R/V Akademik Tryoshnikov in the Southern Ocean during the austral summer of 2016/17 as part of the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "Flux of particles (snow, rain and other particles including sea spray) were recorded passing through a photo-electric snow particle counter (SPC) installed on board the R/V Akademik Tryoshnikov as part of the Antarctic Circumnavigation Expedition (ACE). Data were recorded from January to March 2017 in the Southern Ocean. Here we present the raw data set, which consists of the number of particles, classified into size bins, passing through the snow particle counter with a time resolution of one second. Generally, data are presented in daily files and have undergone some pre-processing.",
+  "homepage": "https://doi.org/10.5281/zenodo.4446616",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Irina Gorodetskaya",
+      "path": "https://orcid.org/0000-0002-2294-7823",
+      "email": "irina.gorodetskaya@ua.pt",
+      "role": "author",
+      "organisation": "CESAM – Centre for Environmental and Marine Studies, Department of Physics, University of Aveiro, Portugal"
+    },
+    {
+      "title": "Katherine Leonard",
+      "path": "https://orcid.org/0000-0003-4632-8872",
+      "role": "author",
+      "organisation": "Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder, USA",
+      "x_spi_organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Maria Tsukernik",
+      "role": "author",
+      "organisation": "Brown University, USA"
+    },
+    {
+      "title": "Michael Lehning",
+      "path": "https://orcid.org/0000-0002-8442-0875",
+      "role": "author",
+      "organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_maindoi",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": ""
+}
