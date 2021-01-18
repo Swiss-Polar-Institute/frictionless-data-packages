@@ -75,11 +75,27 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ace_maindoi",
+  "x_spi_platform_code": "UBXH3_ace_4446615",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Irina Gorodetskaya",
+      "organisation": "CESAM – Centre for Environmental and Marine Studies, Department of Physics, University of Aveiro, Portugal"
+    },
+    {
+      "title": "Katherine Leonard",
+      "organisation": "Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder, USA",
+      "x_spi_organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Michael Lehning",
+      "organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Gorodetskaya, I., Leonard, K., Tsukernik, M. and Lehning, M. (2021). Pre-processed horizontal particle flux data collected using a snow particle counter on board the R/V Akademik Tryoshnikov in the Southern Ocean during the austral summer of 2016/17 as part of the Antarctic Circumnavigation Expedition (ACE). (Version 1.0). [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4446616"
 }
