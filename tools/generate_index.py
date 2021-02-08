@@ -16,7 +16,7 @@ def get_git_commit_time(path):
 
     return commit_time
 
-def tableschemas_file_names(directory, datapackage):
+def tableschemas_file_names(directory, datapackage):/
     tableschemas = []
 
     for resource in datapackage['resources']:
