@@ -10,7 +10,7 @@
       "x_spi_netcdf_name": "sensor_code",
       "x_spi_emodnet_visualise_variable": "False"
     },
-        {
+    {
       "name": "Time(Julian)",
       "type": "datetime",
       "format": "number",
@@ -29,7 +29,7 @@
       "x_spi_netcdf_name": "time_utc",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "Total Second",
       "type": "number",
       "format": "default",
@@ -39,7 +39,7 @@
       "x_spi_netcdf_name": "time_seconds",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "Temperature(C)",
       "type": "number",
       "format": "default",
@@ -56,6 +56,573 @@
       "title": "Particles with diameter 30-42um",
       "description": "number of particles with diameter 30-42μm",
       "x_spi_netcdf_name": "no_particles_30-42",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "46",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 43-49um",
+      "description": "number of particles with diameter 43-49μm",
+      "x_spi_netcdf_name": "no_particles_43-49",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "53",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 50-57um",
+      "description": "number of particles with diameter 50-57μm",
+      "x_spi_netcdf_name": "no_particles_50-57",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "60",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 57-64um",
+      "description": "number of particles with diameter 57-64μm",
+      "x_spi_netcdf_name": "no_particles_57-64",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "67",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 64-71um",
+      "description": "number of particles with diameter 64-71μm",
+      "x_spi_netcdf_name": "no_particles_64-71",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "74",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 71-78um",
+      "description": "number of particles with diameter 71-78μm",
+      "x_spi_netcdf_name": "no_particles_71-78",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "81",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 78-85um",
+      "description": "number of particles with diameter 78-85μm",
+      "x_spi_netcdf_name": "no_particles_78-85",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "88",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 85-92um",
+      "description": "number of particles with diameter 85-92μm",
+      "x_spi_netcdf_name": "no_particles_85-92",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "95",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 92-99um",
+      "description": "number of particles with diameter 92-99μm",
+      "x_spi_netcdf_name": "no_particles_92-99",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "102",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 99-106um",
+      "description": "number of particles with diameter 99-106μm",
+      "x_spi_netcdf_name": "no_particles_99-106",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "109",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 106-113um",
+      "description": "number of particles with diameter 106-113μm",
+      "x_spi_netcdf_name": "no_particles_106-113",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "116",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 113-120um",
+      "description": "number of particles with diameter 113-120μm",
+      "x_spi_netcdf_name": "no_particles_113-120",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "123",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 120-127um",
+      "description": "number of particles with diameter 120-127μm",
+      "x_spi_netcdf_name": "no_particles_120-127",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "130",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 127-134um",
+      "description": "number of particles with diameter 127-134μm",
+      "x_spi_netcdf_name": "no_particles_127-134",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "137",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 134-141um",
+      "description": "number of particles with diameter 134-141μm",
+      "x_spi_netcdf_name": "no_particles_134-141",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "144",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 141-148um",
+      "description": "number of particles with diameter 141-148μm",
+      "x_spi_netcdf_name": "no_particles_141-148",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "151",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 148-155um",
+      "description": "number of particles with diameter 148-155μm",
+      "x_spi_netcdf_name": "no_particles_148-155",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "158",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 155-162um",
+      "description": "number of particles with diameter 155-162μm",
+      "x_spi_netcdf_name": "no_particles_155-162",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "165",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 162-169um",
+      "description": "number of particles with diameter 162-169μm",
+      "x_spi_netcdf_name": "no_particles_162-169",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "172",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 169-176um",
+      "description": "number of particles with diameter 169-176μm",
+      "x_spi_netcdf_name": "no_particles_169-176",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "179",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 176-183um",
+      "description": "number of particles with diameter 176-183μm",
+      "x_spi_netcdf_name": "no_particles_176-183",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "186",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 183-190um",
+      "description": "number of particles with diameter 183-190μm",
+      "x_spi_netcdf_name": "no_particles_183-190",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "193",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 190-197um",
+      "description": "number of particles with diameter 190-197μm",
+      "x_spi_netcdf_name": "no_particles_190-197",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "201",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 197-204um",
+      "description": "number of particles with diameter 197-204μm",
+      "x_spi_netcdf_name": "no_particles_197-204",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "208",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 204-211um",
+      "description": "number of particles with diameter 204-211μm",
+      "x_spi_netcdf_name": "no_particles_204-211",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "215",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 211-218um",
+      "description": "number of particles with diameter 211-218μm",
+      "x_spi_netcdf_name": "no_particles_211-218",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "222",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 218-225um",
+      "description": "number of particles with diameter 218-225μm",
+      "x_spi_netcdf_name": "no_particles_218-225",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "229",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 225-232um",
+      "description": "number of particles with diameter 225-232μm",
+      "x_spi_netcdf_name": "no_particles_225-232",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "236",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 232-239um",
+      "description": "number of particles with diameter 232-239μm",
+      "x_spi_netcdf_name": "no_particles_232-239",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "243",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 239-246um",
+      "description": "number of particles with diameter 239-246μm",
+      "x_spi_netcdf_name": "no_particles_239-246",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "250",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 247-253um",
+      "description": "number of particles with diameter 247-253μm",
+      "x_spi_netcdf_name": "no_particles_247-253",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "257",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 254-261um",
+      "description": "number of particles with diameter 254-261μm",
+      "x_spi_netcdf_name": "no_particles_254-261",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "264",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 261-268um",
+      "description": "number of particles with diameter 261-268μm",
+      "x_spi_netcdf_name": "no_particles_261-268",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "271",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 268-275um",
+      "description": "number of particles with diameter 268-275μm",
+      "x_spi_netcdf_name": "no_particles_268-275",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "278",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 275-282um",
+      "description": "number of particles with diameter 275-282μm",
+      "x_spi_netcdf_name": "no_particles_275-282",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "285",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 282-289um",
+      "description": "number of particles with diameter 282-289μm",
+      "x_spi_netcdf_name": "no_particles_282-289",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "292",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 289-296um",
+      "description": "number of particles with diameter 289-296μm",
+      "x_spi_netcdf_name": "no_particles_289-296",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "300",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 296-303um",
+      "description": "number of particles with diameter 296-303μm",
+      "x_spi_netcdf_name": "no_particles_296-303",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "307",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 303-310um",
+      "description": "number of particles with diameter 303-310μm",
+      "x_spi_netcdf_name": "no_particles_303-310",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "314",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 310-317um",
+      "description": "number of particles with diameter 310-317μm",
+      "x_spi_netcdf_name": "no_particles_310-317",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "321",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 317-324um",
+      "description": "number of particles with diameter 317-324μm",
+      "x_spi_netcdf_name": "no_particles_317-324",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "328",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 324-332um",
+      "description": "number of particles with diameter 324-332μm",
+      "x_spi_netcdf_name": "no_particles_324-332",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "335",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 332-339um",
+      "description": "number of particles with diameter 332-339μm",
+      "x_spi_netcdf_name": "no_particles_332-339",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "342",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 339-346um",
+      "description": "number of particles with diameter 339-346μm",
+      "x_spi_netcdf_name": "no_particles_339-346",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "349",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 346-353um",
+      "description": "number of particles with diameter 346-353μm",
+      "x_spi_netcdf_name": "no_particles_346-353",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "356",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 353-360um",
+      "description": "number of particles with diameter 353-360μm",
+      "x_spi_netcdf_name": "no_particles_353-360",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "364",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 360-367um",
+      "description": "number of particles with diameter 360-367μm",
+      "x_spi_netcdf_name": "no_particles_360-367",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "371",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 367-374um",
+      "description": "number of particles with diameter 367-374μm",
+      "x_spi_netcdf_name": "no_particles_367-374",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "378",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 374-381um",
+      "description": "number of particles with diameter 374-381μm",
+      "x_spi_netcdf_name": "no_particles_374-381",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "385",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 381-389um",
+      "description": "number of particles with diameter 381-389μm",
+      "x_spi_netcdf_name": "no_particles_381-389",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "392",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 389-396um",
+      "description": "number of particles with diameter 389-396μm",
+      "x_spi_netcdf_name": "no_particles_389-396",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "399",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 396-403um",
+      "description": "number of particles with diameter 396-403μm",
+      "x_spi_netcdf_name": "no_particles_396-403",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "406",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 403-410um",
+      "description": "number of particles with diameter 403-410μm",
+      "x_spi_netcdf_name": "no_particles_403-410",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "414",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 410-417um",
+      "description": "number of particles with diameter 410-417μm",
+      "x_spi_netcdf_name": "no_particles_410-417",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "421",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 417-424um",
+      "description": "number of particles with diameter 417-424μm",
+      "x_spi_netcdf_name": "no_particles_417-424",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "428",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 424-431um",
+      "description": "number of particles with diameter 424-431μm",
+      "x_spi_netcdf_name": "no_particles_424-431",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "435",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 431-439um",
+      "description": "number of particles with diameter 431-439μm",
+      "x_spi_netcdf_name": "no_particles_431-439",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "442",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 439-446um",
+      "description": "number of particles with diameter 439-446μm",
+      "x_spi_netcdf_name": "no_particles_439-446",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "449",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 446-453um",
+      "description": "number of particles with diameter 446-453μm",
+      "x_spi_netcdf_name": "no_particles_446-453",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "456",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 453-460um",
+      "description": "number of particles with diameter 453-460μm",
+      "x_spi_netcdf_name": "no_particles_453-460",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "464",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 460-467um",
+      "description": "number of particles with diameter 460-467μm",
+      "x_spi_netcdf_name": "no_particles_460-467",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "471",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 467-474um",
+      "description": "number of particles with diameter 467-474μm",
+      "x_spi_netcdf_name": "no_particles_467-474",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "478",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 453-460um",
+      "description": "number of particles with diameter 453-460μm",
+      "x_spi_netcdf_name": "no_particles_474-482",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "490",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter greater than 482um",
+      "description": "number of particles with diameter greater than 482μm",
+      "x_spi_netcdf_name": "no_particles_482",
       "x_spi_emodnet_visualise_variable": "True"
     }
   ],
