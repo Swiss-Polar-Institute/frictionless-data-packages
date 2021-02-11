@@ -611,8 +611,8 @@
       "name": "478",
       "type": "integer",
       "format": "default",
-      "title": "Particles with diameter 453-460um",
-      "description": "number of particles with diameter 453-460μm",
+      "title": "Particles with diameter 474-482um",
+      "description": "number of particles with diameter 474-482μm",
       "x_spi_netcdf_name": "no_particles_474-482",
       "x_spi_emodnet_visualise_variable": "True"
     },
