@@ -12,8 +12,8 @@
     },
     {
       "name": "Time(Julian)",
-      "type": "datetime",
-      "format": "number",
+      "type": "number",
+      "format": "default",
       "title": "Time",
       "description": "time of measurement in Julian days from the start of the year [Julian day, UTC]",
       "x_spi_netcdf_name": "time_julian",

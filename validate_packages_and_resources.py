@@ -44,7 +44,7 @@ def add_error(errors, error, datapackage, resource=None):
 
 def extra_validation_package(package, errors):
     spi_mandatory_attributes = ['x_spi_platform_code', 'x_spi_type', 'x_spi_platform_name', 'x_spi_citation', 'version',
-                                'x_spi_assembly_center', 'x_spi_assembly_center_link', 'x_spi_dataset_owner']
+                                'x_spi_assembly_center', 'x_spi_assembly_center_link', 'x_spi_dataset_owner', 'x_spi_schema_url']
     for spi_attribute in spi_mandatory_attributes:
         if spi_attribute not in package.descriptor:
             add_error(errors, f'Missing mandatory SPI package attribute: {spi_attribute}', package.base_path)
