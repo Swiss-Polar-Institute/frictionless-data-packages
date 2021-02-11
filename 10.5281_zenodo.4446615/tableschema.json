@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "No.",
-      "type": "",
+      "type": "string",
       "format": "default",
       "title": "Sensor code",
       "description": "Sensor identification code",
@@ -481,7 +481,7 @@
       "x_spi_netcdf_name": "no_particles_367-374",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "378",
       "type": "integer",
       "format": "default",
@@ -490,7 +490,7 @@
       "x_spi_netcdf_name": "no_particles_374-381",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "385",
       "type": "integer",
       "format": "default",
@@ -499,7 +499,7 @@
       "x_spi_netcdf_name": "no_particles_381-389",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "392",
       "type": "integer",
       "format": "default",
@@ -508,7 +508,7 @@
       "x_spi_netcdf_name": "no_particles_389-396",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "399",
       "type": "integer",
       "format": "default",
@@ -517,7 +517,7 @@
       "x_spi_netcdf_name": "no_particles_396-403",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "406",
       "type": "integer",
       "format": "default",
@@ -526,7 +526,7 @@
       "x_spi_netcdf_name": "no_particles_403-410",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "414",
       "type": "integer",
       "format": "default",
@@ -535,7 +535,7 @@
       "x_spi_netcdf_name": "no_particles_410-417",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "421",
       "type": "integer",
       "format": "default",
@@ -544,7 +544,7 @@
       "x_spi_netcdf_name": "no_particles_417-424",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "428",
       "type": "integer",
       "format": "default",
@@ -553,7 +553,7 @@
       "x_spi_netcdf_name": "no_particles_424-431",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "435",
       "type": "integer",
       "format": "default",
@@ -562,7 +562,7 @@
       "x_spi_netcdf_name": "no_particles_431-439",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "442",
       "type": "integer",
       "format": "default",
@@ -571,7 +571,7 @@
       "x_spi_netcdf_name": "no_particles_439-446",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "449",
       "type": "integer",
       "format": "default",
@@ -580,7 +580,7 @@
       "x_spi_netcdf_name": "no_particles_446-453",
       "x_spi_emodnet_visualise_variable": "True"
     },
-        {
+    {
       "name": "456",
       "type": "integer",
       "format": "default",
@@ -589,7 +589,7 @@
       "x_spi_netcdf_name": "no_particles_453-460",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "464",
       "type": "integer",
       "format": "default",
@@ -598,7 +598,7 @@
       "x_spi_netcdf_name": "no_particles_460-467",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "471",
       "type": "integer",
       "format": "default",
@@ -607,7 +607,7 @@
       "x_spi_netcdf_name": "no_particles_467-474",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "478",
       "type": "integer",
       "format": "default",
@@ -616,7 +616,7 @@
       "x_spi_netcdf_name": "no_particles_474-482",
       "x_spi_emodnet_visualise_variable": "True"
     },
-            {
+    {
       "name": "490",
       "type": "integer",
       "format": "default",
