@@ -48,6 +48,15 @@
       "unit": "degree C",
       "x_spi_netcdf_name": "temperature",
       "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "36",
+      "type": "integer",
+      "format": "default",
+      "title": "Particles with diameter 30-42um",
+      "description": "number of particles with diameter 30-42μm",
+      "x_spi_netcdf_name": "no_particles_30-42",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
