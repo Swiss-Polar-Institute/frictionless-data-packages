@@ -7,9 +7,9 @@
       "path": "Reconstructed-Sea-State.txt",
       "title": "Reconstructed sea state data",
       "description": "Reconstructed sea state data along the ACE cruise track",
-      "format": "txt",
-      "mediatype": "text/plain",
-      "encoding": "ASCII",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
       "bytes": 1648697,
       "hash": "5fce25d202cf8588cc0963e2f0b2b835",
       "profile": "tabular-data-resource",
@@ -35,7 +35,7 @@
       "mediatype": "text/plain",
       "encoding": "ASCII",
       "bytes": 5724,
-      "hash": "0065e42ed181a9750f10885efba4e599"
+      "hash": "ef2644882def3c29ef7e4738e3f8cc3e"
     }
   ],
   "keywords": [
