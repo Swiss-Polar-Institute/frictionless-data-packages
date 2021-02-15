@@ -14,8 +14,8 @@
       "hash": "5fce25d202cf8588cc0963e2f0b2b835",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
-        {
+    },
+    {
       "name": "data_file_header",
       "path": "data_file_header.txt",
       "title": "Data file header",
@@ -25,8 +25,8 @@
       "encoding": "ASCII",
       "bytes": 722,
       "hash": "56866beef49dbb32c03fc73b69663f83"
-    }
-        {
+    },
+    {
       "name": "readme",
       "path": "README.txt",
       "title": "Readme",
@@ -59,26 +59,26 @@
       "role": "author",
       "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
     },
-        {
+    {
       "title": "Filippo Nelli",
       "path": "https://orcid.org/0000-0003-4206-8516",
       "role": "author",
       "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
     },
-        {
+    {
       "title": "Alberto Albarello",
       "path": "https://orcid.org/",
       "role": "author",
       "organisation": "Graduate School of Frontier Sciences, The University of Tokyo, 277-8561, Kashiwa, Chiba, Japan"
     },
-        {
+    {
       "title": "Alessandro Toffoli",
       "path": "https://orcid.org/",
       "email": "toffoli.alessandro@gmail.com",
       "role": "author",
       "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
     },
-        {
+    {
       "title": "Jen Thomas",
       "path": "https://orcid.org/0000-0002-5986-7026",
       "email": "jen@falciot.net",
