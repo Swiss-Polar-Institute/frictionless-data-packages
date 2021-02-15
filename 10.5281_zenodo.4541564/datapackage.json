@@ -1,0 +1,53 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    }
+  ],
+  "keywords": [
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_reconstructed_sea_surface",
+  "id": "https://doi.org/10.5281/zenodo.4541564",
+  "title": "Reconstructed sea state using ship motion data recorded during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "The Antarctic Circumnavigation Expedition (ACE) took place aboard the Russian icebreaker, Akademik Tryoshnikov, from December 2016 to March 2017. Throughout the expedition, the ship's motion was recorded with an Inertial Measurement Unit (IMU) at a sampling rate of 1 Hz. The sea state is reconstructed based on the ship's motion relying on the principle that the vessel is a rigid body with six degrees of freedom that moves in response to the incident wave field and restoring forces. The relation between the ship's motion and the wave field is evaluated via the response amplitude operator R(f), i.e. a ship-specific function that translates the motion spectrum into the wave spectrum. Motion spectra were evaluated by applying a Discrete Fourier Transform to 5-minute time series of heave motion. An approximation of R(f) for the Akademik Tryoshnikov was calculated solving the equation of motion with a model based on the boundary element method.",
+  "homepage": "https://doi.org/10.5281/zenodo.4541564",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "",
+      "path": "",
+      "email": "",
+      "role": "",
+      "organisation": ""
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_maindoi",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": ""
+}
