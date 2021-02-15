@@ -3,7 +3,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "Reconstructed-Sea-State",
+      "name": "reconstructed-sea-state",
       "path": "Reconstructed-Sea-State.csv",
       "title": "Reconstructed sea state data",
       "description": "Reconstructed sea state data along the ACE cruise track",
