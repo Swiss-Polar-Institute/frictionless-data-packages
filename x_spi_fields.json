@@ -137,5 +137,22 @@
     "description": "boolean to denote if the variable should be visualised on the EMODNet Physics page",
     "example": "True",
     "type": "boolean"
+  },
+  "x_spi_schema_url": {
+    "required": true,
+    "schema": "tableschema",
+    "schema_path": "",
+    "description": "URL to schema",
+    "example": "https://specs.frictionlessdata.io/table-schema",
+    "type": "string"
+  },
+  "x_spi_schema_url": {
+    "required": true,
+    "schema": "datapackage",
+    "schema_path": "",
+    "description": "URL to schema",
+    "example": "https://specs.frictionlessdata.io/data-package",
+    "type": "string"
   }
+}
 }
