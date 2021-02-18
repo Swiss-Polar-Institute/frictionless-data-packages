@@ -1,0 +1,19 @@
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="SPI_[datasetID]" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/opt/data00shared/SPI/[datasetID]/</fileDir>
+    <fileNameRegex>[datasetID].nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
+    <addAttributes>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="title">SPI - [title]</att>
+    </addAttributes>
+    [dataVariable]
+</dataset>

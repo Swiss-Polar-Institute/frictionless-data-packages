@@ -1,0 +1,120 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "reconstructed-sea-state",
+      "path": "https://zenodo.org/record/4541564/files/Reconstructed-Sea-State.csv?download=1",
+      "title": "Reconstructed sea state data",
+      "description": "Reconstructed sea state data along the ACE cruise track",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1648697,
+      "hash": "5fce25d202cf8588cc0963e2f0b2b835",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/4541564/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of reconstructed sea state data set",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 722,
+      "hash": "56866beef49dbb32c03fc73b69663f83"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/4541564/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of reconstructed sea state data set",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 5724,
+      "hash": "ef2644882def3c29ef7e4738e3f8cc3e"
+    }
+  ],
+  "keywords": [
+    "sea state",
+    "ship motion",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_reconstructed_sea_surface",
+  "id": "https://doi.org/10.5281/zenodo.4541564",
+  "title": "Reconstructed sea state using ship motion data recorded during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "The Antarctic Circumnavigation Expedition (ACE) took place aboard the Russian icebreaker, Akademik Tryoshnikov, from December 2016 to March 2017. Throughout the expedition, the ship's motion was recorded with an Inertial Measurement Unit (IMU) at a sampling rate of 1 Hz. The sea state is reconstructed based on the ship's motion relying on the principle that the vessel is a rigid body with six degrees of freedom that moves in response to the incident wave field and restoring forces. The relation between the ship's motion and the wave field is evaluated via the response amplitude operator R(f), i.e. a ship-specific function that translates the motion spectrum into the wave spectrum. Motion spectra were evaluated by applying a Discrete Fourier Transform to 5-minute time series of heave motion. An approximation of R(f) for the Akademik Tryoshnikov was calculated solving the equation of motion with a model based on the boundary element method.",
+  "homepage": "https://doi.org/10.5281/zenodo.4541564",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Marzieh H. Derkani",
+      "path": "https://orcid.org/0000-0001-7989-2192",
+      "email": "marzieh.h.derkani@gmail.com",
+      "role": "author",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    },
+    {
+      "title": "Filippo Nelli",
+      "path": "https://orcid.org/0000-0003-4206-8516",
+      "role": "author",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    },
+    {
+      "title": "Alberto Alberello",
+      "path": "https://orcid.org/",
+      "role": "author",
+      "organisation": "Graduate School of Frontier Sciences, The University of Tokyo, 277-8561, Kashiwa, Chiba, Japan"
+    },
+    {
+      "title": "Alessandro Toffoli",
+      "path": "https://orcid.org/",
+      "email": "toffoli.alessandro@gmail.com",
+      "role": "author",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_4541563",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Marzieh H. Derkani",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    },
+    {
+      "title": "Filippo Nelli",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    },
+    {
+      "title": "Alberto Alberello",
+      "organisation": "Graduate School of Frontier Sciences, The University of Tokyo, 277-8561, Kashiwa, Chiba, Japan"
+    },
+    {
+      "title": "Alessandro Toffoli",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Derkani, M.H., Nelli, F., Alberello, A. and Toffoli, A. (2021). Reconstructed sea state using ship motion data recorded during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4541564"
+}
