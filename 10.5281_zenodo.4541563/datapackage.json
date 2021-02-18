@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "reconstructed-sea-state",
-      "path": "Reconstructed-Sea-State.csv",
+      "path": "https://zenodo.org/record/4541564/files/Reconstructed-Sea-State.csv?download=1",
       "title": "Reconstructed sea state data",
       "description": "Reconstructed sea state data along the ACE cruise track",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/4541564/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of reconstructed sea state data set",
       "format": "txt",
@@ -28,7 +28,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/4541564/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of reconstructed sea state data set",
       "format": "txt",
