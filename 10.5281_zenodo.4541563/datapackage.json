@@ -97,7 +97,24 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Marzieh H. Derkani",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    },
+    {
+      "title": "Filippo Nelli",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    },
+    {
+      "title": "Alberto Albarello",
+      "organisation": "Graduate School of Frontier Sciences, The University of Tokyo, 277-8561, Kashiwa, Chiba, Japan"
+    },
+    {
+      "title": "Alessandro Toffoli",
+      "organisation": "Department of Infrastructure Engineering, The University of Melbourne, 3010, Melbourne, VIC, Australia"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Derkani, M.H., Nelli, F., Alberello, A. and Toffoli, A. (2021). Reconstructed sea state using ship motion data recorded during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4541564"
 }
