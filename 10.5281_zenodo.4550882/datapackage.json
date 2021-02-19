@@ -1,0 +1,146 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package/",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "spc_hpf_windtrue_1min",
+      "path": "SPC_HPF_windtrue_1min.csv",
+      "title": "SPC HPF wind true 1min",
+      "description": "One-minute horizontal particle flux data",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "encoding": "utf-8",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "spc_hpf_windtrue_1min",
+      "path": "SPC_HPF_windtrue_1min.png",
+      "title": "SPC HPF windtrue 1min plot",
+      "description": "Plot of one-minute horizontal particle flux data",
+      "format": "png",
+      "mediatype": "image/png",
+      "encoding": "binary",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of horizontal particle flux dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "spc+hpf_windtrue_saveplot",
+      "path": "SPC_HPF_windtrue_saveplot.py",
+      "title": "SPC HPF processing script",
+      "description": "Python script to process horizontal particle flux data",
+      "format": "py",
+      "mediatype": "text/x-python",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of horizontal particle flux dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    }
+  ],
+  "keywords": [
+    "snow particle counter",
+    "horizontal particle flux",
+    "precipitation",
+    "snowfall",
+    "blowing snow",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_spc_horizontal_particle_flux_processed",
+  "id": "https://doi.org/10.5281/zenodo.4550883",
+  "title": "Quality-checked horizontal particle flux data collected using a snow particle counter on board the R/V Akademik Tryoshnikov in the Southern Ocean during the austral summer of 2016/17 as part of the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "Flux of particles (snow, rain and other particles including sea spray) were recorded passing through a photo-electric snow particle counter installed on board the R/V Akademik Tryoshnikov as part of the Antarctic Circumnavigation Expedition (ACE). Data were recorded from January to March 2017 in the Southern Ocean. \n\nHere we present the finalised, quality-checked, horizontal particle flux data where counts have been averaged over a one-minute period.",
+  "homepage": "https://doi.org/10.5281/zenodo.4550883",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Irina Gorodetskaya",
+      "path": "https://orcid.org/0000-0002-2294-7823",
+      "email": "irina.gorodetskaya@ua.pt",
+      "role": "author",
+      "organisation": "CESAM – Centre for Environmental and Marine Studies, Department of Physics, University of Aveiro, Portugal"
+    },
+    {
+      "title": "Katherine Leonard",
+      "path": "https://orcid.org/0000-0003-4632-8872",
+      "role": "author",
+      "organisation": "Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder, USA",
+      "x_spi_organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Maria Tsukernik",
+      "role": "author",
+      "organisation": "Brown University, USA"
+    },
+    {
+      "title": "Michael Lehning",
+      "path": "https://orcid.org/0000-0002-8442-0875",
+      "role": "author",
+      "organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_4550882",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Irina Gorodetskaya",
+      "organisation": "CESAM – Centre for Environmental and Marine Studies, Department of Physics, University of Aveiro, Portugal"
+    },
+    {
+      "title": "Katherine Leonard",
+      "organisation": "Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder, USA",
+      "x_spi_organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Michael Lehning",
+      "organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Gorodetskaya, I., Leonard, K., Tsukernik, M. and Lehning, M. (2021). Quality-checked horizontal particle flux data collected using a snow particle counter on board the R/V Akademik Tryoshnikov in the Southern Ocean during the austral summer of 2016/17 as part of the Antarctic Circumnavigation Expedition (ACE). (Version 1.0). [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4550883"
+}
