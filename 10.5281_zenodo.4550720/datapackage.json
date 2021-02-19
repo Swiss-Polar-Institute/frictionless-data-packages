@@ -3,37 +3,79 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of horizontal particle flux dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of horizontal particle flux dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
     }
   ],
   "keywords": [
+    "snow particle counter",
+    "horizontal particle flux",
+    "precipitation",
+    "snowfall",
+    "blowing snow",
+    "Southern Ocean",
     "Antarctica",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "version": "",
+  "name": "ace_spc_horizontal_particle_flux_intermediate",
+  "id": "https://doi.org/10.5281/zenodo.4550721",
+  "title": "Intermediate processing stage of horizontal particle flux data collected using a snow particle counter on board the R/V Akademik Tryoshnikov in the Southern Ocean during the austral summer of 2016/17 as part of the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "Flux of particles (snow, rain and other particles including sea spray) were recorded passing through a photo-electric snow particle counter installed on board the R/V Akademik Tryoshnikov as part of the Antarctic Circumnavigation Expedition (ACE). Data were recorded from January to March 2017 in the Southern Ocean. \n\nHere we present an intermediate step in data processing, with relative horizontal particle flux of particles with a size between 36 – 2000 μm averaged over one-minute periods. Data are presented in daily files.",
+  "homepage": "https://doi.org/10.5281/zenodo.4550721",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Irina Gorodetskaya",
+      "path": "https://orcid.org/0000-0002-2294-7823",
+      "email": "irina.gorodetskaya@ua.pt",
+      "role": "author",
+      "organisation": "CESAM – Centre for Environmental and Marine Studies, Department of Physics, University of Aveiro, Portugal"
+    },
+    {
+      "title": "Katherine Leonard",
+      "path": "https://orcid.org/0000-0003-4632-8872",
+      "role": "author",
+      "organisation": "Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder, USA",
+      "x_spi_organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Maria Tsukernik",
+      "role": "author",
+      "organisation": "Brown University, USA"
+    },
+    {
+      "title": "Michael Lehning",
+      "path": "https://orcid.org/0000-0002-8442-0875",
+      "role": "author",
+      "organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
   "licenses": [
@@ -43,11 +85,27 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ACE_maindoi",
+  "x_spi_platform_code": "UBXH3_ace_4550720",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Irina Gorodetskaya",
+      "organisation": "CESAM – Centre for Environmental and Marine Studies, Department of Physics, University of Aveiro, Portugal"
+    },
+    {
+      "title": "Katherine Leonard",
+      "organisation": "Cooperative Institute for Research in Environmental Sciences at the University of Colorado Boulder, USA",
+      "x_spi_organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    },
+    {
+      "title": "Michael Lehning",
+      "organisation": "School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland",
+      "x_spi_organisation": "WSL Institute for Snow and Avalanche Research SLF,  Switzerland"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Gorodetskaya, I., Leonard, K., Tsukernik, M. and Lehning, M. (2021). Intermediate processing stage of horizontal particle flux data collected using a snow particle counter on board the R/V Akademik Tryoshnikov in the Southern Ocean during the austral summer of 2016/17 as part of the Antarctic Circumnavigation Expedition (ACE). (Version 1.0). [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4550721"
 }
