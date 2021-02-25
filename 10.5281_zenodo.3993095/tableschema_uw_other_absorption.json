@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Wavelength [nm]",
-      "type": "integer",
+      "type": "number",
       "format": "default",
       "title": "Wavelength",
       "description": "Wavelength",
