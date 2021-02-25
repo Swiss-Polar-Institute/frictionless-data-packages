@@ -57,7 +57,7 @@
     {
       "name": "Sampling_DateTime_UTC [YYYY-MM-DDTHH:MM:SS+HH:MM]",
       "type": "datetime",
-      "format": "default",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "Sampling DateTime UTC",
       "description": "date and time at which the CTD seawater sample was collected in ISO8601 format YYYY-MM-DDTHhh:mm:ss+00:00 [UTC]",
       "x_spi_netcdf_name": "sampling_datetime",
