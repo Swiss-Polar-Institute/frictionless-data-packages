@@ -1,21 +1,45 @@
 {
-  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
-  "fields": [
-    {
-      "name": "",
-      "type": "number",
-      "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
-    }
-  ],
-  "missingValues": [
-    "NaN"
-  ]
+  "path": "ace_UW_particulate_absorption_metadata_20200819CMRRSGCUR.csv",
+  "name": "ace_uw_particulate_absorption_metadata_20200819cmrrsgcur",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8",
+  "schema": {
+    "fields": [
+      {
+        "name": "ACE_Sample_Number [string]",
+        "type": "string"
+      },
+      {
+        "name": "project_sample_number [string]",
+        "type": "string"
+      },
+      {
+        "name": "Leg [string]",
+        "type": "integer"
+      },
+      {
+        "name": "Sampling_DateTime_UTC [YYYY-MM-DDTHH:MM:SS+HH:MM]",
+        "type": "datetime"
+      },
+      {
+        "name": "Latitude [decimal_deg_N]",
+        "type": "number"
+      },
+      {
+        "name": "Longitude [decimal_deg_E]",
+        "type": "number"
+      },
+      {
+        "name": "Depth [m]",
+        "type": "number"
+      },
+      {
+        "name": "Volume Filtered [L]",
+        "type": "number"
+      }
+    ]
+  }
 }
