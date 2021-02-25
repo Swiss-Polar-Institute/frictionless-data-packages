@@ -1,45 +1,89 @@
 {
-  "path": "ace_UW_particulate_absorption_metadata_20200819CMRRSGCUR.csv",
-  "name": "ace_uw_particulate_absorption_metadata_20200819cmrrsgcur",
-  "profile": "tabular-data-resource",
-  "scheme": "file",
-  "format": "csv",
-  "hashing": "md5",
-  "encoding": "utf-8",
-  "schema": {
-    "fields": [
-      {
-        "name": "ACE_Sample_Number [string]",
-        "type": "string"
-      },
-      {
-        "name": "project_sample_number [string]",
-        "type": "string"
-      },
-      {
-        "name": "Leg [string]",
-        "type": "integer"
-      },
-      {
-        "name": "Sampling_DateTime_UTC [YYYY-MM-DDTHH:MM:SS+HH:MM]",
-        "type": "datetime"
-      },
-      {
-        "name": "Latitude [decimal_deg_N]",
-        "type": "number"
-      },
-      {
-        "name": "Longitude [decimal_deg_E]",
-        "type": "number"
-      },
-      {
-        "name": "Depth [m]",
-        "type": "number"
-      },
-      {
-        "name": "Volume Filtered [L]",
-        "type": "number"
-      }
-    ]
-  }
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "ACE_Sample_Number [string]",
+      "type": "string",
+      "format": "default",
+      "title": "ACE sample number",
+      "description": "unique sample code from ACE, formatted as follows: shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsampleID",
+      "x_spi_netcdf_name": "ace_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "project_sample_number [string]",
+      "type": "string",
+      "format": "default",
+      "title": "Project sample number",
+      "x_spi_netcdf_name": "project_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Leg [string]",
+      "type": "integer",
+      "format": "default",
+      "title": "Leg",
+      "description": "Leg of ACE voyage during which sample was collected, 1-3",
+      "x_spi_netcdf_name": "leg",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Sampling_DateTime_UTC [YYYY-MM-DDTHH:MM:SS+HH:MM]",
+      "type": "datetime",
+      "format": "default",
+      "title": "Sampling DateTime UTC",
+      "description": "date and time at which the underway seawater sample was collected in ISO8601 format YYYY-MM-DDTHhh:mm:ss+00:00 [UTC]",
+      "x_spi_netcdf_name": "sampling_datetime",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Latitude [decimal_deg_N]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "Latitude of seawater sample collection [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of seawater sample collection",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Longitude [decimal_deg_E]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "Longitude of seawater sample collection [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of seawater sample collection",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Depth [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Depth",
+      "description": "Depth sample was collected from [metres]",
+      "unit": "m",
+      "x_spi_netcdf_name": "depth",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Volume Filtered [L]",
+      "type": "number",
+      "format": "default",
+      "title": "Volume Filtered",
+      "description": "Volume Filtered [L]: ",
+      "unit": "l",
+      "x_spi_netcdf_name": "volume_filtered",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
 }
