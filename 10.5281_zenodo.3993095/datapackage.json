@@ -11,8 +11,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 496523,
+      "hash": "2042e42e200ea5c44d6c75b0e9186dbe",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_ctd_metadata.json"
@@ -26,8 +26,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 16240,
+      "hash": "b175d1d336daeaafe3f3122184ae1283",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_ctd.json"
@@ -41,8 +41,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 64177,
+      "hash": "cb9cd0f0093cf77cfecd61492f06d871",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw_other_absorption.json"
@@ -56,8 +56,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 64177,
+      "hash": "0eafdb7f725e81831423b07fd85a00af",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw_other_absorption.json"
@@ -71,8 +71,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 64177,
+      "hash": "ac5da82cb35d3db9ba6d8636f2bfeca3",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw_other_absorption.json"
@@ -86,8 +86,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 64177,
+      "hash": "cb9cd0f0093cf77cfecd61492f06d871",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw_other_absorption.json"
@@ -101,8 +101,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 64177,
+      "hash": "0eafdb7f725e81831423b07fd85a00af",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw_other_absorption.json"
@@ -116,8 +116,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 64177,
+      "hash": "ac5da82cb35d3db9ba6d8636f2bfeca3",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw_other_absorption.json"
@@ -131,8 +131,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 921464,
+      "hash": "1d84678303d21c699b33525060224785",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw.json"
@@ -146,8 +146,8 @@
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/plain",
-      "bytes": "",
-      "hash": "",
+      "bytes": 26859,
+      "hash": "fd9df95d4f84c84348ac89cae5379bbb",
       "hashing": "md5",
       "encoding": "utf-8",
       "schema": "tableschema_uw_metadata.json"
@@ -160,8 +160,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 7907,
+      "hash": "8248cf9617b4b5844887dd77c97fedd4",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     }
@@ -173,8 +173,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": "",
+      "bytes": 3097,
+      "hash": "03a1d03eab2d79a29d2e0bea98cdb3d9",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     }
