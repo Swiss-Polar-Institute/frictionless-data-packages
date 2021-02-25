@@ -21,6 +21,60 @@
       "encoding": "utf-8"
     },
     {
+        "path": "ace_UW_depig_24h_absorption_20200612CMRRSGCUR.csv",
+  "name": "ace_uw_depig_24h_absorption_20200612cmrrsgcur",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8"
+    },
+        {
+        "path": "ace_UW_depig_30m_absorption_20200612CMRRSGCUR.csv",
+  "name": "ace_uw_depig_30m_absorption_20200612cmrrsgcur",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8"
+    },
+        {
+        "path": "ace_UW_depig_90m_absorption_20200612CMRRSGCUR.csv",
+  "name": "ace_uw_depig_90m_absorption_20200612cmrrsgcur",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8"
+    },
+     {
+        "path": "ace_UW_nonalgal_24h_absorption_20200612CMRRSGCUR.csv",
+  "name": "ace_uw_nonalgal_24h_absorption_20200612cmrrsgcur",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8"
+    },
+        {
+        "path": "ace_UW_nonalgal_30m_absorption_20200612CMRRSGCUR.csv",
+  "name": "ace_uw_nonalgal_30m_absorption_20200612cmrrsgcur",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8"
+    },
+        {
+        "path": "ace_UW_nonalgal_90m_absorption_20200612CMRRSGCUR.csv",
+  "name": "ace_uw_nonalgal_90m_absorption_20200612cmrrsgcur",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8"
+    },
+    {
       "name": "",
       "path": "",
       "title": "",

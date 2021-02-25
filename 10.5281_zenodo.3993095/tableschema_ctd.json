@@ -16,9 +16,9 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
-      "x_spi_netcdf_name": "particulate_absorption_coefficient_",
+      "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/23/911/DA/16",
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
@@ -26,7 +26,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/23/911/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -36,7 +36,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/23/911/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -46,7 +46,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/23/911/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -56,7 +56,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/23/911/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -66,7 +66,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/16",
       "x_spi_emodnet_visualise_variable": "True"
@@ -76,7 +76,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -86,7 +86,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -96,7 +96,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -106,7 +106,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -116,7 +116,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -126,7 +126,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -136,7 +136,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/25/932/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -146,7 +146,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/16",
       "x_spi_emodnet_visualise_variable": "True"
@@ -156,7 +156,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -166,7 +166,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -176,7 +176,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -186,7 +186,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -196,7 +196,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -206,7 +206,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -216,7 +216,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/26/963/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -226,7 +226,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/28/1026/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -236,7 +236,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/28/1026/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -246,7 +246,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/28/1026/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -256,7 +256,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/28/1026/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -266,7 +266,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/28/1026/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -276,7 +276,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/16",
       "x_spi_emodnet_visualise_variable": "True"
@@ -286,7 +286,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -296,7 +296,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -306,7 +306,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -316,7 +316,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -326,7 +326,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -336,7 +336,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -346,7 +346,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/30/1099/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -356,7 +356,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/16",
       "x_spi_emodnet_visualise_variable": "True"
@@ -366,7 +366,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -376,7 +376,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -386,7 +386,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -396,7 +396,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -406,7 +406,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -416,7 +416,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -426,7 +426,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/33/1156/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -436,7 +436,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/35/1240/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -446,9 +446,9 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
-      "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/35/1240/DA/13",,
+      "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/35/1240/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
@@ -456,7 +456,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/35/1240/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -466,7 +466,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/35/1240/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -476,7 +476,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/35/1240/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -486,7 +486,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/16",
       "x_spi_emodnet_visualise_variable": "True"
@@ -496,7 +496,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -506,7 +506,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -516,7 +516,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -526,7 +526,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -536,7 +536,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -546,7 +546,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -556,7 +556,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/36/1285/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -566,7 +566,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1460/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -576,7 +576,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1460/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -586,7 +586,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1460/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -596,7 +596,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1460/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -606,7 +606,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1460/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -616,7 +616,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1460/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -626,7 +626,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1465/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -636,7 +636,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1465/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -646,7 +646,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1465/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -656,7 +656,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1465/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -666,7 +666,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/39/1465/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -676,7 +676,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/16",
       "x_spi_emodnet_visualise_variable": "True"
@@ -686,7 +686,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -696,7 +696,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -706,7 +706,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -716,7 +716,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -726,7 +726,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -736,7 +736,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -746,7 +746,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/41/1489/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -756,7 +756,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/44/1626/DA/15",
       "x_spi_emodnet_visualise_variable": "True"
@@ -766,7 +766,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/44/1626/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -776,7 +776,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/44/1626/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -786,7 +786,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/44/1626/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -796,7 +796,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/44/1626/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -806,7 +806,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/44/1626/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -816,7 +816,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/44/1626/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -826,7 +826,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/46/1633/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -836,7 +836,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/46/1633/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -846,7 +846,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/46/1633/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -856,7 +856,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/46/1633/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -866,7 +866,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/46/1633/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -876,7 +876,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/46/1633/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -886,7 +886,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1878/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -896,7 +896,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1878/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -906,7 +906,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1878/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -916,7 +916,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1878/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -926,7 +926,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1878/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -936,7 +936,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1878/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -946,7 +946,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1891/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -956,7 +956,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1891/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -966,7 +966,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1891/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -976,7 +976,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1891/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -986,7 +986,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1891/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -996,7 +996,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/49/1891/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1006,7 +1006,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/50/1901/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1016,7 +1016,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/50/1901/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1026,7 +1026,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/50/1901/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1036,7 +1036,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/50/1901/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1046,7 +1046,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/50/1901/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1056,7 +1056,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/2/1/50/1901/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1066,7 +1066,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/065/2576/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1076,7 +1076,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/065/2576/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1086,7 +1086,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/065/2576/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1096,7 +1096,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/065/2576/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1106,7 +1106,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/065/2576/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1116,7 +1116,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/065/2576/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1126,7 +1126,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/068/2654/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1136,7 +1136,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/068/2654/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1146,7 +1146,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/068/2654/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1156,7 +1156,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/068/2654/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1166,7 +1166,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/068/2654/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1176,7 +1176,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/068/2654/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1186,7 +1186,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/068/2654/DA/8",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1196,7 +1196,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/073/2965/DA/14",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1206,7 +1206,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/073/2965/DA/13",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1216,7 +1216,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/073/2965/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1226,7 +1226,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/073/2965/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1236,7 +1236,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/073/2965/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1246,7 +1246,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/073/2965/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1256,7 +1256,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/73/2970/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1266,7 +1266,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/73/2970/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1276,7 +1276,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/73/2970/DA/1",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1286,7 +1286,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/73/2970/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1296,7 +1296,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/73/2970/DA/8",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1306,7 +1306,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/73/2970/DA/7",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1316,7 +1316,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/75/3117/DA/12",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1326,7 +1326,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/75/3117/DA/11",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1336,7 +1336,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/75/3117/DA/10",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1346,7 +1346,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/75/3117/DA/9",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1356,7 +1356,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/75/3117/DA/8",
       "x_spi_emodnet_visualise_variable": "True"
@@ -1366,7 +1366,7 @@
       "type": "string",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
-      "description": "Sample number",
+      "description": "Particulate absorption coefficient for this sample",
       "unit": "m-1",
       "x_spi_netcdf_name": "particulate_absorption_coefficient_AT/ACE/3/1/75/3117/DA/7",
       "x_spi_emodnet_visualise_variable": "True"
