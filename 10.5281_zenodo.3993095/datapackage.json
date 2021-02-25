@@ -1,0 +1,116 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "",
+      "path": "",
+      "title": "",
+      "description": "",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    }
+  ],
+  "keywords": [
+    "particulate absorption",
+    "light absorption",
+    "filter-pad method",
+    "inherent optical properties",
+    "Southern Ocean",
+    "sub-Antarctic",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_particulate_absorption",
+  "id": "https://doi.org/10.5281/zenodo.3993096",
+  "title": "Particulate light absorption coefficients (350 – 750 nm) measured using the filter pad method during the Antarctic Circumnavigation Expedition (ACE) during the austral summer of 2016/2017.",
+  "description": "This dataset contains filter pad method measurements of particulate light absorption by particles sampled during the Antarctic Circumnavigation Expedition (ACE) Leg 1-3. Water samples were collected from the underway seawater supply every 3 hours and at multiple depths from selected CTD (conductivity, temperature and depth) rosette deployments. Seawater samples were filtered onto glass fibre filters, preserved and optical density measured using a spectrophotometer. Absorption coefficients for particulate matter were calculated from optical density measurements. The dataset also contains a small set of measurements of absorption by non-pigmented particles (non-algal particulates) measured after a methanol bleaching protocol. These measurements contribute to the determination of the inherent optical properties of the waters sampled during ACE, specifically the absorption of UV and visible wavelengths by particulate material.",
+  "homepage": "https://doi.org/10.5281/zenodo.3993096",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "David Antoine",
+      "path": "https://orcid.org/0000-0002-9082-2395",
+      "email": "david.antoine@curtin.edu.au",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "Sandy Thomalla",
+      "path": "https://orcid.org/0000-0002-6802-520X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "David Berliner",
+      "path": "https://orcid.org/0000-0002-3148-9422",
+      "role": "author",
+      "organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "Hazel Little",
+      "path": "https://orcid.org/0000-0001-9841-8701",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa",
+      "x_spi_additional_organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "William Moutier",
+      "path": "https://orcid.org/0000-0001-9974-7793",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Alexandra Olivier-Morgan",
+      "path": "https://orcid.org/0000-0002-8600-9174",
+      "role": "author",
+      "organisation": "Biospherical Instruments Inc"
+    },
+    {
+      "title": "Charlotte Robinson",
+      "path": "https://orcid.org/0000-0001-8519-5641",
+      "email": "charlotte.robinson@curtin.edu.au",
+      "x_spi_additional_email": "charlotte.mary.robinson@gmail.com",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "Thomas Ryan-Keogh",
+      "path": "https://orcid.org/0000-0001-5144-171X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Nina Schuback",
+      "path": "https://orcid.org/0000-0001-9535-0086",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_maindoi",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Antoine, D., Thomalla, S., Berliner, D., Little, H., Moutier, W., Olivier-Morgan, A., Robinson, C., Ryan-Keogh, T. and Schuback, N. (2021). Particulate light absorption coefficients (350 – 750 nm) measured using the filter pad method during the Antarctic Circumnavigation Expedition (ACE) during the austral summer of 2016/2017. (Version 1.0). Dataset. Zenodo. DOI: 10.5281/zenodo.3993096"
+}
