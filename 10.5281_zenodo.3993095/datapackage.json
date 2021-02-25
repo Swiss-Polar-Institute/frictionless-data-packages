@@ -12,6 +12,15 @@
       "encoding": "utf-8"
     },
     {
+      "path": "ace_CTD_particulate_absorption_20200819CMRRSGCUR.csv",
+      "name": "ace_ctd_particulate_absorption_20200819cmrrsgcur",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8"
+    },
+    {
       "name": "",
       "path": "",
       "title": "",
