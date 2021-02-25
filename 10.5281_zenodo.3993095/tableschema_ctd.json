@@ -13,7 +13,7 @@
     },
     {
       "name": "AT/ACE/2/1/23/911/DA/16",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -23,7 +23,7 @@
     },
     {
       "name": "AT/ACE/2/1/23/911/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -33,7 +33,7 @@
     },
     {
       "name": "AT/ACE/2/1/23/911/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -43,7 +43,7 @@
     },
     {
       "name": "AT/ACE/2/1/23/911/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -53,7 +53,7 @@
     },
     {
       "name": "AT/ACE/2/1/23/911/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -63,7 +63,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/16",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -73,7 +73,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -83,7 +83,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -93,7 +93,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -103,7 +103,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -113,7 +113,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -123,7 +123,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -133,7 +133,7 @@
     },
     {
       "name": "AT/ACE/2/1/25/932/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -143,7 +143,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/16",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -153,7 +153,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -163,7 +163,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -173,7 +173,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -183,7 +183,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -193,7 +193,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -203,7 +203,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -213,7 +213,7 @@
     },
     {
       "name": "AT/ACE/2/1/26/963/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -223,7 +223,7 @@
     },
     {
       "name": "AT/ACE/2/1/28/1026/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -233,7 +233,7 @@
     },
     {
       "name": "AT/ACE/2/1/28/1026/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -243,7 +243,7 @@
     },
     {
       "name": "AT/ACE/2/1/28/1026/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -253,7 +253,7 @@
     },
     {
       "name": "AT/ACE/2/1/28/1026/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -263,7 +263,7 @@
     },
     {
       "name": "AT/ACE/2/1/28/1026/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -273,7 +273,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/16",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -283,7 +283,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -293,7 +293,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -303,7 +303,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -313,7 +313,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -323,7 +323,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -333,7 +333,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -343,7 +343,7 @@
     },
     {
       "name": "AT/ACE/2/1/30/1099/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -353,7 +353,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/16",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -363,7 +363,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -373,7 +373,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -383,7 +383,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -393,7 +393,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -403,7 +403,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -413,7 +413,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -423,7 +423,7 @@
     },
     {
       "name": "AT/ACE/2/1/33/1156/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -433,7 +433,7 @@
     },
     {
       "name": "AT/ACE/2/1/35/1240/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -443,7 +443,7 @@
     },
     {
       "name": "AT/ACE/2/1/35/1240/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -453,7 +453,7 @@
     },
     {
       "name": "AT/ACE/2/1/35/1240/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -463,7 +463,7 @@
     },
     {
       "name": "AT/ACE/2/1/35/1240/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -473,7 +473,7 @@
     },
     {
       "name": "AT/ACE/2/1/35/1240/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -483,7 +483,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/16",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -493,7 +493,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -503,7 +503,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -513,7 +513,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -523,7 +523,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -533,7 +533,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -543,7 +543,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -553,7 +553,7 @@
     },
     {
       "name": "AT/ACE/2/1/36/1285/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -563,7 +563,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1460/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -573,7 +573,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1460/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -583,7 +583,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1460/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -593,7 +593,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1460/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -603,7 +603,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1460/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -613,7 +613,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1460/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -623,7 +623,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1465/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -633,7 +633,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1465/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -643,7 +643,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1465/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -653,7 +653,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1465/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -663,7 +663,7 @@
     },
     {
       "name": "AT/ACE/2/1/39/1465/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -673,7 +673,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/16",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -683,7 +683,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -693,7 +693,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -703,7 +703,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -713,7 +713,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -723,7 +723,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -733,7 +733,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -743,7 +743,7 @@
     },
     {
       "name": "AT/ACE/2/1/41/1489/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -753,7 +753,7 @@
     },
     {
       "name": "AT/ACE/2/1/44/1626/DA/15",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -763,7 +763,7 @@
     },
     {
       "name": "AT/ACE/2/1/44/1626/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -773,7 +773,7 @@
     },
     {
       "name": "AT/ACE/2/1/44/1626/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -783,7 +783,7 @@
     },
     {
       "name": "AT/ACE/2/1/44/1626/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -793,7 +793,7 @@
     },
     {
       "name": "AT/ACE/2/1/44/1626/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -803,7 +803,7 @@
     },
     {
       "name": "AT/ACE/2/1/44/1626/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -813,7 +813,7 @@
     },
     {
       "name": "AT/ACE/2/1/44/1626/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -823,7 +823,7 @@
     },
     {
       "name": "AT/ACE/2/1/46/1633/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -833,7 +833,7 @@
     },
     {
       "name": "AT/ACE/2/1/46/1633/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -843,7 +843,7 @@
     },
     {
       "name": "AT/ACE/2/1/46/1633/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -853,7 +853,7 @@
     },
     {
       "name": "AT/ACE/2/1/46/1633/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -863,7 +863,7 @@
     },
     {
       "name": "AT/ACE/2/1/46/1633/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -873,7 +873,7 @@
     },
     {
       "name": "AT/ACE/2/1/46/1633/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -883,7 +883,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1878/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -893,7 +893,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1878/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -903,7 +903,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1878/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -913,7 +913,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1878/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -923,7 +923,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1878/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -933,7 +933,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1878/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -943,7 +943,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1891/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -953,7 +953,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1891/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -963,7 +963,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1891/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -973,7 +973,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1891/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -983,7 +983,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1891/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -993,7 +993,7 @@
     },
     {
       "name": "AT/ACE/2/1/49/1891/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1003,7 +1003,7 @@
     },
     {
       "name": "AT/ACE/2/1/50/1901/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1013,7 +1013,7 @@
     },
     {
       "name": "AT/ACE/2/1/50/1901/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1023,7 +1023,7 @@
     },
     {
       "name": "AT/ACE/2/1/50/1901/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1033,7 +1033,7 @@
     },
     {
       "name": "AT/ACE/2/1/50/1901/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1043,7 +1043,7 @@
     },
     {
       "name": "AT/ACE/2/1/50/1901/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1053,7 +1053,7 @@
     },
     {
       "name": "AT/ACE/2/1/50/1901/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1063,7 +1063,7 @@
     },
     {
       "name": "AT/ACE/3/1/065/2576/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1073,7 +1073,7 @@
     },
     {
       "name": "AT/ACE/3/1/065/2576/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1083,7 +1083,7 @@
     },
     {
       "name": "AT/ACE/3/1/065/2576/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1093,7 +1093,7 @@
     },
     {
       "name": "AT/ACE/3/1/065/2576/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1103,7 +1103,7 @@
     },
     {
       "name": "AT/ACE/3/1/065/2576/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1113,7 +1113,7 @@
     },
     {
       "name": "AT/ACE/3/1/065/2576/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1123,7 +1123,7 @@
     },
     {
       "name": "AT/ACE/3/1/068/2654/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1133,7 +1133,7 @@
     },
     {
       "name": "AT/ACE/3/1/068/2654/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1143,7 +1143,7 @@
     },
     {
       "name": "AT/ACE/3/1/068/2654/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1153,7 +1153,7 @@
     },
     {
       "name": "AT/ACE/3/1/068/2654/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1163,7 +1163,7 @@
     },
     {
       "name": "AT/ACE/3/1/068/2654/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1173,7 +1173,7 @@
     },
     {
       "name": "AT/ACE/3/1/068/2654/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1183,7 +1183,7 @@
     },
     {
       "name": "AT/ACE/3/1/068/2654/DA/8",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1193,7 +1193,7 @@
     },
     {
       "name": "AT/ACE/3/1/073/2965/DA/14",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1203,7 +1203,7 @@
     },
     {
       "name": "AT/ACE/3/1/073/2965/DA/13",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1213,7 +1213,7 @@
     },
     {
       "name": "AT/ACE/3/1/073/2965/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1223,7 +1223,7 @@
     },
     {
       "name": "AT/ACE/3/1/073/2965/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1233,7 +1233,7 @@
     },
     {
       "name": "AT/ACE/3/1/073/2965/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1243,7 +1243,7 @@
     },
     {
       "name": "AT/ACE/3/1/073/2965/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1253,7 +1253,7 @@
     },
     {
       "name": "AT/ACE/3/1/73/2970/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1263,7 +1263,7 @@
     },
     {
       "name": "AT/ACE/3/1/73/2970/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1273,7 +1273,7 @@
     },
     {
       "name": "AT/ACE/3/1/73/2970/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1283,7 +1283,7 @@
     },
     {
       "name": "AT/ACE/3/1/73/2970/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1293,7 +1293,7 @@
     },
     {
       "name": "AT/ACE/3/1/73/2970/DA/8",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1303,7 +1303,7 @@
     },
     {
       "name": "AT/ACE/3/1/73/2970/DA/7",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1313,7 +1313,7 @@
     },
     {
       "name": "AT/ACE/3/1/75/3117/DA/12",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1323,7 +1323,7 @@
     },
     {
       "name": "AT/ACE/3/1/75/3117/DA/11",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1333,7 +1333,7 @@
     },
     {
       "name": "AT/ACE/3/1/75/3117/DA/10",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1343,7 +1343,7 @@
     },
     {
       "name": "AT/ACE/3/1/75/3117/DA/9",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1353,7 +1353,7 @@
     },
     {
       "name": "AT/ACE/3/1/75/3117/DA/8",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
@@ -1363,7 +1363,7 @@
     },
     {
       "name": "AT/ACE/3/1/75/3117/DA/7",
-      "type": "string",
+      "type": "number",
       "format": "default",
       "title": "Particulate absorption coefficient for this sample (per metre)",
       "description": "Particulate absorption coefficient for this sample",
