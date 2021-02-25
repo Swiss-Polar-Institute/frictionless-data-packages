@@ -3,7 +3,13 @@
   "fields": [
     {
       "name": "Wavelength [nm]",
-      "type": "integer"
+      "type": "number",
+      "format": "default",
+      "title": "Wavelength",
+      "description": "Wavelength of particulate absorption",
+      "unit": "nm",
+      "x_spi_netcdf_name": "wavelength",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "AT/ACE/1/1/358/6/DA/2",
