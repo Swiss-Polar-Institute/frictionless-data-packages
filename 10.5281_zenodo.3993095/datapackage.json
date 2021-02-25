@@ -161,10 +161,8 @@
       "mediatype": "text/plain",
       "encoding": "ASCII",
       "bytes": 7907,
-      "hash": "8248cf9617b4b5844887dd77c97fedd4",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
-    }
+      "hash": "8248cf9617b4b5844887dd77c97fedd4"
+    },
     {
       "name": "data_file_header",
       "path": "data_file_header.txt",
@@ -174,9 +172,7 @@
       "mediatype": "text/plain",
       "encoding": "ASCII",
       "bytes": 3097,
-      "hash": "03a1d03eab2d79a29d2e0bea98cdb3d9",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "hash": "03a1d03eab2d79a29d2e0bea98cdb3d9"
     }
   ],
   "keywords": [
