@@ -269,7 +269,12 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": [
+      {
+        "title": "David Antoine",
+        "organisation": "Curtis University, Australia"
+      }
+    ],
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Antoine, D., Thomalla, S., Berliner, D., Little, H., Moutier, W., Olivier-Morgan, A., Robinson, C., Ryan-Keogh, T. and Schuback, N. (2021). Particulate light absorption coefficients (350 – 750 nm) measured using the filter pad method during the Antarctic Circumnavigation Expedition (ACE) during the austral summer of 2016/2017. (Version 1.0). Dataset. Zenodo. DOI: 10.5281/zenodo.3993096"
 }
