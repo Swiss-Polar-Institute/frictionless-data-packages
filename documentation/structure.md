@@ -1,4 +1,4 @@
-## Structure of a dataset
+# Structure of a dataset
 
 On Github, each directory is named in the format `10.5281_zenodo.maindoi`
 where the `maindoi` is the primary DOI which refers to dataset, rather than a particular version. In Zenodo, this will automatically take a user to the latest version. 
@@ -46,14 +46,14 @@ JSON files on Github are used by EMODnet Physics to get metadata (within both of
 "path": "ace_bromine_monoxide_atmospheric_measurements.csv",
 ```
 
-## Description of the data files with Tableschema
+## Description of the data files with a tableschema
 
-Data files are described by the Frictionless Tableschema. Generally within a dataset, there is only one type of data file and therefore only one tablschema description. The tableschema file which describes a particular data file, or set of data files, is identified within the `datapackage.json`.
+Data files are described by the Frictionless tableschema. Generally within a dataset, there is only one type of data file and therefore only one tableschema description. The tableschema file which describes a particular data file, or set of data files, is identified within the `datapackage.json`. A dataset can contain multiple data files that are described by the same `tableschema.json`.
 
-### Example of identifying the schema which describes a data file
+**Example of identifying the schema which describes a data file**
 
 Here we can see that the resource with the name `ace_bromine_monoxide_atmospheric_measurements` is a `tabular-data-resource` that is described by the schema `tableschema.json`:
-```
+```json
 "resources": [
     {
       "name": "ace_bromine_monoxide_atmospheric_measurements",
@@ -70,7 +70,94 @@ Here we can see that the resource with the name `ace_bromine_monoxide_atmospheri
     },
 ``` 
 
+# Structure of a dataset with multiple tableschemas
 
+### Multiple tableschemas within a dataset
 
+Some datasets contain data files that differ in their format, and therefore are described by different `tableschema.json` files. These JSON files are still contained within the dataset but are named differently in order to distinguish between them. As with the datasets where only one `tableschema.json` file exists, the particular file is identified within the `datapackage.json`. 
 
- 
+For now, no examples of datasets like this have been pushed to the master branch. There are examples that can be found in other branches though, such as `dev-wip-1494924`: https://github.com/Swiss-Polar-Institute/frictionless-data-packages/tree/dev-wip-1494924
+```
+|-- 10.5281_zenodo.1494923
+|   |-- datapackage.json
+|   |-- tableschema_csv_other.json
+|   |-- tableschema_uw.json
+```
+In this case there are a number of resources that are described by one of these tableschemas: 
+```json
+"resources": [
+    {
+      "name": "ace_18_data_salinity_ctd",
+      "path": "ace_18_data_salinity_ctd_20200820.csv",
+      "title": "Seawater sample salinity CTD",
+      "description": "Salinity measurements of seawater samples collected from the Niskin bottles mounted on the CTD rosette",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 59718,
+      "hash": "fa8b1bdc73cb109013c38e29ef5b7901",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_csv_other.json"
+    },
+    {
+      "name": "ace_18_data_salinity_other",
+      "path": "ace_18_data_salinity_other_20200820.csv",
+      "title": "Seawater sample salinity other source",
+      "description": "Salinity measurements of miscellaneous samples: Duplicate seawater samples; seawater bucket sample from Cumberland Bay, South Georgia; seawater samples from Niskin bottles mounted on the trace-metal rosette",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 12007,
+      "hash": "1999e3796418d32b32cbc03acd5eb74c",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_csv_other.json"
+    },
+    {
+      "name": "ace_18_data_salinity_uw",
+      "path": "ace_18_data_salinity_uw_20200820.csv",
+      "title": "Seawater sample salinity underway",
+      "description": "Seawater salinity data from underway samples collected during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 57943,
+      "hash": "45b7f6f4c60b98f221d1d98166ef537c",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_uw.json"
+    },
+```
+
+ ### No data in zip file
+
+The structure of these datasets is similar to those that only use one tableschema to describe them. 
+
+**Github**:
+```
+|-- 10.5281_zenodo.1494923
+|   |-- datapackage.json
+|   |-- tableschema_csv_other.json
+|   |-- tableschema_uw.json
+```
+
+**Zenodo**
+All JSON files are packaged in a zip file and the files are available to download individually from Zenodo: 
+```
+|-- https://doi.org/10.5281/zenodo.1494924
+|   |-- ace_18_data_salinity_ctd_20200820.csv
+|   |-- ace_18_data_salinity_other_20200820.csv
+|   |-- ace_18_data_salinity_uw_20200820.csv
+|   |-- data_file_header.txt
+|   |-- figure1.pdf
+|   |-- figure2.pdf
+|   |-- figure3.pdf
+|   |-- figure4.pdf
+|   |-- figure5.pdf
+|   |-- figure6.pdf
+|   |-- frictionless_data_schema.json
+|   |   |-- datapackage.json
+|   |   |-- tableschema_csv_other.json
+|   |   |-- tableschema_uw.json
+|   |-- README.txt
+```
+
+ ### Data in zip file
