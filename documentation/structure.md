@@ -139,8 +139,8 @@ The structure of these datasets is similar to those that only use one tableschem
 |   |-- tableschema_uw.json
 ```
 
-**Zenodo**
-All JSON files are packaged in a zip file and the files are available to download individually from Zenodo: 
+**Zenodo**:
+All JSON files are packaged in a zip file and the files are available to download individually from Zenodo.
 ```
 |-- https://doi.org/10.5281/zenodo.1494924
 |   |-- ace_18_data_salinity_ctd_20200820.csv
@@ -153,7 +153,7 @@ All JSON files are packaged in a zip file and the files are available to downloa
 |   |-- figure4.pdf
 |   |-- figure5.pdf
 |   |-- figure6.pdf
-|   |-- frictionless_data_schema.json
+|   |-- frictionless_data_schema.zip
 |   |   |-- datapackage.json
 |   |   |-- tableschema_csv_other.json
 |   |   |-- tableschema_uw.json
