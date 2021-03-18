@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "",
-      "path": "",
+      "path": "", # relative path to file (changed to direct download path to published file for the JSON file in Github master branch, after the JSON files have been published as part of the dataset)
       "title": "",
       "description": "",
       "format": "csv",
@@ -21,12 +21,12 @@
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
+  "name": "", # unique text name of the data file, e.g. ace_terrestrial_invertebrates
+  "id": "", # URL to version DOI
   "title": "",
   "description": "",
-  "homepage": "",
-  "version": "",
+  "homepage": "", # URL to version DOI
+  "version": "", # version number e.g. 1.0
   "contributors": [
     {
       "title": "",
@@ -43,7 +43,7 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ACE_maindoi",
+  "x_spi_platform_code": "UBXH3_ACE_maindoi", # maindoi is the overall DOI for the dataset, rather than for a specific version
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
