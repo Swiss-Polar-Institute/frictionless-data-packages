@@ -29,11 +29,49 @@
   "version": "", # version number e.g. 1.0
   "contributors": [
     {
-      "title": "",
-      "path": "",
+      "title": "Alireza Moallemi",
+      "path": "https://orcid.org/0000-0002-9491-1993",
       "email": "",
-      "role": "",
-      "organisation": ""
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+        {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "role": "author",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    },
+        {
+      "title": "Martin Schnaiter",
+      "path": "https://orcid.org/0000-0002-9560-8072",
+      "role": "author",
+      "organisation": "Institut für Meteorologie und Klimaforschung, Karlsruher Institut für Technologie, Karlsruhe, Germany",
+          "x_spi_additional_organisations": ["schnaiTEC GmbH, Karlsruhe, Germany"]
+    },
+        {
+      "title": "Martin Gysel-Beer",
+      "path": "https://orcid.org/0000-0002-7453-1264",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+        {
+      "title": "Robin Modini",
+      "path": "https://orcid.org/0000-0002-2982-1369",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+        {
+      "title": "Sebastian Landwehr",
+      "path": "https://orcid.org/0000-0003-2622-577X",
+      "role": "author",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    },
+        {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
   "licenses": [
@@ -43,7 +81,7 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ACE_maindoi", # maindoi is the overall DOI for the dataset, rather than for a specific version
+  "x_spi_platform_code": "UBXH3_ACE_5109381",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
