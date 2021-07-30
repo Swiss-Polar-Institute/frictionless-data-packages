@@ -2,17 +2,104 @@
   "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
   "fields": [
     {
-      "name": "",
+      "name": "time_",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "end date and time of 5-minute period of grouped data from WIBS measurements in ISO 8601 format (yyyy-mm-ddThh:mi:ss+00:00)",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_A_frac",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "Number concentration fraction class A to total",
+      "description": "Number concentration fraction of (hyper-)fluorescent aerosol of class A to total (hyper-)fluorescent aerosol particles",
       "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "x_spi_netcdf_name": "number_conc_class_a_total",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_B_frac",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration fraction class B to total",
+      "description": "Number concentration fraction of (hyper-)fluorescent aerosol of class B to total (hyper-)fluorescent aerosol particles",
+      "unit": "",
+      "x_spi_netcdf_name": "number_conc_class_b_total",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_C_frac",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration fraction class C to total",
+      "description": "Number concentration fraction of (hyper-)fluorescent aerosol of class C to total (hyper-)fluorescent aerosol particles",
+      "unit": "",
+      "x_spi_netcdf_name": "number_conc_class_c_total",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_AB_frac",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration fraction class AB to total",
+      "description": "Number concentration fraction of (hyper-)fluorescent aerosol of class AB to total (hyper-)fluorescent aerosol particles",
+      "unit": "",
+      "x_spi_netcdf_name": "number_conc_class_ab_total",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_AC_frac",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration fraction class AC to total",
+      "description": "Number concentration fraction of (hyper-)fluorescent aerosol of class AC to total (hyper-)fluorescent aerosol particles",
+      "unit": "",
+      "x_spi_netcdf_name": "number_conc_class_ac_total",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_BC_frac",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration fraction class BC to total",
+      "description": "Number concentration fraction of (hyper-)fluorescent aerosol of class BC to total (hyper-)fluorescent aerosol particles",
+      "unit": "",
+      "x_spi_netcdf_name": "number_conc_class_bc_total",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_ABC_frac",
+      "type": "number",
+      "format": "default",
+      "title": "Number concentration fraction class ABC to total",
+      "description": "Number concentration fraction of (hyper-)fluorescent aerosol of class ABC to total (hyper-)fluorescent aerosol particles",
+      "unit": "",
+      "x_spi_netcdf_name": "number_conc_class_abc_total",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_all_flu",
+      "type": "number",
+      "format": "default",
+      "title": "Total number concentration (hyper-) fluorescent aerosol particles",
+      "description": "total number concentration of (hyper-)fluorescent aerosol particles measured by WIBS",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "total_number_conc_hyper_fluor",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "N_tot",
+      "type": "number",
+      "format": "default",
+      "title": "Total number concentration all aerosol particles",
+      "description": "total number concentration of all aerosol particles measured by WIBS",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "total_number_conc_all",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
