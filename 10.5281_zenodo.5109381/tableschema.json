@@ -82,7 +82,7 @@
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
-      "name": "N_all_flu",
+      "name": "N_all_flu (#/l)",
       "type": "number",
       "format": "default",
       "title": "Total number concentration (hyper-) fluorescent aerosol particles",
@@ -92,7 +92,7 @@
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
-      "name": "N_tot",
+      "name": "N_tot (#/l)",
       "type": "number",
       "format": "default",
       "title": "Total number concentration all aerosol particles",
