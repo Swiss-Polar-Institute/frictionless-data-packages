@@ -3,30 +3,70 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "", # relative path to file (changed to direct download path to published file for the JSON file in Github master branch, after the JSON files have been published as part of the dataset)
-      "title": "",
-      "description": "",
+      "name": "n_fluorescent",
+      "path": "N_fluorescent.csv",
+      "title": "Number concentration of fluorescent aerosol particles",
+      "description": "Data file containing number concentration of fluorescent aerosol particles recorded during ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 2502648,
+      "hash": "3ddb4c483876ebb2932b7fab906dde28",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    },
+    {
+      "name": "n_hyper_fluorescent",
+      "path": "N_hyper_fluorescent.csv",
+      "title": "Number concentration of hyper-fluorescent aerosol particles",
+      "description": "Data file containing number concentration of hyper-fluorescent aerosol particles recorded during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1982807,
+      "hash": "28e4a5d37fb2aaabad9389344d716979",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of fluorescent aerosol particle number concentration dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1557,
+      "hash": "d93dea6b1e079600c0476affab330b6e"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of fluorescent aerosol particle number concentration dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 6222,
+      "hash": "bdb512bca09ab0de953e0572235501f4"
     }
   ],
   "keywords": [
-    "Antarctica",
+    "WIBS",
+    "wideband integrated by aerosol spectrometer",
+    "fluorescent aerosol particles",
+    "number concentration",
+    "coarse mode aerosol particles",
+    "Southern Ocean",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "", # unique text name of the data file, e.g. ace_terrestrial_invertebrates
-  "id": "", # URL to version DOI
-  "title": "",
-  "description": "",
-  "homepage": "", # URL to version DOI
-  "version": "", # version number e.g. 1.0
+  "name": "ace_fluorescent_particle_number_concentration",
+  "id": "https://doi.org/10.5281/zenodo.5109382",
+  "title": "Number concentration and fluorescent class fraction of fluorescent and hyper-fluorescent aerosol particles measured during the Antarctic Circumnavigation Expedition",
+  "description": "This dataset consists of a 5-minute time series of number concentrations of fluorescent and total aerosol particles that were measured by wideband integrated by aerosol sensor during the Antarctic Circumnavigation Expedition in the austral summer of 2016/2017. Furthermore, the dataset includes the fraction of fluorescent classes of aerosol particles, according to the ABC classification of Perring et al. (2015). The dataset provides information on fluorescent and hyper-fluorescent aerosols which were obtained by considering low and high fluorescence thresholds. For this dataset, aerosol particles that have optical diameter greater than 1 μm are considered. Since the ship’s exhaust could considerably affect the fluorescence properties of aerosol particles, in this dataset we removed the periods where it is likely that the samples were contaminated by the ship's exhaust.",
+  "homepage": "https://doi.org/10.5281/zenodo.5109382",
+  "version": "1.0",
   "contributors": [
     {
       "title": "Alireza Moallemi",
@@ -35,38 +75,40 @@
       "role": "author",
       "organisation": "Paul Scherrer Institute, Switzerland"
     },
-        {
+    {
       "title": "Julia Schmale",
       "path": "https://orcid.org/0000-0002-1048-7962",
       "role": "author",
       "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
     },
-        {
+    {
       "title": "Martin Schnaiter",
       "path": "https://orcid.org/0000-0002-9560-8072",
       "role": "author",
       "organisation": "Institut für Meteorologie und Klimaforschung, Karlsruher Institut für Technologie, Karlsruhe, Germany",
-          "x_spi_additional_organisations": ["schnaiTEC GmbH, Karlsruhe, Germany"]
+      "x_spi_additional_organisations": [
+        "schnaiTEC GmbH, Karlsruhe, Germany"
+      ]
     },
-        {
+    {
       "title": "Martin Gysel-Beer",
       "path": "https://orcid.org/0000-0002-7453-1264",
       "role": "author",
       "organisation": "Paul Scherrer Institute, Switzerland"
     },
-        {
+    {
       "title": "Robin Modini",
       "path": "https://orcid.org/0000-0002-2982-1369",
       "role": "author",
       "organisation": "Paul Scherrer Institute, Switzerland"
     },
-        {
+    {
       "title": "Sebastian Landwehr",
       "path": "https://orcid.org/0000-0003-2622-577X",
       "role": "author",
       "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
     },
-        {
+    {
       "title": "Jen Thomas",
       "path": "https://orcid.org/0000-0002-5986-7026",
       "email": "jen@falciot.net",
@@ -87,5 +129,5 @@
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": "",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Moallemi, A., J. Schmale, M. Schnaiter, M. Gysel-Beer, R. Modini and S. Landwehr. (2021). Number concentration and fluorescent class fraction of fluorescent and hyper-fluorescent aerosol particles measured during the Antarctic Circumnavigation Expedition. (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5109382"
 }
