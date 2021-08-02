@@ -17,16 +17,22 @@
     }
   ],
   "keywords": [
-    "Antarctica",
+    "WIBS",
+    "Wideband integrated by aerosol spectrometer",
+    "fluorescent aerosol particles",
+    "number size distribution",
+    "number concentration",
+    "coarse mode aerosol particles",
+    "Southern Ocean",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
   "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "version": "",
+  "id": "https://doi.org/10.5281/zenodo.5109384",
+  "title": "Particle number size distribution of fluorescent, hyper-fluorescent, and total aerosol particles measured during the Antarctic Circumnavigation Expedition.\n",
+  "description": "This dataset consists of a 5-minute time series of particle number concentration of fluorescent and total aerosol particles that were measured by wideband integrated by aerosol sensor during the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017. For this dataset, aerosol particles within the optical diameter range of 0.5 μm to 14.5 μm were considered. In this dataset, the time periods when samples are likely contaminated by the ship’s exhaust were removed from the time series.",
+  "homepage": "https://doi.org/10.5281/zenodo.5109384",
+  "version": "1.0",
   "contributors": [
     {
       "title": "",
@@ -49,5 +55,5 @@
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": "",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Moallemi, A., J. Schmale, M. Schnaiter, M. Gysel-Beer, R. Modini and S. Landwehr. (2021). Particle number size distribution of fluorescent, hyper-fluorescent, and total aerosol particles measured during the Antarctic Circumnavigation Expedition. (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5109384"
 }
