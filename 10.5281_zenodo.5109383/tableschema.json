@@ -2,17 +2,105 @@
   "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
   "fields": [
     {
-      "name": "",
+      "name": "time_",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "date and timestamp of the end of the 5-minute period of grouped data from WIBS measurements in ISO 8601 format (yyyy-mm-ddThh:mi:ss+00:00) [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "time",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+        {
+      "name": "dN/dlog_d @ 0.603 um",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "title": "normalized number concentration size bin 0.603",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 0.603 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin0.603",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "dN/dlog_d @ 0.876 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 0.876",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 0.876 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin0.876",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "dN/dlog_d @ 1.274 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 1.274",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 1.274 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin1.274",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "dN/dlog_d @ 1.852 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 1.852",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 1.852 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin1.852",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "dN/dlog_d @ 2.693 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 2.693",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 2.693 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin2.693",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+                {
+      "name": "dN/dlog_d @ 3.914 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 3.914",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 3.914 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin3.914",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "dN/dlog_d @ 5.69 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 5.69",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 5.69 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin5.69",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+
+            {
+      "name": "dN/dlog_d @ 8.272 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 8.272",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 8.272 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin8.272",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+            {
+      "name": "dN/dlog_d @ 12.026 um",
+      "type": "number",
+      "format": "default",
+      "title": "normalized number concentration size bin 12.026",
+      "description": "the size-bin normalized number concentration of aerosol particles (dN/dlogd) at size bin of 12.026 μm (geometric mean of lower and upper bounds of bin) [number/litre]",
+      "unit": "number per litre",
+      "x_spi_netcdf_name": "normalized_number_concentration_size_bin12.026",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
