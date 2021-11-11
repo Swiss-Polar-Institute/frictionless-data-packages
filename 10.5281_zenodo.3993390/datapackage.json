@@ -3,20 +3,20 @@
   "resources": [
     {
       "name": "ace_isoprene_mixing_ratio_ambient_air",
-      "path": "https://zenodo.org/record/3993391/files/ace_isoprene_mixing_ratio_ambient_air.csv?download=1",
+      "path": "ace_isoprene_mixing_ratio_ambient_air_v1.1.csv",
       "title": "Isoprene mixing ratio in ambient air",
       "description": "Average isoprene mixing ratio in ambient air during ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 202536,
-      "hash": "9e27872c1c672cc4f526950ea22a2815",
+      "bytes": 197913,
+      "hash": "bcb145c2ff2baf9d56265a1f8b70653f",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
     {
       "name": "data_file_header",
-      "path": "https://zenodo.org/record/3993391/files/data_file_header.txt?download=1",
+      "path": "data_file_header.txt",
       "title": "Data file header",
       "description": "Data file header of isoprene mixing ratio in ambient air dataset",
       "format": "txt",
@@ -27,14 +27,25 @@
     },
     {
       "name": "readme",
-      "path": "https://zenodo.org/record/3993391/files/README.txt?download=1",
+      "path": "README.txt",
       "title": "Readme",
       "description": "Description of isoprene mixing ratio in ambient air dataset",
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": 4607,
-      "hash": "8108d9bd6830f6f61d397df6b246facb"
+      "bytes": 4905,
+      "hash": "53289e17d846d0a978d097b720bdef83"
+    },
+        {
+      "name": "change_log",
+      "path": "change_log.txt",
+      "title": "Change log",
+      "description": "Description of changes made to isoprene mixing ratio in ambient air dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 150,
+      "hash": "c5b8a1bc7ea5d4bffb6ea019116a7bc2"
     }
   ],
   "keywords": [
@@ -48,11 +59,11 @@
     "ACE"
   ],
   "name": "ace_isoprene_mixing_ratio_ambient_air",
-  "id": "https://doi.org/10.5281/zenodo.3993391",
+  "id": "https://doi.org/10.5281/zenodo.5674685",
   "title": "Isoprene mixing ratio in ambient air across the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE).",
   "description": "This dataset contains the mixing ratios of isoprene (C5H8) in ambient air measured during the Antarctic Circumnavigation Expedition around the Southern Ocean in the austral summer of 2016/2017 using the iDirac, an autonomous gas chromatograph (Bolas et al., 2020). Samples were collected at a temporal resolution of approximately 10 minutes, with sizeable gaps in the dataset during Legs 1 and 3 due to instrument malfunction. Isoprene represents one of the largest biogenic emissions on the planet. While the magnitude and mechanism of its emissions on land are well established, there is still large uncertainty on the drivers of marine isoprene emissions. This dataset, consisting of continuous measurements at a relatively high temporal resolution, represents a unique opportunity to better understand marine isoprene emissions in the Southern Ocean.",
-  "homepage": "https://doi.org/10.5281/zenodo.3993391",
-  "version": "1.0",
+  "homepage": "https://doi.org/10.5281/zenodo.5674685",
+  "version": "1.1",
   "contributors": [
     {
       "title": "Conor G. Bolas",
@@ -111,5 +122,5 @@
   "x_spi_assembly_center_link": "https://swisspolar.ch",
   "x_spi_dataset_owner": "Valerio Ferracci and Neil Harris, Cranfield University, UK",
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": "Bolas, C., Ferracci, V., Jones, R.L. and Harris, N.R.P. Isoprene mixing ratio in ambient air across the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. DOI: 10.5281/zenodo.3993391"
+  "x_spi_citation": "Bolas, C., Ferracci, V., Jones, R.L. and Harris, N.R.P. Isoprene mixing ratio in ambient air across the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE). (Version 1.1) [Data set]. Zenodo. DOI: 10.5281/zenodo.5674685"
 }
