@@ -3,37 +3,112 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of TEP and CSP dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of TEP and CSP dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "ace_csp",
+      "path": "ace_csp.csv",
+      "title": "Coomasie stained particle data",
+      "description": "Coomasie stained particle data from ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "bytes":,
       "hash": "",
       "profile": "tabular-data-resource",
-      "schema": "tableschema.json"
+      "schema": "tableschema_csp.json"
+    },
+    {
+      "name": "ace_tep",
+      "path": "ace_tep.csv",
+      "title": "transparent exopolymer particle data",
+      "description": "transparent exopolymer particle data from ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_tep.json"
     }
   ],
   "keywords": [
-    "Antarctica",
+    "Transparent exopolymer particles",
+    "TEP",
+    "Coomassie stainable particles",
+    "CSP",
+    "Southern Ocean",
     "Antarctic Circumnavigation Expedition",
     "ACE"
   ],
-  "name": "",
-  "id": "",
-  "title": "",
-  "description": "",
-  "homepage": "",
-  "version": "",
+  "name": "ace_tep_csp",
+  "id": "https://doi.org/10.5281/zenodo.5092920",
+  "title": "Transparent exopolymer particles (TEP) and Coomassie stainable particles (CSP) data collected from the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition.",
+  "description": "TEP are operationally defined as gel particles that are retained on 0.4 µm polycarbonate filters and stained with the cationic copper phthalocyanine dye Alcian Blue 8GX at pH 2.5. CSP are gel particles retained on 0.4 µm polycarbonate filters that are stained with a solution of Coomassie Brilliant Blue G (CCB) at pH 7.4. Seawater surface samples (5 m) were collected every 6 hours from the ship’s underway pump. In addition, vertical profiles (6 depths, generally from 5 to 100-150 m) were sampled from 19 CTD casts using a SBE 911 Plus attached to a rosette of 24 12-L PVC Niskin bottles. This dataset presents TEP and CSP from seawater samples collected from the ship’s underway pump and CTDs. Samples were collected around the Southern Ocean on the R/V Akademik Tryoshnikov in the austral summer of 2016/2017, as part of the Antarctic Circumnavigation Expedition (ACE).",
+  "homepage": "https://doi.org/10.5281/zenodo.5092920",
+  "version": "1.0",
   "contributors": [
     {
-      "title": "",
-      "path": "",
-      "email": "",
-      "role": "",
-      "organisation": ""
+      "title": "Marina Zamanillo",
+      "path": "https://orcid.org/0000-0002-0753-4748",
+      "role": "author",
+      "organisation": "Institut de Ciències del Mar, Catalonia, Spain"
+    },
+    {
+      "title": "Rafel Simó",
+      "path": "https://orcid.org/0000-0003-3276-7663",
+      "email": "rsimo@icm.csic.es",
+      "role": "author",
+      "organisation": "Institut de Ciències del Mar, Catalonia, Spain"
+    },
+    {
+      "title": "Eva Ortega-Retuerta",
+      "path": "https://orcid.org/0000-0003-0780-8347",
+      "role": "contributor",
+      "organisation": "Laboratoire d’océanographie Microbienne: Banyuls-sur-mern"
+    },
+    {
+      "title": "Carolina Cisternas-Novoa",
+      "role": "contributor",
+      "organisation": "Memorial University of Newfoundland, Canada"
+    },
+    {
+      "title": "Anja Engel",
+      "path": "https://orcid.org/0000-0002-1042-1955",
+      "role": "contributor",
+      "organisation": "GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany"
+    },
+    {
+      "title": "Pablo Rodríguez-Ros",
+      "path": "https://orcid.org/0000-0003-0411-0197",
+      "role": "contributor",
+      "organisation": "Institut de Ciències del Mar, Catalonia, Spain"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
   "licenses": [
@@ -43,11 +118,20 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3_ACE_maindoi",
+  "x_spi_platform_code": "UBXH3_ACE_5092919",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Marina Zamanillo",
+      "organisation": "Institut de Ciències del Mar, Catalonia, Spain"
+    },
+    {
+      "title": "Rafel Simó",
+      "organisation": "Institut de Ciències del Mar, Catalonia, Spain"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
-  "x_spi_citation": ""
+  "x_spi_citation": "Zamanillo, M. and Simó, R. (2021). Transparent exopolymer particles (TEP) and Coomassie stainable particles (CSP) data collected from the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition. (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5092920"
 }
