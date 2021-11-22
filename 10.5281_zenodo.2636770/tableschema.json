@@ -2,17 +2,60 @@
   "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
   "fields": [
     {
-      "name": "",
+      "name": "Start Time [YYYY-MM-DD hh:mm:ss]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Start time",
+      "description": "start time of the five-minute averaging period in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "start_time",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "methanesulfonic_acid_concentration [molecules cm^-3]",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "Methanesulfonic acid concentration",
+      "description": "Gaseous methanesulfonic acid concentration measured with a nitrate chemical ionization APi-HTOF mass spectrometer [molecules per cubic centimetre]",
+      "unit": "molecules cm-3",
+      "x_spi_netcdf_name": "methanesulfonic_acid_concentration",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "flag",
+      "type": "number",
+      "format": "default",
+      "title": "Flag",
+      "description": "data quality flag, 1 indicates good data whereas 0 indicates data contaminated by the ship exhaust",
       "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "x_spi_netcdf_name": "flag",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "latitude [deg N]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "median ship latitude during the five-minute averaging period as measured by the ship's GPS [decimal degrees N]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "median ship latitude during the five-minute averaging period as measured by the ship's GPS",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "longitude [deg E]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "median ship longitude during the five-minute averaging period as measured by the ship's GPS [decimal degrees E]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "median ship longitude during the five-minute averaging period as measured by the ship's GPS",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "False"
     }
   ],
   "missingValues": [
