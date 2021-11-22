@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "part_1_cape_town_kerguelen",
-      "path": "part_1_Cape_Town_Kerguelen.csv",
+      "path": "https://zenodo.org/record/5109386/files/part_1_Cape_Town_Kerguelen.csv?download=1",
       "title": "Raw single aerosol measurements from Cape Town to Kerguelen",
       "description": "Raw single aerosol measurements from Cape Town to Kerguelen",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "part_2_kerguelen_hobart",
-      "path": "part_2_Kerguelen_Hobart.csv",
+      "path": "https://zenodo.org/record/5109386/files/part_2_Kerguelen_Hobart.csv?download=1",
       "title": "Raw single aerosol measurements from Kerguelen to Hobart",
       "description": "Raw single aerosol measurements from Kerguelen to Hobart",
       "format": "csv",
@@ -30,7 +30,7 @@
     },
     {
       "name": "part_3_hobart_mertz",
-      "path": "part_3_Hobart_Mertz.csv",
+      "path": "https://zenodo.org/record/5109386/files/part_3_Hobart_Mertz.csv?download=1",
       "title": "Raw single aerosol measurements from Hobart to Mertz",
       "description": "Raw single aerosol measurements from Hobart to Mertz",
       "format": "csv",
@@ -43,7 +43,7 @@
     },
     {
       "name": "part_4_mertz_punta_arenas",
-      "path": "part_4_Mertz_Punta_Arenas.csv",
+      "path": "https://zenodo.org/record/5109386/files/part_4_Mertz_Punta_Arenas.csv?download=1",
       "title": "Raw single aerosol measurements from Mertz to Punta Arenas",
       "description": "Raw single aerosol measurements from Mertz to Punta Arenas",
       "format": "csv",
@@ -56,7 +56,7 @@
     },
     {
       "name": "part_5_punta_arenas_cape_town",
-      "path": "part_5_Punta_Arenas_Cape_Town.csv",
+      "path": "https://zenodo.org/record/5109386/files/part_5_Punta_Arenas_Cape_Town.csv?download=1",
       "title": "Raw single aerosol measurements from Punta Arenas to Cape Town",
       "description": "Raw single aerosol measurements from Punta Arenas to Cape Town",
       "format": "csv",
@@ -69,7 +69,7 @@
     },
     {
       "name": "part_6_cape_town_bremerhaven",
-      "path": "part_6_Cape_Town_Bremerhaven.csv",
+      "path": "https://zenodo.org/record/5109386/files/part_6_Cape_Town_Bremerhaven.csv?download=1",
       "title": "Raw single aerosol measurements from Cape Town to Bremerhaven",
       "description": "Raw single aerosol measurements from Cape Town to Bremerhaven",
       "format": "csv",
@@ -82,7 +82,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/5109386/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of raw single aerosol measurement dataset",
       "format": "txt",
@@ -93,7 +93,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/5109386/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of raw single aerosol measurement dataset",
       "format": "txt",
