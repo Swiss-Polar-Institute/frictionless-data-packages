@@ -1,0 +1,159 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "gas_sulfuric_acid_concentration_data",
+      "path": "https://zenodo.org/record/5711169/files/gas_sulfuric_acid_concentration_data.csv?download=1",
+      "title": "Gaseous sulfuric acid concentration dataset",
+      "description": "Data file of gaseous sulfuric acid concentrations over the Southern Ocean during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 521322,
+      "hash": "6fedfe09a15c737af11226d2776c2472",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/5711169/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of gaseous sulfuric acid concentration dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 8750,
+      "hash": "6c921110f318a4c6eb957f45c6bd0791"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/5711169/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of gaseous sulfuric acid concentration dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 932,
+      "hash": "9cea5cbb061bd98ec9b89616e57383f5"
+    },
+    {
+      "name": "change_log",
+      "path": "https://zenodo.org/record/5711169/files/change_log.txt?download=1",
+      "title": "Change log",
+      "description": "Description of changes to gaseous sulfuric acid concentration dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 312,
+      "hash": "f227ee5e2cc19eb8a46382131d52b319"
+    }
+  ],
+  "keywords": [
+    "sulphuric acid",
+    "sulfuric acid",
+    "new particle formation",
+    "API-TOF",
+    "API-HTOF",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE-SPACE",
+    "ACE"
+  ],
+  "name": "ace_concentration_gaseous_sulfuric_acid",
+  "id": "https://doi.org/10.5281/zenodo.5711169",
+  "title": "Concentration of gaseous sulfuric acid measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE)",
+  "description": "We measured sulfuric acid concentration in the gas phase with a nitrate chemical ionization mass spectrometer (we used an APi-HTOF mass spectrometer produced by Tofwerk AG coupled with a Chemical ionization inlet A70 produced by Airmodus). Sulfuric acid is detected in the mass spectrometer either as a deprotonated ion or as a cluster with the reagent ion (NO3-). The concentration is calculated as the area of these two peaks normalized to the concentration of the reagent ions (monomer, dimer and trimer) and multiplied by a calibration factor that was experimentally derived at Paul Scherrer Institute in the summer 2017, after the campaign. In the atmosphere, sulfuric acid is produced by the oxidation of sulfur dioxide that could have both a natural or anthropogenic origin (e.g. phytoplankton emission or fossil fuel combustion). Sulfuric acid in the atmosphere is responsible for a very large fraction of the newly formed particles, therefore it is important to have accurate measurements of this vapour in remote places like the Southern Ocean to better understand secondary aerosol sources and processes.\n\nThe data have been cleaned from the influence of the exhaust of the research vessel. Temporal coverage is from January 22, 2017 to March 19, 2017. There are no data for the first leg of the expedition because the instrument was not on the ship. The instrument was operated during leg 4 but data has not been processed yet as they require additional work due to some instrumental issues that affects their quality. Data were collected with one-second time resolution but integrated to five minutes to increase the signal to noise ratio.\n\nConcentrations are reported as molecules per cubic centimeter. The lower limit of detection is in the ppq (part per quadrillion) range but was not determined exactly as it varies with the integration time and background noise.",
+  "homepage": "https://doi.org/10.5281/zenodo.5711169",
+  "version": "1.1",
+  "contributors": [
+    {
+      "title": "Andrea Baccarini",
+      "path": "https://orcid.org/0000-0003-4614-247X",
+      "email": "andrea.baccarini@epfl.ch",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland",
+      "x_spi_additional_organisation": "EPFL, Lausanne, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "email": "julia.schmale@epfl.ch",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland",
+      "x_spi_additional_organisation": "EPFL, Lausanne, Switzerland"
+    },
+    {
+      "title": "Silvia Henning",
+      "path": "https://orcid.org/0000-0001-9267-7825",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
+    },
+    {
+      "title": "Fiona Tummon",
+      "path": "https://orcid.org/0000-0001-9700-1701",
+      "role": "author",
+      "organisation": "Eidgenössische Technische Hochschule Zürich; MeteoSwiss, Payerne, Switzerland"
+    },
+    {
+      "title": "Markus Hartmann",
+      "path": "https://orcid.org/0000-0001-9700-1701",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
+    },
+    {
+      "title": "André Welti",
+      "path": "https://orcid.org/0000-0002-3549-1212",
+      "role": "author",
+      "organisation": "Finnish Meteorological Institute, Helsinki, Finland"
+    },
+    {
+      "title": "Katrianne Lehtipalo",
+      "path": "https://orcid.org/0000-0002-1660-2706",
+      "role": "author",
+      "organisation": "University of Helsinki, Finland"
+    },
+    {
+      "title": "Josef Dommen",
+      "path": "https://orcid.org/0000-0002-0006-0009",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "Martin Gysel-Beer",
+      "path": "https://orcid.org/0000-0002-7453-1264",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_3265831",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "name": "Julia Schmale",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "name": "Andrea Baccarini",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Baccarini, A., Schmale, J., Henning, S., Tummon, F., Hartmann, M., Welti, A., Lehtipalo, K., Dommen, J., & Gysel-Beer, M. (2019). Concentration of gaseous sulfuric acid measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE). (1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3265831"
+}
