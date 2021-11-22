@@ -71,7 +71,7 @@
     {
       "title": "Alireza Moallemi",
       "path": "https://orcid.org/0000-0002-9491-1993",
-      "email": "",
+      "email": "alireza.moallemi@psi.ch",
       "role": "author",
       "organisation": "Paul Scherrer Institute, Switzerland"
     },
@@ -127,7 +127,20 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Martin Schnaiter,",
+      "organisation": "SchnaiTEC, Germany"
+    },
+    {
+      "title": "Martin Gysel",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Moallemi, A., J. Schmale, M. Schnaiter, M. Gysel-Beer, R. Modini and S. Landwehr. (2021). Number concentration and fluorescent class fraction of fluorescent and hyper-fluorescent aerosol particles measured during the Antarctic Circumnavigation Expedition. (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5109382"
 }
