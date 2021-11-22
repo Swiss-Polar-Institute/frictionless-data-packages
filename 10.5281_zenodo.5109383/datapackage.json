@@ -1,0 +1,160 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "psd_fluorescent",
+      "path": "https://zenodo.org/record/5109384/files/PSD_fluorescent.csv?download=1",
+      "title": "Number size distribution of fluorescent aerosol particles",
+      "description": "Data file containing number size distribution of fluorescent aerosol particles recorded during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 2697804,
+      "hash": "19228955b6465032cb4b32015f51b453",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "psd_hyper_fluorescent",
+      "path": "https://zenodo.org/record/5109384/files/PSD_hyper_fluorescent.csv?download=1",
+      "title": "Number size distribution of hyper-fluorescent aerosol particles",
+      "description": "Data file containing number size distribution of hyper-fluorescent aerosol particles recorded during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1880948,
+      "hash": "0cb99202c6d8afc8a5b0d38cd51ab096",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "psd_hyper_tot",
+      "path": "https://zenodo.org/record/5109384/files/PSD_hyper_tot.csv?download=1",
+      "title": "Number size distribution of all aerosol particles",
+      "description": "Data file containing number size distribution of all aerosol particles recorded during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 2999340,
+      "hash": "ff1098feae08ca004b205108a8df933d",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/5109384/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of fluorescent aerosol particle number size distribution dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 2138,
+      "hash": "905a665ced13865d1b693633b2741853"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/5109384/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of fluorescent aerosol particle number size distribution dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 4330,
+      "hash": "f3a8de3a776613924619b00dfdcabba8"
+    }
+  ],
+  "keywords": [
+    "WIBS",
+    "Wideband integrated by aerosol spectrometer",
+    "fluorescent aerosol particles",
+    "number size distribution",
+    "number concentration",
+    "coarse mode aerosol particles",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_aerosol_particle_number_size_distribution",
+  "id": "https://doi.org/10.5281/zenodo.5109384",
+  "title": "Particle number size distribution of fluorescent, hyper-fluorescent, and total aerosol particles measured during the Antarctic Circumnavigation Expedition.\n",
+  "description": "This dataset consists of a 5-minute time series of particle number concentration of fluorescent and total aerosol particles that were measured by wideband integrated by aerosol sensor during the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017. For this dataset, aerosol particles within the optical diameter range of 0.5 μm to 14.5 μm were considered. In this dataset, the time periods when samples are likely contaminated by the ship’s exhaust were removed from the time series.",
+  "homepage": "https://doi.org/10.5281/zenodo.5109384",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Alireza Moallemi",
+      "path": "https://orcid.org/0000-0002-9491-1993",
+      "email": "alireza.moallemi@psi.ch",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "role": "author",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    },
+    {
+      "title": "Martin Schnaiter",
+      "path": "https://orcid.org/0000-0002-9560-8072",
+      "role": "author",
+      "organisation": "Institut für Meteorologie und Klimaforschung, Karlsruher Institut für Technologie, Karlsruhe, Germany",
+      "x_spi_additional_organisations": [
+        "schnaiTEC GmbH, Karlsruhe, Germany"
+      ]
+    },
+    {
+      "title": "Martin Gysel-Beer",
+      "path": "https://orcid.org/0000-0002-7453-1264",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Robin Modini",
+      "path": "https://orcid.org/0000-0002-2982-1369",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Sebastian Landwehr",
+      "path": "https://orcid.org/0000-0003-2622-577X",
+      "role": "author",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_5109383",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Martin Schnaiter,",
+      "organisation": "SchnaiTEC, Germany"
+    },
+    {
+      "title": "Martin Gysel",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Moallemi, A., J. Schmale, M. Schnaiter, M. Gysel-Beer, R. Modini and S. Landwehr. (2021). Particle number size distribution of fluorescent, hyper-fluorescent, and total aerosol particles measured during the Antarctic Circumnavigation Expedition. (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5109384"
+}
