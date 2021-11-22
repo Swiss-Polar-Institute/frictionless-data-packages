@@ -10,8 +10,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": ,
-      "hash": "",
+      "bytes": 521253,
+      "hash": "11ff1f749ddce80a614e0b2f062a8fa4",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -23,8 +23,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": ""
+      "bytes": 8761,
+      "hash": "81b0053313442b696b88b6e5ea092703"
     },
     {
       "name": "data_file_header",
@@ -34,8 +34,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": ""
+      "bytes": 928,
+      "hash": "dea2abc41ff396fd84cacfde33efdb55"
     },
     {
       "name": "change_log",
@@ -45,8 +45,8 @@
       "format": "text",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": ""
+      "bytes": 312,
+      "hash": "f227ee5e2cc19eb8a46382131d52b319"
     }
   ],
   "keywords": [
