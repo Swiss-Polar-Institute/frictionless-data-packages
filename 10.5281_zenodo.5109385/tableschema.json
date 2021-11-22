@@ -1,0 +1,98 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "FL1_280",
+      "type": "number",
+      "format": "default",
+      "title": "Aerosol fluorescent signal excited at 280 nm and detected at 310 nm – 400 nm",
+      "description": "aerosol fluorescent signal measured by WIBS, when particle is excited by 280 nm Xenon light source and detected in the waveband of 310 nm – 400 nm [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fl1_280",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "FL2_280",
+      "type": "number",
+      "format": "default",
+      "title": "Aerosol fluorescent signal excited at 280 nm and detected at 420 nm – 650 nm",
+      "description": "aerosol fluorescent signal measured by WIBS, when particle is excited by 280 nm Xenon light source and detected in the waveband of 420 nm – 650 nm [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fl2_280",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "FL2_370",
+      "type": "number",
+      "format": "default",
+      "title": "Aerosol fluorescent signal excited at 370 nm and detected at 420 nm – 650 nm",
+      "description": "aerosol fluorescent signal measured by WIBS, when particle is excited by 370 nm Xenon light source and detected in the waveband of 420 nm – 650 nm [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "fl2_370",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Size",
+      "type": "number",
+      "format": "default",
+      "title": "Optical diameter of single particle",
+      "description": "optical diameter of single particle measured by WIBS [μm]",
+      "unit": "μm",
+      "x_spi_netcdf_name": "optical_diameter",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Pwr_280",
+      "type": "number",
+      "format": "default",
+      "title": "Power of 280 nm Xenon light source",
+      "description": "power of the 280 nm Xenon light source [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "power_280",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Pwr_370",
+      "type": "number",
+      "format": "default",
+      "title": "Power of 370 nm Xenon light source",
+      "description": "power of the 370 nm Xenon light source [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "power_370",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "FT",
+      "type": "number",
+      "format": "default",
+      "title": "Forced triggering measurement flag",
+      "description": "flags for periods when WIBS conducted forced triggering measurements. The values of 2 in this column corresponds to actual instrument measurements, while the value of 3 corresponds forced triggering periods [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "flag",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "AF",
+      "type": "number",
+      "format": "default",
+      "title": "Asymmetry factor",
+      "description": "asymmetry factor measured by WIBS [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "asymmetry_factor",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "MPC",
+      "type": "number",
+      "format": "default",
+      "title": "Missing aerosol particle counts",
+      "description": "number of missing aerosol particle counts between two consecutive Xenon flash lamp activations [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "missing_counts",
+      "x_spi_emodnet_visualise_variable": "False"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "part_1_cape_town_kerguelen",
+      "path": "https://zenodo.org/record/5109386/files/part_1_Cape_Town_Kerguelen.csv?download=1",
+      "title": "Raw single aerosol measurements from Cape Town to Kerguelen",
+      "description": "Raw single aerosol measurements from Cape Town to Kerguelen",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1241897597,
+      "hash": "b242808cff619dcef1c679e37d5eca40",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "part_2_kerguelen_hobart",
+      "path": "https://zenodo.org/record/5109386/files/part_2_Kerguelen_Hobart.csv?download=1",
+      "title": "Raw single aerosol measurements from Kerguelen to Hobart",
+      "description": "Raw single aerosol measurements from Kerguelen to Hobart",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 700532268,
+      "hash": "2e9fa48f311b12ccf675e27b21999a2b",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "part_3_hobart_mertz",
+      "path": "https://zenodo.org/record/5109386/files/part_3_Hobart_Mertz.csv?download=1",
+      "title": "Raw single aerosol measurements from Hobart to Mertz",
+      "description": "Raw single aerosol measurements from Hobart to Mertz",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 231754479,
+      "hash": "0bb4ec5aaf13434d651897ef5880e967",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "part_4_mertz_punta_arenas",
+      "path": "https://zenodo.org/record/5109386/files/part_4_Mertz_Punta_Arenas.csv?download=1",
+      "title": "Raw single aerosol measurements from Mertz to Punta Arenas",
+      "description": "Raw single aerosol measurements from Mertz to Punta Arenas",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 672239190,
+      "hash": "11d59dfdc5448398a82d966ad4f2c72f",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "part_5_punta_arenas_cape_town",
+      "path": "https://zenodo.org/record/5109386/files/part_5_Punta_Arenas_Cape_Town.csv?download=1",
+      "title": "Raw single aerosol measurements from Punta Arenas to Cape Town",
+      "description": "Raw single aerosol measurements from Punta Arenas to Cape Town",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 1034387583,
+      "hash": "cb4bbb62917462c30edf64a11858311b",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "part_6_cape_town_bremerhaven",
+      "path": "https://zenodo.org/record/5109386/files/part_6_Cape_Town_Bremerhaven.csv?download=1",
+      "title": "Raw single aerosol measurements from Cape Town to Bremerhaven",
+      "description": "Raw single aerosol measurements from Cape Town to Bremerhaven",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 765658777,
+      "hash": "07a6131ab2d9775c13f3998d64994cd3",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/5109386/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of raw single aerosol measurement dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1427,
+      "hash": "ac69fd4e7d868409860ba1b390fb4dc2"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/5109386/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of raw single aerosol measurement dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 2948,
+      "hash": "a14e91987411ffd3834bd91c70dca413"
+    }
+  ],
+  "keywords": [
+    "wideband integrated bioaerosol sensor",
+    "WIBS",
+    "fluorescent aerosol particles",
+    "single particle data",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE-SPACE",
+    "ACE"
+  ],
+  "name": "ace_single_aerosol_measurements",
+  "id": "https://doi.org/10.5281/zenodo.5109386",
+  "title": "Single aerosol measurements from a wideband integrated bioaerosol sensor, collected during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "This data set contains the time series of single particle data, measured by the wideband integrated bioaerosol sensor (WIBS-4, University of Hertfordshire, Hatfield, UK), during the Antarctic Circumnavigation Expedition (ACE), which was conducted between 20th of December 2016 and 19th of March 2017. WIBS provides aerosol optical diameter (5 μm - 14 μm), asymmetry factor and fluorescent signals on three different channels. WIBS measures single aerosol particles at a sampling rate of 125 Hz. More technical details about WIBS could be found in Kaye et al. (2005).",
+  "homepage": "https://doi.org/10.5281/zenodo.5109386",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Alireza Moallemi",
+      "path": "https://orcid.org/0000-0002-9491-1993",
+      "email": "alireza.moallemi@psi.ch",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "role": "author",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    },
+    {
+      "title": "Andrea Baccarini",
+      "path": "https://orcid.org/0000-0003-4614-247X ",
+      "role": "author",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_5109385",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Martin Schnaiter,",
+      "organisation": "SchnaiTEC, Germany"
+    },
+    {
+      "title": "Martin Gysel",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Moallemi, A. and Schmale, J. (2021). Single aerosol measurements from a wideband integrated bioaerosol sensor, collected during the Antarctic Circumnavigation Expedition (ACE). (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5109386"
+}
