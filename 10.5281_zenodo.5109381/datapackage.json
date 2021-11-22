@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "n_fluorescent",
-      "path": "N_fluorescent.csv",
+      "path": "https://zenodo.org/record/5109382/files/N_fluorescent.csv?download=1",
       "title": "Number concentration of fluorescent aerosol particles",
       "description": "Data file containing number concentration of fluorescent aerosol particles recorded during ACE",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "n_hyper_fluorescent",
-      "path": "N_hyper_fluorescent.csv",
+      "path": "https://zenodo.org/record/5109382/files/N_hyper_fluorescent.csv?download=1",
       "title": "Number concentration of hyper-fluorescent aerosol particles",
       "description": "Data file containing number concentration of hyper-fluorescent aerosol particles recorded during ACE",
       "format": "csv",
@@ -30,7 +30,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/5109382/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of fluorescent aerosol particle number concentration dataset",
       "format": "txt",
@@ -41,7 +41,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/5109382/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of fluorescent aerosol particle number concentration dataset",
       "format": "txt",
