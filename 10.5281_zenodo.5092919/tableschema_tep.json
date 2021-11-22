@@ -69,8 +69,8 @@
     },
     {
       "name": "end_datetime",
-      "type": "%Y-%m-%dT%H:%M:%S%z",
-      "format": "default",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
       "title": "End date time",
       "description": "date and time at which a CTD deployment ended, in ISO8601 format YYYY-MM-DDTHhh:mm:ss+00:00 [UTC]",
       "unit": "UTC",
@@ -93,7 +93,7 @@
     {
       "name": "end_longitude",
       "type": "number",
-      "format": "End longitude",
+      "format": "default",
       "description": "longitude of end of CTD deployment [degree_east]",
       "unit": "degree_east",
       "x_spi_cf_standard_name": "longitude",
@@ -144,9 +144,19 @@
       "unit": "µg XG eq L-1",
       "x_spi_netcdf_name": "tep_se",
       "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "comment",
+      "type": "string",
+      "format": "default",
+      "title": "Comment",
+      "description": "Notes about dataset row",
+      "unit": "",
+      "x_spi_netcdf_name": "comment",
+      "x_spi_emodnet_visualise_variable": "False"
     }
   ],
   "missingValues": [
-    "NA"
+    "NA", ""
   ]
 }

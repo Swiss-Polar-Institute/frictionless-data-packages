@@ -4,49 +4,60 @@
   "resources": [
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/5092920/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of TEP and CSP dataset",
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4734,
+      "hash": "8a3cfba48fef1b1a56fcdbf22c1f391f"
     },
     {
-      "name": "data_file_header",
-      "path": "data_file_header.txt",
-      "title": "Data file header",
-      "description": "Data file header of TEP and CSP dataset",
+      "name": "data_file_header_csp",
+      "path": "https://zenodo.org/record/5092920/files/data_file_header_csp.txt?download=1",
+      "title": "Data file header CSP",
+      "description": "Data file header of CSP dataset",
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 1707,
+      "hash": "916b9c1e158c225dca986e64393e6914"
+    },
+        {
+      "name": "data_file_header_tep",
+      "path": "https://zenodo.org/record/5092920/files/data_file_header_tep.txt?download=1",
+      "title": "Data file header TSP",
+      "description": "Data file header of TEP dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1750,
+      "hash": "5c30b12e58812ef23ad234bfcb73d99e"
     },
     {
       "name": "ace_csp",
-      "path": "ace_csp.csv",
+      "path": "https://zenodo.org/record/5092920/files/ace_csp.csv?download=1",
       "title": "Coomasie stained particle data",
       "description": "Coomasie stained particle data from ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 45089,
+      "hash": "f95dec2e982ba4d86ab6a56b971df963",
       "profile": "tabular-data-resource",
       "schema": "tableschema_csp.json"
     },
     {
       "name": "ace_tep",
-      "path": "ace_tep.csv",
+      "path": "https://zenodo.org/record/5092920/files/ace_tep.csv?download=1",
       "title": "transparent exopolymer particle data",
       "description": "transparent exopolymer particle data from ACE",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 45659,
+      "hash": "5c30b12e58812ef23ad234bfcb73d99e",
       "profile": "tabular-data-resource",
       "schema": "tableschema_tep.json"
     }
