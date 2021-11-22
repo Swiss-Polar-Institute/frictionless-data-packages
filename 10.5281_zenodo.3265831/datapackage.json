@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "gas_sulfuric_acid_concentration_data",
-      "path": "gas_sulfuric_acid_concentration_data.csv",
+      "path": "https://zenodo.org/record/5711169/files/gas_sulfuric_acid_concentration_data.csv?download=1",
       "title": "Gaseous sulfuric acid concentration dataset",
       "description": "Data file of gaseous sulfuric acid concentrations over the Southern Ocean during ACE",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/5711169/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of gaseous sulfuric acid concentration dataset",
       "format": "text",
@@ -28,7 +28,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/5711169/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of gaseous sulfuric acid concentration dataset",
       "format": "text",
@@ -39,7 +39,7 @@
     },
     {
       "name": "change_log",
-      "path": "change_log.txt",
+      "path": "https://zenodo.org/record/5711169/files/change_log.txt?download=1",
       "title": "Change log",
       "description": "Description of changes to gaseous sulfuric acid concentration dataset",
       "format": "text",
