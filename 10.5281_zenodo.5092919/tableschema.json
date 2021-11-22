@@ -5,121 +5,148 @@
       "name": "ace_event_number",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "ACE event number",
+      "description": "unique number of equipment deployment or sample collection from ACE",
       "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "x_spi_netcdf_name": "ace_event_number",
+      "x_spi_emodnet_visualise_variable": "False"
     },
-        {
-      "name": "ace_sample_number",
-      "type": "number",
+    {
+      "name": "ace_sample_number_csp",
+      "type": "string",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "ACE sample number CSP",
+      "description": "unique sample code from ACE, formatted as follows: shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsampleID",
       "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "x_spi_netcdf_name": "ace_sample_number_csp",
+      "x_spi_emodnet_visualise_variable": "False"
     },
-        {
+    {
       "name": "project_sample_code",
-      "type": "number",
+      "type": "string",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "Project sample code",
+      "description": "ACE project 8 sample ID code",
       "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "x_spi_netcdf_name": "project_sample_code",
+      "x_spi_emodnet_visualise_variable": "False"
     },
-        {
+    {
       "name": "start_datetime",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Start date time",
+      "description": "date and time at which the underway seawater sample was collected or the CTD deployment began, in ISO8601 format YYYY-MM-DDTHhh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "start_datetime",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "start_latitude",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
+      "title": "Start latitude",
+      "description": "latitude of underway seawater sample collection or start of CTD deployment [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "latitude of underway seawater sample collection or start of CTD deployment",
+      "x_spi_netcdf_name": "start_latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "start_longitude",
+      "type": "number",
+      "format": "default",
+      "title": "Start longitude",
+      "description": "longitude of underway seawater sample collection or start of CTD deployment [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "longitude of underway seawater sample collection or start of CTD deployment",
+      "x_spi_netcdf_name": "start_longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "end_datetime",
+      "type": "%Y-%m-%dT%H:%M:%S%z",
+      "format": "default",
+      "title": "End date time",
+      "description": "date and time at which a CTD deployment ended, in ISO8601 format YYYY-MM-DDTHhh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "end_datetime",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "end_latitude",
+      "type": "number",
+      "format": "default",
+      "title": "End latitude",
+      "description": "latitude of end of CTD deployment [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "latitude of end of CTD deployment",
+      "x_spi_netcdf_name": "end_latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "end_longitude",
+      "type": "number",
+      "format": "End longitude",
+      "description": "longitude of end of CTD deployment [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "longitude of end of CTD deployment",
+      "x_spi_netcdf_name": "end_longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "sampling_method",
+      "type": "string",
+      "format": "default",
+      "title": "Sampling method",
+      "description": "method by which seawater sample was collected",
       "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
+      "x_spi_netcdf_name": "sampling_method",
       "x_spi_emodnet_visualise_variable": ""
     },
-        {
-      "name": "",
+    {
+      "name": "sampling_depth (m)",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "title": "Sampling depth",
+      "description": "depth from which seawater sample was collected [m]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "depth from which seawater sample was collected",
+      "x_spi_netcdf_name": "sampling_depth",
+      "x_spi_emodnet_visualise_variable": "True"
     },
-        {
-      "name": "",
+    {
+      "name": "CSP (µg BSA eq/L)",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "title": "average CSP concentration",
+      "description": "average of Coomassie Stainable Particles concentration determined by spectrophotometry in duplicate sea water samples [µg BSA eq/L]",
+      "unit": "µg BSA eq L-1",
+      "x_spi_netcdf_name": "csp_concentration",
+      "x_spi_emodnet_visualise_variable": "True"
     },
-        {
-      "name": "",
+    {
+      "name": "CSP standard error (µg BSA eq/L)",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
-    },
-        {
-      "name": "",
-      "type": "number",
-      "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
-    },
-        {
-      "name": "",
-      "type": "number",
-      "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "title": "standard error of average CSP concentration",
+      "description": "standard error of Coomassie Stainable Particles concentration in duplicate samples calculated as σ/sqrt(n), where σ is the standard deviation and n is the number of samples [µg BSA eq/L]",
+      "unit": "µg BSA eq L-1",
+      "x_spi_netcdf_name": "csp_se",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
   "missingValues": [
-    "NaN"
+    "NA"
   ]
 }
