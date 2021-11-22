@@ -12,13 +12,13 @@
       "x_spi_emodnet_visualise_variable": "False"
     },
     {
-      "name": "ace_sample_number_csp",
+      "name": "ace_sample_number_tep",
       "type": "string",
       "format": "default",
-      "title": "ACE sample number CSP",
+      "title": "ACE sample number TEP",
       "description": "unique sample code from ACE, formatted as follows: shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsampleID",
       "unit": "",
-      "x_spi_netcdf_name": "ace_sample_number_csp",
+      "x_spi_netcdf_name": "ace_sample_number_tep",
       "x_spi_emodnet_visualise_variable": "False"
     },
     {
@@ -126,23 +126,23 @@
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
-      "name": "CSP (µg BSA eq/L)",
+      "name": "TEP (µg XG eq/L)",
       "type": "number",
       "format": "default",
-      "title": "average CSP concentration",
-      "description": "average of Coomassie Stainable Particles concentration determined by spectrophotometry in duplicate sea water samples [µg BSA eq/L]",
-      "unit": "µg BSA eq L-1",
-      "x_spi_netcdf_name": "csp_concentration",
+      "title": "average TEP concentration",
+      "description": "average of Transparent Exopolymer Particle concentration determined by spectrophotometry in duplicate sea water samples [µg XG eq/L]",
+      "unit": "µg XG eq L-1",
+      "x_spi_netcdf_name": "tep_concentration",
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
-      "name": "CSP standard error (µg BSA eq/L)",
+      "name": "TEP standard error (µg XG eq/L)",
       "type": "number",
       "format": "default",
-      "title": "standard error of average CSP concentration",
-      "description": "standard error of Coomassie Stainable Particles concentration in duplicate samples calculated as σ/sqrt(n), where σ is the standard deviation and n is the number of samples [µg BSA eq/L]",
-      "unit": "µg BSA eq L-1",
-      "x_spi_netcdf_name": "csp_se",
+      "title": "standard error of average TEP concentration",
+      "description": "standard error of Transparent Exopolymer Particle concentration in duplicate samples calculated as σ/sqrt(n), where σ is the standard deviation and n is the number of samples [µg XG eq/L]",
+      "unit": "µg XG eq L-1",
+      "x_spi_netcdf_name": "tep_se",
       "x_spi_emodnet_visualise_variable": "True"
     }
   ],
