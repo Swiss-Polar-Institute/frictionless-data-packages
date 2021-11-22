@@ -3,83 +3,83 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "part_1_Cape_Town_Kerguelen",
+      "name": "part_1_cape_town_kerguelen",
       "path": "part_1_Cape_Town_Kerguelen.csv",
       "title": "Raw single aerosol measurements from Cape Town to Kerguelen",
       "description": "Raw single aerosol measurements from Cape Town to Kerguelen",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 1241897597,
+      "hash": "b242808cff619dcef1c679e37d5eca40",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
+    },
     {
-      "name": "part_2_Kerguelen_Hobart",
+      "name": "part_2_kerguelen_hobart",
       "path": "part_2_Kerguelen_Hobart.csv",
       "title": "Raw single aerosol measurements from Kerguelen to Hobart",
       "description": "Raw single aerosol measurements from Kerguelen to Hobart",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 700532268,
+      "hash": "2e9fa48f311b12ccf675e27b21999a2b",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
+    },
     {
-      "name": "part_3_Hobart_Mertz",
+      "name": "part_3_hobart_mertz",
       "path": "part_3_Hobart_Mertz.csv",
       "title": "Raw single aerosol measurements from Hobart to Mertz",
       "description": "Raw single aerosol measurements from Hobart to Mertz",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 231754479,
+      "hash": "0bb4ec5aaf13434d651897ef5880e967",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
+    },
     {
-      "name": "part_4_Mertz_Punta Arenas",
-      "path": "part_4_Mertz_Punta Arenas.csv",
+      "name": "part_4_mertz_punta_arenas",
+      "path": "part_4_Mertz_Punta_Arenas.csv",
       "title": "Raw single aerosol measurements from Mertz to Punta Arenas",
       "description": "Raw single aerosol measurements from Mertz to Punta Arenas",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 672239190,
+      "hash": "11d59dfdc5448398a82d966ad4f2c72f",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
+    },
     {
-      "name": "part_5_Punta_Arenas_Cape_Town",
+      "name": "part_5_punta_arenas_cape_town",
       "path": "part_5_Punta_Arenas_Cape_Town.csv",
       "title": "Raw single aerosol measurements from Punta Arenas to Cape Town",
       "description": "Raw single aerosol measurements from Punta Arenas to Cape Town",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 1034387583,
+      "hash": "cb4bbb62917462c30edf64a11858311b",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
+    },
     {
-      "name": "part_6_Cape_Town_Bremerhaven",
+      "name": "part_6_cape_town_bremerhaven",
       "path": "part_6_Cape_Town_Bremerhaven.csv",
       "title": "Raw single aerosol measurements from Cape Town to Bremerhaven",
       "description": "Raw single aerosol measurements from Cape Town to Bremerhaven",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 765658777,
+      "hash": "07a6131ab2d9775c13f3998d64994cd3",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
+    },
     {
       "name": "data_file_header",
       "path": "data_file_header.txt",
@@ -88,8 +88,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 1427,
+      "hash": "ac69fd4e7d868409860ba1b390fb4dc2"
     },
     {
       "name": "readme",
@@ -99,8 +99,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 2948,
+      "hash": "a14e91987411ffd3834bd91c70dca413"
     }
   ],
   "keywords": [
@@ -113,7 +113,7 @@
     "ACE-SPACE",
     "ACE"
   ],
-  "name": "ace_single_aersol_measurements",
+  "name": "ace_single_aerosol_measurements",
   "id": "https://doi.org/10.5281/zenodo.5109386",
   "title": "Single aerosol measurements from a wideband integrated bioaerosol sensor, collected during the Antarctic Circumnavigation Expedition (ACE).",
   "description": "This data set contains the time series of single particle data, measured by the wideband integrated bioaerosol sensor (WIBS-4, University of Hertfordshire, Hatfield, UK), during the Antarctic Circumnavigation Expedition (ACE), which was conducted between 20th of December 2016 and 19th of March 2017. WIBS provides aerosol optical diameter (5 μm - 14 μm), asymmetry factor and fluorescent signals on three different channels. WIBS measures single aerosol particles at a sampling rate of 125 Hz. More technical details about WIBS could be found in Kaye et al. (2005).",
@@ -134,10 +134,16 @@
       "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
     },
     {
+      "title": "Andrea Baccarini",
+      "path": "https://orcid.org/0000-0003-4614-247X ",
+      "role": "author",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    },
+    {
       "title": "Jen Thomas",
       "path": "https://orcid.org/0000-0002-5986-7026",
       "email": "jen@falciot.net",
-      "role": "Publisher",
+      "role": "publisher",
       "organisation": "Swiss Polar Institute, Switzerland"
     }
   ],
