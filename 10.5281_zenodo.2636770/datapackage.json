@@ -1,0 +1,159 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "gas_methanesulfonic_acid_concentration_data",
+      "path": "gas_methanesulfonic_acid_concentration_data.csv",
+      "title": "Gaseous methanesulfonic acid concentration dataset",
+      "description": "Data file of gaseous methanesulfonic acid concentrations over the Southern Ocean during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": ,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of gaseous methanesulfonic acid concentration dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of gaseous methanesulfonic acid concentration dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    },
+    {
+      "name": "change_log",
+      "path": "change_log.txt",
+      "title": "Change log",
+      "description": "Description of changes to gaseous methanesulfonic acid concentration dataset",
+      "format": "text",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    }
+  ],
+  "keywords": [
+    "methanesulfonic acid",
+    "MSA",
+    "new particle formation",
+    "API-TOF",
+    "API-HTOF",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE-SPACE",
+    "ACE"
+  ],
+  "name": "ace_gaseous_methanesulfonic_acid",
+  "id": "https://doi.org/10.5281/zenodo.5718382",
+  "title": "Concentration of gaseous methanesulfonic acid measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE).",
+  "description": "We measured methanesulfonic acid concentration in the gas phase with a nitrate chemical ionization mass spectrometer (we used an APi-HTOF mass spectrometer produced by Tofwerk AG coupled with a Chemical ionization inlet A70 produced by Airmodus). Methanesulfonic acid is detected in the mass spectrometer either as a deprotonated ion or as a cluster with the reagent ion (NO3-). The concentration is calculated as the area of these two peaks normalized to the concentration of the reagent ions (monomer, dimer and trimer) and multiplied by a calibration factor that was experimentally derived at Paul Scherrer Institute in the summer 2017, after the campaign.\n\nIn the atmosphere, methanesulfonic acid is produced by the oxidation of dimethyl sulfide that is mostly emitted in the atmosphere by phytoplankton. Methanesulfonic acid can contribute to the growth of aerosol particles by condensation or aqueous phase processing in clouds. The data have been cleaned from the influence of the exhaust of the research vessel. Temporal coverage is from 22 January 2017 to 19 March 2017. There are no data for the first leg of the expedition because the instrument was not on the ship. The instrument was operated during leg 4 but data has not been processed yet as they require additional work due to some instrumental issues that affects their quality. Data were collected with one-second time resolution but integrated to five minutes to increase the signal-to-noise ratio.\n\nConcentrations are reported as molecules per cubic centimeter. The lower limit of detection is in the ppq (part per quadrillion) range but was not determined exactly as it varies with the integration time and background noise.",
+  "homepage": "https://doi.org/10.5281/zenodo.5718382",
+  "version": "1.1",
+  "contributors": [
+    {
+      "title": "Andrea Baccarini",
+      "path": "https://orcid.org/0000-0003-4614-247X",
+      "email": "andrea.baccarini@epfl.ch",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland",
+      "x_spi_additional_organisation": "EPFL, Lausanne, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "path": "https://orcid.org/0000-0002-1048-7962",
+      "email": "julia.schmale@epfl.ch",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland",
+      "x_spi_additional_organisation": "EPFL, Lausanne, Switzerland"
+    },
+    {
+      "title": "Silvia Henning",
+      "path": "https://orcid.org/0000-0001-9267-7825",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
+    },
+    {
+      "title": "Fiona Tummon",
+      "path": "https://orcid.org/0000-0001-9700-1701",
+      "role": "author",
+      "organisation": "Eidgenössische Technische Hochschule Zürich; MeteoSwiss, Payerne, Switzerland"
+    },
+    {
+      "title": "Markus Hartmann",
+      "path": "https://orcid.org/0000-0001-9700-1701",
+      "role": "author",
+      "organisation": "Leibniz Institute for Tropospheric Research, Leipzig, Germany"
+    },
+    {
+      "title": "André Welti",
+      "path": "https://orcid.org/0000-0002-3549-1212",
+      "role": "author",
+      "organisation": "Finnish Meteorological Institute, Helsinki, Finland"
+    },
+    {
+      "title": "Katrianne Lehtipalo",
+      "path": "https://orcid.org/0000-0002-1660-2706",
+      "role": "author",
+      "organisation": "University of Helsinki, Finland"
+    },
+    {
+      "title": "Josef Dommen",
+      "path": "https://orcid.org/0000-0002-0006-0009",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "Martin Gysel-Beer",
+      "path": "https://orcid.org/0000-0002-7453-1264",
+      "role": "author",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_2636770",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "name": "Julia Schmale",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    },
+    {
+      "name": "Andrea Baccarini",
+      "organisation": "Paul Scherrer Institute, Villigen, Switzerland"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Baccarini, A., Schmale, J., Henning, S., Tummon, F., Hartmann, M., Welti, A., Lehtipalo, K., Dommen, J., & Gysel-Beer, M. (2019). Concentration of gaseous methanesulfonic acid measured over the Southern Ocean in the austral summer of 2016/2017, during the Antarctic Circumnavigation Expedition (ACE). (1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5718382"
+}

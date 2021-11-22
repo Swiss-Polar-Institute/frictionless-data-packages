@@ -1,0 +1,21 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "",
+      "type": "number",
+      "format": "default",
+      "title": "",
+      "description": "",
+      "unit": "",
+      "x_spi_cf_standard_name": "",
+      "x_spi_cf_unit": "",
+      "x_spi_cf_attribute": "",
+      "x_spi_netcdf_name": "",
+      "x_spi_emodnet_visualise_variable": ""
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
