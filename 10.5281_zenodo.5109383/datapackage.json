@@ -15,7 +15,7 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
-        {
+    {
       "name": "psd_hyper_fluorescent",
       "path": "PSD_hyper_fluorescent.csv",
       "title": "Number size distribution of hyper-fluorescent aerosol particles",
@@ -28,7 +28,7 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
-        {
+    {
       "name": "psd_hyper_tot",
       "path": "PSD_hyper_tot.csv",
       "title": "Number size distribution of all aerosol particles",
@@ -41,7 +41,7 @@
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
-        {
+    {
       "name": "data_file_header",
       "path": "data_file_header.txt",
       "title": "Data file header",
@@ -82,7 +82,7 @@
   "homepage": "https://doi.org/10.5281/zenodo.5109384",
   "version": "1.0",
   "contributors": [
-{
+    {
       "title": "Alireza Moallemi",
       "path": "https://orcid.org/0000-0002-9491-1993",
       "email": "alireza.moallemi@psi.ch",
@@ -129,7 +129,6 @@
       "role": "publisher",
       "organisation": "Swiss Polar Institute, Switzerland"
     }
-
   ],
   "licenses": [
     {
@@ -142,7 +141,20 @@
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_assembly_center": "Swiss Polar Institute",
   "x_spi_assembly_center_link": "https://swisspolar.ch",
-  "x_spi_dataset_owner": "",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Martin Schnaiter,",
+      "organisation": "SchnaiTEC, Germany"
+    },
+    {
+      "title": "Martin Gysel",
+      "organisation": "Paul Scherrer Institute, Switzerland"
+    },
+    {
+      "title": "Julia Schmale",
+      "organisation": "École Polytechnique Fédérale de Lausanne, Switzerland"
+    }
+  ],
   "x_spi_type": "ferrybox/ship",
   "x_spi_citation": "Moallemi, A., J. Schmale, M. Schnaiter, M. Gysel-Beer, R. Modini and S. Landwehr. (2021). Particle number size distribution of fluorescent, hyper-fluorescent, and total aerosol particles measured during the Antarctic Circumnavigation Expedition. (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5109384"
 }
