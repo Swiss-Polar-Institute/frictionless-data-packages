@@ -2,20 +2,156 @@
   "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
   "fields": [
     {
-      "name": "",
+      "name": "ACBC Code",
+      "type": "string",
+      "format": "default",
+      "title": "ACBC Code",
+      "description": "sample code defined as part of the project where ACBC is the Antarctic Circumnavigation Bacteria Collection. Each code is unique and each sample was assigned a code",
+      "x_spi_netcdf_name": "acbc_code",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ace_sample_number",
+      "type": "string",
+      "format": "default",
+      "title": "ACE sample code",
+      "description": "each sample collected as part of the Antarctic Circumnavigation Expedition (ACE) was assigned a unique sample number, ensuring it could be uniquely identified amongst all ACE samples. This sample number is written in the format: shipname(AT = R/V Akademik Tryoshnikov)/expeditionname(ACE)/leg number of expedition/ACE project number/julian day of year/ACE event number/ACE project principal investigator initials/ACE project sample number",
+      "x_spi_netcdf_name": "ace_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "class",
+      "type": "string",
+      "format": "default",
+      "title": "Taxonomic class",
+      "description": "hierarchical taxonomic ranks",
+      "x_spi_netcdf_name": "class",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "family",
+      "type": "string",
+      "format": "default",
+      "title": "Taxonomic family",
+      "description": "hierarchical taxonomic ranks",
+      "x_spi_netcdf_name": "family",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Top-hit taxon name",
+      "type": "string",
+      "format": "default",
+      "title": "Top-hit taxon name",
+      "description": "best taxonomic name found",
+      "x_spi_netcdf_name": "top_hit_taxon_name",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Top-hit strain name",
+      "type": "string",
+      "format": "default",
+      "title": "Top-hit strain name",
+      "description": "if this column includes (T) this means it is a type strain",
+      "x_spi_netcdf_name": "top_hit_strain_name",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "% similarity",
       "type": "number",
       "format": "default",
-      "title": "",
-      "description": "",
-      "unit": "",
-      "x_spi_cf_standard_name": "",
-      "x_spi_cf_unit": "",
-      "x_spi_cf_attribute": "",
-      "x_spi_netcdf_name": "",
-      "x_spi_emodnet_visualise_variable": ""
+      "title": "% similarity",
+      "description": "pairwise sequence similarity is the key criterion for microbial identification and as suggested by Kim et al. (2014), a species boundary is defined by a similarity value of 98.65% or greater. In other words, if two sequences show a similarity of 98.65% or less, they belong to different species",
+      "x_spi_netcdf_name": "percentage_similarity",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "station",
+      "type": "number",
+      "format": "default",
+      "title": "Station",
+      "description": "this is the station number assigned by ACE, where it is a location where a number of instrument deployments were made",
+      "x_spi_netcdf_name": "station",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "event_number",
+      "type": "number",
+      "format": "default",
+      "title": "Event number",
+      "description": "this is the event number assigned by ACE, when an instrument deployment or sampling event took place",
+      "x_spi_netcdf_name": "event_number",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "sampling depth (m)",
+      "type": "number",
+      "format": "default",
+      "title": "Sampling depth (m)",
+      "description": "the depth at which the water sample was taken from which the sample resulted (measured in metres below the surface). If the depth is 0 m, then this sample was obtained from the underway water supply line on the ship [m]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "depth at which the water sample was taken from which the sample resulted",
+      "x_spi_netcdf_name": "sampling_depth",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Medium",
+      "type": "string",
+      "format": "default",
+      "title": "Medium",
+      "description": "type of culture medium used. R2A: \"poor culture medium\" https://assets.thermofisher.com/TFS-Assets/LSG/manuals/IFU112543.pdf or MA: Marine Agar \"rich medium\" https://www.bd.com/europe/regulatory/Assets/IFU/Difco_BBL/212185.pdf",
+      "x_spi_netcdf_name": "medium",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Sampling time yyy-mm-ddThh:mm:ss.sss (UTC time)",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Sampling time",
+      "description": "date and time at which the sample was taken in ISO8601 format yyyy-mm-ddThh:mm:ss [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Latitude [degrees_north]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "latitude at which the sample was taken [decimal degrees north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "latitude at which the sample was taken",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Longitude [degrees_east]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "longitude at which the sample was taken [decimal degrees east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "longitude at which the sample was taken",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Link to NCBI database",
+      "type": "string",
+      "format": "default",
+      "title": "Link to NCBI database",
+      "description": "URL of where the sample can be found in the NCBI database",
+      "x_spi_netcdf_name": "url_ncbi",
+      "x_spi_emodnet_visualise_variable": "False"
     }
   ],
   "missingValues": [
-    "NaN"
+    "NaN",
+    ""
   ]
 }
