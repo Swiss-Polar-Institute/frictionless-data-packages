@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "antarctic_circumnavigation_bacterial_collection",
-      "path": "antarctic_circumnavigation_bacterial_collection.csv",
+      "path": "https://zenodo.org/record/5763724/files/antarctic_circumnavigation_bacterial_collection.csv?download=1",
       "title": "Antarctic Circumnavigation Bacterial Collection",
       "description": "Collection of bacteria from the Southern Ocean",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/5763724/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of ACBC data set",
       "format": "txt",
@@ -28,7 +28,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/5763724/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of ACBC data set",
       "format": "txt",
