@@ -3,10 +3,10 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "",
-      "path": "",
-      "title": "",
-      "description": "",
+      "name": "antarctic_circumnavigation_bacterial_collection",
+      "path": "antarctic_circumnavigation_bacterial_collection.csv",
+      "title": "Antarctic Circumnavigation Bacterial Collection",
+      "description": "Collection of bacteria from the Southern Ocean",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -14,6 +14,28 @@
       "hash": "",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
+    }
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of ACBC data set",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of ACBC data set",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": ,
+      "hash": ""
     }
   ],
   "keywords": [
