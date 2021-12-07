@@ -10,11 +10,11 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 26829,
+      "hash": "fcae26a8dc13e3ac6b30ba58ceb4f0d2",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
-    }
+    },
     {
       "name": "data_file_header",
       "path": "data_file_header.txt",
@@ -23,8 +23,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": ""
+      "bytes": 2423,
+      "hash": "f28d587c66f949c68454fb7e6d9b6d87"
     },
     {
       "name": "readme",
@@ -34,8 +34,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes": ,
-      "hash": ""
+      "bytes": 3740,
+      "hash": "ca5b3d563e75fbef029d0d11cac7b43a"
     }
   ],
   "keywords": [

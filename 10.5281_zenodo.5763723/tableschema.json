@@ -74,7 +74,7 @@
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
-      "name": "event_number",
+      "name": "event number",
       "type": "number",
       "format": "default",
       "title": "Event number",
@@ -147,6 +147,15 @@
       "title": "Link to NCBI database",
       "description": "URL of where the sample can be found in the NCBI database",
       "x_spi_netcdf_name": "url_ncbi",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "format": "default",
+      "title": "Notes",
+      "description": "Extra information about record",
+      "x_spi_netcdf_name": "notes",
       "x_spi_emodnet_visualise_variable": "False"
     }
   ],
