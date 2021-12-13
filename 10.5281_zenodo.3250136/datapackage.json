@@ -1,0 +1,126 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_humics_data",
+      "path": "ace_humics_data.csv",
+      "title": "ACE humics data",
+      "description": "Concentration of humics in seawater dataset from ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes":,
+      "hash": "",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "ace_humics_data_visual_summary",
+      "path": "ace_humics_data_visual_summary.png",
+      "title": "ACE humics data visual summary",
+      "description": "Visual summary of ACE humics dataset",
+      "format": "png",
+      "mediatype": "image/png",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "data_file_header",
+      "path": "data_file_header.txt",
+      "title": "Data file header",
+      "description": "Data file header of ACE humics dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    },
+    {
+      "name": "readme",
+      "path": "README.txt",
+      "title": "Readme",
+      "description": "Description of ACE humics dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes":,
+      "hash": ""
+    }
+  ],
+  "keywords": [
+    "oceanography",
+    "chemistry",
+    "ligands",
+    "humics",
+    "iron",
+    "trace metal",
+    "trace metal rosette",
+    "seawater",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_humics",
+  "id": "https://doi.org/10.5281/zenodo.3250137",
+  "title": "Humic acid like concentration in seawater samples, collected from the trace metal rosettes in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition.",
+  "description": "Humic acid like concentration (abbreviated HA) measured with respect to the Suwannee River Fulvic acid standards (µmol SRFA equivalent per litre). \n\nSeawater samples were collected from trace metal rosette (TMR) deployments at different depths in the water column during the Antarctic Circumnavigation Expedition (ACE). Humic acid like data from legs 1 and 2, from TMR cast numbers 3 to 16, were analysed by electrochemistry following standard additions of Suwannee River Fulvic Acid (standard 1, IHSS). This data is to support iron ligands and iron bioavailability as well as hydrolysable saccharides (TPZT) data, also collected during ACE.",
+  "homepage": "https://doi.org/10.5281/zenodo.3250137",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Christel Hassler",
+      "path": "https://orcid.org/0000-0002-8976-5469",
+      "email": "christel.hassler@unige.ch",
+      "role": "author",
+      "organisation": "University of Geneva, Switzerland"
+    },
+    {
+      "title": "Michael Ellwood",
+      "path": "https://orcid.org/0000-0003-4288-8530",
+      "role": "author",
+      "organisation": "Australian National University"
+    },
+    {
+      "title": "Tina Brenneis",
+      "role": "contributor",
+      "organisation": "Alfred Wegener Institute, Germany"
+    },
+    {
+      "title": "Christian Völker",
+      "role": "contributor",
+      "organisation": "Alfred Wegener Institute, Germany"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_3250136",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Christel Hassler",
+      "organisation": "University of Geneva"
+    },
+    {
+      "title": "Michael Ellwood",
+      "organisation": "Australian National University"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Hassler, C. and Ellwood, M. (2021). Humic acid like concentration in seawater samples, collected from the trace metal rosettes in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition. (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3250137"
+}
