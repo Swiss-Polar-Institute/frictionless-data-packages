@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "ace_biogenic_silicate_concentration_in_seawater_underway",
-      "path": "ace_biogenic_silicate_concentration_in_seawater_underway.csv",
+      "path": "https://zenodo.org/record/3249051/files/ace_biogenic_silicate_concentration_in_seawater_underway.csv?download=1",
       "title": "ACE biogenic silicate concentration in underway seawater samples",
       "description": "Biogenic silicate concentration in underway seawater data set",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "ace_biogenic_silicate_concentration_in_seawater_underway_visual_summary",
-      "path": "ace_biogenic_silicate_concentration_in_seawater_underway_visual_summary.png",
+      "path": "https://zenodo.org/record/3249051/files/ace_biogenic_silicate_concentration_in_seawater_underway_visual_summary.png?download=1",
       "title": "Visual summary of biogenic silicate concentration in seawater",
       "description": "Visual summary of biogenic silicate concentration in seawater samples",
       "format": "png",
@@ -27,7 +27,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3249051/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of ACE biogenic silicate from underway seawater sample dataset",
       "format": "txt",
@@ -38,7 +38,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3249051/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of ACE biogenic silicate from underway seawater sample dataset",
       "format": "txt",
