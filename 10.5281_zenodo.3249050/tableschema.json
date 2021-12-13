@@ -34,7 +34,7 @@
       "x_spi_emodnet_visualise_variable": "True"
     },
     {
-      "name": "longitude",
+      "name": "longitude [degE]",
       "type": "number",
       "format": "default",
       "title": "Longitude",
@@ -107,7 +107,7 @@
       "x_spi_emodnet_visualise_variable": "False"
     },
     {
-      "name": "concentration_of_Bsi [µmol/L]",
+      "name": "concentration_of_biogenic_silicate [µmol/L]",
       "type": "number",
       "format": "default",
       "title": "Concentration of biogenic silicate",

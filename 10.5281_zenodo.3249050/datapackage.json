@@ -10,8 +10,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 6997,
+      "hash": "a8f4c8e2678c97b54967130f6022801c",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -22,8 +22,8 @@
       "description": "Visual summary of biogenic silicate concentration in seawater samples",
       "format": "png",
       "mediatype": "image/png",
-      "bytes":,
-      "hash": ""
+      "bytes": 242932,
+      "hash": "207e4660e80c44875e2c2b73907cb557"
     }
     {
       "name": "data_file_header",
@@ -33,8 +33,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 1712,
+      "hash": "249013d3826d36dd61276c97a90a7a6a"
     },
     {
       "name": "readme",
@@ -44,8 +44,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 3506,
+      "hash": "5402394793f509d7f7bcc4119a74cd51"
     }
   ],
   "keywords": [
