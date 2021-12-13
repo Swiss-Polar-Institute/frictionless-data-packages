@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "ace_humics_data",
-      "path": "ace_humics_data.csv",
+      "path": "https://zenodo.org/record/3250137/files/ace_humics_data.csv?download=1",
       "title": "ACE humics data",
       "description": "Concentration of humics in seawater dataset from ACE",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "ace_humics_data_visual_summary",
-      "path": "ace_humics_data_visual_summary.png",
+      "path": "https://zenodo.org/record/3250137/files/ace_humics_data_visual_summary.png?download=1",
       "title": "ACE humics data visual summary",
       "description": "Visual summary of ACE humics dataset",
       "format": "png",
@@ -27,7 +27,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3250137/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of ACE humics dataset",
       "format": "txt",
@@ -38,7 +38,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3250137/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of ACE humics dataset",
       "format": "txt",
