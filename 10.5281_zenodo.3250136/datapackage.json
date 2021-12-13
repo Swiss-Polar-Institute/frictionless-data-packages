@@ -10,8 +10,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": "",
+      "bytes": 13080,
+      "hash": "560cbae48f4232585b9f2a4316f94287",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -22,8 +22,8 @@
       "description": "Visual summary of ACE humics dataset",
       "format": "png",
       "mediatype": "image/png",
-      "bytes":,
-      "hash": ""
+      "bytes": 57840,
+      "hash": "3e45573e704916d3bf3f312dc6a0a87a"
     },
     {
       "name": "data_file_header",
@@ -33,8 +33,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 1467,
+      "hash": "46e98f3cdcb1b2acdae0203f52cb3231"
     },
     {
       "name": "readme",
@@ -44,8 +44,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4315,
+      "hash": "b6b667488d68676ba5599abcdcbe2134"
     }
   ],
   "keywords": [

@@ -66,7 +66,7 @@
     },
     {
       "name": "project_sample_number",
-      "type": "number",
+      "type": "string",
       "format": "default",
       "title": "Project sample number",
       "description": "unique number of the seawater sample within the project that was responsible for taking the samples in the format TMR castnumber BT bottlenumber",
@@ -96,5 +96,7 @@
       "x_spi_netcdf_name": "concentration_humics",
       "x_spi_emodnet_visualise_variable": "True"
     }
-  ]
-}
+  ],
+  "missingValues": [
+    ""
+  ]}
