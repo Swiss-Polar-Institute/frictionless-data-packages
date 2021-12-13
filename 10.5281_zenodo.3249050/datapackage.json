@@ -10,8 +10,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 6997,
-      "hash": "a8f4c8e2678c97b54967130f6022801c",
+      "bytes": 7031,
+      "hash": "b6374c33cf3d5283324dcdda707c7b9e",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json"
     },
@@ -24,7 +24,7 @@
       "mediatype": "image/png",
       "bytes": 242932,
       "hash": "207e4660e80c44875e2c2b73907cb557"
-    }
+    },
     {
       "name": "data_file_header",
       "path": "data_file_header.txt",

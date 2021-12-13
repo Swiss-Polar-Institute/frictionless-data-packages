@@ -99,7 +99,7 @@
     {
       "name": "measurement_date [UTC]",
       "type": "datetime",
-      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "format": "%Y-%m-%d",
       "title": "Measurement date",
       "description": "date on which the measurements of biogenic silicate in the seawater sample were made in ISO 8601 format YYYY-MM-DD [UTC]",
       "unit": "UTC",
