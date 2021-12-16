@@ -123,7 +123,7 @@ def validate_table(package, resource, errors):
         print(f'Cannot download: {resource.source}')
         print(e)
 
-        add_error(errors, f'Cannot download file: {resource.source}')
+        add_error(errors, f'Cannot download file: {resource.source}', package.base_path, resource.name)
 
 
 
