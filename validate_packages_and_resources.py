@@ -138,12 +138,12 @@ def validate_data_package(datapackage_path, errors):
 
 
 def calculate_size_of_datapacakge_mb(datapackage_path):
-    content = json.load(datapackage_path)
+    content = json.load(open(datapackage_path))
 
     total_size = 0
 
     for resource in content['resources']:
-        total_size += resource.get('size', 0)
+        total_size += int(resource.get('size', 0))
 
     return total_size / 1024 / 1024
 
