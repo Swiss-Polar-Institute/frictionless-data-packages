@@ -154,14 +154,14 @@ def validate_data_packages(dois):
     for datapackage_path in find_data_packages():
         doi = doi_from_datapackage_path(datapackage_path)
         if dois is not None and doi not in dois:
-            print('Skipping validation of', doi)
+            print('::warning::Skipping validation of', doi)
             continue
 
         validate_data_package(datapackage_path, errors)
 
         size_of_data_package_mb = calculate_size_of_datapacakge_mb(datapackage_path)
         if size_of_data_package_mb > 100:
-            print(f'Skipping validation of {doi} size is too big ({size_of_data_package_mb}')
+            print(f'::warning::Skipping validation of {doi} size is too big ({size_of_data_package_mb}')
         validate_using_goodtables(datapackage_path, errors)
 
     return errors
