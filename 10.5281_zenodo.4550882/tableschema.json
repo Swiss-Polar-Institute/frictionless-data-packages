@@ -1,0 +1,28 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "date_time",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "date and time of start of averaged time period during which the horizontal particle flux was measured in ISO 8601 format: YYYY-mm-ddThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "horizontal_particle_flux [#.m-2.s-1]",
+      "type": "number",
+      "format": "default",
+      "title": "Horizontal particle flux",
+      "description": "total snow particle flux during the one-minute interval corrected for wind speed [# m-2 s-1]",
+      "unit": "# m-2 s-1",
+      "x_spi_netcdf_name": "horizontal_particle_flux",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}
