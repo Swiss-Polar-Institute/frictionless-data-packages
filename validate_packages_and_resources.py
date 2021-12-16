@@ -4,6 +4,7 @@
 # This is part of a pilot - it needs proper re-writing if we keep using this
 
 import argparse
+import json
 import os
 import sys
 
@@ -44,7 +45,8 @@ def add_error(errors, error, datapackage, resource=None):
 
 def extra_validation_package(package, errors):
     spi_mandatory_attributes = ['x_spi_platform_code', 'x_spi_type', 'x_spi_platform_name', 'x_spi_citation', 'version',
-                                'x_spi_assembly_center', 'x_spi_assembly_center_link', 'x_spi_dataset_owner', 'x_spi_schema_url']
+                                'x_spi_assembly_center', 'x_spi_assembly_center_link', 'x_spi_dataset_owner',
+                                'x_spi_schema_url']
     for spi_attribute in spi_mandatory_attributes:
         if spi_attribute not in package.descriptor:
             add_error(errors, f'Missing mandatory SPI package attribute: {spi_attribute}', package.base_path)
@@ -58,7 +60,8 @@ def extra_validation_package(package, errors):
 
 def extra_validation_table(package, table, errors):
     spi_mandatory_attributes = ['x_spi_netcdf_name']
-    spi_attributes = spi_mandatory_attributes + ['x_spi_cf_standard_name', 'x_spi_cf_unit', 'x_spi_cf_attribute', 'x_spi_emodnet_visualise_variable']
+    spi_attributes = spi_mandatory_attributes + ['x_spi_cf_standard_name', 'x_spi_cf_unit', 'x_spi_cf_attribute',
+                                                 'x_spi_emodnet_visualise_variable']
 
     if table.schema is None:
         return
@@ -134,16 +137,31 @@ def validate_data_package(datapackage_path, errors):
         extra_validation_table(package, resource, errors)
 
 
+def calculate_size_of_datapacakge_mb(datapackage_path):
+    content = json.load(datapackage_path)
+
+    total_size = 0
+
+    for resource in content['resources']:
+        total_size += resource.get('size', 0)
+
+    return total_size / 1024 / 1024
+
+
 def validate_data_packages(dois):
     errors = []
 
     for datapackage_path in find_data_packages():
         doi = doi_from_datapackage_path(datapackage_path)
         if dois is not None and doi not in dois:
-            print('Skipping', doi)
+            print('Skipping validation of', doi)
             continue
 
         validate_data_package(datapackage_path, errors)
+
+        size_of_data_package_mb = calculate_size_of_datapacakge_mb(datapackage_path)
+        if size_of_data_package_mb > 100:
+            print(f'Skipping validation of {doi} size is too big ({size_of_data_package_mb}')
         validate_using_goodtables(datapackage_path, errors)
 
     return errors
