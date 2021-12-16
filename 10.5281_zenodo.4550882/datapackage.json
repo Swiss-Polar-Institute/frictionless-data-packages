@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "spc_hpf_windtrue_1min",
-      "path": "SPC_HPF_windtrue_1min.csv",
+      "path": "https://zenodo.org/record/4550883/files/SPC_HPF_windtrue_1min.csv?download=1",
       "title": "SPC HPF wind true 1min",
       "description": "One-minute horizontal particle flux data",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "spc_hpf_windtrue_1min",
-      "path": "SPC_HPF_windtrue_1min.png",
+      "path": "https://zenodo.org/record/4550883/files/SPC_HPF_windtrue_1min.png?download=1",
       "title": "SPC HPF windtrue 1min plot",
       "description": "Plot of one-minute horizontal particle flux data",
       "format": "png",
@@ -28,7 +28,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/4550883/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of horizontal particle flux dataset",
       "format": "txt",
@@ -39,7 +39,7 @@
     },
     {
       "name": "spc_hpf_windtrue_saveplot",
-      "path": "SPC_HPF_windtrue_saveplot.py",
+      "path": "https://zenodo.org/record/4550883/files/SPC_HPF_windtrue_saveplot.py?download=1",
       "title": "SPC HPF processing script",
       "description": "Python script to process horizontal particle flux data",
       "format": "py",
@@ -50,7 +50,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/4550883/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of horizontal particle flux dataset",
       "format": "txt",
