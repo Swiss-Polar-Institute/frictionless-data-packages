@@ -12,8 +12,8 @@
       "encoding": "utf-8",
       "profile": "tabular-data-resource",
       "schema": "tableschema.json",
-      "bytes":,
-      "hash": ""
+      "bytes": 3283582,
+      "hash": "efd7ed32cd271a82be89109499048bd6"
     },
     {
       "name": "spc_hpf_windtrue_1min",
@@ -23,8 +23,8 @@
       "format": "png",
       "mediatype": "image/png",
       "encoding": "binary",
-      "bytes":,
-      "hash": ""
+      "bytes": 75371,
+      "hash": "e0ec05de8b47debb1abbed8760f55465"
     },
     {
       "name": "readme",
@@ -34,19 +34,19 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 3901,
+      "hash": "f3152167783deae296819bc059bb6eac"
     },
     {
-      "name": "spc+hpf_windtrue_saveplot",
+      "name": "spc_hpf_windtrue_saveplot",
       "path": "SPC_HPF_windtrue_saveplot.py",
       "title": "SPC HPF processing script",
       "description": "Python script to process horizontal particle flux data",
       "format": "py",
       "mediatype": "text/x-python",
       "encoding": "utf-8",
-      "bytes":,
-      "hash": ""
+      "bytes": 5029,
+      "hash": "9a1334e33b4fcdc05668587c46cf41b2"
     },
     {
       "name": "data_file_header",
@@ -56,8 +56,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 596,
+      "hash": "c94555c2f11f313ed0a2b48e811bfd08"
     }
   ],
   "keywords": [
