@@ -866,8 +866,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 4173,
+      "hash": "4776987f6264e3c62bee8403c27e92a6"
     },
     {
       "name": "data_file_header",
@@ -877,8 +877,8 @@
       "format": "txt",
       "mediatype": "text/plain",
       "encoding": "ASCII",
-      "bytes":,
-      "hash": ""
+      "bytes": 572,
+      "hash": "dcae79306e206745f30f20efa17202b2"
     }
   ],
   "keywords": [
