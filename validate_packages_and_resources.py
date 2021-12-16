@@ -138,7 +138,7 @@ def validate_data_package(datapackage_path, errors):
 
 
 def calculate_size_of_datapacakge_mb(datapackage_path):
-    content = json.load(open(os.path.join(datapackage_path, 'datapackage.json')))
+    content = json.load(open(datapackage_path))
 
     total_size = 0
 
