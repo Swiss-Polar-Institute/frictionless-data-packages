@@ -614,17 +614,6 @@
       "schema": "tableschema.json"
     },
     {
-      "name": "_ds_store",
-      "path": ".DS_Store",
-      "description": "Intermediate processing stage of snow particle counter data",
-      "format": "",
-      "mediatype": "application/octet-stream",
-      "encoding": "binary",
-      "bytes": 6148,
-      "hash": "194577a7e20bdcc7afbb718f502c134c",
-      "profile": "data-resource"
-    },
-    {
       "name": "spc_hpf_1min_2017_01_11_csv",
       "path": "SPC_HPF_1min_2017_01_11.csv",
       "title": "SPC_HPF_1min_2017_01_11",
