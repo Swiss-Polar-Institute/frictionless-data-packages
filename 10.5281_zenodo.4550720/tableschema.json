@@ -4,9 +4,9 @@
     {
       "name": "Time(UTC)",
       "type": "datetime",
-      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "format": "%Y-%m-%d %H:%M:%S",
       "title": "Time",
-      "description": "date and time of start of averaged time period during which the horizontal particle flux was measured in ISO 8601 format: YYYY-mm-ddThh:mm:ss+00:00 [UTC]",
+      "description": "date and time of start of averaged time period during which the horizontal particle flux was measured in ISO 8601 format: YYYY-mm-dd hh:mm:ss [UTC]",
       "unit": "UTC",
       "x_spi_netcdf_name": "time",
       "x_spi_emodnet_visualise_variable": "True"
