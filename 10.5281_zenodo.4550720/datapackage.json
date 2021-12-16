@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "spc_hpf_1min_2017_03_17_csv",
-      "path": "SPC_HPF_1min_2017_03_17.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_17.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_17",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_04_csv",
-      "path": "SPC_HPF_1min_2017_02_04.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_04.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_04",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -30,7 +30,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_10_csv",
-      "path": "SPC_HPF_1min_2017_01_10.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_10.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_10",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -43,7 +43,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_13_csv",
-      "path": "SPC_HPF_1min_2017_02_13.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_13.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_13",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -56,7 +56,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_06_csv",
-      "path": "SPC_HPF_1min_2017_02_06.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_06.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_06",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -69,7 +69,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_08_csv",
-      "path": "SPC_HPF_1min_2017_03_08.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_08.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_08",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -82,7 +82,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_02_csv",
-      "path": "SPC_HPF_1min_2017_03_02.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_02.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_02",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -95,7 +95,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_07_csv",
-      "path": "SPC_HPF_1min_2017_03_07.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_07.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_07",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -108,7 +108,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_26_csv",
-      "path": "SPC_HPF_1min_2017_02_26.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_26.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_26",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -121,7 +121,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_31_csv",
-      "path": "SPC_HPF_1min_2017_01_31.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_31.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_31",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -134,7 +134,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_15_csv",
-      "path": "SPC_HPF_1min_2017_03_15.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_15.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_15",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -147,7 +147,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_03_csv",
-      "path": "SPC_HPF_1min_2017_03_03.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_03.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_03",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -160,7 +160,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_10_csv",
-      "path": "SPC_HPF_1min_2017_03_10.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_10.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_10",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -173,7 +173,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_07_csv",
-      "path": "SPC_HPF_1min_2017_02_07.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_07.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_07",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -186,7 +186,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_08_csv",
-      "path": "SPC_HPF_1min_2017_02_08.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_08.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_08",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -199,7 +199,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_18_csv",
-      "path": "SPC_HPF_1min_2017_01_18.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_18.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_18",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -212,7 +212,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_25_csv",
-      "path": "SPC_HPF_1min_2017_01_25.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_25.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_25",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -225,7 +225,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_10_csv",
-      "path": "SPC_HPF_1min_2017_02_10.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_10.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_10",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -238,7 +238,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_27_csv",
-      "path": "SPC_HPF_1min_2017_02_27.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_27.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_27",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -251,7 +251,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_04_csv",
-      "path": "SPC_HPF_1min_2017_03_04.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_04.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_04",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -264,7 +264,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_15_csv",
-      "path": "SPC_HPF_1min_2017_02_15.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_15.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_15",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -277,7 +277,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_09_csv",
-      "path": "SPC_HPF_1min_2017_02_09.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_09.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_09",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -290,7 +290,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_25_csv",
-      "path": "SPC_HPF_1min_2017_02_25.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_25.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_25",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -303,7 +303,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_06_csv",
-      "path": "SPC_HPF_1min_2017_03_06.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_06.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_06",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -316,7 +316,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_30_csv",
-      "path": "SPC_HPF_1min_2017_01_30.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_30.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_30",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -329,7 +329,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_19_csv",
-      "path": "SPC_HPF_1min_2017_02_19.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_19.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_19",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -342,7 +342,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_05_csv",
-      "path": "SPC_HPF_1min_2017_03_05.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_05.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_05",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -355,7 +355,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_09_csv",
-      "path": "SPC_HPF_1min_2017_03_09.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_09.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_09",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -368,7 +368,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_02_csv",
-      "path": "SPC_HPF_1min_2017_02_02.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_02.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_02",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -381,7 +381,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_29_csv",
-      "path": "SPC_HPF_1min_2017_01_29.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_29.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_29",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -394,7 +394,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_14_csv",
-      "path": "SPC_HPF_1min_2017_01_14.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_14.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_14",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -407,7 +407,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_23_csv",
-      "path": "SPC_HPF_1min_2017_02_23.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_23.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_23",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -420,7 +420,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_12_csv",
-      "path": "SPC_HPF_1min_2017_01_12.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_12.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_12",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -433,7 +433,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_24_csv",
-      "path": "SPC_HPF_1min_2017_02_24.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_24.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_24",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -446,7 +446,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_14_csv",
-      "path": "SPC_HPF_1min_2017_03_14.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_14.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_14",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -459,7 +459,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_05_csv",
-      "path": "SPC_HPF_1min_2017_02_05.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_05.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_05",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -472,7 +472,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_18_csv",
-      "path": "SPC_HPF_1min_2017_02_18.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_18.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_18",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -485,7 +485,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_26_csv",
-      "path": "SPC_HPF_1min_2017_01_26.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_26.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_26",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -498,7 +498,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_09_csv",
-      "path": "SPC_HPF_1min_2017_01_09.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_09.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_09",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -511,7 +511,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_22_csv",
-      "path": "SPC_HPF_1min_2017_02_22.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_22.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_22",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -524,7 +524,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_16_csv",
-      "path": "SPC_HPF_1min_2017_02_16.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_16.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_16",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -537,7 +537,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_28_csv",
-      "path": "SPC_HPF_1min_2017_02_28.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_28.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_28",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -550,7 +550,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_16_csv",
-      "path": "SPC_HPF_1min_2017_01_16.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_16.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_16",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -563,7 +563,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_13_csv",
-      "path": "SPC_HPF_1min_2017_03_13.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_13.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_13",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -576,7 +576,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_17_csv",
-      "path": "SPC_HPF_1min_2017_02_17.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_17.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_17",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -589,7 +589,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_14_csv",
-      "path": "SPC_HPF_1min_2017_02_14.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_14.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_14",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -602,7 +602,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_15_csv",
-      "path": "SPC_HPF_1min_2017_01_15.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_15.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_15",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -615,7 +615,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_11_csv",
-      "path": "SPC_HPF_1min_2017_01_11.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_11.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_11",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -628,7 +628,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_20_csv",
-      "path": "SPC_HPF_1min_2017_02_20.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_20.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_20",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -641,7 +641,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_12_csv",
-      "path": "SPC_HPF_1min_2017_02_12.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_12.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_12",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -654,7 +654,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_11_csv",
-      "path": "SPC_HPF_1min_2017_03_11.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_11.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_11",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -667,7 +667,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_13_csv",
-      "path": "SPC_HPF_1min_2017_01_13.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_13.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_13",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -680,7 +680,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_01_csv",
-      "path": "SPC_HPF_1min_2017_03_01.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_01.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_01",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -693,7 +693,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_12_csv",
-      "path": "SPC_HPF_1min_2017_03_12.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_12.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_12",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -706,7 +706,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_08_csv",
-      "path": "SPC_HPF_1min_2017_01_08.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_08.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_08",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -719,7 +719,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_17_csv",
-      "path": "SPC_HPF_1min_2017_01_17.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_17.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_17",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -732,7 +732,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_28_csv",
-      "path": "SPC_HPF_1min_2017_01_28.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_28.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_28",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -745,7 +745,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_24_csv",
-      "path": "SPC_HPF_1min_2017_01_24.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_24.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_24",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -758,7 +758,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_01_csv",
-      "path": "SPC_HPF_1min_2017_02_01.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_01.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_01",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -771,7 +771,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_03_csv",
-      "path": "SPC_HPF_1min_2017_02_03.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_03.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_03",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -784,7 +784,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_03_16_csv",
-      "path": "SPC_HPF_1min_2017_03_16.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_03_16.csv?download=1",
       "title": "SPC_HPF_1min_2017_03_16",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -797,7 +797,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_23_csv",
-      "path": "SPC_HPF_1min_2017_01_23.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_23.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_23",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -810,7 +810,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_01_27_csv",
-      "path": "SPC_HPF_1min_2017_01_27.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_01_27.csv?download=1",
       "title": "SPC_HPF_1min_2017_01_27",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -823,7 +823,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_21_csv",
-      "path": "SPC_HPF_1min_2017_02_21.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_21.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_21",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -836,7 +836,7 @@
     },
     {
       "name": "spc_hpf_1min_2017_02_11_csv",
-      "path": "SPC_HPF_1min_2017_02_11.csv",
+      "path": "https://zenodo.org/record/4550721/files/SPC_HPF_1min_2017_02_11.csv?download=1",
       "title": "SPC_HPF_1min_2017_02_11",
       "description": "Intermediate processing stage of snow particle counter data",
       "format": "csv",
@@ -849,7 +849,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/4550721/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of horizontal particle flux dataset",
       "format": "txt",
@@ -860,7 +860,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/4550721/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of horizontal particle flux dataset",
       "format": "txt",
