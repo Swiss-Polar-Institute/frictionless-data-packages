@@ -4,6 +4,7 @@
 # This is part of a pilot - it needs proper re-writing if we keep using this
 
 import argparse
+import http.client
 import json
 import os
 import sys
@@ -90,7 +91,12 @@ def doi_from_datapackage_path(datapackage_path):
 
 
 def validate_using_goodtables(datapackage_path, errors):
-    result = goodtables.validate(datapackage_path)
+    try:
+        result = goodtables.validate(datapackage_path)
+    except http.client.IncompleteRead as e:
+        print(e)
+        add_error(errors, f'Error reading remote file', datapackage_path)
+        return
 
     if result['valid'] is False:
         add_error(errors,
@@ -163,6 +169,7 @@ def validate_data_packages(dois):
         print(f'Calculated size: {size_of_data_package_mb} MB')
         if size_of_data_package_mb > 100:
             print(f'::warning::Skipping validation of {doi} size is too big ({size_of_data_package_mb}')
+            continue
         validate_using_goodtables(datapackage_path, errors)
 
     return errors
