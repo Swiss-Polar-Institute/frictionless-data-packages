@@ -7,7 +7,6 @@ import argparse
 import http.client
 import json
 import os
-import subprocess
 import sys
 import time
 
@@ -117,7 +116,7 @@ def validate_table(package, resource, errors):
     try:
         resource.read()
         print(f'Tableschema: {resource.name} is valid!')
-        time.sleep(2)   # hope to avoid HTTP 429
+        time.sleep(2)  # hope to avoid HTTP 429
     except (exceptions.ValidationError, exceptions.CastError) as exception:
         for error in exception.errors:
             add_error(errors, error, package.base_path, resource.name)
@@ -127,7 +126,6 @@ def validate_table(package, resource, errors):
         print(exception)
 
         # add_error(errors, f'Cannot download file: {resource.source}', package, resource.name)
-
 
 
 def validate_data_package(datapackage_path, errors):
