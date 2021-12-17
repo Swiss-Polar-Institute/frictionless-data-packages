@@ -1,0 +1,102 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "antarctic_circumnavigation_bacterial_collection",
+      "path": "https://zenodo.org/record/5763724/files/antarctic_circumnavigation_bacterial_collection.csv?download=1",
+      "title": "Antarctic Circumnavigation Bacterial Collection",
+      "description": "Collection of bacteria from the Southern Ocean",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 26829,
+      "hash": "fcae26a8dc13e3ac6b30ba58ceb4f0d2",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/5763724/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of ACBC data set",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 2423,
+      "hash": "f28d587c66f949c68454fb7e6d9b6d87"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/5763724/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of ACBC data set",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3740,
+      "hash": "ca5b3d563e75fbef029d0d11cac7b43a"
+    }
+  ],
+  "keywords": [
+    "bacterial strains",
+    "ACBC",
+    "bacteria",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE",
+    "Southern Ocean"
+  ],
+  "name": "ace_acbc",
+  "id": "https://doi.org/10.5281/zenodo.5763724",
+  "title": "Antarctic Circumnavigation Bacterial Collection (ACBC)",
+  "description": "We collected natural bacterial communities from the Southern Ocean during the Antarctic Circumnavigation Expedition (ACE) from December 2016 to March 2017. The expedition travelled 33,565 kilometres around Antarctica, allowing us to bring back unprecedented live samples from the Southern Ocean for isolation and identification purposes.",
+  "homepage": "https://doi.org/10.5281/zenodo.5763724",
+  "version": "1.1",
+  "contributors": [
+    {
+      "title": "Marion Fourquez",
+      "path": "https://orcid.org/",
+      "email": "marion.fourquez@gmail.com",
+      "role": "author",
+      "organisation": "University of Geneva",
+      "x_spi_additional_organisation": "Aix Marseille University"
+    },
+    {
+      "title": "Christel Hassler",
+      "path": "https://orcid.org/",
+      "role": "author",
+      "organisation": "University of Geneva"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_5763723",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Marion Fourquez",
+      "organisation": "University of Geneva",
+      "x_spi_additional_organisation": "Aix Marseille University"
+    },
+    {
+      "title": "Christel Hassler",
+      "organisation": "University of Geneva"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Fourquez, M. and Hassler, C. (2021). Antarctic Circumnavigation Bacterial Collection (ACBC). (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5763724"
+}

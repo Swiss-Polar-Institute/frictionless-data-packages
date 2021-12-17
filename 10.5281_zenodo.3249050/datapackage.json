@@ -1,0 +1,117 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_biogenic_silicate_concentration_in_seawater_underway",
+      "path": "https://zenodo.org/record/3249051/files/ace_biogenic_silicate_concentration_in_seawater_underway.csv?download=1",
+      "title": "ACE biogenic silicate concentration in underway seawater samples",
+      "description": "Biogenic silicate concentration in underway seawater data set",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 7031,
+      "hash": "b6374c33cf3d5283324dcdda707c7b9e",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "ace_biogenic_silicate_concentration_in_seawater_underway_visual_summary",
+      "path": "https://zenodo.org/record/3249051/files/ace_biogenic_silicate_concentration_in_seawater_underway_visual_summary.png?download=1",
+      "title": "Visual summary of biogenic silicate concentration in seawater",
+      "description": "Visual summary of biogenic silicate concentration in seawater samples",
+      "format": "png",
+      "mediatype": "image/png",
+      "bytes": 242932,
+      "hash": "207e4660e80c44875e2c2b73907cb557"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/3249051/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of ACE biogenic silicate from underway seawater sample dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1712,
+      "hash": "249013d3826d36dd61276c97a90a7a6a"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/3249051/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of ACE biogenic silicate from underway seawater sample dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3506,
+      "hash": "5402394793f509d7f7bcc4119a74cd51"
+    }
+  ],
+  "keywords": [
+    "underway",
+    "diatom",
+    "biogenic silicate",
+    "seawater",
+    "Southern Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_biogenic_silicate_concentration_in_seawater_underway",
+  "id": "https://doi.org/10.5281/zenodo.3249051",
+  "title": "Biogenic silicate concentration in sea water samples, collected from the underway supply in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition.",
+  "description": "Biogenic Silicate (Bsi) concentration (µmol/L) in seawater data. Water samples were collected from the underway seawater supply, filtered on board and then analysed by flow injection following appropriate digestion.\n\nThis data supports chemical and biological oceanography studies conducted during the Antarctic Circumnavigation Expedition.",
+  "homepage": "https://doi.org/10.5281/zenodo.3249051",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Christel Hassler",
+      "path": "https://orcid.org/0000-0002-8976-5469",
+      "email": "christel.hassler@unige.ch",
+      "role": "author",
+      "organisation": "University of Geneva, Switzerland"
+    },
+    {
+      "title": "Michael Ellwood",
+      "path": "https://orcid.org/0000-0003-4288-8530",
+      "role": "author",
+      "organisation": "Australian National University"
+    },
+    {
+      "title": "Tina Brenneis",
+      "role": "contributor",
+      "organisation": "Alfred Wegener Institute, Germany"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_3249050",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Christel Hassler",
+      "organisation": "University of Geneva"
+    },
+    {
+      "title": "Michael Ellwood",
+      "organisation": "Australian National University"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Hassler, C. & Ellwood, M. (2021). Biogenic silicate concentration in sea water samples, collected from the underway supply in the Southern Ocean during the austral summer of 2016/2017, on board the Antarctic Circumnavigation Expedition. (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3249051"
+}

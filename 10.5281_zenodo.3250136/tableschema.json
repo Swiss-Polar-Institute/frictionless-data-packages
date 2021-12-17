@@ -1,0 +1,102 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "ace_event_number",
+      "type": "number",
+      "format": "default",
+      "title": "ACE event number",
+      "description": "Unique number of Trace Metal Rosette deployment during the Antarctic Circumnavigation Expedition",
+      "x_spi_netcdf_name": "ace_event_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "date_time [UTC]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "date and time of the beginning of the Trace Metal Rosette deployment in the format ISO8601 YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "latitude [degN]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "latitude of the research vessel from which the Trace Metal Rosette deployment took place, at the beginning of the deployment [decimal degrees North]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "latitude at which the trace metal rosette deployment began",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "longitude [degE]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "longitude of the research vessel from which the Trace Metal Rosette deployment took place, at the beginning of the deployment [decimal degrees East]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "longitude at which the trace metal rosette deployment began",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "ace_sample_number",
+      "type": "string",
+      "format": "default",
+      "title": "ACE sample nunmber",
+      "description": "unique number of the seawater sample within the ACE project in the format shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsamplenumber",
+      "x_spi_netcdf_name": "ace_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "leg_number",
+      "type": "string",
+      "format": "default",
+      "title": "Leg number",
+      "description": "number of the leg of the ACE expedition from which the seawater sample was taken",
+      "x_spi_netcdf_name": "leg_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "project_sample_number",
+      "type": "string",
+      "format": "default",
+      "title": "Project sample number",
+      "description": "unique number of the seawater sample within the project that was responsible for taking the samples in the format TMR castnumber BT bottlenumber",
+      "x_spi_netcdf_name": "project_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "depth [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Depth",
+      "description": "depth below the surface from which the seawater sample was taken [m]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "depth below the surface from which the seawater sample was taken",
+      "x_spi_netcdf_name": "depth",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "humic_concentration [µg SRFA eq./L]",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of humics",
+      "description": "concentration of humics in seawater sample [µg SRFA eq./L]",
+      "unit": "µg SRFA eq./L",
+      "x_spi_netcdf_name": "concentration_humics",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]}

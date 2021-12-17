@@ -1,0 +1,139 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "ace_event_number",
+      "type": "number",
+      "format": "default",
+      "title": "ACE event number",
+      "description": "unique number relating to the deployment of the CTD rosette during the expedition",
+      "x_spi_netcdf_name": "ace_event_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "date_time [UTC]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "start date and time of the CTD rosette deployment from which the samples were taken in ISO 8601 format YYYY-MM-DDThh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "latitude [degN]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "latitude at which the CTD rosette deployment began [decimal degrees North]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "latitude at which the CTD rosette deployment began",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "longitude [degE]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "longitude at which the CTD rosette deployment began [decimal degrees East]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "longitude at which the CTD rosette deployment began",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "depth [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Depth",
+      "description": "depth below the surface from which the seawater sample was taken [m]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "depth below the surface from which the seawater sample was taken",
+      "x_spi_netcdf_name": "depth",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "sample_volume [L]",
+      "type": "number",
+      "format": "default",
+      "title": "Sample volume",
+      "description": "volume of seawater sampled [litres]",
+      "unit": "l",
+      "x_spi_netcdf_name": "sample_volume",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ace_sample_number",
+      "type": "string",
+      "format": "default",
+      "title": "ACE sample nunmber",
+      "description": "unique number of the seawater sample within the ACE in the format shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsamplenumber",
+      "x_spi_netcdf_name": "ace_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "project_sample_number",
+      "type": "number",
+      "format": "default",
+      "title": "Project sample number",
+      "description": "unique number of the seawater sample within the project",
+      "x_spi_netcdf_name": "project_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "sample_petri_dish_name",
+      "type": "string",
+      "format": "default",
+      "title": "Sample petri dish name",
+      "description": "name of sample petri dish",
+      "x_spi_netcdf_name": "sample_petri_dish_name",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "measurement_date [UTC]",
+      "type": "datetime",
+      "format": "%Y-%m-%d",
+      "title": "Measurement date",
+      "description": "date on which the measurements of biogenic silicate in the seawater sample were made in ISO 8601 format YYYY-MM-DD [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "measurement_date",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "concentration_of_biogenic_silicate [µmol/L]",
+      "type": "number",
+      "format": "default",
+      "title": "Concentration of biogenic silicate",
+      "description": "calculated concentration of biogenic silicate (Bsi) in the seawater sample [µmol/L]",
+      "unit": "µmol/L",
+      "x_spi_netcdf_name": "concentration_biogenic_silicate",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "standard_deviation_of_biogenic_silicate_concentration [µmol/L]",
+      "type": "number",
+      "format": "default",
+      "title": "Standard deviation of biogenic silicate concentration",
+      "description": "standard deviation in the calculated concentration of biogenic silicate (Bsi) in the seawater sample [µmol/L]",
+      "unit": "µmol/L",
+      "x_spi_netcdf_name": "standard_deviation_biogenic_silicate_concentration",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "comments",
+      "type": "string",
+      "format": "default",
+      "title": "Comments",
+      "description": "relevant comments about the sampling or sample that may affect the results]",
+      "x_spi_netcdf_name": "comments",
+      "x_spi_emodnet_visualise_variable": "False"
+    }
+  ]
+}
