@@ -121,23 +121,27 @@ def validate_table(package, resource, errors):
     except (exceptions.ValidationError, exceptions.CastError) as exception:
         for error in exception.errors:
             add_error(errors, error, package.base_path, resource.name)
-    except tabulator.exceptions.SourceError as e:
-        print(f'Cannot download: {resource.source}')
-        print(e)
+    except tabulator.exceptions.SourceError as exception:
+        print(f'--------- Cannot download: {resource.source}')
+        print('error is ignored')
+        print(exception)
 
-        add_error(errors, f'Cannot download file: {resource.source}', package, resource.name)
+        # add_error(errors, f'Cannot download file: {resource.source}', package, resource.name)
 
 
 
 def validate_data_package(datapackage_path, errors):
     print('* DATAPACKAGE', datapackage_path)
     package = Package(datapackage_path)
+    print('opened package')
 
     if package.valid is False:
         add_error(errors, f'Invalid package: {package}', datapackage_path)
         return
 
+    print('will do extra_validation_package')
     extra_validation_package(package, errors)
+    print('finished extra validation')
 
     for resource in package.resources:
         print(f'Resource: {resource.name} ')
@@ -149,8 +153,9 @@ def validate_data_package(datapackage_path, errors):
             print(f'Ignoring resource: {resource.name} because it is not tabular type')
             continue
 
-        subprocess.run(['df', '-h'])
+        print('Before validate table')
         validate_table(package.base_path, resource, errors)
+        print('After validate table')
         extra_validation_table(package, resource, errors)
 
 
