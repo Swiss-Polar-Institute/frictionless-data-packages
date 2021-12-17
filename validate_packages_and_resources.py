@@ -130,6 +130,14 @@ def validate_table(package, resource, errors):
 
 def validate_data_package(datapackage_path, errors):
     print('* DATAPACKAGE', datapackage_path)
+
+    if '10.5281_zenodo.5109385' in datapackage_path:
+        print('Skip:', datapackage_path)
+        # goodtables is running out of memory for this package
+        # we should migrate to the new framework and see if this problem
+        # happens as well
+        return
+
     package = Package(datapackage_path)
     print('opened package')
 
