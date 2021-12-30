@@ -1,0 +1,128 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_leg2_ek60_preprocessed",
+      "path": "https://zenodo.org/record/3979480/files/ace_leg2_ek60_preprocessed.zip?download=1",
+      "title": "ACE leg 2 EK60 200 kHz pre-processed data",
+      "description": "Pre-processed EK60 200 kHz data from leg 2 of ACE",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 3730019784,
+      "hash": "ed7d1203456b5355baaac68ba0f35daa"
+    },
+    {
+      "name": "ace_leg3_ek60_preprocessed",
+      "path": "https://zenodo.org/record/3979480/files/ace_leg3_ek60_preprocessed.zip?download=1",
+      "title": "ACE leg 3 EK60 200 kHz pre-processed data",
+      "description": "Pre-processed EK60 200 kHz data from leg 3 of ACE",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "bytes": 4466339321,
+      "hash": "4e457a02096fb60777aa150218886a99"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/3979480/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of pre-processed EK60 200 kHz dataset from ACE",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3835,
+      "hash": "8d9de97b7f61d163e50049fb480217f8"
+    },
+        {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/3979480/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of pre-processed EK60 200 kHz dataset from ACE",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 529,
+      "hash": "1cd788d1361ccb58c593d48ea593f840"
+    }
+  ],
+  "keywords": [
+    "volume backscattering strength",
+    "echosounder",
+    "EK60",
+    "GPT",
+    "Simrad",
+    "Southern Ocean",
+    "Atlantic Ocean",
+    "Antarctica",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_200khz_echosounder_preprocessed",
+  "id": "https://doi.org/10.5281/zenodo.3979480",
+  "title": "200 kHz pre-processed echosounder data collected on the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017.",
+  "description": "These data consist of pre-processed echosounder observations in the Southern Ocean collected during the Antarctic Circumnavigation Expedition (ACE; Leg2-Leg3) using an EK60 GPT operating at 200 kHz. The instrument was calibrated at South Georgia during the expedition (Leg 3) and corrections were applied prior to calculation of the volume backscattering strength (Sv). The signal-to-noise ratio (SNR) was analysed and was deemed very poor at depths greater than 100 m. Therefore, only data collected between the transducer depth (8.4 m) and 100 m were archived.",
+  "homepage": "https://doi.org/10.5281/zenodo.3979480",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "Roland Proud",
+      "path": "https://orcid.org/0000-0002-8647-5562",
+      "email": "rp43@st-andrews.ac.uk",
+      "role": "author",
+      "organisation": "University of St Andrews, UK"
+    },
+    {
+      "title": "Camille Le Guen",
+      "path": "https://orcid.org/0000-0002-2365-5283",
+      "role": "author",
+      "organisation": "University of St Andrews, U"
+    },
+    {
+      "title": "Paul Fernandes",
+      "path": "https://orcid.org/0000-0003-4135-115X",
+      "role": "author",
+      "organisation": "University of Aberdeen, UK"
+    },
+    {
+      "title": "Inigo Everson",
+      "role": "author",
+      "organisation": "University of East Anglia, UK"
+    },
+    {
+      "title": "Matteo Bernasconi",
+      "role": "author",
+      "organisation": "University of St Andrews, UK"
+    },
+    {
+      "title": "Joshua Lawrence",
+      "role": "author",
+      "organisation": "University of Aberdeen, UK"
+    },
+    {
+      "title": "Andrew Brierley",
+      "path": "https://orcid.org/0000-0002-6438-6892",
+      "role": "author",
+      "organisation": "University of St Andrews, UK"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, UK"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ace_3979480",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": "Andrew Brierley, University of St Andrews, UK",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Proud, R., Le Guen, C., Fernandes, P., Everson, I., Bernasconi, M., Lawrence, J. and Brierley, A. (2020). 200 kHz pre-processed echosounder data collected on the Antarctic Circumnavigation Expedition during the austral summer of 2016/2017. (Version 1.0) [Data set]. Zenodo. doi: 10.5281/zenodo.3979480"
+}
