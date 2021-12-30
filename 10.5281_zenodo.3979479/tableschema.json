@@ -1,5 +1,5 @@
 {
-  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
   "fields": [
     {
       "name": "Sv",
