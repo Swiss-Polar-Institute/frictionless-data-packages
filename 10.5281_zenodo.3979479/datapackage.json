@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_leg2_ek60_preprocessed",
-      "path": "ace_leg2_ek60_preprocessed.zip",
+      "path": "https://zenodo.org/record/3979480/files/ace_leg2_ek60_preprocessed.zip?download=1",
       "title": "ACE leg 2 EK60 200 kHz pre-processed data",
       "description": "Pre-processed EK60 200 kHz data from leg 2 of ACE",
       "format": "zip",
@@ -13,7 +13,7 @@
     },
     {
       "name": "ace_leg3_ek60_preprocessed",
-      "path": "ace_leg3_ek60_preprocessed.zip",
+      "path": "https://zenodo.org/record/3979480/files/ace_leg3_ek60_preprocessed.zip?download=1",
       "title": "ACE leg 3 EK60 200 kHz pre-processed data",
       "description": "Pre-processed EK60 200 kHz data from leg 3 of ACE",
       "format": "zip",
@@ -23,7 +23,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3979480/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of pre-processed EK60 200 kHz dataset from ACE",
       "format": "txt",
@@ -34,7 +34,7 @@
     },
         {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3979480/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of pre-processed EK60 200 kHz dataset from ACE",
       "format": "txt",
