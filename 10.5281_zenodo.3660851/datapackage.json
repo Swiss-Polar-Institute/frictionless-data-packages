@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_ferrybox_data_1min",
-      "path": "ace_ferrybox_data_1min.csv",
+      "path": "https://zenodo.org/record/3660852/files/ace_ferrybox_data_1min.csv?download=1",
       "title": "ACE ferrybox data 1 minute resolution",
       "description": "One-minute resolution Ferrybox data recorded during the Antarctic Circumnavigation Expedition",
       "format": "csv",
@@ -15,47 +15,8 @@
       "schema": "tableschema_ferrybox_data_1min.json"
     },
     {
-      "name": "ace_satellite_data_1min",
-      "path": "ace_satellite_data_1min.csv",
-      "title": "ACE satellite data 1 minute resolution",
-      "description": "One-minute resolution satellite data along the cruise track of the Antarctic Circumnavigation Expedition",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes": 13131280,
-      "hash": "b8cd76d096f4c3205539e857d84af9af",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema_satellite_data_1min.json"
-    },
-    {
-      "name": "ace_merged_uw_data_1min",
-      "path": "ace_merged_uw_data_1min.csv",
-      "title": "ACE merged Ferrybox and satellite data 1 minute resolution",
-      "description": "One-minute resolution merged Ferrybox and satellite data along the cruise track of the Antarctic Circumnavigation Expedition",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes": 15705117,
-      "hash": "3aa848bb4705137d60c0a3ef987b1c22",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema_merged_uw_data_1min.json"
-    },
-    {
-      "name": "ace_fronts",
-      "path": "ace_fronts.csv",
-      "title": "ACE oceanic fronts",
-      "description": "Crossing of oceanic fronts during the Antarctic Circumnavigation Expedition",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "bytes": 1193,
-      "hash": "15fe91d81ff89fa8578b4bf1b8fc3504",
-      "profile": "tabular-data-resource",
-      "schema": "tableschema_fronts.json"
-    },
-    {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3660852/files/data_file_header.txt?download=1",
       "profile": "data-resource",
       "title": "Date file header of underway dataset",
       "description": "Details of data file columns of underway dataset",
@@ -67,7 +28,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3660852/files/README.txt?download=1",
       "profile": "data-resource",
       "title": "README",
       "description": "Description of underway dataset",
@@ -79,7 +40,7 @@
     },
     {
       "name": "auxiliary_data.zip",
-      "path": "auxiliary_data.zip",
+      "path": "https://zenodo.org/record/3660852/files/auxiliary_data.zip?download=1",
       "profile": "data-resource",
       "title": "Auxiliary data",
       "description": "Auxiliary data to accompany Ferrybox dataset",
@@ -90,7 +51,7 @@
     },
         {
       "name": "ace_ferrybox_data_raw",
-      "path": "ace_ferrybox_data_raw.zip",
+      "path": "https://zenodo.org/record/3660852/files/ace_ferrybox_data_raw.zip?download=1",
       "profile": "data-resource",
       "title": "ACE raw Ferrybox data",
       "description": "Raw dataset recorded during the Antarctic Circumnavigation Expedition",
@@ -101,7 +62,7 @@
     },
         {
       "name": "metadata",
-      "path": "metadata.zip",
+      "path": "https://zenodo.org/record/3660852/files/metadata.zip?download=1",
       "profile": "data-resource",
       "title": "Metadata",
       "description": "Metadata describing raw and processed Ferrybox datasets and processing",
