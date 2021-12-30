@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_18_data_salinity_ctd",
-      "path": "ace_18_data_salinity_ctd_20200820.csv",
+      "path": "https://zenodo.org/record/1494924/files/ace_18_data_salinity_ctd_20200820.csv?download=1",
       "title": "Seawater sample salinity CTD",
       "description": "Salinity measurements of seawater samples collected from the Niskin bottles mounted on the CTD rosette",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "ace_18_data_salinity_other",
-      "path": "ace_18_data_salinity_other_20200820.csv",
+      "path": "https://zenodo.org/record/1494924/files/ace_18_data_salinity_other_20200820.csv?download=1",
       "title": "Seawater sample salinity other source",
       "description": "Salinity measurements of miscellaneous samples: Duplicate seawater samples; seawater bucket sample from Cumberland Bay, South Georgia; seawater samples from Niskin bottles mounted on the trace-metal rosette",
       "format": "csv",
@@ -29,7 +29,7 @@
     },
     {
       "name": "ace_18_data_salinity_uw",
-      "path": "ace_18_data_salinity_uw_20200820.csv",
+      "path": "https://zenodo.org/record/1494924/files/ace_18_data_salinity_uw_20200820.csv?download=1",
       "title": "Seawater sample salinity underway",
       "description": "Seawater salinity data from underway samples collected during ACE",
       "format": "csv",
@@ -42,7 +42,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/1494924/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of seawater sample salinity dataset from ACE",
       "format": "txt",
@@ -53,7 +53,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/1494924/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of seawater sample salinity dataset from ACE",
       "format": "txt",
@@ -64,7 +64,7 @@
     },
     {
       "name": "figure1",
-      "path": "figure1.pdf",
+      "path": "https://zenodo.org/record/1494924/files/figure1.pdf?download=1",
       "title": "Comparison of sample and thermosalinograph salinity",
       "description": "Comparison of sample and thermosalinograph salinity",
       "format": "txt",
@@ -75,7 +75,7 @@
     },
     {
       "name": "figure2",
-      "path": "figure2.pdf",
+      "path": "https://zenodo.org/record/1494924/files/figure2.pdf?download=1",
       "title": "Comparison of sample and CTD salinity",
       "description": "Comparison of sample and CTD salinity",
       "format": "txt",
@@ -86,7 +86,7 @@
     },
     {
       "name": "figure3",
-      "path": "figure3.pdf",
+      "path": "https://zenodo.org/record/1494924/files/figure3.pdf?download=1",
       "title": "Comparison of Niskin and UW sample salinity",
       "description": "Comparison of Niskin and UW sample salinity",
       "format": "txt",
@@ -97,7 +97,7 @@
     },
     {
       "name": "figure4",
-      "path": "figure4.pdf",
+      "path": "https://zenodo.org/record/1494924/files/figure4.pdf?download=1",
       "title": "Comparison of duplicate samples from source",
       "description": "Comparison of duplicate samples from source",
       "format": "txt",
@@ -108,7 +108,7 @@
     },
     {
       "name": "figure5",
-      "path": "figure5.pdf",
+      "path": "https://zenodo.org/record/1494924/files/figure5.pdf?download=1",
       "title": "Comparison of duplicate samples measured on different instruments",
       "description": "Comparison of duplicate samples measured on different instruments",
       "format": "txt",
@@ -119,7 +119,7 @@
     },
     {
       "name": "figure6",
-      "path": "figure6.pdf",
+      "path": "https://zenodo.org/record/1494924/files/figure6.pdf?download=1",
       "title": "Comparison of duplicate samples from different bottle types",
       "description": "Comparison of duplicate samples from different bottle types",
       "format": "txt",
