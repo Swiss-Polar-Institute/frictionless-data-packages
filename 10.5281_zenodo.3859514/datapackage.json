@@ -141,5 +141,17 @@
   "x_spi_platform_code": "UBXH3",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_type": "ferrybox/ship",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Sandy Thomalla",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "David Antoine",
+      "organisation": "Curtin University, Australia"
+    }
+  ],
   "x_spi_citation": "Thomalla, S., Antoine, D., Berliner, D., Little,  H., Moutier, W., Olivier, A., Robinson, C., Ryan-Keogh, T. and Schuback, N. (2020). Particulate organic carbon and particulate organic nitrogen concentrations and stable isotope composition of seawater sampled during the Antarctic Circumnavigation Expedition (ACE) during the Austral Summer of 2016/2017. (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3859515"
 }
