@@ -155,6 +155,10 @@ def validate_data_package(datapackage_path, errors):
             error = f'Invalid resource {resource} in {package.base_path}'
             add_error(errors, error, package.base_path)
 
+        if resource.profile.title != 'Tabular Data Resource':
+            print(f'Ignoring resource: {resource.name} because it is not "tabular-data-resource" profile')
+            continue
+
         if resource.tabular is False:
             print(f'Ignoring resource: {resource.name} because it is not tabular type')
             continue
