@@ -1,143 +1,138 @@
 {
-    "profile": "data-package",
-    "resources": [
-        {
-            "path": "https://zenodo.org/record/3634411/files/ACE_TM_concentrations.csv?download=1",
-            "profile": "tabular-data-resource",
-            "name": "ace_tm_concentrations",
-            "title": "ACE trace metal concentrations",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": "tableschema.json",
-            "bytes": 32994,
-            "hash": "cacfa0ccc3e672c6d7cc006893fc83a8"
-	},
-        {
-            "path": "tableschema.json",
-            "profile": "data-resource",
-            "name": "schema",
-            "title": "Table schema of trace metal concentration dataset",
-            "format": "json",
-            "mediatype": "text/json",
-            "encoding": "utf-8",
-            "bytes": 7743,
-            "hash": "ef59a0ef13b55d3fd6ecb8e7c0421e70"
-        },
-        {
-            "path": "https://zenodo.org/record/3634411/files/data_file_header.txt?download=1",
-            "profile": "data-resource",
-            "name": "data_file_header",
-            "title": "Date file header of trace metal concentration dataset",
-            "format": "txt",
-            "mediatype": "text/txt",
-            "encoding": "utf-8-sig",
-            "bytes": 3516,
-            "hash": "774749c09072ea5599c20ddd061672fa"
-        },
-        {
-            "path": "https://zenodo.org/record/3634411/files/README.txt?download=1",
-            "profile": "data-resource",
-            "name": "readme",
-            "title": "Readme",
-            "description": "Description of trace metal concentration dataset",
-            "format": "txt",
-            "mediatype": "text/txt",
-            "encoding": "utf-8-sig",
-            "bytes": 6601,
-            "hash": "66eed5e9b6452ab881cfd400bd37344c"
-        }
-    ],
-    "name": "ace_trace_metal_concentrations_indian_pacific",
-    "id": "10.5281/zenodo.3634411",
-    "licenses": [{
-                    "name": "CC-BY-4.0",
-                    "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
-                    "title": "Creative Commons Attribution 4.0 International Public License"
-                }],
-    "title": "Dissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations in the Indian and Pacific sectors of the Southern Ocean from the Antarctic Circumnavigation Expedition (2016-2017)",
-    "description": "Dissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations in the Indian and Pacific sectors of the Southern Ocean from the Antarctic Circumnavigation Expedition, 2016-2017.\n\nDissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations measured on seawater samples from the Southern Ocean. Samples were collected with a trace metal clean rosette system to a maximum depth of 1000 m during Legs 1 and 2 of the Antarctic Circumnavigation Expedition (ACE), 2016-2017. Samples were filtered through Akropak Supor filters (0.2 um) in a class 100 clean container, acidified to pH ≤ 2 and stored until analysis (>6 months). Samples from Leg 1 (TMR Casts 3-7) were collected during a transect from Cape Town, South Africa to Hobart, Australia. Samples from Leg 2 (TMR casts 8-20) were collected during a transect from Hobart, Australia to Punta Arenas, Chile. Data cover environments near subantarctic and Antarctic islands (TMR 3, 4, 13-15), in the Mertz Glacier Polynya (TMR 11-12) and near the Antarctic Peninsula (TMR 18), as well as meridional transects to and from the Antarctic continent (TMR 7-12, TMR 18-20).",
-    "homepage": "https://doi.org/10.5281/zenodo.3634411",
-    "version": "1.0",
-    "contributors": [{
-                    "title": "David J. Janssen",
-                    "path": "https://orcid.org/0000-0002-9091-8936",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
-                    },
-                    {
-                    "title": "Matthias Sieber",
-                    "path": "https://orcid.org/0000-0001-5510-6126",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Institute of Geochemistry and Petrology, ETH Zurich, Switzerland; College of Marine Science, University of South Florida, FL, USA"
-                    },
-                    {
-                    "title": "Michael J. Ellwood",
-                    "path": "https://orcid.org/0000-0003-4288-8530",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Research School of Earth Sciences, Australian National University, Australia"
-                    },
-                    {
-                    "title": "Tim M. Conway",
-                    "path": "https://orcid.org/0000-0002-3069-9786",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "College of Marine Science, University of South Florida, FL, USA; School of Geosciences, University of South Florida, FL, USA"
-                    },
-                    {
-                    "title": "Pamela M. Barrett",
-                    "path": "https://orcid.org/0000-0003-3405-5328",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Research School of Earth Sciences, Australian National University, Australia"
-                    },
-                    {
-                    "title": "Xiaoyu Chen",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Research School of Earth Sciences, Australian National University, Australia"
-                    },
-                    {
-                    "title": "Gregory F. de Souza",
-                    "path": "https://orcid.org/0000-0002-0232-2690",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Institute of Geochemistry and Petrology, ETH Zurich, Switzerland"
-                    },
-                    {
-                    "title": "Christel S. Hassler",
-                    "path": "https://orcid.org/0000-0002-8976-5469",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Department F.-A. Forel for Environmental and Aquatic Sciences, University of Geneva, Switzerland; Swiss Polar Institute, Switzerland"
-                    },
-                    {
-                    "title": "Samuel L. Jaccard",
-                    "path": "https://orcid.org/0000-0002-5793-0896",
-                    "email": "",
-                    "role": "author",
-                    "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
-                    }
-                    ],
-    "keywords":
-    [
-      "trace metal",
-      "Southern Ocean",
-      "GEOTRACES",
-      "Antarctic Circumnavigation Expedition",
-      "iron",
-      "zinc",
-      "lead",
-      "cadmium",
-      "nickel",
-      "copper"
-      ],
-    "created": "2020-02-03T00:00:00Z",
-    "x_spi_platform_code": "UBXH3",
-    "x_spi_platform_name": "R/V Akademik Tryoshnikov",
-    "x_spi_type": "ferrybox/ship",
-    "x_spi_citation": "Janssen, David J, Sieber, Matthias, Ellwood, Michael J, Conway, Tim M, Barrett, Pamela M, Chen, Xiaoyu, Hassler, Christel S, Jaccard, Samuel L. (2020). Dissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations in the Indian and Pacific sectors of the Southern Ocean from the Antarctic Circumnavigation Expedition (2016-2017) (Version Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3634411"
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "path": "https://zenodo.org/record/3634411/files/ACE_TM_concentrations.csv?download=1",
+      "profile": "tabular-data-resource",
+      "name": "ace_tm_concentrations",
+      "title": "ACE trace metal concentrations",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "tableschema.json",
+      "bytes": 32994,
+      "hash": "cacfa0ccc3e672c6d7cc006893fc83a8"
+    },
+    {
+      "path": "https://zenodo.org/record/3634411/files/data_file_header.txt?download=1",
+      "profile": "data-resource",
+      "name": "data_file_header",
+      "title": "Date file header of trace metal concentration dataset",
+      "format": "txt",
+      "mediatype": "text/txt",
+      "encoding": "utf-8-sig",
+      "bytes": 3516,
+      "hash": "774749c09072ea5599c20ddd061672fa"
+    },
+    {
+      "path": "https://zenodo.org/record/3634411/files/README.txt?download=1",
+      "profile": "data-resource",
+      "name": "readme",
+      "title": "Readme",
+      "description": "Description of trace metal concentration dataset",
+      "format": "txt",
+      "mediatype": "text/txt",
+      "encoding": "utf-8-sig",
+      "bytes": 6601,
+      "hash": "66eed5e9b6452ab881cfd400bd37344c"
+    }
+  ],
+  "name": "ace_trace_metal_concentrations_indian_pacific",
+  "id": "https://doi.org/10.5281/zenodo.3634411",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "title": "Creative Commons Attribution 4.0 International Public License"
+    }
+  ],
+  "title": "Dissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations in the Indian and Pacific sectors of the Southern Ocean from the Antarctic Circumnavigation Expedition (2016-2017)",
+  "description": "Dissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations in the Indian and Pacific sectors of the Southern Ocean from the Antarctic Circumnavigation Expedition, 2016-2017.\n\nDissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations measured on seawater samples from the Southern Ocean. Samples were collected with a trace metal clean rosette system to a maximum depth of 1000 m during Legs 1 and 2 of the Antarctic Circumnavigation Expedition (ACE), 2016-2017. Samples were filtered through Akropak Supor filters (0.2 um) in a class 100 clean container, acidified to pH ≤ 2 and stored until analysis (>6 months). Samples from Leg 1 (TMR Casts 3-7) were collected during a transect from Cape Town, South Africa to Hobart, Australia. Samples from Leg 2 (TMR casts 8-20) were collected during a transect from Hobart, Australia to Punta Arenas, Chile. Data cover environments near subantarctic and Antarctic islands (TMR 3, 4, 13-15), in the Mertz Glacier Polynya (TMR 11-12) and near the Antarctic Peninsula (TMR 18), as well as meridional transects to and from the Antarctic continent (TMR 7-12, TMR 18-20).",
+  "homepage": "https://doi.org/10.5281/zenodo.3634411",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "David J. Janssen",
+      "path": "https://orcid.org/0000-0002-9091-8936",
+      "email": "",
+      "role": "author",
+      "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
+    },
+    {
+      "title": "Matthias Sieber",
+      "path": "https://orcid.org/0000-0001-5510-6126",
+      "role": "author",
+      "organisation": "Institute of Geochemistry and Petrology, ETH Zurich, Switzerland; College of Marine Science, University of South Florida, FL, USA"
+    },
+    {
+      "title": "Michael J. Ellwood",
+      "path": "https://orcid.org/0000-0003-4288-8530",
+      "role": "author",
+      "organisation": "Research School of Earth Sciences, Australian National University, Australia"
+    },
+    {
+      "title": "Tim M. Conway",
+      "path": "https://orcid.org/0000-0002-3069-9786",
+      "role": "author",
+      "organisation": "College of Marine Science, University of South Florida, FL, USA; School of Geosciences, University of South Florida, FL, USA"
+    },
+    {
+      "title": "Pamela M. Barrett",
+      "path": "https://orcid.org/0000-0003-3405-5328",
+      "role": "author",
+      "organisation": "Research School of Earth Sciences, Australian National University, Australia"
+    },
+    {
+      "title": "Xiaoyu Chen",
+      "role": "author",
+      "organisation": "Research School of Earth Sciences, Australian National University, Australia"
+    },
+    {
+      "title": "Gregory F. de Souza",
+      "path": "https://orcid.org/0000-0002-0232-2690",
+      "role": "author",
+      "organisation": "Institute of Geochemistry and Petrology, ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Christel S. Hassler",
+      "path": "https://orcid.org/0000-0002-8976-5469",
+      "role": "author",
+      "organisation": "Department F.-A. Forel for Environmental and Aquatic Sciences, University of Geneva, Switzerland; Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Samuel L. Jaccard",
+      "path": "https://orcid.org/0000-0002-5793-0896",
+      "role": "author",
+      "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
+    }
+  ],
+  "keywords": [
+    "trace metal",
+    "Southern Ocean",
+    "GEOTRACES",
+    "Antarctic Circumnavigation Expedition",
+    "iron",
+    "zinc",
+    "lead",
+    "cadmium",
+    "nickel",
+    "copper"
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_3634410",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "David J. Janssen",
+      "organisation": "Institute of Geological Sciences & Oeschger Center for Climate Change Research, University of Bern, Switzerland"
+    },
+    {
+      "title": "Samuel Jaccard",
+      "organisation": "University of Lausanne"
+    }
+  ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Janssen, David J, Sieber, Matthias, Ellwood, Michael J, Conway, Tim M, Barrett, Pamela M, Chen, Xiaoyu, Hassler, Christel S, Jaccard, Samuel L. (2020). Dissolved trace metal (Fe, Ni, Cu, Zn, Cd, Pb) concentrations in the Indian and Pacific sectors of the Southern Ocean from the Antarctic Circumnavigation Expedition (2016-2017) (Version Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3634411"
 }

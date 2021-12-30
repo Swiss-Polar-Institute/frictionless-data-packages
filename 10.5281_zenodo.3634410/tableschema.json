@@ -1,190 +1,191 @@
 {
-    "fields": [
-        {
-            "name": "TMR_Cast",
-            "type": "string",
-            "format": "default",
-            "description": "Trace metal rosette deployment number from the Antarctic Circumnavigation Expedition (ACE)"
-        },
-        {
-            "name": "ACE_Event",
-            "type": "integer",
-            "format": "default",
-            "description": "Unique event number from ACE"
-        },
-        {
-            "name": "Time [UTC]",
-            "type": "time",
-            "format": "%H:%M",
-            "description": "Time of Trace metal rosette sampling (h)h:mm [UTC]",
-            "unit": "UTC"
-        },
-        {
-            "name": "Date_Time [ISO_8601]",
-            "type": "datetime",
-            "format": "%Y-%m-%dT%H:%M:%S%z",
-            "description": "Date and time of sample collection in ISO_8601 format [yyyy-mm-ddThh:mi:ss+00:00]",
-            "unit": "UTC"
-        },
-        {
-            "name": "ACE_Sample_ID",
-            "type": "string",
-            "format": "default",
-            "description": "Unique sample identifier from ACE, formatted as standardized for the ACE cruise expedition as follows: shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsampleID"
-        },
-        {
-            "name": "Latitude [degrees_north]",
-            "type": "number",
-            "format": "default",
-            "description": "latitude at which the trace metal rosette deployment began [decimal degrees North]",
-            "x_spi_cf_standard_name": "latitude",
-            "unit": "degree_north",
-            "x_spi_cf_unit": "degree_north",
-            "x_spi_cf_attribute": "Latitude at which trace metal rosette deployment began"
-        },
-        {
-            "name": "Longitude [degrees_east]",
-            "type": "number",
-            "format": "default",
-            "description": "longitude at which the trace metal rosette deployment began [decimal degrees East]",
-            "x_spi_cf_standard_name": "longitude",
-            "unit": "degree_east",
-            "x_spi_cf_unit": "degree_east",
-            "x_spi_cf_attribute": "Longitude at which trace metal rosette deployment began"
-        },
-        {
-            "name": "Depth [m]",
-            "type": "integer",
-            "format": "default",
-            "description": "depth below the surface from which the seawater sample was collected [m]",
-            "unit": "m",
-            "x_spi_cf_unit": "m",
-            "x_spi_cf_standard_name": "depth"
-        },
-        {
-            "name": "Fe [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Concentration of dissolved iron [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Fe_stdev [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Standard deviation of dissolved iron concentration [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Fe_flags",
-            "type": "integer",
-            "format": "default",
-            "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
-        },
-        {
-            "name": "Zn [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Concentration of dissolved zinc [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Zn_stdev [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Standard deviation of dissolved zinc concentration [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Zn_flags",
-            "type": "integer",
-            "format": "default",
-            "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
-        },
-        {
-            "name": "Cu [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Concentration of dissolved copper [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Cu_stdev [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Standard deviation of dissolved copper concentration [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Ni_flags",
-            "type": "integer",
-            "format": "default",
-            "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
-        },
-        {
-            "name": "Ni [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Concentration of dissolved nickel [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Ni_stdev [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Standard deviation of dissolved nickel concentration [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Ni_flags",
-            "type": "integer",
-            "format": "default",
-            "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
-        },
-        {
-            "name": "Cd [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Concentration of dissolved cadmium [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Cd_stdev [nmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Standard deviation of dissolved cadmium concentration [nanomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Cd_flags",
-            "type": "integer",
-            "format": "default",
-            "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
-        },
-        {
-            "name": "Pb [pmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Concentration of dissolved lead [picomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Pb_stdev [pmol kg-1]",
-            "type": "number",
-            "format": "default",
-            "description": "Standard deviation of dissolved lead concentration [picomols per kilogram]",
-            "unit": "kg^-1"
-        },
-        {
-            "name": "Pb_flags",
-            "type": "integer",
-            "format": "default",
-            "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
-        }
-    ],
-    "missingValues": [
-        "NAN",
-        "NA",
-        ""
-    ]
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "TMR_Cast",
+      "type": "string",
+      "format": "default",
+      "description": "Trace metal rosette deployment number from the Antarctic Circumnavigation Expedition (ACE)"
+    },
+    {
+      "name": "ACE_Event",
+      "type": "integer",
+      "format": "default",
+      "description": "Unique event number from ACE"
+    },
+    {
+      "name": "Time [UTC]",
+      "type": "time",
+      "format": "%H:%M",
+      "description": "Time of Trace metal rosette sampling (h)h:mm [UTC]",
+      "unit": "UTC"
+    },
+    {
+      "name": "Date_Time [ISO_8601]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "description": "Date and time of sample collection in ISO_8601 format [yyyy-mm-ddThh:mi:ss+00:00]",
+      "unit": "UTC"
+    },
+    {
+      "name": "ACE_Sample_ID",
+      "type": "string",
+      "format": "default",
+      "description": "Unique sample identifier from ACE, formatted as standardized for the ACE cruise expedition as follows: shipname/ACE/legnumber/projectnumber/julianday[UTC]/eventnumber/PIinitials/projectsampleID"
+    },
+    {
+      "name": "Latitude [degrees_north]",
+      "type": "number",
+      "format": "default",
+      "description": "latitude at which the trace metal rosette deployment began [decimal degrees North]",
+      "x_spi_cf_standard_name": "latitude",
+      "unit": "degree_north",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude at which trace metal rosette deployment began"
+    },
+    {
+      "name": "Longitude [degrees_east]",
+      "type": "number",
+      "format": "default",
+      "description": "longitude at which the trace metal rosette deployment began [decimal degrees East]",
+      "x_spi_cf_standard_name": "longitude",
+      "unit": "degree_east",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude at which trace metal rosette deployment began"
+    },
+    {
+      "name": "Depth [m]",
+      "type": "integer",
+      "format": "default",
+      "description": "depth below the surface from which the seawater sample was collected [m]",
+      "unit": "m",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_standard_name": "depth"
+    },
+    {
+      "name": "Fe [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Concentration of dissolved iron [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Fe_stdev [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Standard deviation of dissolved iron concentration [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Fe_flags",
+      "type": "integer",
+      "format": "default",
+      "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
+    },
+    {
+      "name": "Zn [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Concentration of dissolved zinc [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Zn_stdev [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Standard deviation of dissolved zinc concentration [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Zn_flags",
+      "type": "integer",
+      "format": "default",
+      "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
+    },
+    {
+      "name": "Cu [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Concentration of dissolved copper [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Cu_stdev [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Standard deviation of dissolved copper concentration [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Ni_flags",
+      "type": "integer",
+      "format": "default",
+      "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
+    },
+    {
+      "name": "Ni [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Concentration of dissolved nickel [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Ni_stdev [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Standard deviation of dissolved nickel concentration [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Ni_flags",
+      "type": "integer",
+      "format": "default",
+      "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
+    },
+    {
+      "name": "Cd [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Concentration of dissolved cadmium [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Cd_stdev [nmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Standard deviation of dissolved cadmium concentration [nanomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Cd_flags",
+      "type": "integer",
+      "format": "default",
+      "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
+    },
+    {
+      "name": "Pb [pmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Concentration of dissolved lead [picomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Pb_stdev [pmol kg-1]",
+      "type": "number",
+      "format": "default",
+      "description": "Standard deviation of dissolved lead concentration [picomols per kilogram]",
+      "unit": "kg^-1"
+    },
+    {
+      "name": "Pb_flags",
+      "type": "integer",
+      "format": "default",
+      "description": "Quality flags for Fe data. A value of 1 indicates no quality issues and a values of 9 indicates values deemed oceanographically inconsistent and suspect of contamination. See README file for further information."
+    }
+  ],
+  "missingValues": [
+    "NAN",
+    "NA",
+    ""
+  ]
 }
