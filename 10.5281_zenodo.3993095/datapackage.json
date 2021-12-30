@@ -1,0 +1,280 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_CTD_particulate_absorption_metadata_20200819CMRRSGCUR.csv?download=1",
+      "name": "ace_ctd_particulate_absorption_metadata_20200819cmrrsgcur",
+      "title": "ACE CTD particulate absorption metadata",
+      "description": "Metadata to describe sampling of CTD particulate absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 16240,
+      "hash": "2042e42e200ea5c44d6c75b0e9186dbe",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_ctd_metadata.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_CTD_particulate_absorption_20200819CMRRSGCUR.csv?download=1",
+      "name": "ace_ctd_particulate_absorption_20200819cmrrsgcur",
+      "title": "ACE CTD particulate absorption",
+      "description": "CTD particulate absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 496523,
+      "hash": "b175d1d336daeaafe3f3122184ae1283",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_ctd.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_depig_24h_absorption_20200612CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_depig_24h_absorption_20200612cmrrsgcur",
+      "title": "ACE underway 24h depig absorption",
+      "description": "ACE underway 24h depig absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 64177,
+      "hash": "cb9cd0f0093cf77cfecd61492f06d871",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw_other_absorption.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_depig_30m_absorption_20200612CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_depig_30m_absorption_20200612cmrrsgcur",
+      "title": "ACE underway 30m depig absorption",
+      "description": "ACE underway 30m depig absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 64177,
+      "hash": "0eafdb7f725e81831423b07fd85a00af",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw_other_absorption.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_depig_90m_absorption_20200612CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_depig_90m_absorption_20200612cmrrsgcur",
+      "title": "ACE underway 90m depig absorption",
+      "description": "ACE underway 90m depig absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 64177,
+      "hash": "ac5da82cb35d3db9ba6d8636f2bfeca3",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw_other_absorption.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_nonalgal_24h_absorption_20200612CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_nonalgal_24h_absorption_20200612cmrrsgcur",
+      "title": "ACE underway nonalgal 24h absorption",
+      "description": "ACE underway nonalgal 24h absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 64177,
+      "hash": "cb9cd0f0093cf77cfecd61492f06d871",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw_other_absorption.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_nonalgal_30m_absorption_20200612CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_nonalgal_30m_absorption_20200612cmrrsgcur",
+      "title": "ACE underway nonalgal 30m absorption",
+      "description": "ACE underway nonalgal 30m absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 64177,
+      "hash": "0eafdb7f725e81831423b07fd85a00af",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw_other_absorption.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_nonalgal_90m_absorption_20200612CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_nonalgal_90m_absorption_20200612cmrrsgcur",
+      "title": "ACE underway nonalgal 90m absorption",
+      "description": "ACE underway nonalgal 90m absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 64177,
+      "hash": "ac5da82cb35d3db9ba6d8636f2bfeca3",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw_other_absorption.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_particulate_absorption_20200612CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_particulate_absorption_20200612cmrrsgcur",
+      "title": "ACE underway particular absorption",
+      "description": "ACE underway particular absorption data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 921464,
+      "hash": "1d84678303d21c699b33525060224785",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw.json"
+    },
+    {
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_particulate_absorption_metadata_20200819CMRRSGCUR.csv?download=1",
+      "name": "ace_uw_particulate_absorption_metadata_20200819cmrrsgcur",
+      "title": "ACE underway particular absorption metadata",
+      "description": "ACE underway particular absorption metadata",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/plain",
+      "bytes": 26859,
+      "hash": "fd9df95d4f84c84348ac89cae5379bbb",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": "tableschema_uw_metadata.json"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/3993096/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of particulate absorption dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 8168,
+      "hash": "4e03d9d8421c90b489633a9aeff44435"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/3993096/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of particulate absorption dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3097,
+      "hash": "03a1d03eab2d79a29d2e0bea98cdb3d9"
+    }
+  ],
+  "keywords": [
+    "particulate absorption",
+    "light absorption",
+    "filter-pad method",
+    "inherent optical properties",
+    "Southern Ocean",
+    "sub-Antarctic",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_particulate_absorption",
+  "id": "https://doi.org/10.5281/zenodo.3993096",
+  "title": "Particulate light absorption coefficients (350 – 750 nm) measured using the filter pad method during the Antarctic Circumnavigation Expedition (ACE) during the austral summer of 2016/2017.",
+  "description": "This dataset contains filter pad method measurements of particulate light absorption by particles sampled during the Antarctic Circumnavigation Expedition (ACE) Leg 1-3. Water samples were collected from the underway seawater supply every 3 hours and at multiple depths from selected CTD (conductivity, temperature and depth) rosette deployments. Seawater samples were filtered onto glass fibre filters, preserved and optical density measured using a spectrophotometer. Absorption coefficients for particulate matter were calculated from optical density measurements. The dataset also contains a small set of measurements of absorption by non-pigmented particles (non-algal particulates) measured after a methanol bleaching protocol. These measurements contribute to the determination of the inherent optical properties of the waters sampled during ACE, specifically the absorption of UV and visible wavelengths by particulate material.",
+  "homepage": "https://doi.org/10.5281/zenodo.3993096",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "David Antoine",
+      "path": "https://orcid.org/0000-0002-9082-2395",
+      "email": "david.antoine@curtin.edu.au",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "Sandy Thomalla",
+      "path": "https://orcid.org/0000-0002-6802-520X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "David Berliner",
+      "path": "https://orcid.org/0000-0002-3148-9422",
+      "role": "author",
+      "organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "Hazel Little",
+      "path": "https://orcid.org/0000-0001-9841-8701",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa",
+      "x_spi_additional_organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "William Moutier",
+      "path": "https://orcid.org/0000-0001-9974-7793",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Alexandra Olivier-Morgan",
+      "path": "https://orcid.org/0000-0002-8600-9174",
+      "role": "author",
+      "organisation": "Biospherical Instruments Inc"
+    },
+    {
+      "title": "Charlotte Robinson",
+      "path": "https://orcid.org/0000-0001-8519-5641",
+      "email": "charlotte.robinson@curtin.edu.au",
+      "x_spi_additional_email": "charlotte.mary.robinson@gmail.com",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "Thomas Ryan-Keogh",
+      "path": "https://orcid.org/0000-0001-5144-171X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Nina Schuback",
+      "path": "https://orcid.org/0000-0001-9535-0086",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jen@falciot.net",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_maindoi",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+      {
+        "title": "David Antoine",
+        "organisation": "Curtis University, Australia"
+      }
+    ],
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Antoine, D., Thomalla, S., Berliner, D., Little, H., Moutier, W., Olivier-Morgan, A., Robinson, C., Ryan-Keogh, T. and Schuback, N. (2021). Particulate light absorption coefficients (350 – 750 nm) measured using the filter pad method during the Antarctic Circumnavigation Expedition (ACE) during the austral summer of 2016/2017. (Version 1.0). Dataset. Zenodo. DOI: 10.5281/zenodo.3993096"
+}
