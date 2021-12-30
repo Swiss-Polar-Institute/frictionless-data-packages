@@ -1,4 +1,5 @@
 {
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
   "profile": "data-package",
   "resources": [
     {
@@ -32,7 +33,7 @@
       "bytes": 3835,
       "hash": "8d9de97b7f61d163e50049fb480217f8"
     },
-        {
+    {
       "name": "data_file_header",
       "path": "https://zenodo.org/record/3979480/files/data_file_header.txt?download=1",
       "title": "Data file header",
