@@ -3,7 +3,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "path": "ace_CTD_particulate_absorption_metadata_20200819CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_CTD_particulate_absorption_metadata_20200819CMRRSGCUR.csv?download=1",
       "name": "ace_ctd_particulate_absorption_metadata_20200819cmrrsgcur",
       "title": "ACE CTD particulate absorption metadata",
       "description": "Metadata to describe sampling of CTD particulate absorption data",
@@ -18,7 +18,7 @@
       "schema": "tableschema_ctd_metadata.json"
     },
     {
-      "path": "ace_CTD_particulate_absorption_20200819CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_CTD_particulate_absorption_20200819CMRRSGCUR.csv?download=1",
       "name": "ace_ctd_particulate_absorption_20200819cmrrsgcur",
       "title": "ACE CTD particulate absorption",
       "description": "CTD particulate absorption data",
@@ -33,7 +33,7 @@
       "schema": "tableschema_ctd.json"
     },
     {
-      "path": "ace_UW_depig_24h_absorption_20200612CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_depig_24h_absorption_20200612CMRRSGCUR.csv?download=1",
       "name": "ace_uw_depig_24h_absorption_20200612cmrrsgcur",
       "title": "ACE underway 24h depig absorption",
       "description": "ACE underway 24h depig absorption data",
@@ -48,7 +48,7 @@
       "schema": "tableschema_uw_other_absorption.json"
     },
     {
-      "path": "ace_UW_depig_30m_absorption_20200612CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_depig_30m_absorption_20200612CMRRSGCUR.csv?download=1",
       "name": "ace_uw_depig_30m_absorption_20200612cmrrsgcur",
       "title": "ACE underway 30m depig absorption",
       "description": "ACE underway 30m depig absorption data",
@@ -63,7 +63,7 @@
       "schema": "tableschema_uw_other_absorption.json"
     },
     {
-      "path": "ace_UW_depig_90m_absorption_20200612CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_depig_90m_absorption_20200612CMRRSGCUR.csv?download=1",
       "name": "ace_uw_depig_90m_absorption_20200612cmrrsgcur",
       "title": "ACE underway 90m depig absorption",
       "description": "ACE underway 90m depig absorption data",
@@ -78,7 +78,7 @@
       "schema": "tableschema_uw_other_absorption.json"
     },
     {
-      "path": "ace_UW_nonalgal_24h_absorption_20200612CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_nonalgal_24h_absorption_20200612CMRRSGCUR.csv?download=1",
       "name": "ace_uw_nonalgal_24h_absorption_20200612cmrrsgcur",
       "title": "ACE underway nonalgal 24h absorption",
       "description": "ACE underway nonalgal 24h absorption data",
@@ -93,7 +93,7 @@
       "schema": "tableschema_uw_other_absorption.json"
     },
     {
-      "path": "ace_UW_nonalgal_30m_absorption_20200612CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_nonalgal_30m_absorption_20200612CMRRSGCUR.csv?download=1",
       "name": "ace_uw_nonalgal_30m_absorption_20200612cmrrsgcur",
       "title": "ACE underway nonalgal 30m absorption",
       "description": "ACE underway nonalgal 30m absorption data",
@@ -108,7 +108,7 @@
       "schema": "tableschema_uw_other_absorption.json"
     },
     {
-      "path": "ace_UW_nonalgal_90m_absorption_20200612CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_nonalgal_90m_absorption_20200612CMRRSGCUR.csv?download=1",
       "name": "ace_uw_nonalgal_90m_absorption_20200612cmrrsgcur",
       "title": "ACE underway nonalgal 90m absorption",
       "description": "ACE underway nonalgal 90m absorption data",
@@ -123,7 +123,7 @@
       "schema": "tableschema_uw_other_absorption.json"
     },
     {
-      "path": "ace_UW_particulate_absorption_20200612CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_particulate_absorption_20200612CMRRSGCUR.csv?download=1",
       "name": "ace_uw_particulate_absorption_20200612cmrrsgcur",
       "title": "ACE underway particular absorption",
       "description": "ACE underway particular absorption data",
@@ -138,7 +138,7 @@
       "schema": "tableschema_uw.json"
     },
     {
-      "path": "ace_UW_particulate_absorption_metadata_20200819CMRRSGCUR.csv",
+      "path": "https://zenodo.org/record/3993096/files/ace_UW_particulate_absorption_metadata_20200819CMRRSGCUR.csv?download=1",
       "name": "ace_uw_particulate_absorption_metadata_20200819cmrrsgcur",
       "title": "ACE underway particular absorption metadata",
       "description": "ACE underway particular absorption metadata",
@@ -154,7 +154,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3993096/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of particulate absorption dataset",
       "format": "txt",
@@ -165,7 +165,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3993096/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of particulate absorption dataset",
       "format": "txt",
