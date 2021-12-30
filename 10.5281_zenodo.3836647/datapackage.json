@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_merged_ctd_xbt_mld_tsavg",
-      "path": "ace_merged_ctd_xbt_mld_tsavg.csv",
+      "path": "https://zenodo.org/record/3836648/files/ace_merged_ctd_xbt_mld_tsavg.csv?download=1",
       "title": "Temperatures and mixed layer depths CTD and XBT",
       "description": "Temperature and mixed layer depths derived from CTD and XBT data",
       "format": "csv",
@@ -16,7 +16,7 @@
     },
     {
       "name": "ace_xbt_deployment_summary",
-      "path": "ace_xbt_deployment_summary.csv",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_deployment_summary.csv?download=1",
       "title": "Deployment summary",
       "description": "Details of XBT deployments",
       "format": "csv",
@@ -29,7 +29,7 @@
     },
     {
       "name": "ace_xbt_mld_tavg",
-      "path": "ace_xbt_mld_tavg.csv",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_mld_tavg.csv?download=1",
       "title": "Temperatures and mixed layer depths XBT",
       "description": "Temperatures and mixed layer depths derived from XBT data",
       "format": "csv",
@@ -42,7 +42,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3836648/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Data file header of seawater temperature profile dataset",
       "format": "txt",
@@ -53,7 +53,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3836648/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of seawater temperature profile dataset",
       "format": "txt",
@@ -64,7 +64,7 @@
     },
     {
       "name": "figure1",
-      "path": "figure1.pdf",
+      "path": "https://zenodo.org/record/3836648/files/figure1.pdf?download=1",
       "title": "Graph of CTD and XBT temperatures",
       "description": "Plot of CTD and XBT temperatures",
       "format": "pdf",
@@ -74,7 +74,7 @@
     },
     {
       "name": "ace_xbt_corrected_1m",
-      "path": "ace_xbt_corrected_1m.zip",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_corrected_1m.zip?download=1",
       "title": "Empirically corrected data at 1m resolution",
       "description": "Empirically corrected data at 1m resolution",
       "format": "zip",
@@ -84,7 +84,7 @@
     },
     {
       "name": "ace_xbt_corrected_fullres",
-      "path": "ace_xbt_corrected_fullres.zip",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_corrected_fullres.zip?download=1",
       "title": "Empirically corrected data at full resolution",
       "description": "Empirically corrected data at full resolution",
       "format": "zip",
@@ -94,7 +94,7 @@
     },
     {
       "name": "ace_xbt_figures",
-      "path": "ace_xbt_figures.zip",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_figures.zip?download=1",
       "title": "XBT cast temperature-depth plots",
       "description": "Plots of temperature with depth for each XBT cast",
       "format": "zip",
@@ -104,7 +104,7 @@
     },
     {
       "name": "ace_xbt_raw",
-      "path": "ace_xbt_raw.zip",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_raw.zip?download=1",
       "title": "Raw XBT data files",
       "description": "Raw XBT data files",
       "format": "zip",
@@ -114,7 +114,7 @@
     },
     {
       "name": "ace_xbt_wmo_hanawa95_1m",
-      "path": "ace_xbt_wmo_hanawa95_1m.zip",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_wmo_hanawa95_1m.zip?download=1",
       "title": "Reprocessed data at 1m resolution",
       "description": "Reprocessed data at 1m resolution",
       "format": "zip",
@@ -124,7 +124,7 @@
     },
     {
       "name": "ace_xbt_wmo_hanawa95_fullres",
-      "path": "ace_xbt_wmo_hanawa95_fullres.zip",
+      "path": "https://zenodo.org/record/3836648/files/ace_xbt_wmo_hanawa95_fullres.zip?download=1",
       "title": "Reprocessed data at full resolution",
       "description": "Reprocessed data at full resolution",
       "format": "zip",
