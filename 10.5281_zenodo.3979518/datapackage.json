@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "ace_leg2_ek60_raw",
-      "path": "ace_leg2_ek60_raw.zip",
+      "path": "https://zenodo.org/record/3979519/files/ace_leg2_ek60_raw.zip?download=1",
       "title": "ACE leg 2 EK60 200 kHz raw data",
       "description": "Raw EK60 200 kHz raw data from leg 2 of ACE",
       "format": "zip",
@@ -13,7 +13,7 @@
     },
     {
       "name": "ace_leg3_ek60_raw",
-      "path": "ace_leg3_ek60_raw.zip",
+      "path": "https://zenodo.org/record/3979519/files/ace_leg3_ek60_raw.zip?download=1",
       "title": "ACE leg 3 EK60 raw data",
       "description": "Raw EK60 200 kHz raw data from leg 3 of ACE",
       "format": "zip",
@@ -23,7 +23,7 @@
     },
     {
       "name": "ace_leg4_ek60_raw",
-      "path": "ace_leg4_ek60_raw.zip",
+      "path": "https://zenodo.org/record/3979519/files/ace_leg4_ek60_raw.zip?download=1",
       "title": "ACE leg 4 EK60 raw data",
       "description": "Raw EK60 200 kHz raw data from leg 4 of ACE",
       "format": "zip",
@@ -33,7 +33,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3979519/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of raw EK60 200 kHz dataset from ACE",
       "format": "txt",
