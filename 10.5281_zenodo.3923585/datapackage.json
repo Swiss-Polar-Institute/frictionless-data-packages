@@ -58,7 +58,7 @@
       "hash": "868aa502b396c36a8d41730494225fc0"
     },
     {
-      "name": "nutrient_concentrations_from_CTD_along_track_visualisation",
+      "name": "nutrient_concentrations_from_ctd_along_track_visualisation",
       "path": "https://zenodo.org/record/3923586/files/nutrient_concentrations_from_CTD_along_track_visualisation.png?download=1",
       "title": "Nutrient concentration from CTD samples along track visualisation",
       "description": "Visualisation of nutrient concentrations in seawater samples from CTD rosette deployments along ACE cruise track",
@@ -134,6 +134,12 @@
       "path": "https://orcid.org/0000-0003-4288-8530",
       "role": "author",
       "organisation": "Australian National University"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute"
     }
   ],
   "licenses": [
