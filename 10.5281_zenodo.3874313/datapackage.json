@@ -4,7 +4,7 @@
   "resources": [
     {
       "name": "ace_uw_nutrients_20200527currsgcmr",
-      "path": "ace_uw_nutrients_20200527CURRSGCMR.csv",
+      "path": "https://zenodo.org/record/3903134/files/ace_uw_nutrients_20200527CURRSGCMR.csv?download=1",
       "title": "ACE underway nutrient concentration dataset",
       "description": "Nutrient concentration in seawater collected from underway water supply during ACE",
       "format": "csv",
@@ -17,7 +17,7 @@
     },
     {
       "name": "data_file_header",
-      "path": "data_file_header.txt",
+      "path": "https://zenodo.org/record/3903134/files/data_file_header.txt?download=1",
       "title": "Data file header",
       "description": "Description of data files",
       "format": "txt",
@@ -29,7 +29,7 @@
     },
     {
       "name": "readme",
-      "path": "README.txt",
+      "path": "https://zenodo.org/record/3903134/files/README.txt?download=1",
       "title": "Readme",
       "description": "Description of dataset",
       "format": "txt",
@@ -41,7 +41,7 @@
     },
     {
       "name": "change_log",
-      "path": "change_log.txt",
+      "path": "https://zenodo.org/record/3903134/files/change_log.txt?download=1",
       "title": "Change log",
       "description": "Description of changes made to dataset",
       "format": "txt",
@@ -152,7 +152,7 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "x_spi_platform_code": "UBXH3",
+  "x_spi_platform_code": "UBXH3_ACE_3874313",
   "x_spi_platform_name": "R/V Akademik Tryoshnikov",
   "x_spi_type": "ferrybox/ship",
   "x_spi_assembly_center": "Swiss Polar Institute",
