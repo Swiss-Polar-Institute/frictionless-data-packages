@@ -1,4 +1,5 @@
 {
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
   "profile": "data-package",
   "resources": [
     {
@@ -49,7 +50,7 @@
       "bytes": 4616324,
       "hash": "fbae18f8ff169fca11824f9e6cad0342"
     },
-        {
+    {
       "name": "ace_ferrybox_data_raw",
       "path": "https://zenodo.org/record/3660852/files/ace_ferrybox_data_raw.zip?download=1",
       "profile": "data-resource",
@@ -60,7 +61,7 @@
       "bytes": 33897349,
       "hash": "848615865928caa16d96978a265fc50c"
     },
-        {
+    {
       "name": "metadata",
       "path": "https://zenodo.org/record/3660852/files/metadata.zip?download=1",
       "profile": "data-resource",

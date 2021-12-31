@@ -1,4 +1,5 @@
 {
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
   "fields": [
     {
       "name": "datetime [YYYY-MM-DDTHH:MM:SS+00:00]",
@@ -7,7 +8,8 @@
       "title": "Date time",
       "description": "Date and time [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "date_time"
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "latitude [degree_north]",
@@ -18,7 +20,8 @@
       "unit": "degree_north",
       "x_spi_cf_standard_name": "latitude",
       "x_spi_cf_unit": "degree_north",
-      "x_spi_netcdf_name": "latitude"
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "longitude [degree_east]",
@@ -29,7 +32,8 @@
       "unit": "degree_east",
       "x_spi_cf_standard_name": "longitude",
       "x_spi_cf_unit": "degree_east",
-      "x_spi_netcdf_name": "longtiude"
+      "x_spi_netcdf_name": "longtiude",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "leg [-]",
@@ -37,7 +41,8 @@
       "format": "default",
       "title": "Leg number",
       "description": "Leg number [1-3]",
-      "x_spi_netcdf_name": "leg"
+      "x_spi_netcdf_name": "leg",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "sea_surface_temperature [degree_celsius]",
@@ -46,7 +51,8 @@
       "title": "Sea surface temperature",
       "description": "Sea-surface temperature on international temperature scale 1990 [degree Celsius]",
       "unit": "degree_celsius",
-      "x_spi_netcdf_name": "sea_surface_temperature"
+      "x_spi_netcdf_name": "sea_surface_temperature",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_ice_area_fraction [1]",
@@ -57,7 +63,8 @@
       "unit": "1",
       "x_spi_cf_standard_name": "sea_ice_area_fraction",
       "x_spi_cf_unit": "1",
-      "x_spi_netcdf_name": "sea_ice_area_fraction"
+      "x_spi_netcdf_name": "sea_ice_area_fraction",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_surface_height_above_geoid [m]",
@@ -68,7 +75,8 @@
       "unit": "m",
       "x_spi_cf_standard_name": "sea_surface_height_above_geoid",
       "x_spi_cf_unit": "m",
-      "x_spi_netcdf_name": "sea_surface_height_above_geoid"
+      "x_spi_netcdf_name": "sea_surface_height_above_geoid",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "surface_geostrophic_eastward_sea_water_velocity [m s-1]",
@@ -79,7 +87,8 @@
       "unit": "m s-1",
       "x_spi_cf_standard_name": "surface_geostrophic_eastward_sea_water_velocity",
       "x_spi_cf_unit": "m s-1",
-      "x_spi_netcdf_name": "surface_geostrophic_eastward_sea_water_velocity"
+      "x_spi_netcdf_name": "surface_geostrophic_eastward_sea_water_velocity",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "surface_geostrophic_northward_sea_water_velocity [m s-1]",
@@ -90,7 +99,8 @@
       "unit": "m s-1",
       "x_spi_cf_standard_name": "surface_geostrophic_northward_sea_water_velocity",
       "x_spi_cf_unit": "m s-1",
-      "x_spi_netcdf_name": "surface_geostrophic_northward_sea_water_velocity"
+      "x_spi_netcdf_name": "surface_geostrophic_northward_sea_water_velocity",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "surface_geostrophic_sea_water_speed [m s-1]",
@@ -99,8 +109,11 @@
       "title": "Surface geostrophic sea water speed",
       "description": "Surface ocean geostrophic speed  [m s-1]",
       "unit": "m s-1",
-      "x_spi_netcdf_name": "surface_geostrophic_sea_water_speed"
+      "x_spi_netcdf_name": "surface_geostrophic_sea_water_speed",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
-  "missingValues": ["NaN"]
+  "missingValues": [
+    "NaN"
+  ]
 }

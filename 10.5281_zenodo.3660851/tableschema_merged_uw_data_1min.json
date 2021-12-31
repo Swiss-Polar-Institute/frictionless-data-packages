@@ -1,4 +1,5 @@
 {
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
   "fields": [
     {
       "name": "datetime [YYYY-MM-DDTHH:MM:SS+00:00]",
@@ -7,7 +8,8 @@
       "title": "Date time",
       "description": "Date and time [UTC]",
       "unit": "UTC",
-      "x_spi_netcdf_name": "date_time"
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "latitude [degree_north]",
@@ -18,7 +20,8 @@
       "unit": "degree_north",
       "x_spi_cf_standard_name": "latitude",
       "x_spi_cf_unit": "degree_north",
-      "x_spi_netcdf_name": "latitude"
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "longitude [degree_east]",
@@ -29,7 +32,8 @@
       "unit": "degree_east",
       "x_spi_cf_standard_name": "longitude",
       "x_spi_cf_unit": "degree_east",
-      "x_spi_netcdf_name": "longtiude"
+      "x_spi_netcdf_name": "longtiude",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "leg [-]",
@@ -37,7 +41,8 @@
       "format": "default",
       "title": "Leg number",
       "description": "Leg number [1-3]",
-      "x_spi_netcdf_name": "leg"
+      "x_spi_netcdf_name": "leg",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "ocean_zone [-]",
@@ -45,7 +50,8 @@
       "format": "default",
       "title": "Ocean zone between fronts",
       "description": "Ocean zone between fronts [1-5",
-      "x_spi_netcdf_name": "ocean_zone"
+      "x_spi_netcdf_name": "ocean_zone",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "pressure [dbar]",
@@ -54,7 +60,8 @@
       "title": "Pressure",
       "description": "Pressure on underway system relative to atmospheric standard pressure 1013.25 mbar [decibars]",
       "unit": "dbar",
-      "x_spi_netcdf_name": "pressure"
+      "x_spi_netcdf_name": "pressure",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_water_temperature [degree_celsius]",
@@ -63,7 +70,8 @@
       "title": "Sea water temperature",
       "description": "Temperature on international temperature scale 1990 [degree Celsius]",
       "unit": "degree_celsius",
-      "x_spi_netcdf_name": "sea_water_temperature"
+      "x_spi_netcdf_name": "sea_water_temperature",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_water_temperature_flag [-]",
@@ -71,7 +79,8 @@
       "format": "default",
       "title": "Sea water temperature flag",
       "description": "Flag indicating the source of the temperature [1=Ferrybox, 3=Satellite, 8=Interpolated, 9=Missing]",
-      "x_spi_netcdf_name": "sea_water_temperature_flag"
+      "x_spi_netcdf_name": "sea_water_temperature_flag",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "sea_water_practical_salinity [-]",
@@ -82,7 +91,8 @@
       "unit": "1",
       "x_spi_cf_standard_name": "sea_water_practical_salinity",
       "x_spi_cf_unit": "1",
-      "x_spi_netcdf_name": "sea_water_practical_salinity"
+      "x_spi_netcdf_name": "sea_water_practical_salinity",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_water_practical_salinity_flag [-]",
@@ -90,7 +100,8 @@
       "format": "default",
       "title": "Practical salinity of sea water flag",
       "description": "Flag indicating the source of the salinity [1=Ferrybox, 2=Sample, 8=Interpolated, 9=Missing]",
-      "x_spi_netcdf_name": "sea_water_practical_salinity_flag"
+      "x_spi_netcdf_name": "sea_water_practical_salinity_flag",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "sea_water_sigma_theta [kg m-3]",
@@ -101,7 +112,8 @@
       "unit": "kg m-3",
       "x_spi_cf_standard_name": "sea_water_sigma_theta",
       "x_spi_cf_unit": "kg m-3",
-      "x_spi_netcdf_name": "sea_water_sigma_theta"
+      "x_spi_netcdf_name": "sea_water_sigma_theta",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_water_sigma_theta_flag [-]",
@@ -109,7 +121,8 @@
       "format": "default",
       "title": "Potential density anomaly flag",
       "description": "Flag indicating the source of sigma_theta [1=Ferrybox, 2=Salinity sample, 3=Satellite temperature, 7=Interpolated temperature, 8=Interpolated salinity, 9=Missing]",
-      "x_spi_netcdf_name": "sea_water_sigma_theta"
+      "x_spi_netcdf_name": "sea_water_sigma_theta",
+      "x_spi_emodnet_visualise_variable": "False"
     },
     {
       "name": "turbidity [FTU]",
@@ -118,7 +131,8 @@
       "title": "Turbidity",
       "description": "Turbidity [FTU]",
       "unit": "FTU",
-      "x_spi_netcdf_name": "turbidity"
+      "x_spi_netcdf_name": "turbidity",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "concentration_of_chlorophyll_a_in_sea_water [ug L-1]",
@@ -127,7 +141,8 @@
       "title": "Chlorophyll-a concentration in sea water",
       "description": "Chlorophyll-a concentration [ug L-1]",
       "unit": "ug L-1",
-      "x_spi_netcdf_name": "concentration_of_chlorophyll_a_in_sea_water"
+      "x_spi_netcdf_name": "concentration_of_chlorophyll_a_in_sea_water",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "moles_of_oxygen_per_unit_mass_in_sea_water [mol kg-1]",
@@ -138,7 +153,8 @@
       "unit": "mol kg-1",
       "x_spi_cf_standard_name": "moles_of_oxygen_per_unit_mass_in_sea_water",
       "x_spi_cf_unit": "mol kg-1",
-      "x_spi_netcdf_name": "moles_of_oxygen_per_unit_mass_in_sea_water"
+      "x_spi_netcdf_name": "moles_of_oxygen_per_unit_mass_in_sea_water",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "fractional_saturation_of_oxygen_in_sea_water [-]",
@@ -149,7 +165,8 @@
       "unit": "1",
       "x_spi_cf_standard_name": "fractional_saturation_of_oxygen_in_sea_water",
       "x_spi_cf_unit": "1",
-      "x_spi_netcdf_name": "fractional_saturation_of_oxygen_in_sea_water"
+      "x_spi_netcdf_name": "fractional_saturation_of_oxygen_in_sea_water",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_water_ph_reported_on_total_scale [-]",
@@ -160,7 +177,8 @@
       "unit": "1",
       "x_spi_cf_standard_name": "sea_water_ph_reported_on_total_scale",
       "x_spi_cf_unit": "1",
-      "x_spi_netcdf_name": "sea_water_ph_reported_on_total_scale"
+      "x_spi_netcdf_name": "sea_water_ph_reported_on_total_scale",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_ice_area_fraction [1]",
@@ -171,7 +189,8 @@
       "unit": "1",
       "x_spi_cf_standard_name": "sea_ice_area_fraction",
       "x_spi_cf_unit": "1",
-      "x_spi_netcdf_name": "sea_ice_area_fraction"
+      "x_spi_netcdf_name": "sea_ice_area_fraction",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "sea_surface_height_above_geoid [m]",
@@ -182,7 +201,8 @@
       "unit": "m",
       "x_spi_cf_standard_name": "sea_surface_height_above_geoid",
       "x_spi_cf_unit": "m",
-      "x_spi_netcdf_name": "sea_surface_height_above_geoid"
+      "x_spi_netcdf_name": "sea_surface_height_above_geoid",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "surface_geostrophic_eastward_sea_water_velocity [m s-1]",
@@ -193,7 +213,8 @@
       "unit": "m s-1",
       "x_spi_cf_standard_name": "surface_geostrophic_eastward_sea_water_velocity",
       "x_spi_cf_unit": "m s-1",
-      "x_spi_netcdf_name": "surface_geostrophic_eastward_sea_water_velocity"
+      "x_spi_netcdf_name": "surface_geostrophic_eastward_sea_water_velocity",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "surface_geostrophic_northward_sea_water_velocity [m s-1]",
@@ -204,7 +225,8 @@
       "unit": "m s-1",
       "x_spi_cf_standard_name": "surface_geostrophic_northward_sea_water_velocity",
       "x_spi_cf_unit": "m s-1",
-      "x_spi_netcdf_name": "surface_geostrophic_northward_sea_water_velocity"
+      "x_spi_netcdf_name": "surface_geostrophic_northward_sea_water_velocity",
+      "x_spi_emodnet_visualise_variable": "True"
     },
     {
       "name": "surface_geostrophic_sea_water_speed [m s-1]",
@@ -213,8 +235,11 @@
       "title": "Surface geostrophic sea water speed",
       "description": "Surface ocean geostrophic speed  [m s-1]",
       "unit": "m s-1",
-      "x_spi_netcdf_name": "surface_geostrophic_sea_water_speed"
+      "x_spi_netcdf_name": "surface_geostrophic_sea_water_speed",
+      "x_spi_emodnet_visualise_variable": "True"
     }
   ],
-  "missingValues": ["NaN"]
+  "missingValues": [
+    "NaN"
+  ]
 }
