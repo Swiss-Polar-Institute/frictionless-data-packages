@@ -1,0 +1,246 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "ACEID [-]",
+      "type": "string",
+      "format": "default",
+      "title": "ACE sample ID",
+      "description": "Project specific sample identifier [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "ACEID",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ACEID_SALNTY [-]",
+      "type": "string",
+      "format": "default",
+      "title": "ACE salinity sample ID",
+      "description": "Project specific salinity sample identifier [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "ACEID_SALNTY",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "LEG [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "ACE leg number",
+      "description": "Leg number of ACE expedition [1-3]",
+      "unit": "",
+      "x_spi_netcdf_name": "LEG",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "STNNBR [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "ACE station number",
+      "description": "Station number at which sample was collected or instrument from which it was collected, was deployed [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "STNNBR",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "CASTNO [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "Instrument cast number",
+      "description": "CTD cast number from which sample was collected [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "CASTNO",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "SAMPNO [-]",
+      "type": "string",
+      "format": "default",
+      "title": "Project sample number",
+      "description": "Project specific sample number [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "SAMPNO",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "BTLNBR [-]",
+      "type": "string",
+      "format": "default",
+      "title": "Bottle number",
+      "description": "Niskin bottle number or underway (UW) [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "BTLNBR",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ACEID_EVENT [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "ACE event number",
+      "description": "ACE event number [-]",
+      "unit": "",
+      "x_spi_netcdf_name": "ACEID_EVENT",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "DATETIME [YYYY-MM-DDThh:mm:ss+00:00]",
+      "type": "date",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Sampling date and time",
+      "description": "Date and time at which sample was collected [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "DATETIME",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "LATITUDE [DEG_N]",
+      "type": "number",
+      "format": "default",
+      "title": "Sampling latitude",
+      "description": " Latitude of vessel when sample was collected [decimal degree North]",
+      "unit": "DEG_N",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of vessel when sample was collected",
+      "x_spi_netcdf_name": "LATITUDE",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "LONGITUDE [DEG_E]",
+      "type": "number",
+      "format": "default",
+      "title": "Sampling longitude",
+      "description": "Longitude of vessel when sample was collected [decimal degree East]",
+      "unit": "DEG_E",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of vessel when sample was collected",
+      "x_spi_netcdf_name": "LONGITUDE",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "SAMPDPTH [M]",
+      "type": "number",
+      "format": "default",
+      "title": "Sampling depth",
+      "description": "Approximate sample collection depth below sea level [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Approximate sample collection depth below sea level",
+      "x_spi_netcdf_name": "SAMPDPTH",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "PRS [DBAR]",
+      "type": "number",
+      "format": "default",
+      "title": "Pressure",
+      "description": "Pressure inferred from sampling depth relative to atmospheric standard pressure 1013.25 mbar [decibars]",
+      "unit": "dbar",
+      "x_spi_cf_standard_name": "sea_water_pressure",
+      "x_spi_cf_unit": "dbar",
+      "x_spi_cf_attribute": "Pressure inferred from sampling depth relative to atmospheric standard pressure 1013.25 mbar",
+      "x_spi_netcdf_name": "PRS",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "CTDTMP [ITS-90]",
+      "type": "number",
+      "format": "default",
+      "title": "Seawater temperature measured by CTD",
+      "description": "Seawater temperature measured by CTD sensor (cast or thermosalinograph) [International Temperature Scale 1990]",
+      "unit": "C",
+      "x_spi_netcdf_name": "CTDTMP",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "CTDSAL [PSS-78]",
+      "type": "number",
+      "format": "default",
+      "title": "Seawater salinity measured by CTD",
+      "description": "Seawater salinity measured by CTD sensor (cast or thermosalinograph) [Practical Salinity Scale 1978]",
+      "unit": "",
+      "x_spi_netcdf_name": "CTDSAL",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "SALNTY [PSS-78]",
+      "type": "number",
+      "format": "default",
+      "title": "Seawater salinity",
+      "description": "Seawater salinity [Practical Salinity Scale 78]",
+      "unit": "",
+      "x_spi_netcdf_name": "SALNTY",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "SALNTYERR [PSS-78]",
+      "type": "number",
+      "format": "default",
+      "title": "Estimated error in SALNTY",
+      "description": "Estimated measurement error in SALNTY (does not account for sampling error) [Practical Salinity Scale 78]",
+      "unit": "",
+      "x_spi_netcdf_name": "SALNTYERR",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "SALNTY_FLAG_W [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "SALNTY quality flag",
+      "description": "Quality flag associated with SALNTY [1-9]",
+      "unit": "",
+      "x_spi_netcdf_name": "SALNTY_FLAG_W",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "SAL_DIFF_CTD [PSS-78]",
+      "type": "number",
+      "format": "default",
+      "title": "Difference in seawater salinity",
+      "description": "Difference in seawater salinity: sample minus CTD sensor (cast or thermosalinograph) [Practical Salinity Scale 1978]",
+      "unit": "",
+      "x_spi_netcdf_name": "SAL_DIFF_CTD",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "BTL_DATETIME [YYYY-MM-DDThh:mm:ss+00:00]",
+      "type": "date",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date and time bottle fired",
+      "description": "Niskin bottle closing date and time [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "BTL_DATETIME",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "BTL_LAT [DEG_N]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude bottle fired",
+      "description": "Niskin bottle closing latitude [decimal degree North]",
+      "unit": "DEG_N",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Niskin bottle closing latitude",
+      "x_spi_netcdf_name": "BTL_LAT",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "BTL_LON [DEG_E]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude bottle fired",
+      "description": "Niskin bottle closing longitude [decimal degree East]",
+      "unit": "DEG_E",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Niskin bottle closing longitude",
+      "x_spi_netcdf_name": "BTL_LON",
+      "x_spi_emodnet_visualise_variable": "False"
+    }
+  ],
+  "missingValues": [
+    "-999"
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_18_data_salinity_ctd",
+      "path": "https://zenodo.org/record/1494924/files/ace_18_data_salinity_ctd_20200820.csv?download=1",
+      "title": "Seawater sample salinity CTD",
+      "description": "Salinity measurements of seawater samples collected from the Niskin bottles mounted on the CTD rosette",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 59718,
+      "hash": "fa8b1bdc73cb109013c38e29ef5b7901",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_csv_other.json"
+    },
+    {
+      "name": "ace_18_data_salinity_other",
+      "path": "https://zenodo.org/record/1494924/files/ace_18_data_salinity_other_20200820.csv?download=1",
+      "title": "Seawater sample salinity other source",
+      "description": "Salinity measurements of miscellaneous samples: Duplicate seawater samples; seawater bucket sample from Cumberland Bay, South Georgia; seawater samples from Niskin bottles mounted on the trace-metal rosette",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 12007,
+      "hash": "1999e3796418d32b32cbc03acd5eb74c",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_csv_other.json"
+    },
+    {
+      "name": "ace_18_data_salinity_uw",
+      "path": "https://zenodo.org/record/1494924/files/ace_18_data_salinity_uw_20200820.csv?download=1",
+      "title": "Seawater sample salinity underway",
+      "description": "Seawater salinity data from underway samples collected during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 57943,
+      "hash": "45b7f6f4c60b98f221d1d98166ef537c",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema_uw.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/1494924/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Data file header of seawater sample salinity dataset from ACE",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 2275,
+      "hash": "169dd8dfbc035c052590c8c33be97069"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/1494924/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of seawater sample salinity dataset from ACE",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 21371,
+      "hash": "167cf8a8bcc5fd9b77261166b81fffaa"
+    },
+    {
+      "name": "figure1",
+      "path": "https://zenodo.org/record/1494924/files/figure1.pdf?download=1",
+      "title": "Comparison of sample and thermosalinograph salinity",
+      "description": "Comparison of sample and thermosalinograph salinity",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 9583,
+      "hash": "73403e29087f6e6be5a9d93b9ccb37a9"
+    },
+    {
+      "name": "figure2",
+      "path": "https://zenodo.org/record/1494924/files/figure2.pdf?download=1",
+      "title": "Comparison of sample and CTD salinity",
+      "description": "Comparison of sample and CTD salinity",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 7915,
+      "hash": "4f124e010b257de902de4b22c92d9394"
+    },
+    {
+      "name": "figure3",
+      "path": "https://zenodo.org/record/1494924/files/figure3.pdf?download=1",
+      "title": "Comparison of Niskin and UW sample salinity",
+      "description": "Comparison of Niskin and UW sample salinity",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3694,
+      "hash": "da903bf97c352ae97a77a1dde4227a37"
+    },
+    {
+      "name": "figure4",
+      "path": "https://zenodo.org/record/1494924/files/figure4.pdf?download=1",
+      "title": "Comparison of duplicate samples from source",
+      "description": "Comparison of duplicate samples from source",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 4410,
+      "hash": "7c360d03f4c0148f854f55fa1cf6866a"
+    },
+    {
+      "name": "figure5",
+      "path": "https://zenodo.org/record/1494924/files/figure5.pdf?download=1",
+      "title": "Comparison of duplicate samples measured on different instruments",
+      "description": "Comparison of duplicate samples measured on different instruments",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 3817,
+      "hash": "9c5b2e490d10be6300e03d6e0342d3d5"
+    },
+    {
+      "name": "figure6",
+      "path": "https://zenodo.org/record/1494924/files/figure6.pdf?download=1",
+      "title": "Comparison of duplicate samples from different bottle types",
+      "description": "Comparison of duplicate samples from different bottle types",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 4024,
+      "hash": "ea11760d24517f0efcc05c387964b9d4"
+    }
+  ],
+  "keywords": [
+    "salinity",
+    "sample",
+    "salinometer",
+    "underway",
+    "CTD",
+    "Niskin",
+    "seawater",
+    "Southern Ocean",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_seawater_salinity_sample_measurements",
+  "id": "https://doi.org/10.5281/zenodo.1494924",
+  "title": "Seawater salinity sample measurements from the Antarctic Circumnavigation Expedition (ACE)",
+  "description": "This data set contains salinity measurements from discrete seawater samples that were collected in the Southern Ocean (south of 30deg S) during the Antarctic Circumnavigation Expedition (ACE). 657 samples were collected during the period December 24th, 2016 and March 18th, 2017 in the Southern Ocean from the surface ocean using the ship's underway line (UW; 328 samples) and in vertical profiles using Niskin bottles mounted on the CTD rosette (273 samples). A few additional samples (56) were collected from a parallel cast with a trace-metal rosette, with a bucket, and as duplicates to ensure data quality. All samples were analyzed for their salinity and results are reported on the Practical Salinity Scale 1978 (PSS-78; Sea-Bird Electronics, Inc., 1989). Measurements were performed on a Guildline Autosal Laboratory Salinometer 8400(B) at CSIRO (Hobart, Australia) for samples collected during leg 1, and on a OPTIMARE Precision Salinometer (OPS) at the Alfred Wegener Institute (Bremerhaven, Germany) for samples collected during legs 2 and 3. This circumpolar data set provides insights into the hydrological cycle of the Southern Ocean and the processes (precipitation, evaporation, sea-ice melting and freezing, ice-berg and land-ice melting) that determine the salinity of a certain water mass. It is being used to calibrate the CTD sensor vertical profiles (Henry et al., 2020) and thermosalinograph sensor underway measurements (Haumann et al., 2020) from the ACE cruise.",
+  "homepage": "https://doi.org/10.5281/zenodo.1494924",
+  "version": "1.0",
+  "contributors": [
+    {
+      "title": "F. Alexander Haumann",
+      "path": "https://orcid.org/0000-0002-8218-977X",
+      "email": "alexander.haumann@gmail.com",
+      "role": "author",
+      "organisation": "Princeton University, USA",
+      "x_spi_organisation": "British Antarctic Survey, UK",
+      "x_spi_organisation": "ETH Zurich, Switzerland"
+    },
+    {
+      "title": "Katherine Leonard",
+      "path": "https://orcid.org/0000-0003-4632-8872",
+      "role": "author",
+      "organisation": "EPFL CRYOS Laboratory, Switzerland",
+      "x_spi_organisation": "Institute for Snow and Avalanche Research, Switzerland",
+      "x_spi_organisation": "CIRES, University of Colorado, USA"
+    },
+    {
+      "title": "Gereon Budéus",
+      "role": "author",
+      "organisation": "Alfred Wegener Institute, Germany"
+    },
+    {
+      "title": "Michael P. Meredith",
+      "path": "https://orcid.org/0000-0002-7342-7756",
+      "role": "author",
+      "organisation": "British Antarctic Survey, UK"
+    },
+    {
+      "title": "Irina V. Gorodetskaya",
+      "path": "https://orcid.org/0000-0002-2294-7823",
+      "role": "author",
+      "organisation": "CESAM - Centre for Environmental and Marine Studies, Department of Physics, University of Aveiro, Portugal"
+    },
+    {
+      "title": "Jennifer Hutchings",
+      "path": "https://orcid.org/0000-0003-1430-8236",
+      "role": "author",
+      "organisation": "Oregon State University, USA"
+    },
+    {
+      "title": "Sharon Stammerjohn",
+      "path": "https://orcid.org/0000-0002-1697-8244",
+      "role": "author",
+      "organisation": "University of Colorado, USA"
+    },
+    {
+      "title": "Maria Tsukernik",
+      "role": "author",
+      "organisation": "Brown University, USA"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Jenny Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "email": "jenny.thomas@epfl.ch",
+      "role": "author",
+      "organisation": "Swiss Polar Institute, Switzerland"
+    },
+    {
+      "title": "Michael Lehning",
+      "path": "https://orcid.org/0000-0002-8442-0875",
+      "role": "contributor",
+      "organisation": "EPFL CRYOS Laboratory, Switzerland",
+      "x_spi_organisation": "Institute for Snow and Avalanche Research, Switzerland"
+    },
+    {
+      "title": "K. Sherrin",
+      "role": "contributor",
+      "organisation": "CSIRO"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_1494923",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": {
+    "title": "Haumann, F. A",
+    "organisation": "Princeton University, USA; British Antarctic Survey, UK; ETH Zurich, Switzerland"
+  },
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_citation": "Haumann, F. A., Leonard, K., Budéus, G., Meredith, M. P., Gorodetskaya, I. V., Hutchings, J., Stammerjohn, S., Tsukernik, M. and Thomas, J. (2020). Seawater salinity sample measurements from the Antarctic Circumnavigation Expedition (ACE). (Version 1.0) [Data set]. Zenodo. doi:10.5281/zenodo.1494924"
+}

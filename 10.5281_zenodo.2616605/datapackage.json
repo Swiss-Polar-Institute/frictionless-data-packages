@@ -135,6 +135,12 @@
       "path": "https://orcid.org/0000-0003-4288-8530",
       "role": "author",
       "organisation": "Australian National University"
+    },
+    {
+      "title": "Jen Thomas",
+      "path": "https://orcid.org/0000-0002-5986-7026",
+      "role": "publisher",
+      "organisation": "Swiss Polar Institute"
     }
   ],
   "licenses": [

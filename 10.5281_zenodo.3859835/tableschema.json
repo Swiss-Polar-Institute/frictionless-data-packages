@@ -1,0 +1,54 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "Sampling_DateTime_UTC [YYYY-MM-DDTHH:MM:SS+HH:MM]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time of sampling",
+      "description": "date and time at which the underway seawater sample was collected in ISO8601 format YYYY-MM-DDTHhh:mm:ss+00:00 [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "Sampling_DateTime_UTC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Latitude [decimal_deg_N]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "Latitude of seawater sample collection [degree_north]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of seawater sample collection",
+      "x_spi_netcdf_name": "Latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Longitude [decimal_deg_E]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "Longitude of seawater sample collection [degree_east]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of seawater sample collection",
+      "x_spi_netcdf_name": "Longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "PAR [umol photons/m^2/s^1]",
+      "type": "number",
+      "format": "default",
+      "title": "Sky irradiance over photosynthetically active radiation",
+      "description": "Sky irradiance over photosynthetically active radiation PAR 400-700 nm in [micromoles photons per metres squared per second]",
+      "unit": "umol photons/m^2/s^1",
+      "x_spi_netcdf_name": "PAR",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}

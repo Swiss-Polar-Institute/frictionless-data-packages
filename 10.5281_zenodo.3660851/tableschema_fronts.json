@@ -1,0 +1,60 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "datetime [YYYY-MM-DDTHH:MM:SS+00:00]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "Date and time [UTC]",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "date_time",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "latitude [degree_north]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "Latitude [decimal degree North]",
+      "unit": "degree_north",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "longitude [degree_east]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "Longitude [decimal degree East]",
+      "unit": "degree_east",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_netcdf_name": "longtiude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "leg [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "Leg number",
+      "description": "Leg number [1-3]",
+      "x_spi_netcdf_name": "leg",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Front [-]",
+      "type": "string",
+      "format": "default",
+      "title": "Oceanic fronts",
+      "description": "Oceanic fronts (STF, SAF, PF, SACCF) [-]",
+      "x_spi_netcdf_name": "front",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}

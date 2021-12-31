@@ -1,0 +1,154 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "SECT_ID [-]",
+      "type": "string",
+      "format": "default",
+      "title": "Leg number",
+      "description": "Identifier indicating the leg number of the ACE cruise",
+      "unit": "",
+      "x_spi_netcdf_name": "sect_id",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ace_xbt_number [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "XBT number",
+      "description": "XBT number assigned by the program",
+      "unit": "",
+      "x_spi_netcdf_name": "ace_xbt_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ace_event_number [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "ACE event number",
+      "description": "ACE event number",
+      "unit": "",
+      "x_spi_netcdf_name": "ace_event_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ace_station_number [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "ACE station number",
+      "description": "Number of associated CTD station",
+      "unit": "",
+      "x_spi_netcdf_name": "ace_station_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ace_ctd_event_number [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "CTD event number",
+      "description": "Number of associated CTD event",
+      "unit": "",
+      "x_spi_netcdf_name": "ace_ctd_event_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "ace_underway_event_number_project18 [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "Associated underway sample event number",
+      "description": "Number of associated sample from the underway line by project 18",
+      "unit": "",
+      "x_spi_netcdf_name": "ace_underway_event_number_project18",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "outcome [-]",
+      "type": "string",
+      "format": "default",
+      "title": "Outcome",
+      "description": "Outcome of XBT deployment",
+      "unit": "",
+      "x_spi_netcdf_name": "outcome",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "sampling_method [-]",
+      "type": "string",
+      "format": "default",
+      "title": "Sampling method",
+      "description": "Instrument",
+      "unit": "",
+      "x_spi_netcdf_name": "sampling_method",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "DATETIME (UTC) [YYYY-MM-DDThh:mm:ss+00:00]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "description": "Date and time of deployment in ISO8601 format (UTC)",
+      "unit": "UTC",
+      "x_spi_netcdf_name": "datetime",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "LATITUDE [degN]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "Latitude of vessel at start of deployment",
+      "unit": "degN",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of vessel at start of deployment",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "LONGITUDE [degE]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "Longitude of vessel at start of deployment",
+      "unit": "degE",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of vessel at start of deployment",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "xbt_file_name [-]",
+      "type": "string",
+      "format": "default",
+      "title": "XBT file name",
+      "description": "File name of associated data file",
+      "unit": "",
+      "x_spi_netcdf_name": "xbt_file_name",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "event_comments [-]",
+      "type": "string",
+      "format": "default",
+      "title": "Comments",
+      "description": "Comments on deployment",
+      "unit": "",
+      "x_spi_netcdf_name": "event_comments",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "time_location_flag [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "Quality flag of time and location",
+      "description": "Quality flag (0=no issues reported, 1=possibly resolved issues, 3=possible issues with time and location)",
+      "unit": "",
+      "x_spi_netcdf_name": "time_location_flag",
+      "x_spi_emodnet_visualise_variable": ""
+    }
+  ],
+  "missingValues": [
+    "-999"
+  ]
+}

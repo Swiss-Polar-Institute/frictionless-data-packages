@@ -1,0 +1,171 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/data-package",
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "ace_uw_nutrients_20200527currsgcmr",
+      "path": "https://zenodo.org/record/3903134/files/ace_uw_nutrients_20200527CURRSGCMR.csv?download=1",
+      "title": "ACE underway nutrient concentration dataset",
+      "description": "Nutrient concentration in seawater collected from underway water supply during ACE",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ASCII",
+      "bytes": 49049,
+      "hash": "97936aebfabe7236172ac1d4ea77d776",
+      "profile": "tabular-data-resource",
+      "schema": "tableschema.json"
+    },
+    {
+      "name": "data_file_header",
+      "path": "https://zenodo.org/record/3903134/files/data_file_header.txt?download=1",
+      "title": "Data file header",
+      "description": "Description of data files",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ASCII",
+      "bytes": 1842,
+      "hash": "5c5de17b0b177a027343d888850f1504",
+      "profile": "data-resource"
+    },
+    {
+      "name": "readme",
+      "path": "https://zenodo.org/record/3903134/files/README.txt?download=1",
+      "title": "Readme",
+      "description": "Description of dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "utf-8",
+      "bytes": 6717,
+      "hash": "c970740f42ba075cd34247a0c4e395b8",
+      "profile": "data-resource"
+    },
+    {
+      "name": "change_log",
+      "path": "https://zenodo.org/record/3903134/files/change_log.txt?download=1",
+      "title": "Change log",
+      "description": "Description of changes made to dataset",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "utf-8",
+      "bytes": 105,
+      "hash": "1ccc0c9e06824c4b2128ba5e2a9b88eb",
+      "profile": "data-resource"
+    }
+  ],
+  "keywords": [
+    "dissolved nutrients",
+    "dissolved inorganic nutrients",
+    "nitrate",
+    "nitrite",
+    "silicate",
+    "silicic acid",
+    "phosphate",
+    "lachat flow",
+    "Southern Ocean",
+    "sub-Antarctic",
+    "Antarctic Circumnavigation Expedition",
+    "ACE"
+  ],
+  "name": "ace_seawater_nutrient_concentration_underway",
+  "id": "https://doi.org/10.5281/zenodo.3903134",
+  "title": "Dissolved inorganic nitrate, nitrite, silicate and phosphate concentrations of seawater sampled during the Antarctic Circumnavigation Expedition (ACE) during the Austral Summer of 2016/2017.",
+  "description": "This dataset contains dissolved inorganic nitrate, nitrite, silicate and phosphate concentrations of seawater sampled during the Antarctic Circumnavigation Expedition (ACE) Legs 1-3. Water samples were collected from the underway seawater supply every 3 hours, preserved and analysed for dissolved inorganic nutrient concentrations using flow injection and colorimetric methods. These samples provide an estimate of the dissolved concentrations of inorganic macronutrients essential for phytoplankton growth.",
+  "homepage": "https://doi.org/10.5281/zenodo.3903134",
+  "version": "1.1",
+  "contributors": [
+    {
+      "title": "Sandy Thomalla",
+      "path": "https://orcid.org/0000-0002-6802-520X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Sarah Fawcett",
+      "path": "https://orcid.org/0000-0002-0878-6496",
+      "role": "author",
+      "organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "David Antoine",
+      "path": "https://orcid.org/0000-0002-9082-2395",
+      "role": "author",
+      "email": "david.antoine@curtin.edu.au",
+      "organisation": "Curtin University, Australia"
+    },
+    {
+      "title": "David Berliner",
+      "path": "https://orcid.org/0000-0002-3148-9422",
+      "role": "author",
+      "organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "Heather Forrer",
+      "path": "https://orcid.org/0000-0001-9648-086X",
+      "role": "author",
+      "organisation": "University of Cape Town, South Africa",
+      "x_spi_additional_organisation": "Florida State University, USA"
+    },
+    {
+      "title": "Hazel Little",
+      "path": "https://orcid.org/0000-0001-9841-8701",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa",
+      "x_spi_additional_organisation": "University of Cape Town, South Africa"
+    },
+    {
+      "title": "William Moutier",
+      "path": "https://orcid.org/0000-0001-9974-7793",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Alexandra Olivier-Morgan",
+      "path": "https://orcid.org/0000-0002-8600-9174",
+      "role": "author",
+      "organisation": "Biospherical Instruments Inc, United States"
+    },
+    {
+      "title": "Charlotte Robinson",
+      "path": "https://orcid.org/0000-0001-8519-5641",
+      "role": "author",
+      "email": "charlotte.mary.robinson@gmail.com",
+      "organisation": "Curtin University, Australia",
+      "x_spi_additional_email": "charlotte.robinson@curtin.edu.au"
+    },
+    {
+      "title": "Thomas Ryan-Keogh",
+      "path": "https://orcid.org/0000-0001-5144-171X",
+      "role": "author",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "Nina Schuback",
+      "path": "https://orcid.org/0000-0001-9535-008",
+      "role": "author",
+      "organisation": "Curtin University, Australia"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "x_spi_platform_code": "UBXH3_ACE_3874313",
+  "x_spi_platform_name": "R/V Akademik Tryoshnikov",
+  "x_spi_type": "ferrybox/ship",
+  "x_spi_assembly_center": "Swiss Polar Institute",
+  "x_spi_assembly_center_link": "https://swisspolar.ch",
+  "x_spi_dataset_owner": [
+    {
+      "title": "Sandy Thomalla",
+      "organisation": "Council for Scientific and Industrial Research, South Africa"
+    },
+    {
+      "title": "David Antoine",
+      "organisation": "Curtin University, Australia"
+    }
+  ],
+  "x_spi_citation": "Thomalla, S., Fawcett, S., Antoine, D., Berliner, D., Forrer, H., Little, H., Moutier, W., Olivier, A., Robinson, C., Ryan-Keogh, T. and Schuback, N. (2020). Dissolved inorganic nitrate, nitrite, silicate and phosphate concentrations of seawater sampled during the Antarctic Circumnavigation Expedition (ACE) during the Austral Summer of 2016/2017. (Version 1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3903134"
+}

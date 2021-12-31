@@ -1,0 +1,305 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "Datetime_UTC [YYYY-MM-DDTHH:MM:SS+00:00]",
+      "type": "datetime",
+      "format": "%Y-%m-%dT%H:%M:%S%z",
+      "title": "Date time",
+      "x_spi_netcdf_name": "datetime",
+      "description": "Date and time of deployment [UTC]",
+      "unit": "UTC",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Latitude [degN]",
+      "type": "number",
+      "format": "default",
+      "title": "Latitude",
+      "description": "Latitude of vessel at start of deployment [decimal degree North]",
+      "unit": "degN",
+      "x_spi_cf_standard_name": "latitude",
+      "x_spi_cf_unit": "degree_north",
+      "x_spi_cf_attribute": "Latitude of vessel at start of deployment",
+      "x_spi_netcdf_name": "latitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Longitude [degE]",
+      "type": "number",
+      "format": "default",
+      "title": "Longitude",
+      "description": "Longitude of vessel at start of deployment [decimal degree East]",
+      "unit": "degE",
+      "x_spi_cf_standard_name": "longitude",
+      "x_spi_cf_unit": "degree_east",
+      "x_spi_cf_attribute": "Longitude of vessel at start of deployment",
+      "x_spi_netcdf_name": "longitude",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Leg [1-3]",
+      "type": "integer",
+      "format": "default",
+      "title": "Leg number",
+      "description": "Leg number of ACE cruise",
+      "unit": "",
+      "x_spi_netcdf_name": "leg",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Station [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "Station",
+      "description": "Station number of CTD deployment",
+      "unit": "",
+      "x_spi_netcdf_name": "station",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Cast [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "Cast",
+      "description": "Cast number of CTD deployment",
+      "unit": "",
+      "x_spi_netcdf_name": "cast",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Event [-]",
+      "type": "integer",
+      "format": "default",
+      "title": "Event",
+      "description": "Event number of instrument deployment",
+      "unit": "",
+      "x_spi_netcdf_name": "event",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Profile types [1-3]",
+      "type": "integer",
+      "format": "default",
+      "title": "Profile type",
+      "description": "Type of profile (1=CTD upcast, 2=CTD downcast, 3=XBT)\n",
+      "unit": "",
+      "x_spi_netcdf_name": "profile_type",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Depth min. [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Minimum depth",
+      "description": "Minimum measurement depth [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Minimum measurement depth",
+      "x_spi_netcdf_name": "depth_min",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Depth max. [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Maximum depth",
+      "description": "Maximum measurement depth [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Maximum measurement depth",
+      "x_spi_netcdf_name": "depth_max",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "MLD [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Mixed layer depth",
+      "description": "Mixed-layer depth based on 0.2degC temperature threshold [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Mixed-layer depth based on 0.2degC temperature threshold",
+      "x_spi_netcdf_name": "mixed_layer_depth",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "T MLD [degC]",
+      "type": "number",
+      "format": "default",
+      "title": "Averaged temperature of mixed layer",
+      "description": "Averaged temperature of mixed layer [degree Celsius]",
+      "unit": "degC",
+      "x_spi_netcdf_name": "averaged_temperature_mixed_layer",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "S MLD [PSU]",
+      "type": "number",
+      "format": "default",
+      "title": "Averaged salinity of mixed layer",
+      "description": "Averaged salinity of mixed layer [Practical Salinity Unit]",
+      "unit": "PSU",
+      "x_spi_netcdf_name": "averaged_salinity_mixed_layer",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "T surf. [degC]",
+      "type": "number",
+      "format": "default",
+      "title": "Surface temperature",
+      "description": "Surface temperature [degree Celsius]",
+      "unit": "degC",
+      "x_spi_netcdf_name": "surface_temperature",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "S surf. [PSU]",
+      "type": "number",
+      "format": "default",
+      "title": "Surface salinity",
+      "description": "Surface salinity [Practical Salinity Unit]",
+      "unit": "PSU",
+      "x_spi_netcdf_name": "surface_salinity",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "T upper 15m [degC]",
+      "type": "number",
+      "format": "default",
+      "title": "Averaged temperature of upper 15 m",
+      "description": "Averaged temperature of upper 15 m [degree Celsius]",
+      "unit": "degC",
+      "x_spi_netcdf_name": "average_temperature_upper_15m",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "S upper 15m [PSU]",
+      "type": "number",
+      "format": "default",
+      "title": "Averaged salinity of upper 15 m",
+      "description": "Averaged salinity of upper 15 m [Practical Salinity Unit]",
+      "unit": "PSU",
+      "x_spi_netcdf_name": "average_salinity_upper_15m",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "T mean [degC]",
+      "type": "number",
+      "format": "default",
+      "title": "Vertically averaged temperature over profile",
+      "description": "Vertically averaged temperature over profile [degree Celsius]",
+      "unit": "degC",
+      "x_spi_netcdf_name": "vertically_averaged_temperature_profile",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "S mean [PSU]",
+      "type": "number",
+      "format": "default",
+      "title": "Vertically averaged salinity over profile",
+      "description": "Vertically averaged salinity over profile [Practical Salinity Unit]",
+      "unit": "PSU",
+      "x_spi_netcdf_name": "vertically_averaged_salinity_profile",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Depth T max. [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Depth T max",
+      "description": "Depth of temperature maximum [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Depth of temperature maximum",
+      "x_spi_netcdf_name": "depth_temperature_maximum",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "T max. [degC]",
+      "type": "number",
+      "format": "default",
+      "title": "Maximum temperature",
+      "description": "Maximum temperature  [degree Celsius]",
+      "unit": "degC",
+      "x_spi_netcdf_name": "maximum_temperature",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Depth T min. [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Depth of temperature minimum",
+      "description": "Depth of temperature minimum [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Depth of temperature minimum",
+      "x_spi_netcdf_name": "depth_temperature_minimum",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "T min. [degC]",
+      "type": "number",
+      "format": "default",
+      "title": "Minimum temperature",
+      "description": "Minimum temperature [degree Celsius]",
+      "unit": "degC",
+      "x_spi_netcdf_name": "minimum_temperature",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Depth S max. [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Depth of salinity maximum",
+      "description": "Depth of salinity maximum [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Depth of salinity maximum",
+      "x_spi_netcdf_name": "depth_salinity_maximum",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "S max. [PSU]",
+      "type": "number",
+      "format": "default",
+      "title": "Maximum salinity",
+      "description": "Maximum salinity [Practical Salinity Unit]",
+      "unit": "PSU",
+      "x_spi_netcdf_name": "maximum_salinity",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "Depth S min. [m]",
+      "type": "number",
+      "format": "default",
+      "title": "Depth of salinity minimum",
+      "description": "Depth of salinity minimum [meter]",
+      "unit": "m",
+      "x_spi_cf_standard_name": "depth",
+      "x_spi_cf_unit": "m",
+      "x_spi_cf_attribute": "Depth of salinity minimum",
+      "x_spi_netcdf_name": "depth_salinity_minimum",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "S min. [PSU]",
+      "type": "number",
+      "format": "default",
+      "title": "Minimum salinity",
+      "description": "Minimum salinity [Practical Salinity Unit]",
+      "unit": "PSU",
+      "x_spi_netcdf_name": "minimum_salinity",
+      "x_spi_emodnet_visualise_variable": "True"
+    }
+  ],
+  "missingValues": [
+    "NaN"
+  ]
+}

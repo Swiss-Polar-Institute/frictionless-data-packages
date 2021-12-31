@@ -1,0 +1,79 @@
+{
+  "x_spi_schema_url": "https://specs.frictionlessdata.io/table-schema",
+  "fields": [
+    {
+      "name": "project_sample_number [string]",
+      "type": "string",
+      "format": "default",
+      "title": "Project sample number",
+      "description": "ACE project 1 sample ID code",
+      "x_spi_netcdf_name": "project_sample_number",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "Leg [string]",
+      "type": "integer",
+      "format": "default",
+      "title": "Leg number",
+      "description": "Leg of ACE voyage sample was collected, 1-3",
+      "x_spi_netcdf_name": "x_spi_emodnet_visualise_variable",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "project_sample_number_before [string]",
+      "type": "string",
+      "format": "default",
+      "title": "Project sample number before",
+      "description": "Project 1 sample ID code of seawater sample collected before this blank sample [no units]",
+      "x_spi_netcdf_name": "project_sample_number_before",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "project_sample_number_after [string]",
+      "type": "string",
+      "format": "default",
+      "title": "Project sample number after",
+      "description": "Project 1 sample ID code of seawater sample collected after this blank sample [no units]",
+      "x_spi_netcdf_name": "project_sample_number_after",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "POC [ug]",
+      "type": "number",
+      "format": "default",
+      "description": "Particulate organic carbon concentration [micrograms]",
+      "title": "Particulate organic carbon concentration",
+      "unit": "micrograms",
+      "x_spi_netcdf_name": "particulate_organic_carbon_concentration",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "PON [ug]",
+      "type": "number",
+      "format": "default",
+      "title": "Particulate organic nitrogen concentration",
+      "description": "Particulate organic nitrogen concentration [micrograms]",
+      "unit": "micrograms",
+      "x_spi_netcdf_name": "particulate_organic_nitrogen_concentration",
+      "x_spi_emodnet_visualise_variable": "True"
+    },
+    {
+      "name": "EA_flag_C [string]",
+      "type": "integer",
+      "format": "default",
+      "description": "Carbon detection voltage flag [no units]",
+      "title": "Carbon detection voltage flag",
+      "x_spi_netcdf_name": "carbon_detection_flag",
+      "x_spi_emodnet_visualise_variable": "False"
+    },
+    {
+      "name": "EA_flag_N [string]",
+      "type": "integer",
+      "format": "default",
+      "description": "Nitrogen detection voltage flag [no units]",
+      "title": "Nitrogen detection voltage flag",
+      "x_spi_netcdf_name": "nitrogen_detection_flag",
+      "x_spi_emodnet_visualise_variable": "False"
+    }
+  ]
+}
