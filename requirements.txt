@@ -36,6 +36,6 @@ statistics==1.0.3.5
 tableschema==1.18.0
 tabulator==1.48.0
 unicodecsv==0.14.1
-urllib3==1.25.9
+urllib3==1.26.5
 xlrd==1.2.0
 zipp==3.1.0
